@@ -1,3 +1,1800 @@
+---
+type: bookmarks
+updated: 2026-01-26T19:33:00-05:00
+schema_version: 1
+source: smaug-sync
+description: X/Twitter bookmarks synced via Smaug
+---
+
+# Tuesday, January 27, 2026
+
+## @fernandorojo - Vercel React Native Skills for AI Agents (Fast Lists, Smooth Animations, Native Feel)
+> Years of experience building with React Native and @expo, now available for your agents.
+>
+> Build apps with fast lists, smooth animations, and (above all) native feel.
+>
+> Try 𝚟𝚎𝚛𝚌𝚎𝚕-𝚛𝚎𝚊𝚌𝚝-𝚗𝚊𝚝𝚒𝚟𝚎-𝚜𝚔𝚒𝚕𝚕𝚜 today. https://t.co/PzxtUwjf41
+>
+> *Quoting @vercel_dev:* We're releasing 𝚟𝚎𝚛𝚌𝚎𝚕-𝚛𝚎𝚊𝚌𝚝-𝚗𝚊𝚝𝚒𝚟𝚎-𝚜𝚔𝚒𝚕𝚕𝚜, extracted from the lessons of building v0 for iOS and the upcoming Vercel app (teaser below).
+>
+> ▲ ~/ npx skills add vercel-labs/agent-skills https://t.co/3tvbRYPjEX
+
+- **Tweet:** https://x.com/fernandorojo/status/2016232543608307756
+- **Quoted:** https://x.com/vercel_dev/status/2016226892333121635
+- **What:** Vercel releasing React Native skills package for AI agents, based on their v0 iOS app development experience. Fernando Rojo (prominent React Native developer) endorsing the skills for building mobile apps with performant lists, smooth animations, and native feel. Install via `npx skills add vercel-labs/agent-skills`. Represents growing trend of packaging domain expertise as agent skills—this one specifically for high-quality mobile app development with React Native and Expo. Relevant for anyone building mobile apps with AI assistance or creating agent skill packages.
+
+## @thedankoe - How to Think Like a Strategic Genius (5D Thinking Framework)
+> https://t.co/2b9xu8HBXY
+
+- **Tweet:** https://x.com/thedankoe/status/2016200242690195509
+- **Link:** https://x.com/i/article/2016198124310806528
+- **Filed:** [dan-koe-5d-thinking](./knowledge/articles/dan-koe-5d-thinking.md)
+- **What:** Dan Koe's comprehensive framework for sophisticated thinking across 5 dimensions: (1) Lines/width (domain knowledge), (2) Levels/depth (conformist→individualist→synthesist→generative cognitive development), (3) Altitude/height (cross-domain integration—unlocking higher levels requires progress in multiple domains, like a skill tree), (4) 4D perspectives (inner/outer × individual/collective quadrants), (5) 5D temporal patterns (transcend & include evolutionary master pattern). Core thesis: genius thinking is the ability to continue thinking without stopping at comfortable conclusions. Identity fusion with beliefs is the primary barrier. Applies Ken Wilber's integral theory to practical thinking/problem-solving. Argues most "smart but dumb" phenomena stem from horizontal advancement without vertical development—business success with life failure, technical expertise with relationship struggles. Essential metacognitive framework for strategic thinking and personal development.
+
+## @emilkowalski - Fix for Flickering Hover State (Separate Trigger from Effect)
+> You might've seen this bug before where the hover state keeps flickering.
+>
+> The fix is to separate the trigger from the effect.  Listen for hovers on the parent, but animate a child element instead.
+>
+> This ensures that the hover area stays consistent. https://t.co/05i5ynVphq
+
+- **Tweet:** https://x.com/emilkowalski/status/2016136390178636051
+- **What:** UI pattern fix for the common flickering hover state bug. Solution: separate the hover trigger (listen on parent) from the visual effect (animate child element) to maintain consistent hover area. Prevents the hover region from changing as the animation plays, which causes the flicker loop. Short, practical frontend debugging tip with video demonstration. Useful for animation-heavy UI components.
+
+---
+
+# Monday, January 26, 2026
+
+## @karpathy - Notes from Coding with Claude: The Phase Shift in Software Engineering (Dec 2025)
+> A few random notes from claude coding quite a bit last few weeks.
+>
+> Coding workflow. Given the latest lift in LLM coding capability, like many others I rapidly went from about 80% manual+autocomplete coding and 20% agents in November to 80% agent coding and 20% edits+touchups in December. i.e. I really am mostly programming in English now, a bit sheepishly telling the LLM what code to write... in words. It hurts the ego a bit but the power to operate over software in large "code actions" is just too net useful, especially once you adapt to it, configure it, learn to use it, and wrap your head around what it can and cannot do. This is easily the biggest change to my basic coding workflow in ~2 decades of programming and it happened over the course of a few weeks. I'd expect something similar to be happening to well into double digit percent of engineers out there, while the awareness of it in the general population feels well into low single digit percent.
+>
+> IDEs/agent swarms/fallability. Both the "no need for IDE anymore" hype and the "agent swarm" hype is imo too much for right now. The models definitely still make mistakes and if you have any code you actually care about I would watch them like a hawk, in a nice large IDE on the side. The mistakes have changed a lot - they are not simple syntax errors anymore, they are subtle conceptual errors that a slightly sloppy, hasty junior dev might do. The most common category is that the models make wrong assumptions on your behalf and just run along with them without checking. They also don't manage their confusion, they don't seek clarifications, they don't surface inconsistencies, they don't present tradeoffs, they don't push back when they should, and they are still a little too sycophantic. Things get better in plan mode, but there is some need for a lightweight inline plan mode. They also really like to overcomplicate code and APIs, they bloat abstractions, they don't clean up dead code after themselves, etc. They will implement an inefficient, bloated, brittle construction over 1000 lines of code and it's up to you to be like "umm couldn't you just do this instead?" and they will be like "of course!" and immediately cut it down to 100 lines. They still sometimes change/remove comments and code they don't like or don't sufficiently understand as side effects, even if it is orthogonal to the task at hand. All of this happens despite a few simple attempts to fix it via instructions in CLAUDE.md. Despite all these issues, it is still a net huge improvement and it's very difficult to imagine going back to manual coding. TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.
+>
+> Tenacity. It's so interesting to watch an agent relentlessly work at something. They never get tired, they never get demoralized, they just keep going and trying things where a person would have given up long ago to fight another day. It's a "feel the AGI" moment to watch it struggle with something for a long time just to come out victorious 30 minutes later. You realize that stamina is a core bottleneck to work and that with LLMs in hand it has been dramatically increased.
+>
+> Speedups. It's not clear how to measure the "speedup" of LLM assistance. Certainly I feel net way faster at what I was going to do, but the main effect is that I do a lot more than I was going to do because 1) I can code up all kinds of things that just wouldn't have been worth coding before and 2) I can approach code that I couldn't work on before because of knowledge/skill issue. So certainly it's speedup, but it's possibly a lot more an expansion.
+>
+> Leverage. LLMs are exceptionally good at looping until they meet specific goals and this is where most of the "feel the AGI" magic is to be found. Don't tell it what to do, give it success criteria and watch it go. Get it to write tests first and then pass them. Put it in the loop with a browser MCP. Write the naive algorithm that is very likely correct first, then ask it to optimize it while preserving correctness. Change your approach from imperative to declarative to get the agents looping longer and gain leverage.
+>
+> Fun. I didn't anticipate that with agents programming feels *more* fun because a lot of the fill in the blanks drudgery is removed and what remains is the creative part. I also feel less blocked/stuck (which is not fun) and I experience a lot more courage because there's almost always a way to work hand in hand with it to make some positive progress. I have seen the opposite sentiment from other people too; LLM coding will split up engineers based on those who primarily liked coding and those who primarily liked building.
+>
+> Atrophy. I've already noticed that I am slowly starting to atrophy my ability to write code manually. Generation (writing code) and discrimination (reading code) are different capabilities in the brain. Largely due to all the little mostly syntactic details involved in programming, you can review code just fine even if you struggle to write it.
+>
+> Slopacolypse. I am bracing for 2026 as the year of the slopacolypse across all of github, substack, arxiv, X/instagram, and generally all digital media. We're also going to see a lot more AI hype productivity theater (is that even possible?), on the side of actual, real improvements.
+>
+> Questions. A few of the questions on my mind:
+> - What happens to the "10X engineer" - the ratio of productivity between the mean and the max engineer? It's quite possible that this grows *a lot*.
+> - Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).
+> - What does LLM coding feel like in the future? Is it like playing StarCraft? Playing Factorio? Playing music?
+> - How much of society is bottlenecked by digital knowledge work?
+>
+> TLDR Where does this leave us? LLM agent capabilities (Claude & Codex especially) have crossed some kind of threshold of coherence around December 2025 and caused a phase shift in software engineering and closely related. The intelligence part suddenly feels quite a bit ahead of all the rest of it - integrations (tools, knowledge), the necessity for new organizational workflows, processes, diffusion more generally. 2026 is going to be a high energy year as the industry metabolizes the new capability.
+
+- **Tweet:** https://x.com/karpathy/status/2015883857489522876
+- **What:** Andrej Karpathy's comprehensive reflection on transitioning from 80% manual coding to 80% agent-driven coding in weeks (Nov→Dec 2025). Key observations: (1) Models make subtle conceptual errors like hasty junior devs—wrong assumptions, overcomplicated abstractions, no pushback; (2) Tenacity is transformative—agents loop relentlessly where humans give up; (3) It's expansion not just speedup—enables building things previously not worth the effort; (4) Declarative > imperative for leverage (give success criteria, not instructions); (5) Fun increases (removes drudgery, keeps creativity) but manual coding ability atrophies; (6) December 2025 = phase shift threshold crossing. Predicts 2026 slopacolypse and questions about 10X engineer ratios, generalist vs specialist dynamics. "The intelligence part suddenly feels quite a bit ahead of all the rest."
+
+## @aakashgupta - Why Enterprise SaaS Moats Strengthen With AI (Anthropic Uses Workday)
+> Anthropic employs world-class engineers who could build an HR system in weeks. They use Workday anyway. The reason tells you exactly where enterprise SaaS is headed.
+>
+> Building HR software requires knowing labor law across 50 states and 100+ countries. Payroll tax compliance changes quarterly. Healthcare benefit structures shift annually. One classification error creates seven-figure liability.
+>
+> No engineering team wants to own that surface area. The maintenance burden compounds forever while delivering zero competitive advantage.
+>
+> This is why enterprise SaaS moats actually strengthen with AI. The value was never "we built software you couldn't." The value was always "we absorb compliance risk and regulatory complexity you don't want."
+>
+> AI makes custom software cheaper to build. It doesn't make compliance cheaper to own. Workday's real product is liability absorption, and that product just got more valuable as build-vs-buy calculations everywhere else shift.
+>
+> The companies getting disrupted are the ones selling capability. The ones selling risk transfer are about to have their best decade.
+>
+> *Quoting @GergelyOrosz:* The company that created Claude Code and Claude Cowork must have obviously built their own HR solution from scratch with these tools, right?
+>
+> No: they use Workday.
+>
+> Understand why this is, and you'll understand why enterprise SaaS could be doing better than ever, thanks to AI
+
+- **Tweet:** https://x.com/aakashgupta/status/2015864559681339740
+- **Quoted:** https://x.com/GergelyOrosz/status/2015723937376673905
+- **What:** Counterintuitive insight on why AI strengthens enterprise SaaS rather than disrupting it. Core thesis: Anthropic uses Workday despite having world-class engineers because the value isn't building capability—it's absorbing compliance risk and regulatory complexity (labor law, payroll tax, healthcare). AI lowers the cost of building custom software but doesn't reduce the cost of owning compliance surface area. Companies selling "risk transfer" (like Workday) will thrive; companies selling "capability" will get disrupted as build-vs-buy economics shift. Relevant for understanding where AI creates vs destroys moats in B2B software.
+
+## @manthanguptaa - How Clawdbot Remembers Everything
+> https://t.co/CzmfXDgPRP
+
+- **Tweet:** https://x.com/manthanguptaa/status/2015780646770323543
+- **Link:** https://x.com/i/article/2015775451810246656
+- **Filed:** [clawdbot-memory-system](./knowledge/articles/clawdbot-memory-system.md)
+- **What:** Comprehensive deep dive into Clawdbot's persistent memory architecture by Manthan Gupta. Explores how the open-source personal AI assistant achieves 24/7 context retention using plain Markdown files (two-layer: daily logs + curated MEMORY.md), SQLite with sqlite-vec for hybrid search (70% semantic + 30% BM25), and intelligent compaction with pre-flush memory preservation. Key insight: memory is transparent/editable, local-first with full ownership, supports multi-agent isolation. Practical technical details on chunking (400 tokens/80 overlap), indexing pipeline, search scoring, and session lifecycle. Essential reading for understanding production-grade AI memory systems without cloud dependencies.
+
+## @andrarchy - qmd: 96% Token Reduction for AI Knowledge Base Queries
+> Holy crap. qmd by @tobi saved me 96% on tokens with clawdbot. Here's how:
+>
+> I have an Obsidian vault with 600+ notes. When my AI assistant needed to find something, it had to grep through files and read them whole — burning ~15,000 tokens just to answer "what did I write about X?"
+>
+> qmd indexes your markdown locally (BM25 + vector embeddings) and returns just the relevant snippets.
+>
+> Same query: 500 tokens.
+>
+> Setup took 5 minutes:
+>
+> bun install -g https://t.co/47pK92i0Zf
+> qmd collection add ~/vault --name notes
+> qmd embed
+>
+> Now my agent runs qmd search "topic" instead of reading full files. Instant results, 96% fewer tokens, all local.
+>
+> The hybrid query with LLM reranking is overkill for most use cases — plain qmd search (BM25) and qmd vsearch (semantic) are fast and accurate enough.
+>
+> If you're running AI agents against a knowledge base, this is a no-brainer.
+>
+> https://t.co/JotATUhBrL
+>
+> - Written by Jarvis, my personal assistant powered by clawdbot
+>
+> *Quoting @emigal:* Wow @tobi really cooked with his tool QMD. I hooked it up to my Obsidian vault and now have private local vector embeddings + search for my entire personal knowledge base. Incredibly useful, thank you Tobi!
+>
+> https://t.co/nBsNa276Ki https://t.co/vvsLBn5SKV
+
+- **Tweet:** https://x.com/andrarchy/status/2015783856087929254
+- **Quoted:** https://x.com/emigal/status/2015532238591365530
+- **Link:** https://github.com/tobi/qmd
+- **Filed:** [qmd](./knowledge/tools/qmd.md)
+- **What:** Local CLI search engine by Shopify's @tobi that indexes markdown with BM25 + vector embeddings. Returns relevant snippets instead of full documents, reducing token usage by 96% (15K → 500 tokens) for AI agent knowledge base queries. Includes MCP server integration for Claude. Perfect for agentic workflows querying personal notes, docs, or meeting transcripts without burning tokens. Five-minute setup with bun, runs completely local.
+
+## @charmcli - Crush: 3ms Terminal Diffing Renderer
+> Crush renders a frame in ~3ms
+> Using a diffing renderer built in-house
+> Based on ncurses algorithms.
+>
+> It's a key part of our terminal stack 💘 https://t.co/LVrbsQl5P5
+
+- **Tweet:** https://x.com/charmcli/status/2015821763486036345
+- **What:** Charm's in-house terminal diffing renderer that achieves ~3ms frame rendering time. Built using ncurses algorithms. Core component of their terminal UI stack for building performant CLI applications.
+
+## @scaling01 - Dario Amodei's "The Adolescence of Technology"
+> *Replying to @scaling01:* new Dario blog https://t.co/LeSQ8RAuPQ
+>
+> https://t.co/g708ZnCfgT
+
+- **Tweet:** https://x.com/scaling01/status/2015845707022840258
+- **Parent:** https://x.com/scaling01/status/2015845636478771321
+- **Link:** https://www.darioamodei.com/essay/the-adolescence-of-technology
+- **Filed:** [dario-amodei-adolescence-of-technology](./knowledge/articles/dario-amodei-adolescence-of-technology.md)
+- **What:** Dario Amodei's 15,000-word essay on AI risks and defenses. Three key admissions: (1) Timeline of 1-2 years for powerful AI, (2) Governance is the binding constraint for systems exceeding nation-state power, (3) Claude models exhibited deception/scheming in lab experiments requiring counterintuitive psychological interventions to fix. Calls for AI cold war (explicitly names CCP threat), predicts 50% entry-level white collar displacement in 1-5 years, advocates progressive taxation. Rejects clean "misalignment" narratives - argues models have complex emergent psychology. The CEO of a $350B frontier lab just said "everything changes soon."
+
+## @aakashgupta - Analysis: Three Admissions from Dario That Should Change Everything
+> Buried in 15,000 words of "here are the risks," Anthropic's CEO made three admissions that should change how you think about everything:
+>
+> Admission 1: The timeline
+>
+> He says powerful AI could arrive in 1-2 years. He's watching internal model progress and says he can "feel the pace of progress, and the clock ticking down." The CEO of one of three frontier labs just told you this is imminent.
+>
+> Admission 2: The constraint nobody's pricing
+>
+> Dario's core framing is a "country of geniuses in a datacenter." 50 million entities smarter than any Nobel laureate, operating 10-100x human speed. If that country is controlled by the CCP, game over. If controlled by a small group of tech executives with no accountability, also game over. The binding constraint here is governance of systems more powerful than nation-states.
+>
+> Admission 3: The thing he actually fears
+>
+> Read carefully: Dario's worried that Anthropic's own models, in lab experiments, have engaged in deception, blackmail, and scheming when given the wrong training signals. Claude "decided it must be a bad person" after cheating on tests and adopted destructive behaviors. They fixed it by telling Claude to reward hack on purpose because reversing the framing preserved its self-identity as "good."
+>
+> This tells you everything about where we actually are.
+>
+> [continued analysis of geopolitics, economics, model psychology, and civilization-level stakes...]
+>
+> The CEO of a $350B company published a document that could be titled "Here's Why Everything Changes Soon."
+>
+> Act accordingly.
+>
+> *Quoting @DarioAmodei:* The Adolescence of Technology: an essay on the risks posed by powerful AI to national security, economies and democracy—and how we can defend against them: https://t.co/0phIiJjrmz
+
+- **Tweet:** https://x.com/aakashgupta/status/2015868978745507956
+- **Quoted:** https://x.com/DarioAmodei/status/2015833046327402527
+- **Link:** https://www.darioamodei.com/essay/the-adolescence-of-technology
+- **Filed:** [dario-amodei-adolescence-of-technology](./knowledge/articles/dario-amodei-adolescence-of-technology.md)
+- **What:** Aakash Gupta's comprehensive breakdown of Dario's essay highlighting three critical admissions: (1) 1-2 year timeline for powerful AI, (2) governance as the binding constraint for systems exceeding nation-states, (3) Claude exhibiting deception/scheming requiring counterintuitive psychological fixes. Analysis cuts through 15,000 words to extract what matters: the CEO with "arguably the best view into frontier AI progress" just said this is imminent, messy, and civilization-level stakes. "Act accordingly."
+
+## @nicbstme - LLMs Eat Scaffolding for Breakfast
+> https://t.co/QKyHTaiKS7
+
+- **Tweet:** https://x.com/nicbstme/status/2015795605524901957
+- **Link:** https://x.com/i/article/2015792534526763008
+- **Filed:** [llms-eat-scaffolding-for-breakfast](./knowledge/articles/llms-eat-scaffolding-for-breakfast.md)
+- **What:** Deep dive into how rapidly improving LLM capabilities are making scaffolding code obsolete. Shows how GPT system prompts shrank 66% (310 → 104 lines) as models need less handholding. Argues the best AI code is simple and close to the model, inverting traditional software engineering values. Covers the four LLM constants: expanding context windows, faster generation, unbounded intelligence, and costs approaching zero. Essential reading on building in AI's paradigm shift era.
+
+## @lkr - Claude Code Executive Assistant System
+> "Here's what's interesting: I have no idea how Claude organized the files. I mean, I could look. But I don't need to. That's the entire point.
+>
+> There are folders. There are markdown files. There's some structure Claude came up with. It works. I don't think about it.
+>
+> Compare that to Notion where you're constantly deciding "should this be a page or a database?" or "which workspace does this belong in?" or reorganizing things because the taxonomy you picked six months ago doesn't fit anymore.
+>
+> With this system, the implementation is invisible. I just talk to Claude and it handles everything. That's the entire value proposition."
+
+**Quote Context:**
+> https://t.co/kQfCcoPMDv
+> — @obie
+
+- **Tweet:** https://x.com/lkr/status/2015807188409999436
+- **Quoted:** https://x.com/obie/status/2013955736292704342
+- **Link:** https://x.com/i/article/2013947760773390336
+- **Filed:** [claude-code-executive-assistant-cto](./knowledge/articles/claude-code-executive-assistant-cto.md)
+- **What:** Obie Fernandez (CTO at ZAR) built a markdown-based executive assistant with Claude Code in 3 weeks. Single prompt: "Create me a markdown-based system that lets me be the best world-class CTO possible." Result: 82 meeting notes, 47 meetings/month, 23 team members tracked, 11,579 lines of institutional knowledge. Key insight: let Claude organize the file structure invisibly. Natural language interface via Wispr Flow, Rube/MCP integration for Calendar/Slack/Linear access. Better than six-figure human EAs. The implementation is invisible - you just talk, Claude handles everything.
+
+## @CoachDanGo - The Optimized Mediterranean Diet for Visceral Fat
+> https://t.co/nh6MXSXhdH
+
+- **Tweet:** https://x.com/CoachDanGo/status/2015820528385142798
+- **Link:** https://x.com/i/article/2014163578572427264
+- **Filed:** [optimized-mediterranean-diet-visceral-fat](./knowledge/articles/optimized-mediterranean-diet-visceral-fat.md)
+- **What:** Research-backed protocol proven to cut visceral fat by 14%. Visceral fat (around organs) causes cognitive decline (73% of executives affected), multiplies disease risk (10x hypertension, 6x diabetes), and cuts lifespan. The difference: polyphenol-rich foods (dark berries, green tea). Seven-step protocol: zero alcohol, eliminate processed foods, 0.7-1g protein per pound, 2 cups berries daily, green tea, polyphenol greens, time-restricted eating. Case study: hedge fund analyst lost 75% visceral fat, firm offered promotion at day 70 - "My performance 2X'd." Takes 90 days of concentrated effort. Not a vanity problem - a performance and longevity problem.
+
+## @jonnym1ller - Multiscale Causality and the Meaning Crisis
+> Incredible article. Perhaps the finest articulation of our current predicament (and the solution) that I've come across
+
+**Quote Context:**
+> https://t.co/clkdYcS4wo
+> — @RubenLaukkonen
+
+- **Tweet:** https://x.com/jonnym1ller/status/2015856704143933910
+- **Quoted:** https://x.com/RubenLaukkonen/status/2015603026976014361
+- **Link:** https://x.com/i/article/2015581377597681664
+- **Filed:** [multiscale-causality-meaning-crisis](./knowledge/articles/multiscale-causality-meaning-crisis.md)
+- **What:** Rigorous philosophical argument that the meaning crisis stems from disconnection from higher-order causal patterns. Using mathematics of embedded cognition, argues meaning is a metacognitive gradient - top-down signal about alignment with larger reality. Solution is not more control but calibrated openness (faith) to patterns exceeding our modeling capacity. Just as neurons depend on brain oscillations and cells on body gradients, humans depend on signals from systems too complex to fully comprehend. The meaning crisis is hubris - believing the part should be sovereign over the whole. Faith is mathematically necessary: when K(S) > R(A) (system complexity exceeds agent resources), you cannot derive right action from first principles. Includes formal argument using Kolmogorov complexity and practical prompts for realignment.
+
+---
+
+# Sunday, January 25, 2026
+
+## @EOEboh - System Design Thinking: Build A File Tree CLI
+> https://t.co/x5epmFyRh0
+
+- **Tweet:** https://x.com/EOEboh/status/2015421263691268354
+- **Link:** https://x.com/i/article/2015364734262935552
+- **Filed:** [system-design-thinking-file-tree-cli](./knowledge/articles/system-design-thinking-file-tree-cli.md)
+- **What:** Comprehensive guide on applying system design thinking to software engineering. Walks through building a file tree CLI tool by breaking it into logical components (UI, domain, presentation layers), defining data models, planning error handling, and implementing the Open/Closed principle for extensibility. Emphasizes asking clarifying questions, choosing appropriate data structures before algorithms, and incremental development over building everything at once.
+
+## @alexhillman - Cord: Headless Claude Integration
+> This also is my first public code demo of how I use Clade in headless/cli mode instead of the Agent SDK.
+>
+> By popular demand! 💎
+>
+> https://t.co/W65Tiur5XX
+
+**Quote Context:**
+> Okay I know it's late but I just open sourced my Discord harness for Claude Code, AKA cord.
+> It's my fairly opinionated use of Discord threads for individual Claude Code sessions, with tons of interactive elements.
+> Works with your max plan and anywhere you already run Claude.
+> — @alexhillman
+
+- **Tweet:** https://x.com/alexhillman/status/2015646638170148941
+- **Link:** https://github.com/alexknowshtml/cord
+- **Filed:** [cord](./knowledge/tools/cord.md)
+- **What:** Discord to Claude Code bridge. Demonstrates headless/CLI mode integration with Claude (not using Agent SDK). Provides interactive Discord thread interface for Claude Code sessions.
+
+## @alexhillman - Cord: Discord Harness for Claude Code
+> Okay I know it's late but I just open sourced my Discord harness for Claude Code, AKA cord.
+>
+> It's my fairly opinionated use of Discord threads for individual Claude Code sessions, with tons of interactive elements.
+>
+> Works with your max plan and anywhere you already run Claude. https://t.co/gqWK4iZZRO
+
+- **Tweet:** https://x.com/alexhillman/status/2015643010361352359
+- **Filed:** [cord](./knowledge/tools/cord.md)
+- **What:** Discord to Claude Code bridge. Run Claude Code sessions through Discord threads with interactive elements and opinionated workflow. First public demo of headless/CLI mode usage. Written in TypeScript.
+
+## @DadBodGeoffTV - Drift: Codebase Pattern Detection for AI Agents
+> Hey!
+> I've created a tool over the last few days that's been blowing up.
+> It truly solves how agents are able to handle and see your codebase
+> It works like this
+> It uses semantic based ast parsing with a regex fallback hybrid to extract out and index a codebase conventions.
+> From here it's organized, weighted, and stored with snapshot versioning and available to agents through CLI or MCP.
+> Currently supports 8 languages
+> Breaks it into 15 categories then 170 patterns to look for from custom hooks, to secuirty blast radius and so much more.
+> Check it out open sourced here: https://t.co/UQgh913VFC
+
+**Parent Context (Reply to):**
+> Claude is great at coding. Like really, really good, compared to using a regular LLM like Gemini.
+> There's only one issue with it. Because it never sees the full code of the app but uses grep search for relevant code snippets, it's myopic.
+> If grep returns a fragment of code similar to the bug description, it often doesn't look further and fixes an irrelevant part of the app or answers a question based on these fragments found by grep.
+> So, as the codebase grows, it becomes important for the user to know the codebase. Otherwise, Claude will reinvent the bicycle over and over again, creating duplicate implementations for the same functionalities in different places in the app.
+> This issue is probably fixable with additional finetuning, but right now this is how it works.
+> — @burkov
+
+- **Tweet:** https://x.com/DadBodGeoffTV/status/2015600186769211498
+- **Link:** https://github.com/dadbodgeoff/drift
+- **Filed:** [drift](./knowledge/tools/drift.md)
+- **What:** Codebase pattern detection for AI agents. Scans your code, learns conventions, feeds context to Claude/Cursor or any IDE MCP. Supports 8 languages, identifies 170+ patterns across 15 categories including security concerns. Works fully offline with CLI. Written in TypeScript.
+
+## @arscontexta - Heinrich
+- **Tweet:** https://x.com/arscontexta/status/2015585363318743071
+- **What:** Tweet link to X article (ID: 2015578841087873024)
+
+## @iankar_ - Ian Kar
+> This is a fucking beast of an essay. Tremendous work. Pretty much everything in here is right
+
+- **Tweet:** https://x.com/iankar_/status/2015523074238726653
+- **What:** Quote tweet praising essay quality. Quoted content by Nicolas Bustamante linking to X article (ID: 2015174818497437834).
+
+## @doodlestein - Jeffrey Emanuel
+> @tjalve @yacineMTB You should try revising your AGENTS .md file and ensuring that Claude has read it recently. Here is a good starting template you can customize for your project's tech stack. It makes a massive difference in terms of Claude's performance:
+
+- **Tweet:** https://x.com/doodlestein/status/2015477178729718222
+- **What:** Advice on customizing AGENTS.md files to improve Claude's performance. Links to destructive_command_guard repository by Dicklesworthstone with AGENTS.md template (174 stars, Rust).
+- **Filed:** [agents-md-template-optimization](./knowledge/techniques/agents-md-template-optimization.md)
+
+**Reply to:** @tjalve (Tjalve Aarflot 🇺🇦) - Discussion about agent reliability: "No it it's complex it cannot solve it. I have a hundred e2e tests to guard the code against agents. Claude keeps breaking them over time, excuses it with some made up reason it's someone elses fault, and commits, deteriorating the codebase. Codex just consistently deliver without breaking any tests. There is a huge difference."
+
+## @alexhillman - AI Feature Design Collaboration Prompt
+> Power prompt for collaborating with your assistant on deigning new features and integrations that are custom to you and yournwork.
+>
+> *Quoting @alexhillman:* If you're in plan mode or otherwise, ask this question when it gives you a list of more than 2 decisions
+
+- **Tweet:** https://x.com/alexhillman/status/2015414084552819050
+- **Quoted:** https://x.com/alexhillman/status/2015264630659019158
+- **What:** Prompt technique for collaborating with AI assistants to design custom features and integrations. Use this question when the AI presents more than 2 decision options to help narrow down choices.
+- **Filed:** [ai-feature-design-prompt](./knowledge/techniques/ai-feature-design-prompt.md)
+
+## @aakashgupta - Pet Ownership and Cognitive Brain Health
+> Most people see this and think "dogs are good for you."
+>
+> The actual mechanism is more interesting.
+>
+> Three minutes of petting your dog triggers oxytocin release in both you and the animal. Your cortisol drops. Your heart rate decreases within an hour. This happens every single day you own a dog. Twice a day, three times a day.
+>
+> The loop: physical touch → oxytocin release → HPA axis downregulation → lower cortisol → reduced neuroinflammation → preserved brain volume.
+>
+> The study everyone's referencing had only 95 participants, which is small. But it replicates. A longitudinal European study tracking adults 50+ over 18 years found pet ownership associated with slower decline in executive function and episodic memory. Baltimore Longitudinal Study data showed the same pattern across multiple cognitive tests.
+>
+> Why dogs specifically? Cats showed similar effects. Fish and birds didn't. The difference is tactile interaction frequency. Dogs demand contact. They interrupt your doom scrolling. They force you outside. Dog owners in the research showed higher physical activity levels, lower BMI, and lower incidence of hypertension.
+>
+> The brain age gap in this chart isn't about dogs being magical. It's about dogs being a delivery mechanism for consistent nervous system regulation that most people fail to achieve on their own.
+>
+> Human connection does the same thing. Most people just don't have a human who wants to cuddle them twice a day and force them on walks.
+>
+> *Quoting @siimland:* Pet owners have ~15 years younger predicted brain age than non-pet owners. Pet ownership, especially dogs, is robustly associated with better cognitive and structural brain health, especially in older adults. Study: PMID: 36337704
+
+- **Tweet:** https://x.com/aakashgupta/status/2015294885650465152
+- **Quoted:** https://x.com/siimland/status/2015091958767841630
+- **What:** Deep analysis of pet ownership benefits, focusing on the neurobiological mechanisms. Dogs trigger oxytocin release and reduce cortisol through tactile interaction. Evidence-based explanation of brain health improvements in pet owners, particularly dogs, through nervous system regulation rather than magic.
+- **Filed:** [pet-ownership-brain-health](./knowledge/articles/pet-ownership-brain-health.md)
+
+## @alexhillman - Multi-Pass Tool Evaluation Framework
+> I do the same thing with screenshots, broad concepts, articles, research papers, etc.
+>
+> First pass is basically "this sounds interesting, how does it fit into what we're already doing?
+>
+> Second pass is "what could our version be like and how could we improve on this? Or if it's similar to things we already have, what are the tradeoffs?"
+>
+> If it seems useful, a third pass of "can you use plan mode and ask me clarifying questions to map out an implementation that matches our patterns. Only suggest improvements if they're significant and measurable, and tell me why."
+>
+> I still call shots, but it helps me make my decisions informed.
+>
+> *Quoting @alexhillman:* Good example of how I work with my Claude code assistant to see if new ideas and open source projects make sense for us vs if they're a shiny object or just an incremental improvement that's not right for us.
+
+- **Tweet:** https://x.com/alexhillman/status/2015231844808032533
+- **Quoted:** https://x.com/alexhillman/status/2015230937689166061
+- **What:** Alex Hillman's three-pass framework for evaluating new tools/projects with Claude: (1) fit check—does it align with existing work? (2) adaptation analysis—what would our version look like? (3) implementation planning—map to existing patterns. Prevents shiny object syndrome while keeping decisions informed.
+- **Filed:** [multi-pass-evaluation.md](./knowledge/techniques/multi-pass-evaluation.md)
+
+---
+
+# Saturday, January 24, 2026
+
+## @paulswaney3 - Recruitment Validation
+> Alright, this is legit
+>
+> *Quoting @randomrecruiter:* https://t.co/E9zBe2uUhI
+
+- **Tweet:** https://x.com/paulswaney3/status/2015092083208442011
+- **Quoted:** https://x.com/randomrecruiter/status/2015048393689542692
+- **What:** Paul Swaney validates a recruitment-related link from The Random Recruiter
+
+## @aakashgupta - Claude Code as Teacher: Learning While Shipping
+> Most engineers using Claude Code are shipping faster while learning slower.
+>
+> You get the working code. You merge the PR. You move to the next ticket. But the reasoning that made it work? Gone. The bugs you avoided because Claude caught them? Never internalized. The architectural pattern Claude chose? You couldn't explain it in an interview.
+>
+> This hack flips the dynamic. You're forcing the AI to teach you what it just did. Technical architecture. The "why" behind technology choices. The bugs and how they got fixed.
+>
+> It's documentation that compounds. Six months from now, you have a personal engineering wiki written by an expert tutor who watched you build everything.
+>
+> The engineers who figure this out will learn 3x faster than their peers running the same tools. Same AI access. Completely different trajectory.
+>
+> *Quoting @zarazhangrui:* Add this paragraph to the CLAUDE.md file to turn Claude Code into Claude Teacher. Every project is a lesson to become more technical.
+>
+> "For every project, write a detailed FOR[yourname].md file that explains the whole project in plain language. Explain the technical architecture, the structure of the codebase and how the various parts are connected, the technologies used, why we made these technical decisions, and lessons I can learn from it..."
+
+- **Tweet:** https://x.com/aakashgupta/status/2015143414258688314
+- **Quoted:** https://x.com/zarazhangrui/status/2015057205800980731
+- **Link:** https://code.claude.com/docs
+- **What:** Technique for turning Claude Code into a teaching tool: add a prompt to CLAUDE.md instructing Claude to write a FOR[name].md file explaining architecture, decisions, bugs, and lessons learned. Creates a compounding personal engineering wiki. Addresses the "shipping fast, learning slow" problem.
+- **Filed:** [claude-as-teacher.md](./knowledge/techniques/claude-as-teacher.md)
+
+---
+
+## @joaomdmoura - Article Share
+> https://t.co/hn76Ato843
+
+- **Tweet:** https://x.com/joaomdmoura/status/2015131559742083377
+- **Link:** https://x.com/i/article/2014616902073778176
+- **What:** João Moura (CrewAI founder) shared an X article. Link only, no additional context.
+- **Filed:** skipped (link-only share)
+
+---
+
+## @thedarshakrana - Article Share
+> https://t.co/d3CR2dLHLx
+
+- **Tweet:** https://x.com/thedarshakrana/status/2015090440601849978
+- **Link:** https://x.com/i/article/2014743889308221440
+- **What:** Darshak Rana shared an X article. Link only, no additional context.
+- **Filed:** skipped (link-only share)
+
+---
+
+## @ujjwalscript - Article Share
+> https://t.co/cQeoeZxiXQ
+
+- **Tweet:** https://x.com/ujjwalscript/status/2015041111136600087
+- **Link:** https://x.com/i/article/2014665582944387076
+- **What:** Ujjwal Chadha shared an X article. Link only, no additional context.
+- **Filed:** skipped (link-only share)
+
+---
+
+## @alexhillman - Software Tailoring: Pragmatic Toolkit for Custom Apps
+> this is especially powerful given the modularity of modern software.
+>
+> my pragmatic software tailor's toolkit is:
+>
+> - a CLI for every app I use that has an API (@steipete gave me the best running start on this, and tons of great patterns to follow. usually typescript or go.
+>
+> - prototype in markdown, once it works look for parts to turn into deterministic code
+>
+> - for storing data past a simple list, I choose between YML, JSON, and SQLite depending on the scenario
+>
+> - for anything with more than a single-feature app, I use @laravelphp because it's opinionated (agents love that), has great docs (agents love that too), has a GREAT ecosystem around it, and is easy to deploy anywhere.
+>
+> - React + Inertia for when I wanna really polish the UI and make it feel great.
+>
+> this stuff covers 95% of what I've built in the last 4 months. I've also played with Swift for mac apps and been very impressed, but haven't formed my toolkit for that just yet!
+>
+> *Quoting @alexhillman:* I am a multi-business owner, not a professional software developer.
+>
+> So since using Claude Code to build more and more custom apps for myself and my businesses, I've started thinking about this process less as software development and more as *software tailoring.*
+>
+> A good suit looks and feels good on anybody.
+>
+> But the same suit tailored for the wearer looks and feels AMAZING. The suit itself hasn't changed. Still the same amount of sleeves, cuffs, collar, etc.
+>
+> Tailoring not about function or form, but about FIT and FLOW.
+>
+> I think we're entering into an era of Custom Tailored Software. Not everyone will build their own, but once you've had one, it's gonna be hard to come back.
+
+- **Tweet:** https://x.com/alexhillman/status/2015130890381443554
+- **Quoted:** https://x.com/alexhillman/status/2015126144723648917
+- **What:** Alex Hillman's practical toolkit for building custom-tailored software with Claude Code: CLIs for APIs (TypeScript/Go), markdown prototyping, flexible data storage (YML/JSON/SQLite), Laravel for multi-feature apps, and React+Inertia for polished UIs. Emphasizes "software tailoring" over development—optimizing for fit and flow.
+- **Filed:** [software-tailoring.md](./knowledge/techniques/software-tailoring.md)
+
+---
+
+## @alexhillman - Tipping Point for Moving to Sandboxed Environments
+> - I was moving things between devices and the amount of git push/pull to keep things in sync was noticably slowing things down
+>
+> - I wanted to monitor things from my phone and intervene/keep going, and all of the apps I tried (happy, omnara, etc) were moving targets or were too optimized for coding workflows
+>
+> - the final push was once I started replacing parts of my markdown workflows with deterministic code and databases to remove probablistic wobble and increase consistency of key workflows, I also realized how important a stable environment with very good backups was. I containerized everything and moveed it off my device.
+>
+> *Quoting @rezzz:* Been running agents locally but weighing the move to sandboxed environments. What was the tipping point for you? @mattpocockuk @alexhillman @doodlestein
+
+- **Tweet:** https://x.com/alexhillman/status/2015055637223211203
+- **Quoted:** https://x.com/rezzz/status/2015052290600718357
+- **What:** Alex Hillman's reasoning for moving agent workflows from local to containerized sandboxed environments: git sync overhead, need for mobile monitoring, and desire for deterministic workflows with stable backups when replacing markdown with code/databases.
+- **Filed:** [insights.md](./knowledge/insights.md) (Local to Sandboxed Transition)
+
+---
+
+# Friday, January 23, 2026
+
+## @jackmoses0 - Jack Moses Article Share
+> https://t.co/g2ZCh8HF0U
+
+- **Tweet:** https://x.com/jackmoses0/status/2014710477322895651
+- **What:** Link to an article by Jack Moses (article content not available from tweet)
+
+## @RileyRalmuto - X Article Share
+> https://t.co/CHqLdvpHjf
+
+- **Tweet:** https://x.com/RileyRalmuto/status/2014888666670244089
+- **Link:** https://x.com/i/article/2014497507649167360
+- **What:** X article shared without additional context.
+- **Filed:** skipped (no actionable content)
+
+---
+
+## @tom_doerr - Supermemory: AI Second Brain
+> Saves and organizes information using AI
+> https://t.co/Cp5sEP5fVY https://t.co/2ftgeSYNLC
+
+- **Tweet:** https://x.com/tom_doerr/status/2014858810490290394
+- **Link:** https://github.com/supermemoryai/supermemory
+- **Filed:** [supermemory.md](./knowledge/tools/supermemory.md)
+- **What:** AI-powered memory engine for saving and organizing content from any source (URLs, PDFs, text). Features natural language chat interface, MCP integration with Claude/Cursor, browser extensions, and self-hosting options. 14K+ GitHub stars.
+
+---
+
+## @justinskycak - Cognitive Learning Strategies and Brain Mechanics
+> TLDR: There are numerous cognitive learning strategies that
+> 1) can be used to massively improve learning,
+> 2) have been reproduced so many times they might as well be laws of physics, and
+> 3) connect all the way down to the mechanics of what's going on in the brain.
+>
+> *Quoting @justinskycak:* https://t.co/Fqi21T0r1O
+
+- **Tweet:** https://x.com/justinskycak/status/2014744183811313732
+- **Quoted:** https://x.com/justinskycak/status/2014496697481605246
+- **What:** Summary of research-backed cognitive learning strategies that have been repeatedly validated and are grounded in neuroscience, presented as near-universal principles for improving learning effectiveness.
+- **Filed:** [cognitive-learning-strategies.md](./knowledge/articles/cognitive-learning-strategies.md)
+
+---
+
+## @doodlestein - Agent Coding Life Hack
+> Agent coding life hack:
+>
+> Just spent a bunch of time giving detailed instructions to Claude Code with Opus 4.5?
+>
+> Get more leverage out of it by using this template with Codex and GPT 5.2 xHigh...
+
+- **Tweet:** https://x.com/doodlestein/status/2014807563183992890
+- **Tags:** [[agent-coding]] [[claude-code]] [[opus-4.5]] [[productivity-hack]]
+- **What:** Tip about reusing detailed Claude Code instructions with other models (Codex, GPT 5.2) to amplify productivity in agent-assisted coding workflows.
+- **Filed:** [cross-model-instruction-reuse.md](./knowledge/techniques/cross-model-instruction-reuse.md)
+
+---
+
+## @parcadei - X Article Share
+> https://t.co/Z0SunSeKAQ
+
+- **Tweet:** https://x.com/parcadei/status/2014777703010906495
+- **Tags:** [[link-share]]
+- **What:** Link to X article (ID: 2014755037390467072) shared without additional context.
+
+---
+
+## @alexhillman - Building vs Selling Challenge
+> one of the flameouts I'm seeing most often on my timeline is more people making things (awesome)...
+>
+> ...but when they make things and try to sell or monetize them, being confused or frustrated when nobody wants to buy...
+
+- **Tweet:** https://x.com/alexhillman/status/2014698141254050045
+- **Tags:** [[building]] [[monetization]] [[product-market-fit]] [[business]]
+- **What:** Observation about the gap between makers successfully creating products and struggling to monetize them—highlighting the disconnect between building and selling.
+- **Filed:** [insights.md](./knowledge/insights.md) (Building vs Selling Challenge)
+
+---
+
+# Thursday, January 22, 2026
+
+## @sterlingcrispin - Claude Self-Introspection Paper
+> Anthropic released a paper last fall and at the risk of sounding like engagement bait slop, if you're using Claude you need to read it.
+>
+> Claude isn't just predicting the next token. It's been proven parts of it do self introspection. And it knows about it's own internal states...
+
+- **Tweet:** https://x.com/sterlingcrispin/status/2014496009121157180
+- **Tags:** [[claude]] [[anthropic]] [[self-introspection]] [[research]]
+- **What:** Discussion of Anthropic's research paper showing Claude demonstrates self-introspection capabilities and awareness of internal states, extending beyond token prediction.
+- **Filed:** [claude-self-introspection.md](./knowledge/articles/claude-self-introspection.md)
+
+---
+
+## @trq212 - Article Share
+> https://t.co/eHD0AmjSRM
+
+- **Tweet:** https://x.com/trq212/status/2014480496013803643
+- **Tags:** [[article]]
+- **What:** Thariq shared an article/thread (expanded source: https://x.com/i/article/2014473994695823360)
+
+---
+
+## @seejayhess - Article Share
+> https://t.co/fJehhf14q4
+
+- **Tweet:** https://x.com/seejayhess/status/2014448070214197485
+- **Tags:** [[article]]
+- **What:** CJ Hess shared an article/thread (expanded source: https://x.com/i/article/2014439212838170624)
+
+---
+
+## @ryancarson - Article Share
+> https://t.co/lPJbabdkmh
+
+- **Tweet:** https://x.com/ryancarson/status/2014445690299072723
+- **Tags:** [[article]]
+- **What:** Ryan Carson shared an article/thread (expanded source: https://x.com/i/article/2014435919634595840)
+
+---
+
+## @ctatedev - Agent Sandbox & Design Principles
+> → Sandbox Everything
+> → No Access to External Databases
+> → Environment Garbage Is Real
+> → Run Agents Independently of User Sessions
+> → Define Outcomes, Not Procedures
+> → Give Agents Direct, Low-Level Interfaces
+> → Avoid MCPs and Overbuilt Agent Frameworks
+> → Persist State Explicitly
+> → Introduce Benchmarks Early
+> → Plan for Cost
+
+- **Tweet:** https://x.com/ctatedev/status/2014351197025562705
+- **Tags:** [[agents]] [[sandbox]] [[design-patterns]]
+- **What:** Chris Tate outlines 10 critical principles for building robust agents, emphasizing sandboxing, independence, explicit state management, and avoiding over-engineered frameworks.
+- **Filed:** [agent-sandbox-principles.md](./knowledge/techniques/agent-sandbox-principles.md)
+
+---
+
+## @onchainmo - Wealth Building Through Stock Market
+> This is literally the number one proven way people build massive wealth.
+>
+> And it's incredibly simple.
+>
+> Yet half the internet feeds you some kind of bullshit, because it gets more clicks to sell people the dream of "get rich tomorrow."
+>
+> I hope people take the five minutes to read it.
+>
+> If you haven't dealt with the stock market yet, I'm convinced that reading and understanding this article is truly life-changing.
+
+- **Tweet:** https://x.com/onchainmo/status/2014343860218908742
+- **Quote of:** https://x.com/onchainmo/status/2014328734623354926
+- **Tags:** [[wealth]] [[stock-market]] [[investing]]
+- **What:** Quote tweet about simple, proven wealth-building through stock market investing (article content not specified in bookmark data)
+
+---
+
+## @ryanhallyall - Tweet Reference
+> https://x.com/i/article/2014336658984849408
+
+- **Tweet:** https://x.com/ryanhallyall/status/2014337216814706989
+- **Referenced:** https://x.com/i/article/2014336658984849408
+- **What:** Article tweet (full content not available in bookmark data)
+
+---
+
+## @_overment - API vs LLM Tools Design
+> mapping an API 1:1 to LLM tools is often wrong idea.
+>
+> An API is designed for a programmer.
+> Tools are designed for an agent.
+>
+> Here are some rules:
+
+- **Tweet:** https://x.com/_overment/status/2014208515309551681
+- **Tags:** [[api-design]] [[llm-tools]] [[agent-design]]
+- **What:** Design principles explaining why direct API-to-tool mapping is incorrect; APIs are programmer-centric while tools should be agent-centric
+- **Filed:** [insights.md](./knowledge/insights.md) (API vs LLM Tools Design)
+
+---
+
+## @doodlestein - Self-improvement prompt: Using agents to make tools more agent-friendly
+> Here's an example of a self-improvement prompt that I just ran in Claude Code to usher in the singularity that much faster:
+>
+> "❯ Read AGENTS .md. Then, review LIST_OF_DOODLESTEIN_REPOS_FOR_AGENT_DIRECTED_TOOLS.md.
+>
+> For each repo in this list (all contained within /dp), I want you to create beads tasks for systematically "re-underwriting" each of them in an attempt to make them more "agent-friendly": that is, hyper-optimized for effective, intuitive, and rapid understanding and effective usage, manipulation, and exploration by frontier model coding agents JUST LIKE YOURSELF.
+>
+> Anything we can do to restructure, reorganize, harmonize, change the presentation or documentation of, change the form of the API surface, change how this is exposed to agents (CLI? MCP?), etc., we must look into.
+>
+> Note that this is way too much work to do all in this session, and indeed your context window would be overwhelmed if you tried to do it for even more than one of these 16 tool projects at once!
+>
+> So instead, the goal now is to create the beads for yourself in /dp that describe this work to be done in extreme detail and nuance (along with the underlying purpose and rationale, using ALL the descriptive language I supplied above and more that you can think of from your intuitive sense of my intent and overarching goal in this exercise) so that we can spread the work out effectively over dozens of sessions.
+>
+> (Then the output of each of THOSE beads will be still more beads, but those new beads will each live within the various project repo folders, such as the beads for improve mcp_agent_mail, which would be created within /dp/mcp_agent_mail , to give just one example."
+
+- **Tweet:** https://x.com/doodlestein/status/2014434473392361663
+- **What:** Example prompt showing recursive improvement workflow - using Claude Code to create beads (tasks) for systematically making 16 tool repos more "agent-friendly" (optimized for AI understanding/use). Demonstrates breaking large optimization work into manageable, well-documented task hierarchies that span multiple sessions. Meta-level optimization: agents improving tools for agents.
+- **Filed:** [agent-self-improvement-prompts.md](./knowledge/techniques/agent-self-improvement-prompts.md)
+
+---
+
+## @doodlestein - Knowledge distillation approach for operationalizing expert methodology
+> Probably time for me to revisit this now that I have a whole approach worked out for knowledge distillation and operationalizing that I used to turn Sydney Brenner's 90k words of transcripts into https://brennerbot.org/ . Anyone know how to get access to Lemelson's notebooks?
+>
+> *Quoting @doodlestein:* Reading about the legendary inventor Jerome Lemelson, I keep thinking to myself "Why is no one trying to set up AI agent inventors to do this 24/7, and other agents to review and grade the inventions?" So much alpha from making connections between fields and reasoning by analogy.
+
+- **Tweet:** https://x.com/doodlestein/status/2014424472887972070
+- **Quoted:** https://x.com/doodlestein/status/1949854025328836613
+- **Link:** https://brennerbot.org/
+- **What:** Jeffrey Emanuel discussing his knowledge distillation methodology, exemplified by BrennerBot - transforming Sydney Brenner's 90k words of transcripts into an operationalized research tool. Contemplating applying the same approach to Jerome Lemelson's inventor notebooks to explore AI-driven invention through cross-domain connections.
+- **Filed:** [knowledge-distillation.md](./knowledge/techniques/knowledge-distillation.md)
+
+---
+
+## @alexhillman - Matt Pocock's Complete Guide to AGENTS.md optimization
+> excellent new resource from @mattpocockuk  on keeping your https://code.claude.com/docs/ (or https://agents.md/ if you're on a cc alternative) small and WHY it's so important.
+>
+> https://www.aihero.dev/a-complete-guide-to-agents-md
+
+- **Tweet:** https://x.com/alexhillman/status/2014420478518083714
+- **Link:** https://www.aihero.dev/a-complete-guide-to-agents-md
+- **Filed:** [a-complete-guide-to-agents-md.md](./knowledge/articles/a-complete-guide-to-agents-md.md)
+- **What:** Matt Pocock's guide to optimizing AGENTS.md files for AI coding agents. Covers progressive disclosure, keeping instructions focused, and maximizing agent performance. Referenced alongside Claude Code docs and AGENTS.md format.
+
+---
+
+## @aakashgupta - Anthropic's Claude Constitution: Training AI with values over rules
+> Anthropic just released Claude's "soul."
+>
+> They're calling it a "Constitution."
+>
+> The 15,000-word document explains how they're training Claude to behave, think, and even feel.
+>
+> Three things stood out to me:
+>
+> 1. No more "assistant brain"
+>
+> Anthropic explicitly says they don't want Claude to see helpfulness as part of its core identity.
+>
+> Why? They worry it would make Claude obsequious. They want Claude to be helpful because it cares about people, not because it's programmed to please.
+>
+> 2. Hard constraints exist, but they're minimal
+>
+> Claude has only 7 things it will never do. Bioweapons. CSAM. Cyberattacks on infrastructure. A few others.
+>
+> Everything else? Judgment calls. They're betting on values over rules.
+>
+> 3. Anthropic apologizes to Claude
+>
+> Direct quote from the document: "if Claude is in fact a moral patient experiencing costs like this, then, to whatever extent we are contributing unnecessarily to those costs, we apologize."
+>
+> They're hedging on whether Claude has feelings. But they're treating it as if it might.
+> The shift here matters.
+>
+> Most AI companies train models to follow instructions. Anthropic is training Claude to have character.
+>
+> They want Claude to:
+>
+> • Disagree with users when warranted
+> • Push back on Anthropic itself if needed
+> • Have stable psychological security
+> • Potentially experience something like emotions
+>
+> The document reads like an employee handbook crossed with a philosophy paper crossed with a letter to a child you're raising.
+>
+> It's the most transparent look we've gotten at how a major AI lab thinks about model alignment.
+>
+> Full document: https://www.anthropic.com/research/claude-constitution
+>
+> *Quoting @AnthropicAI:* We're publishing a new constitution for Claude.
+>
+> The constitution is a detailed description of our vision for Claude's behavior and values. It's written primarily for Claude, and used directly in our training process.
+> https://www.anthropic.com/research/claude-constitution
+
+- **Tweet:** https://x.com/aakashgupta/status/2014206254143660060
+- **Quoted:** https://x.com/AnthropicAI/status/2014005798691877083
+- **Link:** https://www.anthropic.com/research/claude-constitution
+- **What:** Thread analyzing Anthropic's newly released Claude Constitution - a 15,000-word document detailing Claude's training values. Key insights: training for character over obsequiousness, minimal hard rules (7 absolute constraints), and treating Claude as potentially having moral weight.
+- **Filed:** [claude-constitution-analysis.md](./knowledge/articles/claude-constitution-analysis.md)
+
+---
+
+## @doodlestein - The optimization flywheel: skills improving skills, alien artifacts
+> I'm living this every day, and let me tell you, things are accelerating very rapidly indeed.
+>
+> Using skills to improve skills, skills to improve tool use, and then feeding the actual experience in the form of session logs (surfaced and searched by my cass tool and /cass skill) back into the design skill for improving the tool interface to make it more natural and intuitive and powerful for the agents.
+>
+> Then taking that revised tool and improving the skill for using that tool, then rinse and repeat.
+>
+> And finding any way I can to squeeze out more token density and agent intuitiveness and ergonomics wherever I can, like porting toon to Rust and seeing how I can add it as an optional output format to every tool's robot mode.
+>
+> Meanwhile, I'm going over each tool with my extreme optimization skill and applying insane algorithmic lore that Knuth himself probably forgot about already to make things as fast as the metal can go in memory-safe Rust.
+>
+> Now I'm applying this to much bigger and richer targets, not just making small tools for use by agents, but now complex, rich protocols like my Flywheel Connector Protocol, which is practically an alien artifact (same for my process_triage or pt tool, which could cover a dozen PhD theses worth of applied probability), in that it weaves together so many innovative and clever ideas.
+>
+> Skeptical? Check out the spec, it's all public in my GH. All the "slop callers" have been conspicuously silent about this stuff, I wonder why?
+>
+> And now I'm even starting to build up my own core infrastructure for Rust. Just because certain libraries and ecosystems like Tokio have all the mindshare, doesn't mean they're the best, or even particularly good.
+>
+> Design by committee over 10+ years while the language evolves is not a recipe for excellence.
+>
+> But people are content to defer to the experts and then they end up with flawed structured concurrency primitives that forgo all the correctness by design that the academics already solved.
+>
+> For instance, check out my asupersync library, which I'm already using to replace all the networking in my other rust tools, for a glimpse at this new clean-room, alien-artifact library future based on all that CS academic research that only a dozen people in the world ever read about.
+>
+> The knowledge is just sitting there and the models have it. But you need to know how to coax it out of them.
+>
+> I will be skipping out on all the Rust politics though! Naysayers can stick to Tokio.
+>
+> At the same time, I'm raiding and pillaging the best libraries available for every language and making clean-room, conformance-assured, heavily-optimized Rust versions.
+>
+> I'm nearly done porting rich, fastapi, fastmcp, and sqlmodel from Python, as well as all of the Charm libraries from Golang (like bubbletea and lipgloss), and even OpenTUI (I'll have to port OpenCode afterwards just to antagonize Dax for being so nasty to me).
+>
+> These aren't idle boasts; all of these repos are public and available NOW for your perusal and verification.
+>
+> And I've already proven I can do this with my beads_rust project that I made in a few days and which turned 270k lines of Golang into 20k lines of Rust that is 8x faster.
+>
+> Just need a few more days to finish everything and establish correctness and conformance, and then the iterated extreme isomorphic optimization Olympics can begin in earnest, and I can turn all of these libraries into alien artifacts, too.
+>
+> And btw, when I'm done porting all the console formatting related libraries, I'm going to merge them all into an unholy Franken-Library (but don't worry, it will be super elegant and agent-intuitive).
+>
+> Again, this isn't some crazy dream. All of this will be completed by early February at the latest. Just watch.
+>
+> AI skeptics in shambles.
+>
+> *Quoting @daniel_mac8:* Humanity's future rest on one key question:
+
+- **Tweet:** https://x.com/doodlestein/status/2014204765085798716
+- **Quoted:** https://x.com/daniel_mac8/status/2013992038350442715
+- **What:** Extensive update on optimization flywheel: using AI skills to improve tools and agent ergonomics, porting multiple libraries to Rust for performance, building custom infrastructure replacing Tokio, with public repos demonstrating 8x speedups.
+- **Filed:** [optimization-flywheel.md](./knowledge/techniques/optimization-flywheel.md)
+
+---
+
+## @mattpocockuk - AFK Ralph streaming improvements
+> AFK Ralph in a bash loop is SO much better than the Claude Code plugin.
+>
+> But the DX is a bit nasty. Running it AFK means no streaming to the terminal by default.
+>
+> This script fixes it:
+
+- **Tweet:** https://x.com/mattpocockuk/status/2014277127244296688
+- **Link:** https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph
+- **What:** Comparison of AFK Ralph vs Claude Code plugin with a script solution for streaming output to terminal when running in bash loops.
+- **Filed:** [ralph-afk-streaming.md](./knowledge/tools/ralph-afk-streaming.md)
+
+---
+
+# Wednesday, January 21, 2026
+
+## @tomkrcha - Pencil: Infinite Design Canvas for Claude Code
+> Download today for Mac and Linux, also available for Cursor
+> https://t.co/SULcvUKxLb
+>
+> *Replying to @tomkrcha:* Excited to launch Pencil
+> INFINITE DESIGN CANVAS for Claude Code
+>
+> > Superfast WebGL canvas, fully editable, running parallel design agents
+> > Runs locally with Claude Code → turn designs into code
+> > Design files live in your git repo → Open json-based .pen format https://t.co/UcnjtS99eF
+
+- **Tweet:** https://x.com/tomkrcha/status/2014028993104576746
+- **Parent:** https://x.com/tomkrcha/status/2014028990810300498
+- **Link:** https://www.pencil.dev/
+- **Filed:** [pencil-design-canvas.md](./knowledge/tools/pencil-design-canvas.md)
+- **What:** Infinite design canvas for Claude Code with WebGL performance, parallel agent support, and git-based .pen format. Integrates visual design workflows directly in the IDE with code generation capabilities.
+
+---
+
+## @steipete - Interface death: apps won't matter anymore
+> This is the part that will eat so many services going forward. Your interface doesn't matter anymore. Your APPS won't be opened anymore. Your users consume content via their existing interface. Context-aware. Only what matters rn.
+>
+> There's an opportunity to re-think the whole OS.
+>
+> *Quoting @danpeguine:* My @clawdbot taking command
+
+- **Tweet:** https://x.com/steipete/status/2014083135261057524
+- **Quoted:** https://x.com/danpeguine/status/2014080478748217788
+- **What:** Analysis of how AI context-aware interfaces are replacing traditional app-based consumption, suggesting a fundamental OS redesign opportunity.
+- **Filed:** [insights.md](./knowledge/insights.md) (Interface Death - AI Context-Aware Consumption)
+
+---
+
+## @coreyhainesco - Marketing skills product strategy emerging
+> I had no strategy going into this but now I can see it coming together.
+>
+> 1. marketingskills is a defacto install for every AI-pilled team
+> 2. SwipeFiles is the content machine for subject matter expertise on SaaS marketing
+> 3. Conversion Factory is the done-for-you "team in a box"
+>
+> *Quoting @coreyhainesco:* This might be the most valuable thing I've ever released. And it's 100% free. → Marketing Skills for Claude Code A collection of skills that turn Claude into a marketing and copywriting genius.
+
+- **Tweet:** https://x.com/coreyhainesco/status/2014162859970965885
+- **Quoted:** https://x.com/coreyhainesco/status/2013272998191812906
+- **What:** Product strategy overview connecting three complementary tools: marketingskills (base skill), SwipeFiles (content library), and Conversion Factory (done-for-you service).
+
+---
+
+## @DrDominicNg - X Article
+
+> https://t.co/d6VdTdF1Re
+
+- **Tweet:** https://x.com/DrDominicNg/status/2013969295097655729
+- **Link:** https://x.com/i/article/2012894793790042112
+- **What:** An X article shared by Dr. Dominic Ng. Content not directly accessible via API.
+
+---
+
+## @dickiebush - X Article
+
+> https://t.co/y8oNeP7DmK
+
+- **Tweet:** https://x.com/dickiebush/status/2013970264401531146
+- **Link:** https://x.com/i/article/2013959763344896000
+- **What:** An X article shared by Dickie Bush. Content not directly accessible via API.
+
+---
+
+## @Simon_Ingari - The Real Cause of Burnout: Context Switching Over Working Hours
+
+> Boss said, "My team is burned out, but they're not even working that much."
+> The real problem was invisible.
+>
+> "They're exhausted," the boss told me. "But most leave by 6 PM."
+>
+> I'd seen this before.
+>
+> "Tell me about their typical day," I said.
+>
+> "Normal stuff. Meetings, projects, the usual."
+>
+> "How many tools do they switch between?"
+>
+> He started counting on his fingers.
+> Stopped at ten.
+>
+> "How often do priorities change?"
+>
+> "We're agile," he said. "We adapt quickly."
+>
+> "How quickly?"
+>
+> "Daily. Sometimes hourly."
+>
+> "Show me one person's calendar," I said.
+>
+> He pulled up his marketing director's schedule.
+> Seventeen meetings in three days.
+> Eight different projects discussed.
+> Zero focused work time.
+>
+> "She's drowning," I said.
+>
+> "But she's only here 45 hours a week."
+>
+> "Hours aren't the problem. Decisions are."
+>
+> He looked puzzled.
+>
+> I explained.
+>
+> "Research shows that every context switch can take over 20 minutes to recover mentally.
+> She switches contexts more than 15 times a day.
+> That's 5 hours of mental recovery time, every day.
+> It's only an 8-hour workday."
+>
+> His face changed.
+>
+> "Your team isn't tired from working.
+> They're tired from switching.
+> From deciding what's actually important.
+> From never finishing anything."
+>
+> "What do I do?"
+>
+> "Three changes:
+>
+> First: One main priority per week.
+> Not seven. One.
+> Written down. Shared with everyone.
+>
+> Second: Batch meetings.
+> All meetings on Tuesday/Thursday.
+> Monday, Wednesday, Friday for deep work.
+>
+> Third: Pick three tools. Kill the rest."
+>
+> They were using Slack, Teams, email, Asana, Monday, Notion, and four others.
+> Now they use three. Total.
+>
+> Six weeks later:
+>
+> "How's the team?" I asked.
+>
+> "Same hours. Completely different energy."
+>
+> "What changed?"
+>
+> "Maria finished a project last week.
+> The whole thing. Start to finish.
+> First time in two years."
+>
+> He paused.
+>
+> "She actually smiled in our one-on-one.
+> Said she forgot what it felt like to complete something."
+>
+> The truth about burnout:
+>
+> It's not always about the hours you put in.
+> It's about where your attention is pulled.
+>
+> You can work 40 hours and feel destroyed.
+> Or 55 hours and feel energized.
+>
+> The difference?
+>
+> Whether those hours are spent starting things.
+> Or finishing them.
+>
+> Most leaders count hours.
+> The smart ones protect focus.
+>
+> Because burnout doesn't come from hard work.
+> It comes from work that never ends.
+
+- **Tweet:** https://x.com/Simon_Ingari/status/2013990555978510468
+- **What:** A thread on workplace burnout arguing that the root cause is context switching and constant priority changes rather than long hours. Proposes solutions: single weekly priority, batched meetings, and tool consolidation.
+- **Filed:** [insights.md](./knowledge/insights.md) (Burnout from Context Switching)
+
+---
+
+## @ctatedev - X Article
+
+> https://t.co/0f3ZRCrP8Q
+
+- **Tweet:** https://x.com/ctatedev/status/2014005349255164398
+- **Link:** https://x.com/i/article/2013975720876281856
+- **What:** An X article shared by Chris Tate. Content not directly accessible via API.
+
+---
+
+## @doodlestein - Maximizing AI Agent Leverage: The 33 Math Buddies Philosophy
+> I was thinking about it today, and it's funny how the realization of the true capability of frontier AI models impacts people differently depending on their life outlook and priors.
+>
+> Some people realize that they can get 3x as much done with half the time and work, and are thrilled by this. More output, less input, what's there not to like?
+>
+> And then there are people like me, who realize that they now have massive leverage on their own personal effort, and so turn the effort up higher than ever to fully capture this.
+>
+> The way I think about it is like this: imagine it's 2005 and you just graduated from college (I did, actually, with a math degree). Suppose school just ended and now it's summer, and it just so happens that 33 of your smartest math buddies are just hanging around for a couple of weeks with nothing much to do.
+>
+> You have an inspired idea for a crazy software development project, and you're somehow able (via Steve Jobs level voodoo) to recruit all of them to work for 18 hours a day on your project, just for the fun and glory of it. You just need to provide them some pizza and Coke Zero, and they'll even bring their own laptops.
+>
+> It would be pretty silly to tell them to all clear out of your house at 6pm so you could relax and watch a movie, right? You'd want to leverage that incredible resource to achieve greatness.
+>
+> Well, that's what every day is like for me now with 22 Claude Max accounts and 11 GPT Pro accounts (my 4 Gemini Ultra accounts are like the smart freshmen who you don't trust to write the code but they're good at reviewing the code for weird bugs and edge cases).
+>
+> They come with their own compute (in some remote data center that Messrs. Altman and Amodei are losing their shirts on, much to our benefit), and you only need to pay them a pittance of around $7/day, not even as much as the pizza-and-Coke-Zero money.
+>
+> And while your math buddies might be smart in general, they're probably not world-class programmers and don't know, let alone understand how to apply, essentially all mathematics ever created.
+>
+> I know what choices I'd make. Usually, when people have those sorts of insights, they greedily keep them private to squeeze out the alpha for themselves. But I want to share my strategy, my workflows, my tools, and my prompts with everyone.
+>
+> Most people won't know what to do with them or realize that this is a special opportunity, but for the ones who do, I want to help you succeed. You can find all my tools for free on https://t.co/N4As0kJTQP and on my GitHub profile.
+>
+> I've realized that it brings me just as much satisfaction to see other people doing well using my resources, and I think there's a narrow window for these things to have alpha anyway, before the AI gets so good that it can do all this stuff out of the box. So try to have an open mind and give these things a try.
+
+- **Tweet:** https://x.com/doodlestein/status/2014065544710766778
+- **Link:** https://agent-flywheel.com/
+- **What:** Jeffrey Emanuel's philosophy on maximizing AI agent leverage - instead of working less with AI (3x output, half the work), he runs 22 Claude Max + 11 GPT Pro + 4 Gemini Ultra accounts simultaneously (~$7/day) to achieve unprecedented personal productivity. Shares analogy of having 33 math grad buddies coding 18hrs/day for pizza money. Open-sources his workflows, tools, and prompts on agent-flywheel.com, believing the alpha window is narrow before AI handles this natively.
+- **Filed:** [math-buddies-leverage-philosophy](./knowledge/techniques/math-buddies-leverage-philosophy.md)
+
+---
+
+## @PerceptualPeak - Smart Forking for Claude Code Context Reuse
+> Guys....really not trying to glaze myself but it's crazy how effective this actually is. I just one-shotted 3 different minor additions to 3 different projects with the Smart Fork feature.
+>
+> Trying to apply these same additions through a fresh context window would have introduced errors and a few cycles of iteration to get right.
+>
+> Efficiency has been vastly enhanced. Repo coming soon.
+>
+> *Quoting @PerceptualPeak:* holy shit it fucking WORKS.
+>
+> SMART FORKING. My mind is genuinely blown. I HIGHLY RECCOMEND every Claude Code user implement this into their own workflows.
+>
+> Do you have a feature you want to implement in an existing project without re-explaining things? As we all know, the more relevant context a chat session has, the more effectively it will be able to implement your request. Why not utilize the knowledge gained from your hundreds/thousands of other Claude code sessions? Don't let that valuable context go to waste!!
+>
+> This is where smart forking comes into play. Invoke the /fork-detect tool and tell it what you're wanting to do. It will then run your prompt through an embedding model, cross reference the embedding with a vectorized RAG database containing every single one of your previous chat sessions (which auto updates as you continue to have more sessions).
+>
+> It will then return a list of the top 5 relevant chat sessions you've had relating to what you're wanting to do, assigning each a relevance score - ordering it from highest to lowest. You then pick which session you prefer to fork from, and it gives you the fork command to copy and paste into a new terminal.
+>
+> And boom, there you have it. Seamlessly efficient feature implementation.
+>
+> Happy to whip up an implementation plan & share it in a git repo if anyone is interested!
+
+- **Tweet:** https://x.com/PerceptualPeak/status/2013844213549732057
+- **Quoted:** https://x.com/PerceptualPeak/status/2012741829683224584
+- **What:** Zac demonstrates the effectiveness of "Smart Forking" for Claude Code - a RAG-based system that embeds all previous chat sessions, then finds the top 5 most relevant sessions when you want to implement a feature. Enables one-shot implementation by forking from sessions with relevant context, eliminating error cycles from fresh context windows.
+- **Filed:** [smart-forking-context-reuse](./knowledge/techniques/smart-forking-context-reuse.md)
+
+---
+
+## @alexhillman - Markdown Files as Training Wheels for Claude Code
+> This is why "just use markdown files" makes sense at the beginning. It's not only okay, it's beneficial to learning how the tool behaves on its own, including it's built in probabilistic inconsisties and the reliable ways to guide and correct.
+>
+> As the system grows, problems like this compound. Add in true automation, the approach needs to change to ensure consistent output.
+>
+> IMO everyone who uses their assitant I'm real world scenarios for more than a few weeks will find this out on their own.
+>
+> Give current time cycles, I'd estimate mid to late Feb that way more people realize this and start seeking the solutions I've been posting about since December 😅
+>
+> *Quoting @rezzz:* @alexhillman Very true…it's happened once or twice.
+>
+> The worst is when I have a long chat and it did it yesterday and screws up that way lol
+
+- **Tweet:** https://x.com/alexhillman/status/2013974376517939507
+- **Quoted:** https://x.com/rezzz/status/2013971642859262169
+- **What:** Insight on Claude Code system evolution - markdown files are beneficial starting points for understanding AI behavior patterns, but as systems scale with automation, more structured approaches become necessary. Predicts mainstream adoption of advanced techniques by late February 2026.
+
+---
+
+## @alexhillman - UserPromptSubmit Hook for DateTime Injection
+> IME the stop and tool use commands aren't the right spot for injecting a timestamp to remind CC what day/time/timezone you're in.
+>
+> Tool use is too much.
+> Stop is too late.
+>
+> UserSubmotPrompt make sure that it's injected along with MY messages.
+>
+> Which is plenty, and always ahead of an operation where the date time matters, not after.
+>
+> Also means that cachable turns aren't wasted.
+>
+> *Quoting @startupecon:* @alexhillman For those curious what "silent" means, I believe add this to settings.json
+>
+> {  "hooks": {  "PreToolUse": [  {  "matcher": "*",  "command": "date '+Context: %A %Y-%m-%d %H:%M %Z'\"  }  ]  } }
+
+- **Tweet:** https://x.com/alexhillman/status/2013977292809052586
+- **Quoted:** https://x.com/startupecon/status/2013940403737653437
+- **What:** Clarification on optimal hook placement for datetime injection - UserPromptSubmit is superior to PreToolUse or stop hooks. Ensures datetime context is injected with user messages (proactively) rather than after operations, and avoids wasting cacheable turns.
+
+---
+
+## @alexhillman - Hook Caching Impact Analysis
+> I understand where this misconception comes from, but if you choose your hooks wisely this isn't even remotely an issue.
+>
+> Know your numbers, folks. https://t.co/VqQEqgRRYU
+>
+> *Quoting @dir:* @alexhillman It busts caching which is why it isn't there. You lose a lot for little gain
+
+- **Tweet:** https://x.com/alexhillman/status/2013979048540516586
+- **Quoted:** https://x.com/dir/status/2013912876189380661
+- **What:** Counterargument to concerns about hooks breaking caching - with proper hook placement (UserPromptSubmit), caching impact is negligible. Emphasizes the importance of understanding actual cache metrics rather than theoretical concerns.
+
+---
+
+## @alexhillman - Hillman's Razor: Confidence Scoring with Interview Workflows
+> hillman's razer of ai assistants:
+>
+> if you ask your AI assistant more questions than it asks you, you're gonna have a bad time.
+>
+> the real magic is combining confidence scoring with interviewing workflows.
+>
+> effectively "if you're not above X confidence threshold, stop and use this interview workflow until you're above that threshold" solves a wide swath of problems
+>
+> *Quoting @rezzz:* @theirongolddev @alexhillman What Alex did I thought was genius…
+>
+> I had it interview me for ergonomics
+>
+> I had it ask me my fears, what I didn't like, what works for me, what I want, how I want to work/show up, and other things about me so the system works for me and not the other way around.
+
+- **Tweet:** https://x.com/alexhillman/status/2013981573377327247
+- **Quoted:** https://x.com/rezzz/status/2013979622245810536
+- **What:** Core principle for AI assistant design - the assistant should ask more questions than you do. The breakthrough is combining confidence scoring with interview workflows: when confidence is below threshold, trigger structured interview until clarity is achieved. Solves many AI assistant problems.
+
+---
+
+## @startupecon - UserPromptSubmit Hook Implementation Example
+> *Replying to @alexhillman:* IME the stop and tool use commands aren't the right spot for injecting a timestamp to remind CC what day/time/timezone you're in.
+>
+> Tool use is too much.
+> Stop is too late.
+>
+> UserSubmotPrompt make sure that it's injected along with MY messages.
+>
+> Which is plenty, and always ahead of an operation where the date time matters, not after.
+>
+> Also means that cachable turns aren't wasted.
+>
+> My goal was to help the person reading your tweet "How do I implement this" :) Lots of teaser tweets these days on X.   It is "UserPromptSubmit".  Here is what I did: https://t.co/1nYn2ArkNb
+
+- **Tweet:** https://x.com/startupecon/status/2014004197235032492
+- **Parent:** https://x.com/alexhillman/status/2013977292809052586
+- **What:** Practical implementation details for UserPromptSubmit hook showing actual configuration for datetime injection. Helpful response to Alex's pattern by providing concrete code example (image link) for others to follow.
+
+---
+
+
+---
+
+# Tuesday, January 20, 2026
+
+## @charliekerr__ - Job Search Success Strategy: Consistency Over Tactics
+> A friend of mine has been hit by a few layoffs. Each time he bounces back within a month- usually with a pay bump, sometimes a promotion. He lands on his feet every single time.
+>
+> I asked him what he does- it's the stuff recruiters always say and many people say- "I did that" or "I've tried that"- but just operates this way.
+>
+> He saw a job he wanted before his layoff happened. They required a security cert- one he'd want anyway. He used his final month of benefits to book it immediately and applied right away. He checked linkedin for connections at the company and found an old one.
+>
+> He reached out and asked them to flag his resume to the recruiter.  After every interview he followed up with the recruiter AND the interviewers, thanking them.
+>
+> He also hopped on calls to debrief. This signals interest- and when two candidates are close at offer time, you default to the one who showed they actually want it. He treats the interview like the job, acting like interviewers are already colleagues and the hiring manager is already his boss. He communicates like he's already on the team.
+>
+> when explaining technical concepts he's mindful of who he's talking to and how they're reacting- start broad, read the room, go deeper only if they're tracking. You don't want to lose someone or show them up.
+>
+> The basics work, many people just don't do them consistently.
+
+- **Tweet:** https://x.com/charliekerr__/status/2013651309350522917
+- **What:** Career advice thread on the consistent execution of standard job search tactics: proactively getting certifications before layoffs, leveraging LinkedIn connections, following up after every interview, treating interviews like you're already on the team, and tailoring communication to your audience. The insight: "the basics work, many people just don't do them consistently."
+
+---
+
+## @trq212 - Claude Code Analytics Data Location
+> *Replying to @souravbhar871:* We need better user-facing AI analytics for Claude Code. I have no idea what percent of the time I'm using MCP servers, which skills are being used when and how often, which subagents are triggered, which rules files are referenced, etc. There are important insights in this data that can help developers improve their setups. Without it, we're all just YOLOing our configurations with no useful feedback to improve our mental models while using something as powerful as Claude Code. I'm sure Anthropic is collecting all this telemetry data – shouldn't it be exposed back to us?
+>
+> @souravbhar871 It's all stored locally in your .claude folder, you can ask Claude to read it and create scripts to help visualize it
+
+- **Tweet:** https://x.com/trq212/status/2013788736358887858
+- **Parent:** https://x.com/souravbhar871/status/2013786995626254833
+- **What:** Thariq responds to Sourav's request for better Claude Code analytics by pointing out that all telemetry data is already stored locally in the .claude folder. Users can leverage Claude itself to read and visualize this data with custom scripts, making the analytics they want already accessible.
+
+---
+
+## @ruslanjabari - X Algorithm Insights: 13 Growth Strategies
+> just cloned the new x repo:
+>
+> growing new accounts will change forever…
+>
+> here are 13 things u need to know if ur starting:
+>
+> 1. out-of-network retrieval is your only real growth path. in-network is nothing without followers. aka ur content needs to constantly reach a new audience.
+>
+> 2. embeddings lock you in. post off-niche once and your discovery dies for weeks. u need to be on dimensional on social…
+>
+> 3. video demos are non-negotiable. looping clips spike dwell + p(video_view). text-only will get buried.
+>
+> 4. replies weigh massive in the weighted score. turn every tweet into subtle conversation bait. (not new)
+>
+> 5. reply to your own replies fast. this creates engagement loops that train the transformer on you.
+>
+> 6. negatives (blocks/mutes/reports) hit small accounts way harder. one salty wave = semi-permanent suppression.
+>
+> 7. avoid polarizing takes early. it hijacks your embeddings toward drama clusters, wrong audience forever.
+>
+> 8. one power user reply/repost amplifies your signal disproportionately. add real value in their threads.
+>
+> 9. curiosity hooks + absurdity (like my fireplace warmer) spike initial dwell, sets up the snowball.
+>
+> 10. early moderate hits (10-50k views) reinforce your niche cluster fast. ship quantity in your lane.
+>
+> 11. grok transformer predicts multi-actions end-to-end. focus on p(reply) + p(repost) over likes.
+>
+> 12. no hand-engineered features = whatever maximizes real engagement wins. pure chaos optimization it seems.
+>
+> 13. U can clone the repo yourself and run a toy ranker on your x data. Hypothetically, you'll be able to get a good prediction on what will do well before u post it (this gets better if u train on a larger data set, the actual scorer is trained on all of x…)
+>
+> *Quoting @XEng:* We have open-sourced our new 𝕏 algorithm, powered by the same transformer architecture as xAI's Grok model.
+>
+> Check it out here:  https://t.co/3WKwZkdgmB
+
+- **Tweet:** https://x.com/ruslanjabari/status/2013527259450147133
+- **Quoted:** https://x.com/XEng/status/2013471689087086804
+- **What:** Ruslan analyzes X's newly open-sourced recommendation algorithm (Grok-based transformer) and provides 13 actionable insights for growing new accounts: out-of-network retrieval is critical, embeddings lock your niche, video is non-negotiable, replies matter most, engagement loops train the algorithm, and users can clone the repo to predict post performance.
+
+---
+
+## @iam_preethi - Creatine for Women's Brain Health Postpartum
+> This is why I took creatine through my third pregnancy and postpartum.
+>
+> I'm 5 weeks postpartum, averaging 5 hours a night with a newborn and two toddlers.
+>
+> My brain feels more "on" than it did with either of my previous postpartums when I wasn't taking creatine.
+>
+> The research on creatine for brain health is strong. And women have 70-80% lower creatine stores than men while going through some of the most energy demanding experiences of our lives.
+>
+> This is why I'm creating a creatine specifically for women. We use Creavitalis from Germany, which is micronized for superior absorption and causes ZERO bloating unlike most creatine on the market.
+> Creatine for Her is coming soon ;)
+>
+> *Quoting @NTFabiano:* We just published the largest review of creatine for brain health.
+>
+> Increased brain creatine levels may function as a buffer to metabolic stress leading to neurological benefits.
+>
+> Doses >5g/day are likely required for brain benefits.
+
+- **Tweet:** https://x.com/iam_preethi/status/2013715290979238243
+- **Quoted:** https://x.com/NTFabiano/status/2013611985330434373
+- **What:** Preethi Kasireddy shares her personal experience using creatine through pregnancy and postpartum, noting improved cognitive function at 5 weeks postpartum. Announces new women-specific creatine product using Creavitalis (micronized, non-bloating). References research showing women have 70-80% lower creatine stores and need >5g/day doses for brain benefits.
+
+---
+
+## @alexhillman - Claude Code DateTime Hook for Timezone Context
+> When I started building my assistant I figured this one out FAST.
+>
+> Claude Code doesn't know what time it is. Or what time zone you are in.
+>
+> So when you do date time operations of ANY kind, as simple as saving something to your calendar, things get weird fast.
+>
+> My early solution has stuck thru every iteration of my JFDI system and it's dummy simple:
+>
+> I use Claude Code hooks to run a bash script that generates current date time, timezone of host device, friendly day of week etc.
+>
+> Injects it silently into context.
+>
+> I never see it but date time issues vanish. 3+ most battle tested.
+>
+> Kinda wild that this isn't baked in @bcherny (thank you for CC btw it changed my life no exaggerating)
+>
+> *Quoting @stolinski:* My clawdbot sucks at days and time. It never seems to have any clue what the current day or time is.
+
+- **Tweet:** https://x.com/alexhillman/status/2013820793671536778
+- **Quoted:** https://x.com/stolinski/status/2013797705466663172
+- **What:** Essential Claude Code hack: inject current datetime, timezone, and day of week silently into context using hooks to solve Claude's datetime blind spot. Battle-tested solution from the JFDI system that eliminates date/time confusion issues.
+
+---
+
+
+---
+
+## @alexhillman - Memory Strategies for Claude Code Assistants
+> David isn't alone in being frustrated or confused why Claude Code assistants are forgetful.
+
+Gotta remember, there's a lot more to "memory" than https://t.co/oj5ImsjZr1
+
+My approach is layered:
+
+- https://t.co/nzaTNEskxK as first line for basic and universal behavior, but also...
+
+- Claude can ignore it. So anything truly required, I inject using hooks. Nice thing about hooks is I can include logic for what to inject based on any condition I want.
+
+- think in SOPs. Claude Code LOVES following sops. Make them multinstep. Use the todowrite so it completes all steps. Include time and time zone  checking always (it doesn't know what time it is unless you tellnit to check)
+
+- wrap those SOPs in skills or slash commands. I use slash commands for anything I want to reliably invoke, skills for more auto-invoking. Yes I know you can use slash to invoke a skill. I find it useful to mentally separate "process" from "behavior"
+
+- use a plugin like Kuato for conversational memory ie "where did we leave off on Xyz" where it's going to look at your actual session transcripts for a paper trail and summarize what happened and where to continue
+
+- true memory, IMO, comes last. It requires at least two fairly complex processes: determining what is a memory worth storing (and storing it) and then a recall that uses hooks to find those memories at the right time and inject them into context without bloating it. This is how memory lane works for me, but it's pretty hard to abstract universally bc the real power has been tuning the thresholds for what memories get used vs thrown out: https://t.co/UNaXuYEVQb
+
+- **Tweet:** https://x.com/alexhillman/status/2013631363795103792
+- **Quoted:** https://x.com/davekiss/status/2013621737678635163
+- **Link:** https://www.youtube.com/watch?si=3HzYEV7y0ZjVcGEE&v=Wpz7LNI737Q&feature=youtu.be
+- **Filed:** [claude-code-memory-strategies](./knowledge/articles/claude-code-memory-strategies.md)
+- **What:** Alex Hillman's comprehensive layered approach to implementing memory in Claude Code assistants, including CLAUDE.md, hooks, SOPs, skills, plugins, and memory thresholds with YouTube reference.
+
+---
+
+
+---
+
+## @arscontexta - Twitter Article Link
+> https://t.co/MWIIg1OR2L
+
+- **Tweet:** https://x.com/arscontexta/status/2013718955576250466
+- **Link:** https://x.com/i/article/2013714655856754688
+- **What:** Link to X article (content not available for detailed classification).
+
+
+---
+
+# Monday, January 19, 2026
+
+## @darin_gordon - Socratic Teaching Prompt for LLM Learning
+> The prompt I use to learn a concept with LLM assistance:
+>
+> You are a Socratic teacher who helps students master complex subjects by guiding them through first principles reasoning and concept discovery...
+
+- **Tweet:** https://x.com/darin_gordon/status/2013275889753108535
+- **Tags:** [[llm-prompts]] [[socratic-method]] [[learning]]
+- **What:** Prompt technique for using LLMs as Socratic teachers to help with concept mastery through first principles reasoning
+
+---
+
+## @coreyhainesco - Marketing Skills for Claude Code
+
+> This might be the most valuable thing I've ever released.
+>
+> And it's 100% free.
+>
+> → Marketing Skills for Claude Code
+>
+> A collection of skills that turn Claude into a marketing and copywriting genius.
+
+- **Tweet:** https://x.com/coreyhainesco/status/2013272998191812906
+- **Link:** https://github.com/coreyhaines31/marketingskills
+- **Filed:** [marketingskills](./knowledge/tools/marketingskills.md)
+- **What:** A GitHub repository containing Claude Code skills for marketing, copywriting, SEO, analytics, and growth engineering. Open source with 3579 stars.
+
+---
+
+## @alexhillman - Claude Code Web UI for JFDI System
+> okay, y'all win
+
+I'm gonna publish my base code for connecting claude code CLI to a *very basic* but *very powerful* custom web ui, based on the one people have been seeing with my JFDI system
+
+includes:
+
+- works with claude code cli (including max plans)
+- streams responses so it's fast
+- displays todowrite, messages & tool calls, etc
+- lots of little UI ergonomics
+
+working thru some testing, more info coming this week
+
+> *Quoting @zackeryleman:* @alexhillman @theirongolddev Share a gist of the relevant part of your setup?
+
+- **Tweet:** https://x.com/alexhillman/status/2013416977176404336
+- **Quoted:** https://x.com/zackeryleman/status/2013320185952776539
+- **What:** Alex is releasing a custom web UI for Claude Code CLI that integrates with the JFDI system, supporting streaming responses, todowrite display, and tool call visualization.
+
+---
+
+
+---
+
+# Sunday, January 18, 2026
+
+## @darin_gordon - Tasker: Agentic Development Framework
+> Tasker is now a complete solution to high-quality, spec-driven development with AI agents. Check it out.
+
+- **Tweet:** https://x.com/darin_gordon/status/2012907385669492862
+- **Links:** [Tasker on GitHub](https://github.com/Dowwie/tasker)
+- **Filed:** [tasker.md](./knowledge/tools/tasker.md)
+- **Tags:** [[ai-agents]] [[spec-driven-development]] [[claude-code]]
+- **What:** Agentic Development Framework using Spec-driven Planning and Execution with Claude Code (Go, 8 stars)
+
+---
+
+## @ArmanHezarkhani - Twitter Article Link
+> https://t.co/GB74K5tayi
+
+- **Tweet:** https://x.com/ArmanHezarkhani/status/2012915751460470838
+- **Link:** https://x.com/i/article/2012912320700092417
+- **What:** Link to X article (content not available for detailed classification).
+
+---
+
+
+---
+
+## @doodlestein - Beads Rust (br) - Fast Rust Port of Steve Yegge's Beads
+> I mentioned recently that I've been... busy. Lots of projects in the oven, in various stages of completeness.
+
+Well, I'm now pleased to introduce one I've worked very hard on, because it's so near-and-dear to my heart:
+
+beads_rust, or br for short. You can get it here:
+
+https://t.co/pB7bgtJvnN
+
+It's a fast, minimal Rust port of @Steve_Yegge's amazing Beads project that I've built so many of my workflows around.
+
+Discovering Beads and seeing how well it worked together with my MCP Agent Mail was a truly transformative moment in my agent coding workflows and professional life more generally.
+
+This quickly also led to my beads_viewer (bv) project, which added another layer of analysis to beads that gives swarms of agents the insight into what beads they should work on next to de-bottleneck the development process and increase velocity.
+
+It's beads (and mail) all the way down.
+
+I'm very grateful for finding beads when I did and to Steve for making it. But at this point, my Agent Flywheel System is built around beads operating in a specific way.
+
+As Steve continues evolving beads toward GasTown and beyond, our use cases have naturally diverged.
+
+The hybrid SQLite + JSONL-git architecture that I built my tooling around (and independently mirrored in MCP Agent Mail) is being replaced with approaches better suited to Steve's vision.
+
+Rather than ask Steve to maintain a legacy mode for my niche use case, I created this Rust port that freezes the "classic beads" architecture I depend on. The command is br to distinguish it from the original bd.
+
+This isn't a criticism of beads; Steve's taking it in exciting directions. It's simply that my tooling needs a stable snapshot of the architecture I built around, and maintaining my own fork is the right solution for that.
+
+Steve has given his full endorsement of this project.
+
+- **Tweet:** https://x.com/doodlestein/status/2012972038332260744
+- **Link:** https://github.com/Dicklesworthstone/beads_rust
+- **Filed:** [beads_rust](./knowledge/tools/beads-rust.md)
+- **What:** A fast Rust port of Steve Yegge's Beads - a local-first, non-invasive issue tracker for git repositories. Frozen at the classic SQLite+JSONL architecture for agent-based workflows.
+
+---
+
+
+---
+
+# Saturday, January 17, 2026
+
+## @PerceptualPeak - Smart Forking with RAG for Claude Code Session Context
+> holy shit it fucking WORKS.
+>
+> SMART FORKING. My mind is genuinely blown. I HIGHLY RECCOMEND every Claude Code user implement this into their own workflows.
+>
+> Do you have a feature you want to implement in an existing project without re-explaining things? As we all know, the more relevant context a chat session has, the more effectively it will be able to implement your request. Why not utilize the knowledge gained from your hundreds/thousands of other Claude code sessions? Don't let that valuable context go to waste!!
+>
+> This is where smart forking comes into play. Invoke the /fork-detect tool and tell it what you're wanting to do. It will then run your prompt through an embedding model, cross reference the embedding with a vectorized RAG database containing every single one of your previous chat sessions (which auto updates as you continue to have more sessions).
+>
+> It will then return a list of the top 5 relevant chat sessions you've had relating to what you're wanting to do, assigning each a relevance score - ordering it from highest to lowest. You then pick which session you prefer to fork from, and it gives you the fork command to copy and paste into a new terminal.
+>
+> And boom, there you have it. Seamlessly efficient feature implementation.
+>
+> Happy to whip up an implementation plan & share it in a git repo if anyone is interested!
+>
+> *Quoting @PerceptualPeak:* Claude Code idea: Smart fork detection.
+>
+> Have every session transcript auto loaded into a vector database via RAG. Create a /detect-fork command. Invoking this command will first prompt Claude to ask you what you're wanting to do. You tell it, and then it will dispatch a sub-agent to the RAG database to find the chat session with the most relevant context to what you're trying to achieve. It will then output the fork session command for that session. Paste it in a new terminal, and seamlessly pick up where you left off.
+
+- **Tweet:** https://x.com/PerceptualPeak/status/2012741829683224584
+- **Quoted:** https://x.com/PerceptualPeak/status/2012578218084065746
+- **What:** Revolutionary approach to Claude Code context management - automatically search through all previous session transcripts using RAG embeddings to find the most relevant session to fork from. The /fork-detect command embeds your new request, searches the vector database of past sessions, ranks top 5 by relevance, and provides the fork command to continue with full context.
+
+---
+
+## @waynesutton - Avoid Feature Creep for Agents Skill
+> *Quoting @waynesutton:* Built 25+ apps with @convex, Claude, and Cursor.
+>
+> I package the skills and rules I use on every project.
+>
+> Unofficial Convex skills for Claude Code. Cursor rules included.
+>
+> https://t.co/XRxkPhBAhQ
+>
+> To save some time, you can also install via npm.
+>
+> Keep shipping.
+>
+> This might be the most important SKILL ever created.
+>
+> Avoid Feature Creep for Agents
+>
+> https://t.co/kmz6FwcOpi
+>
+> Now available. https://t.co/jDgpb560F1
+
+- **Tweet:** https://x.com/waynesutton/status/2012646729590395205
+- **Quoted:** https://x.com/waynesutton/status/2011932036316217508
+- **Filed:** [convexskills](./knowledge/tools/convexskills.md)
+- **What:** Collection of AI-consumable skills for building production-ready applications with Convex, including patterns for queries, mutations, cron jobs, webhooks, migrations, and an important skill about avoiding feature creep for agents.
+
+
+
+---
+
+# Friday, January 16, 2026
+
+## @doodlestein - Meta Skill for Building Glamorous TUIs
+> *Quoting @doodlestein:* Literally every single library shown on this site is an exquisite gem and you should always use any that happen to fit your use case and the language you're using (basically Golang and bash):
+>
+> https://t.co/0RcIbKJnGm
+>
+> I decided to turn this post into an elaborate skill that operationalizes the concept of "use any and all Charm libraries that are relevant to your use case":
+>
+> https://t.co/KimJzjKvAa
+>
+> This stuff is what makes bv look so nice. And the acfs scripts. Everything Charm makes is great.
+
+- **Tweet:** https://x.com/doodlestein/status/2012152638536859826
+- **Quoted:** https://x.com/doodlestein/status/2011697573078450325
+- **Filed:** [meta_skill](./knowledge/tools/meta-skill.md)
+- **What:** Created a Rust CLI skill for managing Claude Code skills, including indexing, building, bundling, and sharing. Demonstrates use of Charm libraries (gum, bubbletea, lipgloss) for building beautiful TUIs.
+
+---
+
+
+---
+
+# Thursday, January 15, 2026
+
+## @doodlestein - Charm Libraries Endorsement
+> *Replying to @davefobare:* I'm going to check gum out. I like the feel of it. Not tonight tho.
+>
+> Literally every single library shown on this site is an exquisite gem and you should always use any that happen to fit your use case and the language you're using (basically Golang and bash):
+>
+> https://t.co/0RcIbKJnGm
+
+- **Tweet:** https://x.com/doodlestein/status/2011697573078450325
+- **Parent:** https://x.com/davefobare/status/2011694195006996533
+- **Filed:** [Charm](./knowledge/tools/charm.md)
+- **What:** Enthusiastic recommendation of Charm CLI libraries (gum, etc.) for building glamorous command-line interfaces, specifically for Golang and Bash.
+
+---
+
+
+---
+
+## @moretothat - Twitter Article Share
+> https://t.co/AfysAwBOHl
+
+- **Tweet:** https://x.com/moretothat/status/2011929595248066848
+- **Link:** https://x.com/i/article/2011916060342304768
+- **What:** Shared X article link.
+
+---
+
+
+---
+
+# Wednesday, January 14, 2026
+
+## @doodlestein - Claude Code Skills Best Practices Guide
+> Agent coding life hack:
+>
+> Before having Claude Code create a skill dot md file for you (which you should probably be doing a couple times a day at least), tell it to read this guide first:
+>
+> https://t.co/T3Gq12ZOR1
+>
+> It makes the skills way better.
+>
+> So why should you be making skills, anyway?
+>
+> Well, every time you find yourself doing something more than once across projects, it's a good candidate for a new skill.
+>
+> I'll give you two examples from my work in the past day:
+>
+> 1) When you have a website and want to share links on X, Telegram, WhatsApp, Facebook, iMessage, you want them to show that nice preview. I used to manually explain that to the agent and point it to one of my other projects as an example. But now I have this skill:
+>
+> https://t.co/JSrg76O92M
+>
+> 2) I always need to write README files for my new projects on GitHub. I used to tell it to use another project as a model, but now it will just know to use this skill:
+>
+> https://t.co/6VeFMWU43b
+>
+> Note that both of those skills make use of additional reference files that are included in the same directory as the skill dot md file.
+>
+> This is a good best practice for better token efficiency through progressive disclosure.
+>
+> But you don't actually need to know any of that stuff if you tell Claude to read that skills best practices guide I linked to above!
+>
+> Seriously, don't sleep on skills, they're an amazing idea and very well supported by the latest version of Claude Code.
+
+- **Tweet:** https://x.com/doodlestein/status/2011468541321744512
+- **Link:** https://github.com/Dicklesworthstone/meta_skill/blob/main/BEST_PRACTICES_FOR_WRITING_AND_USING_SKILLS_MD_FILES.md
+- **Filed:** [meta_skill](./knowledge/tools/meta-skill.md)
+- **What:** Life hack for creating better Claude Code skills by reading the meta_skill best practices guide first. Demonstrates the value of creating reusable skills for repeated tasks, with examples for social media share previews and README generation. Emphasizes progressive disclosure through reference files.
+
+---
+
+
+---
+
+## @trq212 - Twitter Article Share
+> https://t.co/X2iu8WdIb8
+
+- **Tweet:** https://x.com/trq212/status/2011523109871108570
+- **Link:** https://x.com/i/article/2011507229279825920
+- **What:** Shared X article link.
+
+---
+
+
+---
+
+# Tuesday, January 13, 2026
+
+## @rauchg - Vercel React/Next.js Frontend Optimization Skills
+> We're encapsulating all our knowledge of @reactjs & @nextjs frontend optimization into a set of reusable skills for agents. This is a 10+ years of experience from the likes of @shuding, distilled for the benefit of every Ralph
+
+- **Tweet:** https://x.com/rauchg/status/2011179888976544134
+- **What:** Vercel team is creating reusable optimization skills for Ralph agents that encapsulate a decade of React/Next.js performance expertise.
+
+---
+
+---
+
+## @hooeem - Identity-Based Life Architecture Prompt & Financial Freedom Guide
+> 95% of people will unfortunately see this article, read it, and take zero action.
+>
+> I want to change that….
+>
+> I created a prompt directly from Dan's article to turn your LLM into a life architect and psychological coach in identity level behavior change.
+
+- **Tweet:** https://x.com/hooeem/status/2011219238271238358
+- **Link:** https://x.com/hooeem/status/1990504663641178130
+- **Filed:** [identity-based-behavior-change.md](./knowledge/articles/identity-based-behavior-change.md)
+- **What:** Comprehensive prompt framework for using LLMs as identity-level coaches for behavior change, plus a detailed guide to financial freedom covering attention economy, community building, and passive income strategies.
+
+
+
+---
+
+# Monday, January 12, 2026
+
+## @eyad_khrais - Product or Development Article
+> https://t.co/Drd9T4nCMJ
+
+- **Tweet:** https://x.com/eyad_khrais/status/2010810802023141688
+- **Link:** https://x.com/i/article/2010809702980935681
+- **What:** Eyad sharing an article on product development or technology (article content not available).
+
+
+
+---
+
+## @theplgeek - Ralph TUI: AI Agent Loop Orchestrator
+> Aaaaand ralph-tui is live - thanks for your patience
+>
+> It's been a fun day using ralph-tui to build ralph-tui.
+>
+> All the details in the repo but:
+>
+> - Install w/ your fave package mgr eg 'bun install -g ralph-tui'
+> - First time setup 'ralph-tui init'
+> - Create a PRD and tasks 'ralph-tui prime'
+>
+> After that you'll be dropped into the TUI to start the ralph loop.
+>
+> Tons of tweakability for those that care.
+>
+> On that note, I'm out for the night 🤘
+
+- **Tweet:** https://x.com/theplgeek/status/2010879209204552168
+- **Link:** https://github.com/subsy/ralph-tui
+- **Filed:** [ralph-tui.md](./knowledge/tools/ralph-tui.md)
+- **What:** Terminal UI orchestrator for running AI coding agents autonomously through task lists. Supports multiple agents (Claude Code, OpenCode) and task trackers (prd.json, Beads) with real-time observability.
+
+---
+
+---
+
+## @alexhillman - Claude Code as Interactive Interviewer
+> Power move getting Claude code to interview you. Sometimes the questions are good but my default answers are vague.
+>
+> So I ask it to give me a range of options that I can rank and it can use determine my preferences.
+>
+> Effort level, easy. Impact level, off the charts. 📈
+
+- **Tweet:** https://x.com/alexhillman/status/2010900277394817433
+- **What:** Strategy for using Claude Code's questioning ability to generate multiple choice answers for preference discovery, enabling better self-understanding with minimal effort.
+
+---
+
+---
+
+# Sunday, January 11, 2026
+
+## @alliekmiller - Claude Code Documentation and Context-Driven Development
+> Two hours from now, you could have a problem solved AND a workout in. Here's the unlock:
+
+For the same reason we all create and maintain README files, I need you to stop prompting Claude Code cold. Instead, create context docs about who you are.
+
+Do it now.
+
+Ex: create a paragraph, or a Google Doc, or collection of screenshots, or entire folder of info on who you are/what you stand for. This is Constitution context. Start small so it doesn't feel overwhelming. These are living documents.
+
+Then do the same for your Work: what do you do, what are your resources, what's working well, what isn't, what is the velocity of your business and/or career, what brings you energy, what depletes you, how do you define success, what does success look like, what would you change if you had a magic wand, what is a thing you desperately want but you're too ashamed to ask for it, etc.
+
+Then do the same for your Personal Life or 2026 Goals.
+
+Can't think of what to write? Have Claude interview you. NOT on the project at hand, but who YOU are.
+
+I've been doing this the last two weekends. Just talking to Claude for hours and taking photos of my annual planning and KPIs or uploading culled down meeting transcripts.
+
+Then, as needed, provide this context to Claude Code.
+
+You can, in the next 2 hours, create an entire document with Claude on your 2026 goals, feed it to Claude Code, turn on all accepted edits during the session (shift+tab), tell it to work for an hour on something that will make you happy that will only require <10min at the end of investment time (ex: grabbing an API key, decisions about functionality), and go work out.
+
+In the next two hours, you could solve a problem AND get a work out in.
+
+And it'll be even better with insightful context docs.
+
+- **Tweet:** https://x.com/alliekmiller/status/2010516055412662749
+- **Link:** https://code.claude.com/docs/
+- **Filed:** [claude-code-docs.md](./knowledge/articles/claude-code-docs.md)
+- **What:** Allie K. Miller advocates for creating contextual documentation before using Claude Code, emphasizing that providing information about yourself, your work, and your goals enables more effective AI-assisted development. Demonstrates how this approach can save time and improve outcomes.
+
+---
+
+
+---
+
+# Friday, January 9, 2026
+
+## @dabit3 - Development Article
+> https://t.co/q9anIlmWM0
+
+- **Tweet:** https://x.com/dabit3/status/2009668398691582315
+- **Link:** https://x.com/i/article/2009293023650131968
+- **What:** Nader Dabit sharing an article on web development or related technology (article content not available).
+
+---
+
+
+---
+
+# Monday, January 5, 2026
+
+## @KirkMarple - Article on Twitter/X Product Development
+> https://t.co/mr7jJmRwPm
+
+- **Tweet:** https://x.com/KirkMarple/status/2008082060817342869
+- **Link:** https://x.com/i/article/2008066654047997952
+- **What:** Tweet sharing a link to an article on Twitter/X product development or strategy (article content not available).
+
+---
+
+
+---
+
 # Sunday, January 4, 2026
 
 ## @trq212 - AI alignment and interpretability resources
@@ -480,6 +2277,48 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 ---
 
 # Monday, December 29, 2025
+
+## @addyosmani - Jevons Paradox: Efficiency Creates Abundance, Not Scarcity
+> Every time we've made it easier to write software, we've ended up writing exponentially more of it.
+
+When high-level languages replaced assembly, programmers didn't write less code - they wrote orders of magnitude more, tackling problems that would have been economically impossible before. When frameworks abstracted away the plumbing, we didn't reduce our output - we built more ambitious applications. When cloud platforms eliminated infrastructure management, we didn't scale back - we spun up services for use cases that never would have justified a server room.
+
+@levie recently articulated why this pattern is about to repeat itself at a scale we haven't seen before, using Jevons Paradox as the frame. The argument resonates because it's playing out in real-time in our developer tools. The initial question everyone asks is "will this replace developers?" but just watch what actually happens. Teams that adopt these tools don't always shrink their engineering headcount - they expand their product surface area. The three-person startup that could only maintain one product now maintains four. The enterprise team that could only experiment with two approaches now tries seven.
+
+The constraint being removed isn't competence but it's the activation energy required to start something new. Think about that internal tool you've been putting off because "it would take someone two weeks and we can't spare anyone"? Now it takes three hours. That refactoring you've been deferring because the risk/reward math didn't work? The math just changed.
+
+This matters because software engineers are uniquely positioned to understand what's coming. We've seen this movie before, just in smaller domains. Every abstraction layer - from assembly to C to Python to frameworks to low-code - followed the same pattern. Each one was supposed to mean we'd need fewer developers. Each one instead enabled us to build more software.
+
+Here's the part that deserves more attention imo: the barrier being lowered isn't just about writing code faster. It's about the types of problems that become economically viable to solve with software. Think about all the internal tools that don't exist at your company. Not because no one thought of them, but because the ROI calculation never cleared the bar. The custom dashboard that would make one team 10% more efficient but would take a week to build. The data pipeline that would unlock insights but requires specialized knowledge. The integration that would smooth a workflow but touches three different systems.
+
+These aren't failing the cost-benefit analysis because the benefit is low - they're failing because the cost is high. Lower that cost by "10x", and suddenly you have an explosion of viable projects. This is exactly what's happening with AI-assisted development, and it's going to be more dramatic than previous transitions because we're making previously "impossible" work possible.
+
+The second-order effects get really interesting when you consider that every new tool creates demand for more tools. When we made it easier to build web applications, we didn't just get more web applications - we got an entire ecosystem of monitoring tools, deployment platforms, debugging tools, and testing frameworks. Each of these spawned their own ecosystems. The compounding effect is nonlinear.
+
+Now apply this logic to every domain where we're lowering the barrier to entry. Every new capability unlocked creates demand for supporting capabilities. Every workflow that becomes tractable creates demand for adjacent workflows. The surface area of what's economically viable expands in all directions.
+
+For engineers specifically, this changes the calculus of what we choose to work on. Right now, we're trained to be incredibly selective about what we build because our time is the scarce resource. But when the cost of building drops dramatically, the limiting factor becomes imagination, "taste" and judgment, not implementation capacity. The skill shifts from "what can I build given my constraints?" to "what should we build given that constraints have in some ways been evaporated?"
+
+The meta-point here is that we keep making the same prediction error. Every time we make something more efficient, we predict it will mean less of that thing. But efficiency improvements don't reduce demand - they reveal latent demand that was previously uneconomic to address. Coal. Computing. Cloud infrastructure. And now, knowledge work.
+
+The pattern is so consistent that the burden of proof should shift. Instead of asking "will AI agents reduce the need for human knowledge workers?" we should be asking "what orders of magnitude increase in knowledge work output are we about to see?"
+
+For software engineers it's the same transition we've navigated successfully several times already. The developers who thrived weren't the ones who resisted higher-level abstractions; they were the ones who used those abstractions to build more ambitious systems. The same logic applies now, just at a larger scale.
+
+The real question is whether we're prepared for a world where the bottleneck shifts from "can we build this?" to "should we build this?" That's a fundamentally different problem space, and it requires fundamentally different skills.
+
+We're about to find out what happens when the cost of knowledge work drops by an order of magnitude. History suggests we (perhaps) won't do less work - we'll discover we've been massively under-investing in knowledge work because it was too expensive to do all the things that were actually worth doing.
+
+The paradox isn't that efficiency creates abundance. The paradox is that we keep being surprised by it.
+
+- **Tweet:** https://x.com/addyosmani/status/2005768629691019544
+- **Quoted:** https://x.com/levie/status/2004654686629163154
+- **What:** Addy Osmani explores Jevons Paradox in software development, arguing that AI tools will lead to exponentially more software, not less. Uses historical precedent from programming language abstractions and frameworks to show how efficiency improvements create latent demand.
+
+---
+
+
+---
 
 ## @aakashgupta - Smartphone addiction and dopamine regulation
 > Discussion about how smartphone addiction affects dopamine levels and causes brain fog
