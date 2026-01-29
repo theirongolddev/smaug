@@ -136,6 +136,65 @@ description: X/Twitter bookmarks synced via Smaug
 
 # Tuesday, January 27, 2026
 
+## @doodlestein - 2-Tier Semantic Search: Speed + Quality Without Compromise
+> I wanted to have a good, lightweight, and fast semantic embedding model for local search for both my cass tool (for searching across coding agent sessions) and my xf tool (for searching your downloaded X archives).
+>
+> Basically, it has to run on CPU only and should be fairly quick (sub-1-second response) and actually "understand" semantic concepts well.
+>
+> I also needed a "reranker" model for fusing together the semantic search results with the standard lexical search results to get a good hybrid search, with the same requirements for CPU-only speed.
+>
+> There are so many options to choose from for both that it's a bit overwhelming if you want to pick the current all-around best ones.
+>
+> So I had Claude do a bunch of web research and then conduct a "bake off". You can see what it came up with here (the whole /docs directory is filled with relevant stuff):
+>
+> https://t.co/Y4HTGLFYfw
+>
+> So what did I end up choosing in the end? The two main choices were the potion-128M model, which has sub-millisecond response time and "ok" results, and a bona fide mini transformer model, all-MiniLM-L6-v2, that has really decent embeddings but takes 128ms to respond, or 223x slower!
+>
+> Finally, I realized I didn't need to choose, I would have my cake and eat it, too. I asked Claude:
+>
+> "what about a 2-tier system where we use potion as a first pass but at the same time in the background (separate thread or memory-resident "hot" process for quick start) we do  miniLM-L6 and then when it finishes we "upgrade" the search results in an intuitive way, showing the results continuously moving to rearrange according to the revised semantic scores; this shouldn't change the rankings TOO much."
+>
+> Claude liked the idea (see screenshots) and the rest is history. This will be my standard search that I use across all my Rust tooling (I'll probably port it to Golang, too, so I can embed it in bv natively).
+
+- **Tweet:** https://x.com/doodlestein/status/2016358943723855881
+- **Link:** https://github.com/Dicklesworthstone/xf
+- **Filed:** [xf-semantic-search](./knowledge/tools/xf-semantic-search.md)
+- **What:** Jeffrey Emanuel's xf tool—ultra-fast CLI for searching X archives with innovative 2-tier semantic search. Uses potion-128M for instant results (<1ms), then progressively upgrades with MiniLM-L6 (128ms) in background. Solves speed vs. quality tradeoff: users get immediate feedback that smoothly improves. Hybrid search combines Tantivy (BM25) + embeddings. Built in Rust, will be his standard search pattern across all tooling.
+
+## @PawelHuryn - Vibe Coding vs. Vibe Engineering: The Door Reopened for PMs
+> The most underrated line in @karpathy post:
+>
+> "I can approach code that I couldn't work on before because of knowledge/skill issue."
+>
+> I was an engineer. Then I became a PM.
+>
+> For years, I didn't touch code. I refused when being offered access to repos.
+>
+> Now I'm building again.
+>
+> Not because I went back to coding. Because the interface changed.
+>
+> That's what Karpathy calls "programming in English."
+>
+> Lovable, Claude Code - in an afternoon I ship things now that would have taken me weeks when I was a "real" engineer.
+>
+> But here's the nuance most people miss: there's vibe coding (make it work now) and there's vibe engineering (build the right thing in a way you can scale and monetize).
+>
+> For PMs with technical backgrounds who drifted away from code:
+>
+> The door reopened.
+>
+> For anyone willing to learn engineering mental models:
+>
+> There have never been more opportunities.
+>
+> *Quoting @karpathy:* A few random notes from claude coding quite a bit last few weeks...
+
+- **Tweet:** https://x.com/PawelHuryn/status/2016078372376289714
+- **Quoted:** https://x.com/karpathy/status/2015883857489522876
+- **What:** Paweł Huryn quotes Karpathy's observation about "programming in English" enabling approach to previously inaccessible codebases. Key distinction: vibe coding (make it work now) vs. vibe engineering (build the right thing in a way you can scale and monetize). For PMs with technical backgrounds who drifted from code, AI agents reopened the door. Lovable and Claude Code enable afternoon shipping of what would have taken weeks.
+
 ## @jeremyphoward - Breaking the Spell of Vibe Coding
 > I love this article so much. Rachel has done a deep dive into the psychology of vibe coding, & discovered underlying reasons why it's tripping so many people up psychologically (even whilst it can be helpful).
 
@@ -409,6 +468,20 @@ description: X/Twitter bookmarks synced via Smaug
 ---
 
 # Sunday, January 25, 2026
+
+## @RileyRalmuto - The Sovereign Mind: You Don't Own Your Intelligence
+> I had planned on posting the follow-up article today, but i might not have it ready until tomorrow morning. Im releasing the Memory Ledger Protocol v1.2 + whitepaper + MLP//Sovereign Mind pt. II article all at once, and I'm just not quite happy with a few things. my hope is to have as many of yall's questions answered within/between those 3 items, and i want everything to be clear and proper rather than rush just to get things out there to appease my impatience. lol. i might make it by late evening, but we will see.
+>
+> just wanted to say something since I had shared yesterday that these things would be coming out today.
+> cheers!
+>
+> *Quoting @RileyRalmuto:* https://t.co/CHqLdvpHjf
+
+- **Tweet:** https://x.com/RileyRalmuto/status/2015634636563501214
+- **Quoted:** https://x.com/RileyRalmuto/status/2014888666670244089
+- **Link:** https://x.com/i/article/2014497507649167360
+- **Filed:** [sovereign-mind-ai-memory](./knowledge/articles/sovereign-mind-ai-memory.md)
+- **What:** Riley Coyote's manifesto arguing AI memory is the most important shift in personal data history. Every conversation with ChatGPT/Claude builds a map of your cognition—and you don't own it. Platform lock-in playbook Round 3. The $3-5 trillion agentic economy question: who owns the memory layer? Proposes sovereign, portable AI memory where your cognitive data belongs cryptographically to you, enabling value capture as participant vs. product.
 
 ## @EOEboh - System Design Thinking: Build A File Tree CLI
 > https://t.co/x5epmFyRh0
@@ -1585,6 +1658,14 @@ working thru some testing, more info coming this week
 ---
 
 # Sunday, January 18, 2026
+
+## @rohit4verse - How to Build an Agent That Never Forgets
+> https://t.co/4Xodmn9I7Q
+
+- **Tweet:** https://x.com/rohit4verse/status/2012925228159295810
+- **Link:** https://x.com/i/article/2008980750738313221
+- **Filed:** [agent-memory-architecture](./knowledge/articles/agent-memory-architecture.md)
+- **What:** Comprehensive guide to production-ready agent memory systems with two architectures: file-based (3-layer hierarchy with Resources→Items→Categories) and context-graph (hybrid vector+knowledge graph). Key insight: memory is infrastructure, not a feature. Covers conflict resolution, temporal decay, maintenance cron jobs, and why embeddings alone fail.
 
 ## @darin_gordon - Tasker: Agentic Development Framework
 > Tasker is now a complete solution to high-quality, spec-driven development with AI agents. Check it out.
