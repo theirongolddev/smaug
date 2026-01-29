@@ -1,12 +1,177 @@
 ---
 type: bookmarks
-updated: 2026-01-26T19:33:00-05:00
+updated: 2026-01-29T14:52:00-05:00
 schema_version: 1
 source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Wednesday, January 28, 2026
+
+## @PerceptualPeak - Claude Code Semantic Memory System (PreToolUse Hook Integration)
+> I created a repo for my semantic memory system (with both UserPromptSubmit & PreToolUse hook configuration).
+
+- **Tweet:** https://x.com/PerceptualPeak/status/2016721834935537833
+- **Filed:** [claude-code-semantic-memory](./knowledge/tools/claude-code-semantic-memory.md)
+- **What:** Zac released an open-source semantic memory system for Claude Code that persists learnings across sessions via embedding-based recall. Key innovation: PreToolUse hooks inject relevant memories during tool execution (not just at prompt start), enabling self-correcting workflows by catching mid-stream drift in Claude's reasoning.
+
+## @brian_lovin - Interactive HTML for AI Coding Workflow Visualization
+> An extremely underrated step to include in your AI coding workflow: "make an interactive html site with a visual explanation of X"
+
+- **Tweet:** https://x.com/brian_lovin/status/2016686830897475613
+- **What:** Brian Lovin recommends using AI to create interactive HTML visualizations during code reviews and development workflows. This can explain PRs, architectural concepts, tool mechanics, or complex sequences (like deploy pipelines). Attributed to Geoffrey Litt's work at Notion.
+
+## @mbrown_co - Philosophical Breakdown of Consciousness and Authentic Living
+> This is perhaps the most concise and stunningly written map of awakening and liberation that I've ever seen.
+
+- **Tweet:** https://x.com/mbrown_co/status/2016634173382152554
+- **Filed:** [matrix-exit-framework](./knowledge/articles/matrix-exit-framework.md)
+- **What:** Mike Brown praises Darshak Rana's "The Matrix Is Real" article—a comprehensive philosophical framework arguing that human consciousness operates through layers of programming (explicit beliefs, implicit assumptions, foundational constructs). Provides 7 practical practices for dismantling psychological conditioning and achieving authentic awareness.
+
+## @whotfiszackk - Running 10 Faceless Accounts with Claude (AI Leverage at Scale)
+> spawn 10 faceless accts and sell info in multiple niches with just claude
+
+- **Tweet:** https://x.com/whotfiszackk/status/2016633178031853809
+- **Filed:** [10-faceless-accounts-claude](./knowledge/articles/10-faceless-accounts-claude.md)
+- **What:** Zack outlines a complete system for running 10 faceless Twitter/content accounts using Claude as the primary production engine, generating $80k-$200k/month with just 15 hours weekly effort. Includes portfolio strategy, prompt engineering templates, product creation frameworks, and revenue trajectory models.
+
+## @mhp_guy - Economics of Firewood Business (85% Profit Margins)
+> THE ECONOMICS OF A FIREWOOD BUSINESS
+>
+> Do you know what the net profit margin is on a firewood business? 85%
+>
+> And I know that because I've talked to dozens of people running these businesses and the numbers are wild...
+
+- **Tweet:** https://x.com/mhp_guy/status/2016618782748545198
+- **Tags:** [[business]] [[side-business]] [[low-startup]]
+- **What:** Chris Koerner breaks down the economics of firewood as a surprisingly lucrative side business with minimal startup costs ($800), high profit margins (85%), and recurring revenue from repeat customers each season. Requires physical work but low complexity and no tech skills.
+
+## @vercel - Agents.md outperforms skills in agent evals
+> We're experimenting with ways to keep AI agents in sync with the exact framework versions in your projects. Skills, CLAUDE.md, and more. But one approach scored 100% on our Next.js evals:
+
+- **Tweet:** https://x.com/vercel/status/2016618115879358816
+- **Filed:** [agents-md-framework-sync](./knowledge/articles/agents-md-framework-sync.md)
+- **What:** Vercel shares findings on agent synchronization with framework versions, comparing different approaches (Skills, CLAUDE.md) for keeping AI agents updated. They found that their Agents.md approach achieved 100% evaluation success on Next.js benchmarks, suggesting it's superior to skills-based approaches for agent accuracy.
+
+## @dhh - Marketing as transfer of enthusiasm (quote)
+> Whenever people accuse me of being "good at marketing", I usually wince. It sounds so instrumental, so conniving. What I'd like to think I'm good at is exactly what Jason describes here: The transfer of enthusiasm.
+>
+> *Quoting @jasonfried:* At its best, marketing is a transfer of enthusiasm. When you're truly pumped about what you're doing, when you're truly driven by the vision, when you absolutely must make something that you need and want, your enthusiasm leaves a mark. It's a brand. Not the noun, but the verb.
+
+- **Tweet:** https://x.com/dhh/status/2016603485987287049
+- **Quoted:** https://x.com/jasonfried/status/2016597678675939384
+- **What:** DHH relates to Jason Fried's philosophy on marketing, rejecting the instrumental/conniving connotation of "being good at marketing" in favor of viewing it as genuine enthusiasm transfer.
+
+## @jasonfried - Marketing as a transfer of enthusiasm
+> At its best, marketing is a transfer of enthusiasm. When you're truly pumped about what you're doing, when you're truly driven by the vision, when you absolutely must make something that you need and want, your enthusiasm leaves a mark. It's a brand. Not the noun, but the verb.
+
+- **Tweet:** https://x.com/jasonfried/status/2016597678675939384
+- **What:** Jason Fried explores the philosophy that true marketing is fundamentally about transferring genuine enthusiasm for what you're building. At its worst, it transfers fears and false promises. He argues everything is marketing, and the best products work perfectly with genuine care behind them.
+
+## @balintorosz - Beautiful Mermaid: diagram rendering for the AI era
+> Diagrams are becoming my primary way of reasoning about code with Agents. And I didn't find anything there that I'm happy to look at all day long. Mermaid as a format is amazing - so we built something beautiful on top of it. It's called Beautiful Mermaid
+
+- **Tweet:** https://x.com/balintorosz/status/2016564307765424285
+- **Filed:** [beautiful-mermaid](./knowledge/tools/beautiful-mermaid.md)
+- **What:** Balint Orosz showcases Beautiful Mermaid, an open-source diagram rendering library optimized for AI agents. It provides ultra-fast rendering with full theming support, outputting to SVG and ASCII, supporting multiple diagram types. Built specifically for the AI era where diagrams are becoming primary reasoning tools.
+
+## @thisisgrantlee - PMF is a lagging indicator. Here's where to start instead.
+> Stop focusing on PMF. Founders are obsessed with Product-Market Fit, understandably so. They track signups, watch churn numbers and check the reviews. But it's such a lagging indicator.
+
+- **Tweet:** https://x.com/thisisgrantlee/status/2016557616953250143
+- **What:** Grant Lee discusses why Product-Market Fit is a lagging indicator and proposes starting with habit formation instead. The key insight is building for recurring problems that happen frequently, making solutions more valuable. The article covers the Hook Model, friction reduction, and designing for habit formation rather than chasing PMF metrics.
+
+## @ryancarson - Autonomous Agent Learning and Overnight Shipping with Compound Engineering
+> How to make your agent learn and ship while you sleep
+>
+> Most developers use AI agents reactively - you prompt, it responds, you move on. But what if your agent kept working after you closed your laptop? What if it reviewed the day's work, extracted lessons, updated its own instructions, and then picked up the next feature from your backlog?
+
+- **Tweet:** https://x.com/ryancarson/status/2016520542723924279
+- **Filed:** [autonomous-agent-learning-loop](./knowledge/articles/autonomous-agent-learning-loop.md)
+- **What:** Complete guide to setting up an autonomous agent that learns from daily work sessions and autonomously ships features overnight via a compound review-and-implementation loop using Claude Code and open-source tooling.
+
+## @alex_prompter - Complete AI Bundle Product Launch
+> Your premium AI bundle to 10x your business
+>
+> → Prompts for marketing & business
+> → Unlimited custom prompts
+> → n8n automations
+> → Pay once, own forever
+>
+> Grab it today 👇
+
+- **Tweet:** https://x.com/alex_prompter/status/2016498520170360859
+- **What:** Product announcement for Complete AI Bundle offering prompts, automations, and business templates at "God of Prompt" platform.
+
+## @alex_prompter - OpenAI and Anthropic Prompt Techniques (Promotional)
+> OpenAI and Anthropic engineers leaked these prompt techniques in internal docs.
+>
+> I've been using insider knowledge from actual AI engineers for 5 months.
+>
+> These 8 patterns increased my output quality by 200%.
+>
+> Here's what they don't want you to know: 👇
+
+- **Tweet:** https://x.com/alex_prompter/status/2016498374338547898
+- **What:** Promotional tweet claiming insider knowledge of prompt techniques from OpenAI and Anthropic engineers with claims of 200% quality improvements.
+
+## @PerceptualPeak - Mid-Stream Semantic Memory Injection via PreToolUse Hooks
+> WOW!!! If you have semantic memory tied to your UserPromptSubmit hooks, you MUST ALSO include it in your PreToolUse hook. I promise you - it will be an absolute GAME CHANGER. It will put your efficiency levels are over 9,000 (*vegeta voice*).
+
+- **Tweet:** https://x.com/PerceptualPeak/status/2016353615619961303
+- **What:** Technique for improving Claude Code efficiency by injecting semantic memory at tool execution time (PreToolUse hook) rather than just at prompt initiation, leveraging thinking blocks for mid-workflow context injection.
+
+## @alliekmiller - Hiring Generalists for the AI Age: Pro-Poster Syndrome
+> My two most recent hires were generalists, not specialists.
+>
+> Here's why I think that matters in the AI age and the most important skill they can have.
+>
+> *Quoting @karpathy:* A few random notes from claude coding quite a bit last few weeks...
+
+- **Tweet:** https://x.com/alliekmiller/status/2016305231395750249
+- **Quoted:** https://x.com/karpathy/status/2015883857489522876
+- **What:** Explores why hiring generalists over specialists matters in the AI age, introducing "Pro-poster Syndrome" as the most important skill - a bias for action and belief that obstacles are solvable with AI assistance. Quote tweet references Andrej Karpathy's comprehensive notes on Claude coding workflow shifts.
+
+---
+
 # Tuesday, January 27, 2026
+
+## @jeremyphoward - Breaking the Spell of Vibe Coding
+> I love this article so much. Rachel has done a deep dive into the psychology of vibe coding, & discovered underlying reasons why it's tripping so many people up psychologically (even whilst it can be helpful).
+
+- **Tweet:** https://x.com/jeremyphoward/status/2016239008142262330
+- **Filed:** [vibe-coding-psychology](./knowledge/articles/vibe-coding-psychology.md)
+- **What:** Rachel Thomas's analysis of "vibe coding" (creation of large quantities of complex AI-generated code) as a psychological phenomenon driven by executive pressure and quota-driven management, exploring the often-empty results despite hype.
+
+## @obie - What is Your Superpower?
+> I kept asking one question, over and over: What is your superpower? Not "what are you good at." Not "what do you enjoy." I wanted to know what makes them irreplaceably valuable.
+
+- **Tweet:** https://x.com/obie/status/2016223687066690017
+- **Filed:** [superpower-identity](./knowledge/articles/superpower-identity.md)
+- **What:** Obie Fernandez reflects on identifying and articulating personal superpowers as a CTO, arguing that in the AI era, true value comes from judgment, taste, relationships, and intuition—the things AI amplifies rather than replaces. Discusses ZAR's flat "product engineer" model.
+
+## @Siron93 - 100 Lessons From Bootstrapping My App to a 7-Figure Exit
+> [Comprehensive guide covering onboarding, store optimization, paywalls, metrics, ads, retention, and business strategy]
+
+- **Tweet:** https://x.com/Siron93/status/2016144535693218088
+- **Filed:** [app-exit-lessons](./knowledge/articles/app-exit-lessons.md)
+- **What:** 100 practical lessons from a bootstrapped app that exited for 7 figures, covering product strategy (onboarding, UX polish), monetization (paywall timing, pricing psychology), and growth (ad creative testing, retention metrics).
+
+## @rudrank - App Store Connect CLI 0.16.0 with end-to-end review workflow
+> App Store Connect CLI 0.16.0 is out as one of the biggest releases yet! It covers the entire App Store review workflow end‑to‑end: details, attachments, submissions, and items, all under a single `asc review` command. Enjoy!
+
+- **Tweet:** https://x.com/rudrank/status/2016172427626352664
+- **Filed:** [app-store-connect-cli](./knowledge/tools/app-store-connect-cli.md)
+- **What:** Major release of App Store Connect CLI adding comprehensive review management through a unified command interface, enabling AI-agent friendly automation of iOS app submission workflows.
+
+## @remilouf - Personal note-taking agent system with daily/weekly analysis
+> It is fairly simple. I go on walks every morning and usually record my rambling. It's synced with my server automatically, transcribed and copied to an inbox in my @obsdmd vault (although I could use any frontend, it's just text files).
+>
+> *Quoting @remilouf:* Ok Time to write about my setup I guess 🙂
+
+- **Tweet:** https://x.com/remilouf/status/2016047512478507444
+- **Quoted:** https://x.com/remilouf/status/2015685945366921590
+- **What:** Rémi describes a sophisticated agentic note-taking system that processes daily voice notes through multiple agents for task extraction, evergreen note promotion, and weekly/monthly analysis. Emphasizes starting simple, identifying human touchpoints, and iterating based on discovered needs.
 
 ## @fernandorojo - Vercel React Native Skills for AI Agents (Fast Lists, Smooth Animations, Native Feel)
 > Years of experience building with React Native and @expo, now available for your agents.
