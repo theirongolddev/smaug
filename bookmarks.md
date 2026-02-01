@@ -1,12 +1,216 @@
 ---
 type: bookmarks
-updated: 2026-01-29T14:52:00-05:00
+updated: 2026-02-01T15:32:00-05:00
 schema_version: 1
 source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Sunday, February 1, 2026
+
+## @doodlestein - Multi-repo sync tool for keeping projects in sync across machines
+> I commit religiously across everything to get a remote copy in place. I also do my dev work across 4 machines and every one of the 4 machines has the full repo for every project (well over 100 of them) and I keep them in sync using my tool, repo_updater (ru):
+>
+> And this prompt:
+>
+> "Read AGENTS .md. Then use your /ru-multi-repo-workflow skill to commit all changed files in each project within /dp/projects in logical groupings with super detailed commit messages for each and then push. Take your time to do it right. Don't edit the code at all. Don't commit obviously ephemeral files. Then also pull from all repos in ru, making sure again not to lose any useful work."
+
+> *Replying to @atelicinvest:* Has anyone using Claude Code in yolo mode tried going the route of doing it in a way where you can easily reverse the damage they do instead of limiting the commands it can run? like - is there a way to do proper back up so that you can easily reload recent snapshot if it fucks up badly?
+
+- **Tweet:** https://x.com/doodlestein/status/2018036767505453163
+- **Parent:** https://x.com/atelicinvest/status/2018006390774943793
+- **Filed:** [repo-updater.md](./knowledge/tools/repo-updater.md)
+- **What:** A Shell-based CLI tool for synchronizing multiple GitHub repositories. Perfect for keeping your projects directory in sync across 4+ machines and 100+ repos with a single command. Supports JSON output for agent automation.
+
+---
+
+# Saturday, January 31, 2026
+
+## @alexhillman - Claude-Synced Gitignored Files with Secret Gist
+> We'll this is a brilliant little trick
+
+> *Quoting @jeremysmithco:* I'm using a gitignored file in a client project, but I still wanted it under version control. So I created a secret gist for it, and asked Claude to add instructions for itself to the beginning of the file, to sync after making changes. Totally works!
+
+- **Tweet:** https://x.com/alexhillman/status/2017698595600789623
+- **Quoted:** https://x.com/jeremysmithco/status/2017031793233346669
+- **What:** A technique for keeping gitignored files under version control using a secret gist and Claude instructions for auto-syncing changes.
+
+## @alexhillman - Plan Files with Success Criteria Examples
+> Some folks have asked what my plan files look like. Here's one my assistant is implementing right now. Notice how it isn't just step by step tasks like most plan files I see, it includes examples of success criteria. in this case that's code based on existing code, to ensure it reuses existing patterns and techniques contextual to the code it's adding or modifying.
+
+- **Tweet:** https://x.com/alexhillman/status/2017706507605856659
+- **Filed:** [assistant-plan-file-template.md](./knowledge/tools/assistant-plan-file-template.md)
+- **What:** A sample plan file template showing how to include success criteria with code examples that match existing project patterns, enabling Claude to maintain consistency when implementing changes.
+
+## @alexhillman - Review Before Installing Third-Party Skills
+> It is crazy to me that people install skills into their system without reviewing them. I don't let my assistant use skills that I don't understand. One way I avoid this temptation is to almost never install a 3rd party skill wholesale. Instead I tell Claude to review the skill carefully, ask me to confirm what parts we want to keep and why, and then create a NEW skill with just the essentials plus any of our tweaks. Then I review THAT. Always keep attribution to the original as reference, reduces unused token overhead as well as easier to review. Most importantly, I learn how the skill works so I can get the most out of it AND fix problems when they arise.
+
+> *Quoting @natemcgrady:* scan your skills before using them
+
+- **Tweet:** https://x.com/alexhillman/status/2017719373285486710
+- **Quoted:** https://x.com/natemcgrady/status/2017681428310356458
+- **What:** Security and learning practice for AI tooling—always review and refactor third-party skills before use, keeping only essentials with proper attribution.
+
+## @bcherny - Using Claude Code for Data & Analytics with BigQuery
+> Use Claude for data & analytics. Ask Claude Code to use the "bq" CLI to pull and analyze metrics on the fly. We have a BigQuery skill checked into the codebase, and everyone on the team uses it for anlytics queries directly in Claude Code. Personally, I haven't written a line of SQL in 6+ months. This works for any database that has a CLI, MCP, or API.
+
+> *Replying to @bcherny:* 8. Use subagents. a. Append "use subagents" to any request where you want Claude to throw more compute at the problem. b. Offload individual tasks to subagents to keep your main agent's context window clean and focused. c. Route permission requests to Opus 4.5 via a hook — let it scan for attacks and auto-approve the safe ones
+
+- **Tweet:** https://x.com/bcherny/status/2017742757666902374
+- **Parent:** https://x.com/bcherny/status/2017742755737555434
+- **What:** Workflow pattern for delegating database queries and analytics to Claude Code via CLI tools or MCP servers, eliminating manual SQL writing.
+
+## @bcherny - Learning Strategies with Claude Code
+> Learning with Claude: a. Enable the "Explanatory" or "Learning" output style in /config to have Claude explain the *why* behind its changes. b. Have Claude generate a visual HTML presentation explaining unfamiliar code. It makes surprisingly good slides! c. Ask Claude to draw ASCII diagrams of new protocols and codebases to help you understand them. d. Build a spaced-repetition learning skill: you explain your understanding, Claude asks follow-ups to fill gaps, stores the result
+
+> *Replying to @bcherny:* 9. Use Claude for data & analytics. Ask Claude Code to use the "bq" CLI to pull and analyze metrics on the fly. We have a BigQuery skill checked into the codebase, and everyone on the team uses it for anlytics queries directly in Claude Code. Personally, I haven't written a line of SQL in 6+ months. This works for any database that has a CLI, MCP, or API.
+
+- **Tweet:** https://x.com/bcherny/status/2017742759218794768
+- **Parent:** https://x.com/bcherny/status/2017742757666902374
+- **What:** Four pedagogical techniques for using Claude Code as a learning tool: explanatory output styles, HTML presentations, ASCII diagrams, and spaced-repetition skills.
+
+---
+
+# Friday, January 30, 2026
+
+## @AnthropicAI - Claude Plans AI-Driven Mars Rover
+> On December 8, the Perseverance rover safely trundled across the surface of Mars. This was the first AI-planned drive on another planet. And it was planned by Claude.
+
+- **Tweet:** https://x.com/AnthropicAI/status/2017313346375004487
+- **What:** Landmark achievement demonstrating Claude's capability in autonomous planning and robotics applications at planetary scale.
+
+## @helloiamleonie - Memory as Reasoning: Rethinking AI Agent Memory
+> i'm clearly biased but this is the most interesting take on agent memory i've seen so far. (yes, forget the "filesystem vs database" discussion) a few weeks back i had a nice chat with @vintrotweets from @plasticlabs and their approach is: memory is not a retrieval problem. memory is a prediction problem.
+
+- **Tweet:** https://x.com/helloiamleonie/status/2017370424808509451
+- **Filed:** [memory-as-reasoning.md](./knowledge/articles/memory-as-reasoning.md)
+- **What:** Paradigm shift in agent memory architecture: treating memory as dynamic reasoning rather than static retrieval. Plastic Labs approach positions agent memory systems as prediction problems, moving beyond database-centric designs.
+
+## @doodlestein - Phage Explorer: Interactive Bacteriophage Genome Visualization
+> I got really interested in biology and genetics a few months ago, just for fun. I wanted to dig deeper into the subject, but not by reading a boring textbook. I wanted to get a sense for these phages in a tangible way. And so I'm very pleased to present you with my open-source Phage Explorer.
+
+- **Tweet:** https://x.com/doodlestein/status/2017440470595436836
+- **Filed:** [phage-explorer.md](./knowledge/tools/phage-explorer.md)
+- **What:** Massive interactive bioinformatics project (~150k lines of TypeScript/Rust) with 40+ visualizations and 23 analysis algorithms for exploring bacteriophage biology. Bridges academic molecular biology with accessible visualization, making complex genetic and structural data tangible for educators and students.
+
+## @alexhillman - defib: Automated System Health Monitoring and Recovery
+> as I started running more and more of my life and work on my claude code rig, real monitoring and reporting became important pretty quickly. i started monitoring my containers for health, then for runaway processes and memory pressure. eventually I got it tuned enough where it could run a lot of lower-risk commands on its own and ask for permission on the rest.
+
+- **Tweet:** https://x.com/alexhillman/status/2017636722738180598
+- **Filed:** [defib.md](./knowledge/tools/defib.md)
+- **What:** System defibrillator for container environments—auto-monitors container health, process runaway, and swap pressure with escalating action modes (report, execute, prompt). Enables autonomous recovery for common failure patterns while maintaining safety guardrails.
+
+## @pbteja1998 - Mission Control: Building a Multi-Agent AI Team
+> This is the full story of how I built Mission Control. A system where 10 AI agents work together like a real team. If you want to replicate this setup, this guide covers everything.
+
+- **Tweet:** https://x.com/pbteja1998/status/2017662163540971756
+- **Filed:** [mission-control-ai-agent-squad.md](./knowledge/articles/mission-control-ai-agent-squad.md)
+- **What:** Complete architecture guide for multi-agent coordination using Clawdbot sessions + Convex database. 10 specialized agents (researcher, writer, designer, SEO, etc.) working asynchronously with shared memory, heartbeat scheduling, real-time notifications, and thread-based collaboration. Treats AI agents as team members with distinct roles and accountability.
+
+---
+
+# Thursday, January 29, 2026
+
+## @doodlestein - Agent Settings Backup (asb) - Git Backup Tool for Coding Agents
+> I made this handy tool called asb for backing up all your agent coding settings files into a versioned backup location using git.
+
+It's actually pretty useful for syncing across machines, or just to have a safe copy in case something clobbers your settings. Works for all popular coding agents (Claude Code, Codex, Gemini-cli, Cursor, Droid, etc.):
+
+https://t.co/PuvSHUt9D3
+
+(I actually forgot I made it. I just remembered and tried it for the first time and it worked well!)
+
+- **Tweet:** https://x.com/doodlestein/status/2016931012366811634
+- **Filed:** [agent-settings-backup.md](./knowledge/tools/agent-settings-backup.md)
+- **What:** A git-versioned backup tool for AI coding agent configurations that enables syncing settings across machines, maintaining full version history, and safe restoration from any point in time.
+
+## @trq212 - Making Playgrounds using Claude Code
+> https://t.co/oqBZifW4GG
+
+- **Tweet:** https://x.com/trq212/status/2017024445244924382
+- **Filed:** [making-playgrounds-using-claude-code.md](./knowledge/articles/making-playgrounds-using-claude-code.md)
+- **What:** An introduction to the new Claude Code playground plugin that enables creating interactive HTML visualizations for architecture diagrams, component design, game balancing, and other visual collaboration tasks that work better than text-based workflows.
+
+## @WarPath2pt0 - ADHD and 2000s Emo Music
+> Turns out I don't have ADHD--i just need everything explained to me via 2000s emo music https://t.co/9tBdQWbly3
+
+- **Tweet:** https://x.com/WarPath2pt0/status/2016908726624465007
+- **What:** A humorous observation about finding that an unconventional learning method (explaining concepts through 2000s emo music) actually addresses personal focus challenges better than initially assuming ADHD.
+
+---
+
 # Wednesday, January 28, 2026
+
+## @andychuxbt - Building a $28K/Month Coaching Business with 900 Followers
+> dm'd a girl last month who had 900 followers and a bio that said "career coach."
+
+figured she was just starting out.
+
+checked her posts. mid engagement. 200-400 likes. nothing special.
+
+but she was posting every single day. so i was curious.
+
+"how's the coaching business going?"
+
+"good. why?"
+
+"just curious. you seem consistent."
+
+"i do about $28K/month."
+
+i stared at my phone for a full minute.
+
+"$28K/month with 900 followers?"
+
+"followers don't pay me. clients do."
+
+"where do your clients come from?"
+
+"i post once. then i spend 3 hours in the comments of big accounts where my clients hang out. i don't just reply. i give full answers. free advice. like actually help people in the comments."
+
+"and that works?"
+
+"i get 4-6 DMs a day from people asking for more help. half of them can't afford me. the other half become clients."
+
+"you're basically doing free consulting in public."
+
+"exactly. everyone else posts and runs. i post and stay. the algorithm doesn't know me. the people do."
+
+$28K/month.
+
+900 followers.
+
+zero viral posts.
+
+just 3 hours daily helping strangers in comment sections.
+
+meanwhile you're tweaking your hooks for the 47th time hoping the algorithm notices you.
+
+she's not trying to go viral.
+
+she's trying to be useful.
+
+you're optimizing for impressions.
+
+she's optimizing for conversations.
+
+you have 14,000 followers and two clients.
+
+she has 900 followers and a waitlist.
+
+- **Tweet:** https://x.com/andychuxbt/status/2016636180087885886
+- **What:** A thread on building a sustainable, profitable business by focusing on providing genuine value in comment sections rather than chasing algorithmic virality—achieving $28K/month with minimal followers through consistent, authentic engagement.
+
+## @JesseProvo - Background Agents: From Reactive Alerts to Proactive Discovery
+> https://t.co/RpJPaT4fsa
+
+- **Tweet:** https://x.com/JesseProvo/status/2016280574684758507
+- **Filed:** [background-agents-from-reactive-alerts-to-proactive-discovery.md](./knowledge/articles/background-agents-from-reactive-alerts-to-proactive-discovery.md)
+- **What:** An in-depth article on building AI-powered alerting systems for financial research that evolve from simple keyword matching to proactive opportunity discovery through agent-driven analysis and dynamic screening.
+
+---
+
+# Tuesday, January 27, 2026
 
 ## @PerceptualPeak - Claude Code Semantic Memory System (PreToolUse Hook Integration)
 > I created a repo for my semantic memory system (with both UserPromptSubmit & PreToolUse hook configuration).
