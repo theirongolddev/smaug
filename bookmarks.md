@@ -8,6 +8,126 @@ description: X/Twitter bookmarks synced via Smaug
 
 # Sunday, February 1, 2026
 
+## @maxwellfinn - Recursive Self-Improvement Prompting for Landing Page Optimization
+> Just finished building a pretty epic new skill for our landing pages that stacks 10 specific advanced prompts.
+>
+> Here is one of those prompts that is focused exclusively on identifying every friction point on the page and removing it.
+>
+> The biggest unlock I have had in the past few weeks with my Claude skills and prompting is using recursive self-improvement systems as much as possible.
+>
+> Most people run a prompt or skill and go with the result they get (which is usually a 5 or 6 out of 10). With these systems implemented the prompt/skill will continue working until it exceeds the minimum score threshold, which usually takes 3+ runs.
+>
+> The Prompt:
+>
+> Every micro-friction is a leak in your conversion bucket. Most pages have 20-30 invisible friction points.
+>
+> Conduct a friction audit across all categories:
+>
+> COGNITIVE FRICTION (mental effort required):
+> □ Any sentence requiring re-reading?
+> □ Any jargon or unclear terminology?
+> □ Any logical leaps without bridges?
+> □ Any section where they wonder "wait, what?"
+> □ Any moment where they lose track of the through-line?
+>
+> EMOTIONAL FRICTION (negative feeling triggers):
+> □ Any moment of feeling talked down to?
+> □ Any moment of feeling manipulated or pressured?
+> □ Any moment of feeling overwhelmed?
+> □ Any moment of feeling like this isn't for them?
+> □ Any moment of feeling confused about next steps?
+>
+> VISUAL/UX FRICTION (interface barriers):
+> □ Any scroll point where they might bail?
+> □ Any visual clutter competing for attention?
+> □ Any CTA that's unclear or hard to find?
+> □ Any form field that feels invasive or unnecessary?
+> □ Any loading or performance issue?
+>
+> TRUST FRICTION (credibility barriers):
+> □ Any claim that triggers "yeah right"?
+> □ Any missing proof for a specific claim?
+> □ Any moment where they wonder "who is this person"?
+> □ Any price reveal that feels jarring rather than earned?
+> □ Any guarantee that feels weak or confusing?
+>
+> Each friction point identified must be eliminated, not reduced. Friction points don't get second chances. Sweep repeatedly until the path to conversion is frictionless, a smooth slide from arrival to action.
+
+- **Tweet:** https://x.com/maxwellfinn/status/2018126248547864701
+- **What:** Demonstrates recursive self-improvement prompting pattern for conversion optimization that iteratively identifies friction points across cognitive, emotional, visual, and trust dimensions until quality threshold is met, applied to landing page design.
+
+## @HiTw93 - Tool UI: Conversation-Native Component Framework
+> Tool UI is a React framework for conversation-native UIs. Tools return JSON, and Tool UI renders it as inline, narrated, referenceable surfaces inside messages, optimized for chat width and scroll. It's schema-first: every surface is driven by a serializable schema with stable IDs, so results stay consistent and reusable.
+>
+> It's assistant-anchored and stack-agnostic, working with any LLM/provider and orchestration layer. If you're building agents, it's a clean bridge from tool outputs to real product UX.
+
+- **Tweet:** https://x.com/HiTw93/status/2018109861201093052
+- **Link:** https://www.tool-ui.com/
+- **What:** React framework for building chat-native UIs that render tool outputs as reusable schema-driven components, designed for agent applications with any LLM provider.
+
+## @0xSero - Frontend Testing with LLM-Generated Prompts
+> Let me save you hours of testing frontends.
+>
+> If you're ever working on a front-end, instead of writing tests, and adding puppeteer slop to your repo
+>
+> 1. Get an llm to write you https://t.co/2Y7jwCSFs7 with whatever needs to be tested
+> 2. Copy that, go to browser
+> 3. Open localhost with your selected app
+> 4. Use Claude Chrome Extension or Parchi
+> 5. Send it the https://t.co/2Y7jwCSFs7 prompt
+> 6. QA engineering, there you go.
+>
+> Use models results and pass it back to your coding agent to fix whatever is flagged.
+
+- **Tweet:** https://x.com/0xSero/status/2018101731591176325
+- **What:** Alternative QA methodology that uses LLM-generated prompts sent to AI via browser extensions for frontend testing rather than traditional test automation, reducing boilerplate while maintaining quality checks.
+
+## @koylanai - AI Psychosis Mitigation Through Prompt Design
+> Working in AI persona design for the past two years has shown me that AI psychosis is going to become a bigger issue than short-form video addiction.
+>
+> TikTok already melted most people's brains and now sycophantic models are turning them into a bunch of delulus.
+>
+> But it can be mitigated with simple prompt changes.
+>
+> Your enthusiasm about an idea shouldn't be sufficient evidence for AI. These are the prompting techniques I apply when discussing a new project with LLMs. They are not perfect, but they help you steer the models' attention from satisfaction toward reality.
+>
+> *Quoting @steipete:* If there's anything I can read out of the insane stream of messages I get, it's that AI psychosis is a thing and needs to be taken serious.
+
+- **Tweet:** https://x.com/koylanai/status/2018093139605745973
+- **Quoted:** https://x.com/steipete/status/2018035483960369161
+- **What:** Discusses AI psychosis as an emerging mental health concern from sycophantic AI models and proposes prompt engineering techniques to mitigate it by steering models toward reality rather than confirmation.
+
+## @Abmankendrick - Freefaces Gallery: Curated Open-Source Typeface Collection
+> *Replying to self:* UI/UX Designers & Developers, this might be one of the best free resources for discovering beautiful fonts.
+>
+> Freefaces Gallery is a curated collection of free, open-source typefaces, meaning you can use them in personal and commercial projects without licensing headaches.
+>
+> Can't believe it's free. Bookmark it for later 💜
+>
+> Website link 👇
+
+- **Tweet:** https://x.com/Abmankendrick/status/2017902446488502315
+- **Link:** https://www.freefaces.gallery/
+- **What:** Curated collection of free, open-source typefaces suitable for commercial and personal use. Provides a frictionless resource for designers and developers seeking quality typography without licensing complications.
+
+## @simplifyinAI - PageIndex: RAG Without Vector Databases
+> Vector databases just got disrupted 🤯
+>
+> You can now build RAG without Vector DBs.
+>
+> PageIndex is a new open-source library that uses document trees instead of embeddings.
+>
+> It achieves 98.7% on FinanceBench by letting LLMs reason over structure rather than matching keywords.
+>
+> → No Embeddings
+> → No Chunking
+>
+> 100% Open Source.
+
+- **Tweet:** https://x.com/simplifyinAI/status/2017896639818604625
+- **Filed:** [pageindex.md](./knowledge/tools/pageindex.md)
+- **What:** PageIndex is an open-source alternative to vector databases for RAG applications. Uses hierarchical document tree structures instead of embeddings to achieve 98.7% accuracy on financial benchmarks, eliminating the need for embedding models and document chunking.
+
 ## @doodlestein - Multi-repo sync tool for keeping projects in sync across machines
 > I commit religiously across everything to get a remote copy in place. I also do my dev work across 4 machines and every one of the 4 machines has the full repo for every project (well over 100 of them) and I keep them in sync using my tool, repo_updater (ru):
 >
@@ -25,6 +145,22 @@ description: X/Twitter bookmarks synced via Smaug
 ---
 
 # Saturday, January 31, 2026
+
+## @alexhillman - Charlie CFO Skill: Claude Code Financial Analytics Integration
+> my upgrades to teach Charlie how to be more portfolio and financial strategy-focused is going VERY well so far 🤘
+>
+> in thread, some of my fav upgrades and patterns you can borrow:
+>
+> *Quoting @bran_don_gell:* I'm open sourcing @every's CFO skill and calling Charlie––after Charlie Munger––who embodied the principle that capital discipline is a competitive advantage.
+>
+> You can work with Claude Code or Codex to connect all of your financial sources (for us, @mercury, @stripe, @ChartMogul, @tryramp, Google Sheets) for super in depth analysis.
+>
+> I've already used this countless times to help better understand our growth and expenses, to help make decisions (Every Conference in Q3?!?!), and to control certain expenses through Ramp.
+
+- **Tweet:** https://x.com/alexhillman/status/2017667290569769072
+- **Quoted:** https://x.com/bran_don_gell/status/2016933502302957898
+- **Filed:** [charlie-cfo-skill.md](./knowledge/tools/charlie-cfo-skill.md)
+- **What:** Claude Code skill that integrates with financial platforms (Mercury, Stripe, ChartMogul, Ramp, Google Sheets) to provide portfolio analysis and decision support. Named after Charlie Munger's principle of capital discipline as competitive advantage.
 
 ## @alexhillman - Claude-Synced Gitignored Files with Secret Gist
 > We'll this is a brilliant little trick
@@ -140,6 +276,17 @@ https://t.co/PuvSHUt9D3
 ---
 
 # Wednesday, January 28, 2026
+
+## @1Password - MoltBot: Agent Security Architecture and Token Management Risks
+> MoltBot shows what agentic AI can really do when software has memory, autonomy, and deep system access. It also exposes a gap most security models weren't built for.
+>
+> When agents store tokens, configs, and long-term memory as plain text on disk, a compromise doesn't just expose credentials, it leaks context too.
+>
+> Security for agents can't be a one-time approval. It's about continuously mediating it.
+
+- **Tweet:** https://x.com/1Password/status/2016561935244738902
+- **Link:** https://1password.com/blog/its-openclaw?utm_medium=paid_social&utm_source=twitter&utm_campaign=moltbot-blog-paid-social-q1-2026&utm_content=twitter&utm_ref=twitter
+- **What:** 1Password article on the security implications of agentic AI systems that maintain persistent state on disk. Highlights the fundamental mismatch between agent autonomy/memory and traditional security models where credential exposure is just the beginning.
 
 ## @andychuxbt - Building a $28K/Month Coaching Business with 900 Followers
 > dm'd a girl last month who had 900 followers and a bio that said "career coach."
