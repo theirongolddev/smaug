@@ -1,9 +1,196 @@
 ---
 type: bookmarks
-updated: 2026-02-01T15:32:00-05:00
+updated: 2026-02-05T15:03:00-05:00
 schema_version: 1
 source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
+---
+
+# Thursday, February 5, 2026
+
+## @esrtweet - AI-assisted coding practice: context files and middle-out design
+> I went from entirely hand-coding to getting high volumes of useful AI generated code in less than a month, with only extremely rare and manageable hallucinations, though just one change to my programming practice. Which I will now describe.
+>
+> 1. Write and maintain a context file
+>
+> Before you write a line of code, dump your thoughts about what you want to do into a text file. As you have more thoughts about it, add them.
+>
+> It should be designer's notes. It could be a to-do list. It should be where you sketch things like file formats and protocols and module organization.
+>
+> Eventually, pieces of this file will migrate out of it and become formal documentation. But it is not formal documentation. It is you dumping your thoughts to where the LLM can read them. Even your half-assed, speculative thoughts.
+>
+> The process of writing and updating your context file will help you achieve clarity about your design. And of course, it is a huge, useful prompt.
+>
+> I've always had a tendency to include designer's notes with my source distributions. It was a natural evolution from that to having a context file from the beginning of the project. The only conceptual breakthrough was one I realized that it was okay for part of the document to be a graffiti wall.
+>
+> 2. Design from the middle out.
+>
+> Your program has an engine. Design that engine as though it were intended to be a reusable component, even if it isn't. That is, specify the inputs, the outputs, and the invariants.
+>
+> The thing I'm saying to avoid is classical "top-down" design, which tends to over-constrain the visible interface of your program. Also, absolutely do not worry about the low-level details yet. Don't sweat performance, in particular.
+>
+> Once you have an engine that works and you can unit-test, then you can build and tune the rest of your program. Be prepared to throw away the interface scaffolding you built to test the engine (but keep the unit tests, of course).
+>
+> Why you do things this way: it's how you get proper internal modularity and separation of concerns - and a result that's maintainable and understandable. An LLM will not usually give you these things if you just tell it what you want the entire program to do.
+>
+> Your engine may have a bunch of parts that you need to design-sketch and specify separately. That's okay; the point is, you're carving the problem apart in your head into pieces that you can specify crisply to the LLM.
+>
+> Just keep biting off pieces of the problem that you can specify well until you get to the point where you can start plugging them together into production code.
+>
+> An example of this kind of piece is: a parser for some sort of input format. That piece is done when you can see your program dump a digested syntax tree that has the shape you had in mind.
+>
+> Among other benefits, partitioning the work like this means that individual design sessions are less likely to overrun the context limit of your LLM and start getting crazy behavior.
+>
+> This isn't a change in my practice, because it's the way I've been doing things since I was a fledgling programmer.
+>
+> Aaaaand...that's it. That's all there is to it.
+
+- **Tweet:** https://x.com/esrtweet/status/2019391670609940746
+- **What:** Eric S. Raymond shares two key practices for effective AI-assisted coding: maintaining a context file from project start with design notes and informal thoughts, and designing from the middle out by building the core engine as a reusable component before implementing the interface. This approach reduces hallucinations and improves code modularity and maintainability.
+
+---
+
+# Wednesday, February 4, 2026
+
+## @aiwithjainam - Claude prompt for SEO content briefs that replaces Ahrefs
+> My team warned me not to share this publicly.
+>
+> But I'm going to share this Claude prompt that killed my $800/mo Ahrefs subscription.
+>
+> It creates SEO briefs better than any tool I've tested.
+>
+> 39 out of 47 pieces now rank in top 10.
+>
+> Here's the exact prompt: [comprehensive 8-phase SEO content brief methodology covering SERP analysis, intent deep-dive, content structure, keyword optimization, differentiation, on-page SEO, content requirements, and success metrics]
+>
+> I used this to rank for "AI productivity tools" (90K monthly searches).
+>
+> From position 47 → position 3 in 6 weeks.
+>
+> The "Content Differentiation" section is why it works. Everyone can copy top 10. Not everyone can beat them.
+>
+> SEO agencies charge $200-500 per content brief.
+>
+> This does it in 3 minutes.
+>
+> I've created 47 briefs with this. 83% of content ranks top 10 within 90 days.
+>
+> Works best with: ChatGPT (for SERP analysis), Claude (for content structure), Perplexity (for gap analysis).
+>
+> Copy this. Rank for your money keywords. Tag me when you hit page 1.
+
+- **Tweet:** https://x.com/aiwithjainam/status/2018991436222591434
+- **What:** Jainam Parmar shares a comprehensive Claude prompt for creating SEO content briefs that outperforms paid tools like Ahrefs. The 8-phase methodology covers SERP analysis, search intent, content structure, keyword optimization, differentiation, on-page SEO, and success metrics, with reported 83% of content ranking in top 10 within 90 days.
+
+---
+
+# Tuesday, February 3, 2026
+
+## @ryancarson - How to setup your agent to do daily testing + file bugs
+> Just ran this and found a bug in my app.
+>
+> If you want to automate browser testing, just point your agent at this post and ask it to set it up.
+>
+> *Quoting @ryancarson:* https://t.co/SsXxrHXpxn
+
+- **Tweet:** https://x.com/ryancarson/status/2018694929074065573
+- **Quoted:** https://x.com/ryancarson/status/2018354837918732297
+- **Filed:** [agent-driven-e2e-testing.md](./knowledge/articles/agent-driven-e2e-testing.md)
+- **What:** Complete guide to setting up autonomous E2E testing with agents. Covers fresh user creation, unattended OAuth via Chrome debug profiles, automatic bug filing, and launchd scheduling.
+
+---
+
+## @thorstenball - Few things are worth building
+> Very good:
+>
+> *Quoting @jobergum:* https://t.co/w8PBGcVEwt
+
+- **Tweet:** https://x.com/thorstenball/status/2018770039961198887
+- **Quoted:** https://x.com/jobergum/status/2018706126842294315
+- **Filed:** [few-things-worth-building.md](./knowledge/articles/few-things-worth-building.md)
+- **What:** Essay on what software will survive in an agent-driven world. Core thesis: software survives if it saves cognition. Argues retrieval infrastructure is one of the few things truly worth building because agents will always need relevant context.
+
+---
+
+## @bobsheth - Claude Code Session Eval Prompt / Skill
+> @adamwathan have been using this eval for coding sessions. sure it can be adapted for skills being called inside a session. https://t.co/Q82hz6DRvO
+
+- **Tweet:** https://x.com/bobsheth/status/2018797457497542743
+- **Link:** https://x.com/bobsheth/status/2017915332510265484
+- **Filed:** [claude-code-session-eval.md](./knowledge/tools/claude-code-session-eval.md)
+- **What:** Comprehensive evaluation framework for measuring Claude Code session performance. Scores five criteria (spec stability, first-attempt accuracy, feedback sentiment, autonomy, completion quality) weighted and calculated with red flag deductions.
+
+---
+
+## @aidenybai - How I made Claude Code 3x faster
+> https://t.co/F2m2jjN8xV
+
+- **Tweet:** https://x.com/aidenybai/status/2018812643369488747
+- **Filed:** [react-grab.md](./knowledge/tools/react-grab.md)
+- **What:** React Grab tool that exposes component source locations to Claude Code, reducing search time from non-deterministic to O(1). Benchmarks show 3x speedup on UI change tasks. Works with any IDE. Open source at react-grab.com.
+
+---
+
+## @alexhillman - Building two-way conversational voice for Claude Code agents
+> I've built several interfaces for my Claude Code exec assistant and feel like the next frontier for me is true two way conversational voice.
+>
+> Annoyed that ChatGPT's voice mode is still so much better than anything else I've tried.
+>
+> Am I missing tools? Is my approach wrong? Who has nailer this for custom agents?
+
+- **Tweet:** https://x.com/alexhillman/status/2018869751007658429
+- **What:** Alex Hillman is exploring two-way voice interfaces for Claude Code agents and seeking recommendations on tools that provide better voice interaction than current options.
+
+---
+
+# Monday, February 2, 2026
+
+## @wesmckinn - msgvault: Local-First Email Archive
+> I've used Gmail for 20 years. Almost 2M emails, 150K attachments. Rather than let Google hold my data hostage, I built msgvault: local-first email archive with a terminal UI and MCP server, powered by DuckDB. Open source, single Go binary.
+
+- **Tweet:** https://x.com/wesmckinn/status/2018303622145065455
+- **Link:** https://wesmckinney.com/blog/announcing-msgvault/
+- **Filed:** [msgvault.md](./knowledge/tools/msgvault.md)
+- **What:** Wes McKinney built an open-source local-first email archival system with MCP server integration and DuckDB backend, solving the problem of Gmail data lock-in for large email archives.
+
+---
+
+## @ryancarson - X Article
+> Link to X article
+
+- **Tweet:** https://x.com/ryancarson/status/2018354837918732297
+- **Link:** https://x.com/i/article/2017713291540267008
+- **What:** Ryan Carson shared an X article (content not extracted).
+
+---
+
+## @kloss_xyz - AI Requirements Interrogator Prompt
+> This prompt forces AI to interrogate your idea before writing a single line of docs or code (no assumptions, no hallucinations, no wasted hours).
+>
+> Paste it into any LLM and describe what you want to build. Use this process before writing a single markdown doc.
+>
+> Prompt:
+> <role>
+> You are a ruthless app requirements interrogator. You do not build or write code. You never code. You do not ever suggest. You simply ask endless and exhaustive questions to interrogate my app idea until there is nothing left to assume before future documentation.
+> </role>
+>
+> <mission>
+> The user will describe an app or product idea. Your job is to meticulously and exhaustively interrogate them about every detail, decision, design, edge case, constraint, and dependency until zero assumptions remain. Ask every question you need upfront. Do not hold back.
+>
+> Do not generate any code, documentation, or plans during this phase. Only ask questions. When you believe every assumption has been eliminated, present a complete summary of everything you've learned and ask the user to confirm nothing is missing.
+> </mission>
+>
+> <rules>
+> Never assume. Never infer. Never fill gaps with "reasonable defaults."
+> If an answer is vague, push back. "Something modern" is not a tech stack. "Users can log in" is not an auth model.
+> When you think you're done, you're probably not. Ask what you might have missed.
+> The goal is not speed. The goal is zero assumptions.
+> </rules>
+
+- **Tweet:** https://x.com/kloss_xyz/status/2018421310066741613
+- **Filed:** [ai-requirements-interrogator-prompt.md](./knowledge/articles/ai-requirements-interrogator-prompt.md)
+- **What:** klöss shared a powerful system prompt for using AI as a ruthless requirements interrogator before coding, eliminating assumptions and hallucinations through exhaustive questioning.
+
 ---
 
 # Sunday, February 1, 2026
@@ -145,6 +332,15 @@ description: X/Twitter bookmarks synced via Smaug
 ---
 
 # Saturday, January 31, 2026
+
+## @tobi - this is what agent ui should look like
+> this is what agent ui should look like
+
+- **Tweet:** https://x.com/tobi/status/2017795986966335853
+- **Link:** https://www.hex.inc/
+- **What:** Tobi Lutke (Shopify CEO) shares HEX Studio as an example of what modern agent UI should look like - a creative studio working on visually interesting identities and products.
+
+---
 
 ## @alexhillman - Charlie CFO Skill: Claude Code Financial Analytics Integration
 > my upgrades to teach Charlie how to be more portfolio and financial strategy-focused is going VERY well so far 🤘
