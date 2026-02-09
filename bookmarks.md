@@ -8,13 +8,13 @@ description: X/Twitter bookmarks synced via Smaug
 
 # Sunday, February 8, 2026
 
-## @hooeem - Comprehensive Life Automation Audit Prompt
+## @hooeem - Automate Your Life: Comprehensive AI Life Audit Prompt
 
 > https://t.co/69yyq0u4pa
 
 - **Tweet:** https://x.com/hooeem/status/2020522623134822537
 - **Link:** https://x.com/i/article/2020515084364042240
-- **What:** A detailed X article containing a comprehensive AI automation prompt designed to audit all areas of life (work, finance, health, relationships, etc.) and provide actionable automation recommendations. The two-part prompt conducts a structured questionnaire across 9 life domains, maps automation opportunities, and delivers implementation guides for AI-powered workflow improvements.
+- **What:** An X article containing a comprehensive two-part prompt for conducting a systematic life audit across 9 domains (career, side hustle, finance, health, productivity, relationships, home, learning, and information management). The prompt guides Claude through a structured questionnaire to identify automation opportunities, then delivers a complete automation map and actionable implementation guide. Claims users can save 3+ hours daily (10,000 hours over 9 years) by systematically automating tasks across all life areas.
 
 ## @elvis - The Claude Code Plugin That Replaced My Entire Visual Workflow
 
