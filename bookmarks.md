@@ -6,7 +6,120 @@ source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Sunday, February 8, 2026
+
+## @hooeem - Automate Your Life
+
+> https://t.co/69yyq0u4pa
+
+- **Tweet:** https://x.com/hooeem/status/2020522623134822537
+- **Link:** https://x.com/i/article/2020515084364042240
+- **What:** An X article about identifying and automating repetitive tasks in your life, exploring what you can automate and the approaches to take.
+
+## @elvis - The Claude Code Plugin That Replaced My Entire Visual Workflow
+
+> https://t.co/kdNZV4V9Tf
+
+- **Tweet:** https://x.com/omarsar0/status/2020546189536399568
+- **Link:** https://x.com/i/article/2019860366264786944
+- **What:** An article discussing agentic image generation and how Claude Code's visual capabilities replaced the author's previous workflow for generating images.
+
+## @doodlestein - FrankenTUI Vertical Integration
+
+> FrankenTUI is vertically integrating. I just replaced crossterm, which has 3.9k GitHub stars and 30k lines of code, with 1,700 lines that's faster even before doing my crazy optimizations. Already tested and working great...
+
+- **Tweet:** https://x.com/doodlestein/status/2020603224072307081
+- **What:** A brief update on FrankenTUI's optimization efforts, replacing the crossterm dependency with a more efficient custom implementation while maintaining better performance.
+
+## @alexhillman - Drawbridge: Claude Code + Excalidraw Integration
+
+> confession: I love the *idea* of excalidraw, but struggle to translate my thoughts into visual representations
+>
+> so I wired up Claude Code to an excalidraw canvas and now I can talk to excalidraw
+>
+> calling it drawbridge. open source w/skill here:
+>
+> https://t.co/hpIIUImpAq https://t.co/akq0qhW8m5
+
+- **Tweet:** https://x.com/alexhillman/status/2020606762471374982
+- **Link:** https://github.com/alexknowshtml/drawbridge
+- **Filed:** [drawbridge](./knowledge/tools/drawbridge.md)
+- **What:** A Claude Code skill that integrates with Excalidraw to enable natural language diagramming. Users can verbally describe diagrams and have them rendered in real-time on an Excalidraw canvas.
+
+---
+
+# Saturday, February 7, 2026
+
+## @garrytan - Claude Prompt for Big Features in an Hour
+
+> I use a very specific prompt to push Claude to check its work and do a lot of testing and thinking about perf and refactoring. I find I can do big features (4K LOC+ with full testing) in about an hour.
+
+- **Tweet:** https://x.com/garrytan/status/2020072098635665909
+- **What:** Garry Tan shares that a specialized prompt enables producing large, fully-tested features (4K+ lines of code) in about one hour using Claude.
+
+## @func25 - AI Prediction: Design Software for Machines First
+
+> AI prediction: design your software for machines first, humans second
+>
+> Soon, most software will not be clicked by people, it will be called by AI agents. These agents will
+>
+> - read data,
+> - send requests,
+> - chain tools together,
+> - finish tasks without a screen...
+
+- **Tweet:** https://x.com/func25/status/2020078296072090045
+- **What:** Phuong Le predicts that future software will be designed primarily for AI agent consumption (APIs, automation) rather than human interaction, fundamentally shifting how we architect applications.
+
+## @aarondfrancis - Exploring AI with Real-World Applications
+
+> *Replying to @aarondfrancis:* Makes for a really polished, tactile-feeling result! https://t.co/wLdGZTafnk
+>
+> These are the types of real world things I'm exploring with AI. It's a blast. I'm producing more AND better output than ever before. If you wanna learn similar stuff, https://t.co/Q027DMhPCd launches next week 🥵
+
+- **Tweet:** https://x.com/aarondfrancis/status/2020130311858778344
+- **Link:** https://faster.dev/
+- **What:** Aaron Francis announces faster.dev, a course launching soon for learning to use AI for real-world productivity improvements and output quality enhancement.
+
+---
+
+# Friday, February 6, 2026
+
+## @aarondfrancis - Solo: Dev Stack Desktop Manager
+
+> I've been building Solo for several months, and it's out today!
+>
+> It's a desktop app that manages your entire dev stack.
+>
+> Add a project, Solo detects your processes, and you can start everything with one click.
+>
+> It's free! Try it today: https://t.co/804mFNwGV4 https://t.co/CXt9i9eb9Q
+
+- **Tweet:** https://x.com/aarondfrancis/status/2019832589482356878
+- **Link:** https://soloterm.com/
+- **What:** Solo is a free desktop application that manages your development stack by auto-detecting processes in a project and providing one-click startup for all services.
+
+## @shuding - Building Bulletproof React Components
+
+> I wrote a blog post: Building Bulletproof React Components:
+>
+> https://t.co/xWD215YaFi
+
+- **Tweet:** https://x.com/shuding/status/2019702844635689342
+- **Link:** https://shud.in/thoughts/build-bulletproof-react-components
+- **What:** A blog post on best practices and patterns for building robust React components that handle edge cases and maintain reliability at scale.
+
+---
+
 # Thursday, February 5, 2026
+
+## @KarelDoostrlnck - Spending $10,000 to Automate Research at OpenAI with Codex
+
+> https://t.co/61xQpTk6Ss
+
+- **Tweet:** https://x.com/KarelDoostrlnck/status/2019477361557926281
+- **Link:** https://x.com/i/article/2018578800792203264
+- **What:** An article documenting the process of automating research at OpenAI using Codex, including setup details and lessons learned from heavy token consumption.
 
 ## @esrtweet - AI-assisted coding practice: context files and middle-out design
 > I went from entirely hand-coding to getting high volumes of useful AI generated code in less than a month, with only extremely rare and manageable hallucinations, though just one change to my programming practice. Which I will now describe.
@@ -51,6 +164,24 @@ description: X/Twitter bookmarks synced via Smaug
 ---
 
 # Wednesday, February 4, 2026
+
+## @kloss_xyz - AI Product Strategist Prompt for Code Audits
+> This prompt turns your AI coding agent into a product strategist with the user obsession of Steve Jobs, the systems thinking of Tobi Lütke, the growth instincts of Brian Chesky, and the simplicity discipline of Dieter Rams.
+>
+> It audits code and present new feature ideas.
+
+- **Tweet:** https://x.com/kloss_xyz/status/2019152438910165393
+- **What:** A specialized prompt that transforms AI coding agents into product strategists, combining the design and business thinking of industry leaders to audit code and generate feature ideas.
+
+## @sanyuan0704 - SuperDesign: AI Designer Skill for Codebase-Aware UI Design
+> As a vibe coder, I always hit the same wall: exploring different UI styles and variations is painful. You can't easily go back and forth between designs in a coding agent.
+>
+> Now we have a skill that gives you an AI Designer that actually understands your codebase. It reproduces your current UI pixel-perfect, then open your browser and generates multiple production-ready variations on an infinite canvas...
+
+- **Tweet:** https://x.com/sanyuan0704/status/2019258745705099670
+- **Link:** https://github.com/superdesigndev/superdesign-skill
+- **Filed:** [superdesign-skill](./knowledge/tools/superdesign-skill.md)
+- **What:** A coding agent skill that provides AI-powered UI design generation, understanding the codebase to create pixel-perfect reproductions and variations of existing designs with browser-based infinite canvas exploration.
 
 ## @aiwithjainam - Claude prompt for SEO content briefs that replaces Ahrefs
 > My team warned me not to share this publicly.
