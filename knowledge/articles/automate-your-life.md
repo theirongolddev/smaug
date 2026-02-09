@@ -3,20 +3,23 @@ title: "automate your life."
 type: x-article
 date_added: 2026-02-09
 source: "https://x.com/i/article/2020515084364042240"
-author: "hoeem"
-tags: [automation, ai, productivity, life-optimization]
+author: "hooeem"
+tags: [automation, ai, productivity, life-audit, prompts, claude]
 via: "Twitter bookmark from @hooeem"
 ---
 
-A comprehensive guide to conducting a life automation audit using AI. The article provides a detailed prompt framework for systematically identifying automation opportunities across all life domains (work, side hustles, finances, health, relationships, daily routines) and implementing AI-powered solutions to save thousands of hours.
+A comprehensive prompt for conducting a structured life audit to identify automation opportunities across all areas of life. The author provides a detailed 2-part prompt designed for Claude that systematically audits 9 life domains (work, side hustles, finances, health, productivity, relationships, home, learning, information management) and generates both an automation opportunity map and detailed implementation guides. Claims potential to save 3+ hours daily (10,000 hours over 9 years) by identifying what can be automated and exactly how to implement those automations.
 
 ## Key Takeaways
 
-- Automation can save 3+ hours per day (10,000+ hours over 9 years)
-- Most people don't know what can be automated or how to automate it
-- A structured life audit across 9 domains reveals hidden automation opportunities
-- Use powerful LLMs (Claude Opus/Sonnet recommended) for comprehensive audit
-- Implementation should prioritize high-impact, low-difficulty "quick wins" first
+- Comprehensive 9-domain life audit framework covering work, side hustles, personal finance, health, productivity, relationships, home management, learning, and information consumption
+- Two-phase prompt structure: conversational questionnaire followed by automation map with impact scoring (time saved, difficulty, cost, impact level)
+- Detailed implementation guides with specific tools, step-by-step instructions, setup time estimates, and maintenance requirements
+- Emphasizes systematic approach over ad-hoc automation attempts - uses structured questioning to uncover hidden automation opportunities
+- Designed specifically for Claude (Opus/Sonnet) due to ability to handle long, structured prompts effectively
+- Includes AI tool category framework spanning LLMs, no-code platforms, scheduling, email, finance, health, knowledge management, and custom agents
+- Prioritizes "quick wins" - high-impact, low-difficulty automations to start with before tackling complex implementations
+- Automation impact scoring considers time saved, implementation difficulty, cost, and overall impact level to help prioritize effectively
 
 ## Full Content
 
@@ -254,7 +257,7 @@ Each recommendation must be scored on:
 
 ```
 
-don't submit it yet, copy and paste part 2/2:
+don’t submit it yet, copy and paste part 2/2:
 
 ```
 ### GLOBAL RULES (All Phases)
@@ -290,7 +293,7 @@ Take as much detail as you'd like. The more specific you are, the sharper my rec
 ### Example — Automation Map Entry
 
 | Task | AI Automation Opportunity | Time Saved | Difficulty | Cost | Impact |
-|---|---|---|---|---|------|
+|---|---|---|---|---|---|
 | Writing weekly client status reports | Claude/ChatGPT drafts reports from bullet-point notes and project management data. User reviews and sends. | 3 hrs/week | Easy | Free-Low | High |
 | Sorting and responding to routine emails | AI email triage (SaneBox for sorting + Claude for draft responses). Reduces inbox processing by 60-70%. | 5 hrs/week | Easy | Low | Transformative |
 | Researching competitor pricing | Perplexity AI for rapid competitive research with source citations. Custom Claude Project with competitor data for ongoing monitoring. | 2 hrs/week | Medium | Free-Low | Medium |
@@ -374,17 +377,17 @@ Start with:
 > Here's how this works...
 ```
 
-yes, you can use any LLM, but my recommendation is to use this prompt with Claude, it's one of the best LLMs to work through the long structure of this prompt systematically which, in return, will give you the best response
+yes, you can use any LLM, but my recommendation is to use this prompt with Claude, it’s one of the best LLMs to work through the long structure of this prompt systematically which, in return, will give you the best response
 
 look, I cannot stress how important this prompt is, for those of you who take it, use it, automate your life from it, you will remember that random Sunday in February where you were just scrolling your feed and came across this article
 
-in ten years time you'll have saved 10k + hours because of this
+in ten years time you’ll have saved 10k + hours because of this
 
 the technology to automate your life exists right now, those who are using it are literally years ahead of their peers
 
 reclaim your life, take your time with this prompt
 
-it's time to automate your life right now
+it’s time to automate your life right now
 
 ## Links
 
