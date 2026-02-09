@@ -766,7 +766,11 @@ export async function run(options = {}) {
     // Phase 1: Fetch new bookmarks (merges with existing pending)
     if (bookmarkCount === 0 || options.forceFetch) {
       console.log(`[${now}] Phase 1: Fetching and preparing bookmarks...`);
-      const prepResult = await fetchAndPrepareBookmarks(options);
+      const fetchOptions = { ...options };
+      if (options.fetchCount) {
+        fetchOptions.count = options.fetchCount;
+      }
+      const prepResult = await fetchAndPrepareBookmarks(fetchOptions);
 
       // Re-read pending file after fetch
       if (fs.existsSync(config.pendingFile)) {

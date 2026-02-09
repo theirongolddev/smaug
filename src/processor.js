@@ -17,6 +17,8 @@ import os from 'os';
 import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc.js';
 import timezone from 'dayjs/plugin/timezone.js';
+import { Readability } from '@mozilla/readability';
+import { parseHTML } from 'linkedom';
 import { loadConfig } from './config.js';
 
 dayjs.extend(utc);
@@ -510,6 +512,144 @@ export async function fetchGitHubContent(url) {
   }
 }
 
+/**
+ * Generate a filesystem-safe slug from a title or URL.
+ */
+export function slugify(input) {
+  if (!input) return 'untitled';
+
+  let text = input;
+
+  // If input looks like a URL, extract the last path segment
+  if (text.startsWith('http')) {
+    try {
+      const url = new URL(text);
+      const segments = url.pathname.split('/').filter(Boolean);
+      text = segments.pop() || url.hostname;
+    } catch {
+      // Not a valid URL, use as-is
+    }
+  }
+
+  const slug = text
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // strip diacritics
+    .replace(/[^a-z0-9]+/g, '-')                       // non-alphanum → dash
+    .replace(/-+/g, '-')                                // collapse dashes
+    .replace(/^-|-$/g, '')                              // trim dashes
+    .slice(0, 80);
+
+  return slug || 'untitled';
+}
+
+/**
+ * Pre-write a content file with full extracted content and placeholder for Claude analysis.
+ * Returns the file path written, or null if no content to write.
+ */
+export function writeContentFile(opts) {
+  const { type, title, author, source, tweetUrl, folder, paywalled } = opts;
+
+  const isGithub = type === 'github';
+  const contentText = isGithub ? opts.readme : opts.content;
+
+  // Skip if no meaningful content
+  if (!contentText || paywalled) return null;
+
+  // Generate slug and handle collisions
+  const slug = slugify(title || source);
+  fs.mkdirSync(folder, { recursive: true });
+
+  let filePath = path.join(folder, `${slug}.md`);
+  if (fs.existsSync(filePath)) {
+    // Append a short suffix to avoid overwriting
+    let i = 2;
+    while (fs.existsSync(path.join(folder, `${slug}-${i}.md`))) i++;
+    filePath = path.join(folder, `${slug}-${i}.md`);
+  }
+
+  const dateAdded = dayjs().format('YYYY-MM-DD');
+  const escapedTitle = (title || 'Untitled').replace(/"/g, '\\"');
+
+  let fileContent;
+  if (isGithub) {
+    const { fullName, description, stars, language, topics } = opts;
+    fileContent = `---
+title: "${escapedTitle}"
+type: tool
+date_added: ${dateAdded}
+source: "${source}"
+stars: ${stars || 0}
+language: "${language || 'unknown'}"
+tags: [${(topics || []).map(t => `"${t}"`).join(', ')}]
+via: "Twitter bookmark from @${author}"
+---
+
+<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+
+## README
+
+${contentText}
+
+## Links
+
+- [GitHub](${source})
+- [Original Tweet](${tweetUrl})
+`;
+  } else {
+    const typeLabel = type === 'x-article' ? 'x-article' : 'article';
+    fileContent = `---
+title: "${escapedTitle}"
+type: ${typeLabel}
+date_added: ${dateAdded}
+source: "${source}"
+author: "${opts.byline || author || 'unknown'}"
+tags: []
+via: "Twitter bookmark from @${author}"
+---
+
+<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+
+## Full Content
+
+${contentText}
+
+## Links
+
+- [Article](${source})
+- [Original Tweet](${tweetUrl})
+`;
+  }
+
+  fs.writeFileSync(filePath, fileContent);
+  return filePath;
+}
+
+/**
+ * Extract readable article content from raw HTML using Mozilla's Readability.
+ * Returns { title, byline, content } or null if extraction fails.
+ */
+export function extractReadableContent(html, url) {
+  if (!html) return null;
+
+  try {
+    const { document } = parseHTML(html);
+    const reader = new Readability(document);
+    const article = reader.parse();
+    if (!article || !article.textContent) return null;
+
+    const content = article.textContent.trim();
+    if (!content) return null;
+
+    return {
+      title: article.title || null,
+      byline: article.byline || null,
+      content,
+    };
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchArticleContent(url) {
   try {
     const controller = new AbortController();
@@ -524,18 +664,29 @@ export async function fetchArticleContent(url) {
     });
     clearTimeout(timeout);
 
-    const text = await response.text();
-    // Limit to 50KB like the old curl | head -c 50000
-    const result = text.slice(0, 50000);
+    const html = await response.text();
 
-    // Check for paywall indicators
-    if (result.includes('Subscribe') && result.includes('sign in') ||
-        result.includes('This article is for subscribers') ||
-        result.length < 1000) {
-      return { text: result, source: 'direct', paywalled: true };
+    // Check for paywall indicators on the raw HTML
+    if (html.includes('Subscribe') && html.includes('sign in') ||
+        html.includes('This article is for subscribers') ||
+        html.length < 1000) {
+      return { text: html.slice(0, 50000), source: 'direct', paywalled: true };
     }
 
-    return { text: result, source: 'direct', paywalled: false };
+    // Try readability extraction
+    const readable = extractReadableContent(html, url);
+    if (readable && readable.content.length > 100) {
+      return {
+        title: readable.title,
+        byline: readable.byline,
+        text: readable.content,
+        source: 'readability',
+        paywalled: false
+      };
+    }
+
+    // Fallback to raw HTML if readability fails
+    return { text: html.slice(0, 50000), source: 'direct', paywalled: false };
   } catch (error) {
     throw error;
   }
@@ -762,14 +913,63 @@ export async function fetchAndPrepareBookmarks(options = {}) {
               console.log(`  GitHub repo: ${fetchResult.fullName} (${fetchResult.stars} stars)`);
             } else {
               content = {
-                text: fetchResult.text?.slice(0, 10000),
+                title: fetchResult.title || null,
+                byline: fetchResult.byline || null,
+                text: fetchResult.text,
                 source: fetchResult.source,
                 paywalled: fetchResult.paywalled
               };
+              if (fetchResult.source === 'readability') {
+                console.log(`  Article extracted: "${fetchResult.title || 'untitled'}" (${fetchResult.text.length} chars)`);
+              }
             }
           } catch (error) {
             console.log(`  Could not fetch content: ${error.message}`);
             content = { error: error.message };
+          }
+        }
+
+        // Pre-write content file for types that have extracted content
+        if (content && !content.error && (type === 'article' || type === 'github' || type === 'x-article')) {
+          const categoryMap = { 'article': 'article', 'x-article': 'x-article', 'github': 'github' };
+          const cat = config.categories?.[categoryMap[type]];
+          const folder = cat?.folder || (type === 'github' ? './knowledge/tools' : './knowledge/articles');
+          const author = bookmark.author?.username || bookmark.user?.screen_name || 'unknown';
+
+          const fileOpts = {
+            type,
+            title: content.title || content.name || null,
+            author,
+            source: expanded,
+            tweetUrl: `https://x.com/${author}/status/${bookmark.id}`,
+            folder,
+          };
+
+          if (type === 'github') {
+            Object.assign(fileOpts, {
+              fullName: content.fullName,
+              description: content.description,
+              stars: content.stars,
+              language: content.language,
+              topics: content.topics,
+              readme: content.readme,
+            });
+          } else {
+            Object.assign(fileOpts, {
+              content: content.text || content.content,
+              byline: content.byline,
+              paywalled: content.paywalled,
+            });
+          }
+
+          const contentFile = writeContentFile(fileOpts);
+          if (contentFile) {
+            content.contentFile = contentFile;
+            // Strip bulky content from pending JSON — it's on disk now
+            delete content.text;
+            delete content.content;
+            delete content.readme;
+            console.log(`  Content file written: ${contentFile}`);
           }
         }
 
@@ -791,6 +991,24 @@ export async function fetchAndPrepareBookmarks(options = {}) {
           const content = await fetchXArticleContent(articleUrl, config, tweetId);
           if (content.content) {
             console.log(`  X article fetched: "${content.title || 'untitled'}" (${content.content.length} chars)`);
+
+            // Pre-write content file
+            const xCat = config.categories?.['x-article'];
+            const xFolder = xCat?.folder || './knowledge/articles';
+            const xAuthor = bookmark.author?.username || bookmark.user?.screen_name || 'unknown';
+            const contentFile = writeContentFile({
+              type: 'x-article',
+              title: content.title,
+              author: xAuthor,
+              source: articleUrl,
+              tweetUrl: `https://x.com/${xAuthor}/status/${bookmark.id}`,
+              content: content.content,
+              folder: xFolder,
+            });
+            if (contentFile) {
+              content.contentFile = contentFile;
+              console.log(`  Content file written: ${contentFile}`);
+            }
           } else if (content.title) {
             console.log(`  X article metadata only: "${content.title}"`);
           }

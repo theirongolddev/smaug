@@ -211,7 +211,7 @@ async function main() {
       const jobPath = path.join(path.dirname(fileURLToPath(import.meta.url)), 'job.js');
       const trackTokens = args.includes('--track-tokens') || args.includes('-t');
 
-      // Parse --limit flag
+      // Parse --limit flag (limits how many bookmarks Claude processes)
       const limitIdx = args.findIndex(a => a === '--limit' || a === '-l');
       let limit = null;
       if (limitIdx !== -1 && args[limitIdx + 1]) {
@@ -222,9 +222,20 @@ async function main() {
         }
       }
 
+      // Parse --fetch-count flag (controls how many bookmarks bird fetches)
+      const fetchCountIdx = args.findIndex(a => a === '--fetch-count' || a === '-n');
+      let fetchCount = null;
+      if (fetchCountIdx !== -1 && args[fetchCountIdx + 1]) {
+        fetchCount = parseInt(args[fetchCountIdx + 1], 10);
+        if (isNaN(fetchCount) || fetchCount <= 0) {
+          console.error('Invalid --fetch-count value. Must be a positive number.');
+          process.exit(1);
+        }
+      }
+
       try {
         const jobModule = await import(pathToFileURL(jobPath).href);
-        const result = await jobModule.default.run({ trackTokens, limit });
+        const result = await jobModule.default.run({ trackTokens, limit, fetchCount });
         process.exit(result.success ? 0 : 1);
       } catch (err) {
         console.error('Failed to run job:', err.message);
@@ -349,6 +360,7 @@ Commands:
   run            Run the full job (fetch + process with Claude)
   run -t         Run with token usage tracking (--track-tokens)
   run --limit N  Process only N bookmarks (for large backlogs)
+  run --fetch-count N  Fetch N bookmarks from Twitter (default: 20)
   fetch [n]      Fetch n tweets (default: 20)
   fetch --all    Fetch ALL bookmarks (paginated)
   fetch --max-pages N  Limit pagination to N pages (default: 10)
@@ -362,6 +374,8 @@ Examples:
   smaug setup                    # First-time setup
   smaug run                      # Run full automation
   smaug run --limit 50           # Process 50 bookmarks at a time
+  smaug run --fetch-count 100    # Fetch 100 bookmarks from Twitter
+  smaug run --fetch-count 100 --limit 50  # Fetch 100, process 50
   smaug fetch                    # Fetch latest (uses config source)
   smaug fetch 50                 # Fetch 50 tweets
   smaug fetch --all              # Fetch ALL bookmarks (paginated)

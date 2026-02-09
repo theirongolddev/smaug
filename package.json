@@ -24,9 +24,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "dayjs": "^1.11.10"
+    "@mozilla/readability": "^0.6.0",
+    "dayjs": "^1.11.10",
+    "linkedom": "^0.18.12"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=20"
   }
