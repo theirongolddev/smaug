@@ -6,6 +6,29 @@ source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Monday, February 9, 2026
+
+## @doodlestein - FrankenTerm: Forking WezTerm for Agent Swarm Reliability
+
+> These screenshots show two things:
+>
+> 1) That the beads design of a git-backed .jsonl file plus a git-ignored sqlite db file, where each can sync/backup to, or load from, the other, is a very useful pattern. This despite recent claims to the contrary.
+>
+> 2) I'm just so tired of WezTerm dying horribly under the extreme load of my agent swarm sessions and losing time and work. It just wasn't built for these assumptions, even with my tweaked settings.
+>
+> The fact that its internal mux server just leaks memory until it dies and that there's no way to rescue or serialize your sessions (nor does lifting them out with reptyr work in practice) is a big problem for me.
+>
+> I already had a project called wezterm_automata that was about adding a lot of agent swarm management automation stuff directly into WezTerm, and it already cloned the entire WezTerm repo inside it.
+>
+> Well, now that I'm going to be making tons of serious changes to the guts (see pic), I decided that I want to rename it to FrankenTerm and control the entire stack all the way for full control.
+>
+> Luckily, WezTerm is incredibly well-designed, so I can focus narrowly on the changes I need for my use case.
+
+- **Tweet:** https://x.com/doodlestein/status/2020946620758516020
+- **What:** Jeffrey Emanuel announces renaming his wezterm_automata project to FrankenTerm after deciding to fork WezTerm entirely. He's addressing reliability issues under heavy agent swarm workloads, particularly memory leaks in the internal mux server and lack of session serialization. Also validates the beads architecture pattern of git-backed JSONL + git-ignored SQLite syncing to each other.
+
+---
+
 # Sunday, February 8, 2026
 
 ## @hooeem - Automate Your Life: Comprehensive AI Life Audit Prompt
