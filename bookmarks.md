@@ -29,6 +29,80 @@ description: X/Twitter bookmarks synced via Smaug
 
 ---
 
+# Monday, January 12, 2026
+
+## @doodlestein - Iterative Spec Review Workflow: 15-20 Rounds of Protocol Refinement with GPT Pro Extended Reasoning
+
+> When you're designing a complex protocol specification, especially when security is involved, just one iteration of review by GPT Pro 5.2 with Extended Reasoning doesn't cut it.
+>
+> I'm now working on what I call the Flywheel Connector Protocol... you can see the main goals of the project in the README file here: [README]
+>
+> This is already my 5th iteration, where each round starts in a new session and begins with the full revised specification and readme file from the prior round that has had all the previous changes integrated using Claude Code.
+>
+> Despite that, these aren't just minor tweaks, as you can see in the attached screenshot. But they are starting to dampen in magnitude. It very much reminds me of a numerical optimizer gradually converging on a steady state after wild swings in the initial iterations.
+>
+> With each round, the specification becomes "less wrong." Not only is this a good thing because the protocol improves, but it also means that in the next round of review, GPT Pro can focus its considerable intellectual energies on the nuanced particulars...
+>
+> Normally I don't do more than 5 or 6 rounds, but given that this is probably the most ambitious thing I've attempted and I want to make sure it's perfect before I start implementing a massive amount of Rust connectors, I am going to try to do between 15 and 20 rounds.
+
+- **Tweet:** https://x.com/doodlestein/status/2010780941027889572
+- **Links:**
+  - https://github.com/Dicklesworthstone/flywheel_connectors (Main repo)
+  - https://github.com/Dicklesworthstone/flywheel_connectors/blob/main/FCP_Specification_V2.md (Specification)
+  - https://github.com/Dicklesworthstone/flywheel_connectors/blob/main/docs/fcp_model_connectors_rust.md (Implementation reference)
+  - https://chatgpt.com/share/69653838-1148-800b-b4ee-fd5f00050d78 (Example review round)
+  - https://github.com/Dicklesworthstone/flywheel_connectors/commits/main/FCP_Specification_V2.md (Revision history)
+- **Filed:** [flywheel-connectors](/knowledge/tools/flywheel-connectors.md), [flywheel-connectors-2](/knowledge/tools/flywheel-connectors-2.md), [flywheel-connectors-3](/knowledge/tools/flywheel-connectors-3.md), [flywheel-connectors-4](/knowledge/tools/flywheel-connectors-4.md), [FCP review example](/knowledge/articles/69653838-1148-800b-b4ee-fd5f00050d78.md)
+- **What:** Deep technical narrative of multi-round specification refinement workflow for the Flywheel Connector Protocol (FCP). Describes systematic approach: GPT Pro 5.2 with Extended Reasoning reviews specs in new sessions, Claude Code integrates feedback, README/implementation docs stay harmonized to surface issues early. Planned 15-20 rounds total. Includes concrete prompts for each review phase and rationale for keeping implementation docs synchronized during abstract specification iterations.
+
+---
+
+# Sunday, January 11, 2026
+
+## @BLUECOW009 - Code Field: Inhibition-Based Prompting Reshapes LLM Code Quality
+
+> I ran 18 tests on a prompting technique called Code Field.
+>
+> The prompt is 4 lines. All negations. No instructions on what to do—only what not to do.
+>
+> Code generation results:
+> Assumptions stated went from 0% to 100%. Every response listed its assumptions before writing code. Zero baseline responses did.
+>
+> Code review results:
+> Bug detection went from 39% to 89%. Baseline called SQL injection "add error handling." Code Field called it a security vulnerability.
+>
+> Severity recognition went from 0% to 100%. Baseline missed every critical bug. Code Field caught them all.
+>
+> The finding: inhibition shapes LLM behavior more reliably than instruction.
+
+- **Tweet:** https://x.com/BLUECOW009/status/2010221837389570364
+- **Link:** https://github.com/NeoVertex1/context-field/blob/main/code_field.md
+- **Filed:** [context-field](/knowledge/tools/context-field.md)
+- **What:** Research demonstrating that negation-based prompts (inhibitory constraints) are more effective than traditional instructions for shaping LLM behavior in code generation and review tasks, with dramatic improvements in assumption-stating, bug detection, and severity recognition.
+
+## @el_PA_B - Building a Pathology Viewer with Claude: Test-Driven, Spec-First Agentic Development
+
+> For my work, I need to visualize cell segmentation and tissue annotations on whole slide images. These are massive pathology scans, multi-gigabyte files with millions of cells.
+>
+> Problem: my data format wasn't compatible with any existing WSI viewer out there.
+>
+> So I figured why not just vibe-code my own pathology viewer that supports my exact format?
+>
+> I set myself one rule: I wouldn't write a single line of code. Claude would do it all.
+>
+> I used @doodlestein's methodology, which breaks down like this:
+>
+> Step 1: Write a ridiculously detailed plan
+> Step 2: Break it into atomic beads
+> Step 3: Quality control throughout
+>
+> The part that surprised me the most: Multiple times, Claude's first solution wasn't optimal. For instance, it couldn't efficiently render 1M+ cell polygons on the first try... So I told it to think deeply about the hot path. To use time-efficient data structures (e.g. building a spatial index) for the problem at hand. And surprisingly, it almost always one-shot the optimized solution.
+
+- **Tweet:** https://x.com/el_PA_B/status/2010470446060482660
+- **What:** Case study of no-code-written approach to building a high-performance C++ pathology image viewer using Claude. Demonstrates value of comprehensive upfront planning, atomic task decomposition (beads), explicit quality criteria, and performance-focused iteration. Key insight: once pointed at the optimization challenge, Claude reliably produced high-quality solutions on first attempt.
+
+---
+
 # Sunday, February 8, 2026
 
 ## @hooeem - Automate Your Life: Comprehensive AI Life Audit Prompt
