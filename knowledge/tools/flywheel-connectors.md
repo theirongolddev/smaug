@@ -5,19 +5,11 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/flywheel_connectors"
 stars: 28
 language: "Rust"
-tags: [rust, distributed-systems, security, mesh-networking, ai-agents, cryptography]
+tags: []
 via: "Twitter bookmark from @doodlestein"
 ---
 
-A protocol for secure, mesh-native AI assistant operations with production-ready Rust connectors. Implements distributed AI across personal device meshes with zone-based isolation, capability tokens, and threshold cryptography. Solves data sovereignty by keeping personal AI on user devices with symbol-based distribution.
-
-## Key Takeaways
-- Mesh-native architecture where every device acts as a hub
-- Zone isolation with cryptographic namespaces and Tailscale ACL enforcement
-- FROST threshold signing and Shamir secret sharing across devices
-- Symbol-first protocol enabling offline resilience and multipath aggregation
-- Supply chain security with SLSA/SBOM attestations and revocation support
-- Production connectors for Twitter, Gmail, Discord, Stripe, Linear, and more
+<!-- NEEDS_ANALYSIS: description, key_features, tags -->
 
 ## README
 

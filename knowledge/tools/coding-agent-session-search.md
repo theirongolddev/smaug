@@ -5,11 +5,20 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/coding_agent_session_search/blob/main/PLAN_TO_CREATE_GH_PAGES_WEB_EXPORT_APP.md"
 stars: 450
 language: "Rust"
-tags: []
+tags: [coding-agents, search, rust, tui, semantic-search, agent-history, session-logs, privacy]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+Cass (Coding Agent Session Search) is a high-performance Rust CLI tool that unifies and indexes conversation history from multiple coding agents (Claude Code, Cursor, Aider, Codex, and others) into a single searchable timeline. It solves the problem of scattered, unsearchable knowledge across different tools by normalizing disparate formats and providing sub-60ms full-text search with optional semantic capabilities. All processing happens locally with no data transmission.
+
+## Key Features
+
+- **Multi-agent aggregation**: Normalizes formats from Claude Code, Codex, Cursor, Gemini CLI, Cline, OpenCode, Amp, ChatGPT, Aider, Pi-Agent, and Factory (Droid)
+- **Sub-60ms search performance**: Edge N-Gram indexing enables "search as you type" at interactive speeds
+- **Robot mode for agents**: Designed to let current agents learn from complete past agent history via machine-readable output
+- **Privacy-first architecture**: Everything stays local; no cloud dependencies or data transmission
+- **Rich TUI interface**: Three-pane layout with color-coded results, syntax highlighting, and semantic styling
+- **Cross-platform support**: Linux, macOS, and Windows with easy installation via Homebrew, Scoop, or shell script
 
 ## README
 

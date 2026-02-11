@@ -1,14 +1,22 @@
 ---
-title: "Untitled"
+title: "Alkalye - Beautiful Markdown Editor with E2E Encryption"
 type: article
 date_added: 2026-02-09
 source: "https://www.alkalye.com/"
 author: "ccssmnn"
-tags: []
+tags: ["markdown-editor", "e2e-encryption", "collaboration", "local-first", "pwa"]
 via: "Twitter bookmark from @ccssmnn"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Alkalye is a privacy-first markdown editor that combines end-to-end encryption with real-time collaboration. Built with Jazz (local-first sync framework), it offers offline-first functionality as a PWA, presentation mode for slideshows, teleprompter mode for speaking, and encrypted asset management. The key differentiation: documents are encrypted on-device before syncing, enabling secure collaboration without trusting the server with plaintext. It's portable—settings live in frontmatter, exports as standard Markdown.
+
+## Key Takeaways
+
+- E2E encryption enables private collaboration without server trust
+- Local-first architecture (Jazz) enables offline-first, sync-when-online behavior
+- Markdown-native with presentation mode and teleprompter built-in
+- PWA means installable and works on desktop and mobile
+- Portable design—settings in frontmatter, exports as standard .md
 
 ## Full Content
 

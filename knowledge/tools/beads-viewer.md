@@ -3,7 +3,7 @@ title: "beads_viewer"
 type: tool
 date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/beads_viewer"
-stars: 1232
+stars: 1233
 language: "Go"
 tags: []
 via: "Twitter bookmark from @nummanali"

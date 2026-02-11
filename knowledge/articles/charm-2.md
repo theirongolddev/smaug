@@ -1,0 +1,44 @@
+---
+title: "Charm"
+type: article
+date_added: 2026-02-09
+source: "https://charm.land/"
+author: "doodlestein"
+tags: [cli, tui, golang, terminal-ui, open-source, development-tools, shell-scripts]
+via: "Twitter bookmark from @doodlestein"
+---
+
+Charm is a comprehensive ecosystem of open-source Go libraries and tools for building beautiful, modern terminal user interfaces (TUIs) and CLI applications. The suite includes Bubble Tea (TUI framework), Lip Gloss (styling toolkit), Huh (form builder), Wish (SSH apps), Glamour (markdown renderer), and specialized tools like Glow (markdown reader), Gum (shell script enhancement), and Skate (key-value store). Used in over 25,000 applications from open-source projects to enterprise infrastructure, Charm combines functionality with aesthetic polish for building elegant command-line experiences.
+
+## Key Takeaways
+
+- Charm is a collection of Go libraries for building glamorous terminal UIs and CLIs
+- Core libraries: Bubble Tea (framework), Lip Gloss (styling), Huh (forms), Wish (SSH apps)
+- Specialized tools: Glow (markdown reader), Gum (shell script enhancement), Log (logger)
+- All libraries are open-source with strong commitment to community
+- Used in 25,000+ applications from developers and enterprises
+- Enables building polished CLI tools without extensive Go knowledge
+- Includes utilities like Bubbles (components), Harmonica (animations), Mods (AI models integration)
+
+## Full Content
+
+Remember your first Crush?AIGlamourousYour new coding bestie, now available in your favourite
+terminal. Your tools, your code, and your workflows, wired into your
+LLM of choice. This is artificial intelligence made glamourous.Available now for macOS, Linux, Windows, and BSD.Get CrushBuild with CharmEverything you need to build great stuff for the terminal. Always open-source.Bubble TeaFlavorTaroBuild terminal user interfaces from the future, today.HuhHuh?What?Simple, powerful forms in the terminal.Lip GlossGlossinessVeryYour terminal style and layout toolkit.WishMagicalYesMake SSH apps, just like that!GlamourBuildFashionableThe stylesheet-driven markdown renderer.BubblesTypeTapiocaThe Bubble Tea component toolkit.LogHotTotallyThis is fine. A happy, powerful little logger.HarmonicaSmoothVeryA physics-based animation toolkit.Industrial grade.Charm technology lives in over 25,000 applications, from leading open source projects, to business-critical infrastructure.
+For more info, get in touch.More stuffModsHumanMaybeTap into the unlimited potential machine learning has to
+offer with Mods, a CLI interface to the world’s best
+models. AI is about to get a whole lot weirder.Let’s GenerategumStickyPrettyA tool for glamorous shell scripts.Leverage the power of Bubbles and Lip Gloss in your scripts and aliases without writing any Go code!
+Make your shell scripts pop!Chew GumGlowBuildGlamorousRead markdown on the CLI…with pizzazz!Get ready to fall in love with the command line all over again.
+Glow is the customizable, award-winning* markdown reader with
+first-class CLI and TUI interfaces. Read comfortably in your
+natural habitat at last with Glow.Get Glow* Self-awardedSkateGrooveStrongA personal key value store with a simple, powerful command
+line user interface. Sometimes keys, values, and pipes in a
+shell is all you need to live your life. Skate on.Let’s RollWe love open source.The Charm ecosystem is built on open source technologies and we
+maintain a commitment to open sourcing our own work in turn. We do this
+partially because we believe it’s the right thing to do, but mostly
+because open source is cool.Let’s chat!Have a question about a command line thing you’re building? Got an idea for a new feature? Just wanna hang out? You’re always welcome in the Charm Discord.
+
+## Links
+
+- [Article](https://charm.land/)
+- [Original Tweet](https://x.com/doodlestein/status/2011697573078450325)

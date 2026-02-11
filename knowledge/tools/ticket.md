@@ -5,11 +5,11 @@ date_added: 2026-02-09
 source: "https://github.com/wedow/ticket"
 stars: 529
 language: "Shell"
-tags: []
+tags: [task-tracking, ai-agents, issue-tracking, git-native, concurrency, beads-replacement]
 via: "Twitter bookmark from @gregwedow"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+A git-native, lightweight issue tracking system designed as a direct replacement for beads. Ticket stores issues as markdown files with YAML frontmatter in `.tickets/`, making them easily searchable by AI agents without dumping large JSONL context. Built on Unix Philosophy principles, it provides dependency tracking, priority levels, and status management while eliminating the SQLite sync and daemon processes that caused concurrency issues in beads. Ticket scales effectively to multiple concurrent agents working in different worktrees, making it ideal for Ralph-style long-running agent workflows.
 
 ## README
 

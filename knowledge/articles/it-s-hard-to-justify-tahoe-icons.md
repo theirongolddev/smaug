@@ -4,11 +4,19 @@ type: article
 date_added: 2026-02-09
 source: "https://tonsky.me/blog/tahoe-icons/"
 author: "Nikita Prokopov"
-tags: []
+tags: [design, ui-design, icon-design, usability, apple, human-interface-guidelines, consistency]
 via: "Twitter bookmark from @jasonfried"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Apple's macOS Tahoe added icons to every menu item, but the implementation violates decades of established UX principles. This article systematically catalogs why the approach fails: icons don't differentiate when everything has one, consistency is broken within and across apps, ambiguous metaphors confuse rather than clarify, and tiny icon sizes make details unrecognizable. The analysis demonstrates that thoughtful exclusion and careful consistency matter more than comprehensive icon coverage.
+
+## Key Takeaways
+
+- **Differentiation requires scarcity**: Icons only help users find things faster when they're selective; when everything is iconified, nothing stands out
+- **Consistency is foundational**: The same icon must mean the same thing across all apps and menus; Apple violates this repeatedly (multiple interpretations of arrows, folders, checkmarks)
+- **Small size demands simplicity**: 24×24 pixel icons at modern DPI leave no room for micro-details; vector fonts at this scale produce blurry, indecipherable results
+- **Metaphors must be universal**: "Open," "Close," "Find" lack obvious natural metaphors; poor metaphors confuse more than unlabeled text alone
+- **Historical principles endure**: Apple's 1992 Human Interface Guidelines remain valid because they're based on human cognition, not technology trends
 
 ## Full Content
 

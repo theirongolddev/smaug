@@ -5,19 +5,19 @@ date_added: 2026-02-09
 source: "https://github.com/NeoVertex1/context-field/blob/main/code_field.md"
 stars: 136
 language: "Shell"
-tags: [prompting, llm-behavior, cognitive-constraints, code-quality, testing]
+tags: [prompting, llm-optimization, code-quality, cognitive-constraints, research]
 via: "Twitter bookmark from @BLUECOW009"
 ---
 
-Research on cognitive constraints that reshape LLM behavior. Demonstrates that inhibition (what NOT to do) shapes LLM output more reliably than instruction (what to do). Testing across code generation, code review, and other tasks shows dramatic improvements in assumption stating, bug detection, and severity recognition.
+Context Fields is a prompting methodology that uses "inhibition" (telling LLMs what NOT to do) instead of instructions to achieve dramatically better results. Research from @BLUECOW009 showed that inhibition-based prompts increased assumption documentation from 0% to 100%, bug detection from 39% to 89%, and critical bug severity recognition from 0% to 100% compared to baseline prompting.
 
 ## Key Takeaways
-- Inhibitions are more effective than instructions for constraining LLM behavior
-- Assumption stating increased from 0% to 100% in code generation testing
-- Bug detection in code review improved from 39% to 89%
-- Severity recognition increased from 0% to 100%, catching critical bugs reliably
-- 21 pre-built context fields available for different reasoning modes
-- Fields can be stacked for complex multi-step tasks
+
+- **Inhibition > Instruction**: Telling LLMs what NOT to do creates blockers they cannot bypass, unlike instructions which create mere preferences
+- **21 Composable Fields**: The toolkit includes core fields like /code, /interview, /critic, /debug, and anti-fields like /elaborate and /trust for situational reversal
+- **Dramatic Quality Improvements**: Tested compositions (e.g., /code + /critic for code review) show consistent improvements in bug detection, security awareness, and assumption documentation
+- **Four Primitives**: Every field combines inhibition, forcing functions, meta-monitors, and scope bounds to reshape LLM cognition
+- **Auto-Activation**: Fields auto-apply based on request type (code errors trigger /debug, writing requests trigger /concise, etc.)
 
 ## README
 

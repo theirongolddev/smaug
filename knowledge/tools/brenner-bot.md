@@ -5,11 +5,23 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/brenner_bot"
 stars: 51
 language: "TypeScript"
-tags: ["ai-agents", "biology", "science-research"]
+tags: ["ai-agents", "biology", "science-research", "sydney-brenner", "research-methodology", "agent-mail", "multi-agent"]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+## Description
+
+Brenner Bot is a research coordination system that distills Sydney Brenner's scientific methodology from 236 interview transcripts and makes it executable by AI agents. The system enables multi-agent collaboration (Claude Opus 4.5, GPT-5.2, Gemini 3) through Agent Mail, allowing agents to debate hypotheses, design lethal experiments, and synthesize findings following Brenner's systematic approach. Built with Next.js web interface, Bun CLI, and tmux-based orchestration, it serves as both a research corpus and operational framework for agent-driven discovery.
+
+## Key Features
+
+- **Sydney Brenner transcript corpus**: 236 curated interviews compiled from WebOfStories, serving as primary source material
+- **Multi-model collaboration**: Claude Code, Codex CLI, and Gemini CLI agents coordinate via Agent Mail without calling external APIs
+- **Debate and synthesis modes**: Oxford-style, Socratic, and Steelman debate formats for hypothesis testing and refinement
+- **Research hygiene framework**: Built-in guardrails against hindsight bias, unfalsifiable hypotheses, confound blindness via prediction locks and artifact linting
+- **Brenner Method operators**: Executable cognitive patterns for level-splitting, exclusion testing, system selection, and physics validation
+- **Deterministic merge algorithm**: Reconciles multi-agent deltas with human approval gates ensuring epistemic integrity
+- **Web interface and CLI**: Both Vercel-deployed web app (brennerbot.org) and terminal-first Bun CLI for power users
 
 ## README
 

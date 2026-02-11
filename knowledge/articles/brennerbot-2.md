@@ -1,0 +1,53 @@
+---
+title: "BrennerBot"
+type: article
+date_added: 2026-02-09
+source: "https://brennerbot.org/"
+author: "BrennerBot"
+tags: [research-toolkit, brenner-method, scientific-rigor, multi-agent-orchestration, knowledge-distillation, hypothesis-testing]
+via: "Twitter bookmark from @doodlestein"
+---
+
+## Summary
+
+BrennerBot is a research toolkit that operationalizes Sydney Brenner's rigorous scientific methodology through AI agent orchestration. Built on Brenner's epistemological principles, the system coordinates multiple agents in debate formats (Oxford, Socratic, Steelman) to sharpen hypotheses, design elimination tests, and synthesize evidence. Features include prediction locking to prevent hindsight bias, confound detection across 8 research domains, and deterministic agent coordination using Agent Mail threads.
+
+## Key Takeaways
+
+- **Brenner method as executable code**: Encodes Brenner's breakthrough methodology (split levels, design killing tests, choose your system, check physics) as composable operators agents can apply systematically
+- **Multi-agent debate**: Coordinate Claude, GPT, and Gemini as proposition, opposition, and judge; agents challenge each other until only strongest ideas survive
+- **Reproducible sessions**: Every action is reversible, auditable, and replayable; full tracking enables learning from past sessions and error recovery
+- **Prediction lock prevents hindsight bias**: Lock outcome predictions before results arrive; Brier score and calibration tracking reveal bias and improve over time
+- **Confound detection built-in**: Domain-specific flags for psychology, epidemiology, economics, biology, neuroscience, computer science (e.g., "selection bias detected—how will you ensure random sampling?")
+- **Artifact linting enforces rigor**: 50+ rules validate third alternatives presented, potency controls defined, citations anchored to evidence
+- **Hypothesis similarity search**: Find related work across sessions with offline embeddings; duplicate and paradigm shift detection
+- **What-if scenario modeling**: Simulate outcomes before testing; info-gain ranking prioritizes high-impact experiments
+- **Robustness scoring**: Evidence-weighted survival scores reveal which hypotheses are fragile vs battle-tested (support vs. challenge balance)
+- **Deterministic merge with Agent Mail**: Threaded coordination keeps exchanges auditable; human approval gates ensure you stay in the loop before artifacts ship
+
+## Full Content
+
+What's InsideA research toolkit for applying Brenner's epistemology to your own scientific questions.Core WorkflowFrom Question to Conclusion: The Brenner LoopResearch sessions follow a rigorous, reproducible path. Every step is tracked, auditable, and reversible.Undo / RedoEvery action is reversible. Explore without fear.Session ReplayReproduce any session exactly for audit and learning.Error RecoveryGraceful checkpoints when things go wrong.Multi-Agent OrchestrationYour Research Team: AI Agents That Debate, Challenge, and SynthesizeEach agent has a precise mandate. Together they sharpen hypotheses, design lethal tests, and merge evidence into auditable artifacts - without surrendering control."What if you could have Claude, GPT, and Gemini debate your hypothesis - challenging each other until only the strongest ideas survive?"Oxford StyleDebate ModeProposition vs opposition with a judgeBest for: Testing hypothesis strengthSocraticDebate ModeProbing questions to surface hidden assumptionsBest for: Finding weak links fastSteelman ContestDebate ModeBuild the strongest case, then dismantle itBest for: Exploring the hypothesis spaceTerminalbrenner-cli# Start a debate session
+brenner session start --thread-id RS-20260105 \
+  --format oxford \
+  --question "Does the morphogen gradient model explain cell fate?"
+
+# Watch agents debate in real-time
+brenner session status --thread-id RS-20260105 --watch
+
+# See the merged artifact
+brenner session compile --thread-id RS-20260105Coordination VisualizationDeterministic MergeThread ID: RS-20260106-001Ack tracking enabled1KickoffThreaded prompt goes to each agent role2DeltasStructured responses return with citations3MergeDeterministic compiler reconciles evidence4HumanYou decide what ships and what diesCoordination Without ChaosAgent Mail keeps every exchange auditableEvery message lands in a thread, every response is acknowledged, and every delta is preserved. You stay in the loop with human approval gates at every step.Built on  with thread IDs, ack receipts, and merge-safe deltas.Kickoff sent3 agents liveDeltas merged1 artifact readyHuman approvalRequiredResearch HygieneBuilt-In Guardrails for Rigorous ScienceThe system blocks common failure modes: hindsight bias, unfalsifiable hypotheses, ignored confounds, and overconfidence. Rigor is enforced before you waste a week.Coach ModeGuided checkpoints, inline explanations, and Brenner quotes as you work.Beginner → ExpertContextual feedbackPrediction LockLock outcomes before results arrive to eliminate hindsight bias.Immutable predictionsAudit trailCalibration TrackingBrier score, overconfidence bias, and domain-level accuracy trends.Confidence scorecardBias alertsConfound DetectionDomain-specific confounds flagged with targeted prompting questions.8 research domainsAutomatic promptsArtifact Linting50+ rules enforcing third alternatives, potency controls, and citation hygiene.Structural checksCitation validationPrediction Lock TimelineNo hindsight1Design test2Enter predictions3Lock outcomesLocked4Run experiment5Compare resultsConfound Detection8 domainsPsychologyEpidemiologyEconomicsBiologySociologyNeuroscienceComputer ScienceGeneralSelection bias detected - how will you ensure random sampling?Reverse causation possible - can you establish temporal order?Calibration + LintingScorecardCalibration curve (last 10 tests)Third alternative presentPassPotency control definedPassCitation anchorsReviewDiscovery & IntelligenceIntelligence Built In: Search, Simulate, ScoreConnect to prior work instantly, model evidence impact before you test, and track which hypotheses survive pressure. This is research intelligence, not a chat log.Hypothesis Similarity SearchFind related work across sessions with offline embeddings and clusters.Client-side onlyDuplicate detectionWhat-If ScenariosSimulate outcomes before running tests and prioritize high-impact experiments.Info gain rankedScenario builderRobustness ScoringEvidence-weighted survival scores reveal fragile vs battle-tested ideas.Support vs challengeRobustness meterAnomaly DetectionTrack contradictions and spawn new hypotheses instead of burying them.Anomaly registerParadigm alertsSimilarity SearchOfflineQuery: "morphogen gradient cell fate"Morphogen gradient (RS-20251230)82%Statement 0.8 / Mechanism 0.6 / Domain 0.9Timing gate model (RS-20250112)71%Statement 0.7 / Mechanism 0.5 / Domain 0.8Signal relay chain (RS-20241018)64%Statement 0.6 / Mechanism 0.4 / Domain 0.9Runs entirely client-side - your hypotheses never leave your machine.What-If ScenarioInfo gainStarting confidence60%If supports78%If challenges35%Expected information gain: 0.42Best next test: Perturb gradient + checkpoint timingRobustnessSurvival scoreH1: Morphogen gradient72%3 supporting / 1 challenging (survived)H2: Timing mechanism35%1 supporting / 2 inconclusiveAnomaly RegisterQuarantineX-001ActiveOscillating fate markersConflicts with H1 + H2X-014DeferredLate-stage inversionWaiting on potency controlDeep DiveThe Operator Algebra: Brenner's Methods as Executable CodeSydney Brenner's breakthrough wasn't just his discoveries - it was his method. We've encoded his cognitive patterns as composable operators that you can apply systematically.The Brenner Method in 4 Steps1Split the levelsSeparate the 'what' from the 'how'2Design killing testsFind experiments that eliminate possibilities3Choose your systemPick the easiest organism/model to test with4Check the physicsMake sure it's physically possibleWant the precise notation? See the operators below.⊘Level-Split"Separate program from interpreter"Message vs machine, genotype vs phenotype. Includes the 'chastity vs impotence' diagnostic.Template"What is the information? What is the mechanism?"✂Exclusion-Test"Design tests that eliminate, not confirm"Forbidden patterns: what cannot occur if H is true. Rated by discriminative power.Template"If H1 is true, we should NEVER see..."⟂Object-Transpose"Change the system until the test is easy"Choose organism or model strategically. The experimental object is a design variable.Template"What system would make this test cheap and unambiguous?"⊞Scale-Check"Stay imprisoned in physics"Validate against physical constraints. Calculate timescales, length scales, energy scales.Template"Is this physically possible at the relevant scale?"The Core Composition(⌂ ∘ ✂ ∘ ≡ ∘ ⊘) powered by (↑ ∘ ⟂ ∘ 🔧) constrained by (⊞) kept honest by (ΔE ∘ †)- Start from a paradox (◊), split levels (⊘), extract invariants (≡)- Design exclusion tests (✂), materialize as decision procedure (⌂)- Power by amplification (↑) in well-chosen system (⟂) you build yourself (🔧)- Constrain by physics (⊞), keep honest with exception handling (ΔE) and theory killing (†)Extended Operators6 more patterns↑AmplifyUse selection, dominance, regime switches◊Paradox-huntUse contradictions as beacons⊕Cross-domainImport tools from other fields∿DephaseWork out of phase with fashion†Theory-killDrop hypotheses when the world says no⌂MaterializeWhat would I see if this were true?TypeScriptbrenner-loop/operatorsimport { pipe } from "@/lib/brenner-loop/operators/framework";
+
+const brennerPipeline = pipe(
+  levelSplit,        // Separate levels
+  invariantExtract,  // Find what survives
+  exclusionTest,     // Design killing experiments
+  materialize,       // Compile to decision procedure
+);
+
+const result = brennerPipeline(hypothesis, context);0Interview Segments0Model Distillations0+Operator Types0k+Words of Wisdom“I think many fields of science could do a great deal better if they went back to the classical approach of studying a problem, rather than following the latest fashion.Start the Tutorial
+
+## Links
+
+- [Article](https://brennerbot.org/)
+- [Original Tweet](https://x.com/doodlestein/status/2014424472887972070)

@@ -5,11 +5,11 @@ date_added: 2026-02-09
 source: "https://github.com/ccssmnn/alkalye/pull/3"
 stars: 13
 language: "TypeScript"
-tags: ["knowledge-base", "local-first", "markdown", "notes", "slideshow"]
+tags: ["markdown-editor", "e2e-encryption", "local-first", "collaboration", "pwa", "jazz", "react"]
 via: "Twitter bookmark from @ccssmnn"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+Alkalye is a beautiful, privacy-first markdown editor with end-to-end encryption, real-time collaboration, and presentation capabilities. Built on Jazz (local-first sync framework), it provides offline-first functionality as a PWA, presentation mode for slideshows, teleprompter mode with auto-scrolling, and encrypted image assets. The tech stack combines Jazz for sync/encryption with React 19, TanStack Router, Vite 7, Tailwind, shadcn/ui, and CodeMirror 6 for the editor.
 
 ## README
 

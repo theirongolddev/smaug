@@ -4,11 +4,20 @@ type: article
 date_added: 2026-02-09
 source: "https://sankalp.bearblog.dev/how-prompt-caching-works/"
 author: "dejavucoder"
-tags: []
+tags: ["LLM", "optimization", "prompt-caching", "inference", "vLLM", "cost-reduction"]
 via: "Twitter bookmark from @dejavucoder"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Prompt caching is a powerful optimization technique that reuses previously computed KV (Key-Value) tensors for identical prompt prefixes, enabling up to 10x savings on input token costs and faster response times. The article provides both practical tips for maximizing cache hits (stable prefixes, append-only context, deterministic serialization) and deep technical insights into how vLLM implements prompt caching through paged attention—borrowing OS-level memory paging concepts to manage GPU KV cache blocks efficiently.
+
+## Key Takeaways
+- Prompt caching can reduce input token costs by 10x when cache hits occur
+- Maintain stable, append-only prefixes to maximize cache hit rates across requests
+- Use deterministic serialization (sort_keys=True) to ensure consistent cache keys
+- vLLM implements prompt caching via paged attention, dividing KV cache into fixed-size blocks
+- Block hashing with parent chaining enables efficient O(1) cache lookups
+- System prompts are often shared across users, creating high-value caching opportunities
+- Avoid dynamic tool definitions or prefix changes that break the entire cache chain
 
 ## Full Content
 

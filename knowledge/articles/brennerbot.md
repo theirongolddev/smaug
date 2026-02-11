@@ -4,11 +4,22 @@ type: article
 date_added: 2026-02-09
 source: "https://brennerbot.org/"
 author: "BrennerBot"
-tags: []
+tags: ["research-methodology", "sydney-brenner", "hypothesis-testing", "multi-agent-debate", "killing-tests", "operator-algebra"]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+## Summary
+
+Interactive research toolkit encoding Sydney Brenner's scientific method as executable operator algebra. Enables rigorous hypothesis testing through multi-agent orchestration (agents debate in Oxford/Socratic/Steelman formats), prediction locking to eliminate hindsight bias, confound detection across 8 research domains, and deterministic evidence merging with human approval gates.
+
+## Key Takeaways
+
+- **Brenner's method as algebra**: Level-Split (separate what from how), Exclusion-Test (design killing tests), Object-Transpose (change system to make test easy), Scale-Check (validate against physics)
+- **Workflow**: Kickoff threaded prompts → agents delta responses with citations → deterministic merge → human approval
+- **Agent types**: Proposition (make case), Opposition (challenge), Judge (decide) in Oxford debate mode; Socratic mode asks probing questions; Steelman contests build strongest then dismantle it
+- **Safeguards**: Prediction Lock (outcomes before results), Confound Detection (8 domain-specific prompts), Artifact Linting (50+ rules for citation, potency, third alternatives)
+- **Intelligence layer**: Hypothesis similarity search (find related work), what-if scenarios (simulate before testing), robustness scoring (evidence-weighted survival), anomaly detection (contradictions spawn new hypotheses)
+- **Design philosophy**: Blocks hindsight bias, prevents unfalsifiable hypotheses, enforces research hygiene, tracks calibration metrics
 
 ## Full Content
 
@@ -35,4 +46,4 @@ const result = brennerPipeline(hypothesis, context);0Interview Segments0Model Di
 ## Links
 
 - [Article](https://brennerbot.org/)
-- [Original Tweet](https://x.com/doodlestein/status/2005815788628762640)
+- [Original Tweet](https://x.com/doodlestein/status/2017440470595436836)

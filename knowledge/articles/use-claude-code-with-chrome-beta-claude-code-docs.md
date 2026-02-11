@@ -4,11 +4,19 @@ type: article
 date_added: 2026-02-09
 source: "https://code.claude.com/docs/en/chrome"
 author: "bcherny"
-tags: []
+tags: ["claude-code", "browser-automation", "chrome-extension", "testing", "web-automation"]
 via: "Twitter bookmark from @bcherny"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Official documentation for Claude Code's Chrome browser automation integration. Enables Claude to control a Chrome browser for testing web applications, automating form filling, data extraction, and multi-site workflows without requiring API integrations for authenticated services.
+
+## Key Takeaways
+- Claude Code can interact with any web app you're logged into (Gmail, Notion, Google Docs, etc.) without API setup
+- Browser automation capabilities include live debugging, design verification, form testing, and visual regression detection
+- Chrome extension shares your browser's login state, enabling authenticated automation workflows
+- Real-time browser interaction with visible Chrome window allows pause for CAPTCHA/auth challenges
+- Multi-tab workflows enable complex tasks like calendar checking, company research, and conditional actions across websites
+- GIF recording enables shareable documentation of browser automation sequences
 
 ## Full Content
 

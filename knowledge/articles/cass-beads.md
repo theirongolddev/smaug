@@ -4,11 +4,19 @@ type: article
 date_added: 2026-02-09
 source: "https://dicklesworthstone.github.io/beads_for_cass/"
 author: "doodlestein"
-tags: []
+tags: [beads, planning, agent-development, cass, dependency-graphs, project-management, graph-analysis]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+This is a visualization dashboard for the beads created for the Cass (coding agent session search) project's GitHub Pages export feature. The interface provides multiple graph-analysis perspectives on task dependencies, helping teams understand bottlenecks, keystones, critical paths, and coupling. It demonstrates how sophisticated planning—when visualized and analyzed—reveals structural insights that guide implementation order and risk mitigation.
+
+## Key Takeaways
+
+- **Betweenness centrality identifies bottlenecks**: Tasks that lie on shortest paths between many other tasks will cause ripple delays if they slip
+- **Impact depth reveals keystones**: Foundational tasks that block entire chains should be completed first to unblock parallel work
+- **Eigenvector centrality shows influencers**: Well-connected tasks deserve careful review because changes propagate widely
+- **Blocking analysis prioritizes high-impact unblocks**: Clearing high-block-count tasks immediately enables parallel workstreams
+- **k-core cohesion detects tightly coupled areas**: Densely interdependent tasks should be handled as natural work packages to avoid fragmented progress
 
 ## Full Content
 

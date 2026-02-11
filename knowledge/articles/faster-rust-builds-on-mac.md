@@ -4,11 +4,20 @@ type: article
 date_added: 2026-02-09
 source: "https://nnethercote.github.io/2025/09/04/faster-rust-builds-on-mac.html"
 author: "steipete"
-tags: []
+tags: [rust, performance, macos, xprotect, build-optimization, developer-tools]
 via: "Twitter bookmark from @steipete"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+macOS has an XProtect antivirus feature that scans every newly-launched executable for malware. This is especially problematic for Rust development where build scripts are executed frequently, causing significant slowdowns. By adding your terminal app as a "developer tool" in System Settings, you can bypass XProtect checks and dramatically improve compilation times—particularly for test suites which can be reduced from 9+ minutes to 3-4 minutes.
+
+## Key Takeaways
+
+- **The Problem:** XProtect scans every executable on first run, causing build scripts to take 0.48-3.88 seconds each instead of milliseconds
+- **The Cause:** Single-threaded XProtect daemon creates bottlenecks when multiple binaries launch in parallel
+- **The Solution:** Whitelist Terminal (or iTerm) as a developer tool in System Settings to bypass XProtect for locally-compiled binaries
+- **The Impact:** Test suites like rustc's ui tests can be 2-3x faster (9m42s → 3m33s); cargo builds, runs, and tests all benefit
+- **The Tradeoff:** You're disabling an OS security feature—only recommended if you trust your development environment
+- **Implementation:** Cargo is developing a warning feature to detect XProtect and suggest disabling it
 
 ## Full Content
 

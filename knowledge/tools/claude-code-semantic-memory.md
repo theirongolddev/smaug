@@ -1,38 +1,51 @@
 ---
-title: "Claude Code Semantic Memory System"
+title: "claude-code-semantic-memory"
 type: tool
-date_added: 2026-01-28
-source: "GitHub - zacdcook/claude-code-semantic-memory"
-repo: "https://github.com/zacdcook/claude-code-semantic-memory"
-language: "Shell/Python/Node.js"
-tags: [claude-code, memory, semantic-search, embeddings, hooks, context-management, llm]
-via: Twitter bookmark by @PerceptualPeak
+date_added: 2026-02-09
+source: "https://github.com/zacdcook/claude-code-semantic-memory"
+stars: 72
+language: "Shell"
+tags: ["claude-code", "memory-systems", "hooks", "semantic-search", "context-management", "persistence"]
+via: "Twitter bookmark from @PerceptualPeak"
 ---
+
+## Summary
+
+A persistent memory system for Claude Code that extracts learnings from past sessions and injects relevant context on every prompt. The system converts transcripts to markdown, extracts learnings using Claude sub-agents, embeds them locally with nomic-embed-text, and injects relevant memories via pre-configured hooks that fire during prompts and tool execution. Includes a memory daemon, transcript conversion tools, and hooks for UserPromptSubmit and PreToolUse stages.
+
+## Key Takeaways
+
+- **Persistent Memory Across Sessions**: Solves the problem of Claude forgetting solutions, gotchas, infrastructure details, and decisions between sessions
+- **Hook-Based Architecture**: Uses SessionStart, UserPromptSubmit, PreToolUse, and PreCompact hooks to seamlessly inject memories
+- **Cosine Similarity Matching**: Queries the daemon with embeddings to find top 3 most relevant memories (≥0.45 similarity threshold)
+- **Real-Time Thinking Analysis**: PreToolUse hook extracts Claude's thinking blocks to detect workflow drift and inject corrective memories mid-workflow
+- **Local Embedding Model**: Uses Ollama with nomic-embed-text for privacy and speed (embeddings run on-device)
+- **Daemon Architecture**: Python server on port 8741 provides /store and /recall endpoints for managing memories
+
+## README
 
 # Claude Code Semantic Memory System
 
-## Problem Solved
+A persistent memory system for Claude Code that extracts learnings from past sessions and injects relevant context on every prompt.
 
-Claude Code sessions are stateless by default. Every context compaction or new session loses:
-- Solutions already discovered
-- Gotchas and traps identified
-- Infrastructure details and preferences
-- Decisions made and why
-- Past learnings and patterns
+## The Problem
 
-This leads to repeated mistakes, redundant conversations, lost productivity.
+Claude Code sessions are stateless by default. Every time context compacts or you start a new session, Claude forgets:
+- Solutions you already discovered together
+- Gotchas and traps you identified
+- Your infrastructure details and preferences
+- Decisions you made and why
 
-## Solution Overview
+This leads to repeated mistakes, redundant conversations, and lost productivity.
 
-Persistent memory system that:
-1. Converts `.jsonl` transcripts to readable markdown
-2. Extracts learnings using Claude sub-agents
-3. Embeds learnings with local embedding model (nomic-embed-text)
-4. Injects relevant memories via Claude Code hooks
+## The Solution
 
-**Key Innovation:** PreToolUse hook catches mid-stream workflow drift by injecting memories during tool execution, not just at prompt start.
+This system gives Claude **persistent memory** across sessions:
 
-## Architecture
+1. **Convert** your `.jsonl` transcripts to readable markdown
+2. **Extract** learnings using Claude sub-agents that process transcripts
+3. **Embed** learnings with a local embedding model (nomic-embed-text)
+4. **Inject** relevant memories via Claude Code hooks that fire on every prompt
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
@@ -47,212 +60,142 @@ Persistent memory system that:
 └─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
-## Hook Lifecycle
-
-### SessionStart
-- Check daemon health
-- Warn about orphaned transcripts
-
-### UserPromptSubmit (fires for each user message)
-- Embed user's prompt
-- Query daemon `/recall` endpoint
-- Inject top 3 memories into context
-- **Limitation:** Memories less relevant as workflow drifts from original prompt
-
-### PreToolUse (fires before EACH tool execution)
-- Extract Claude's thinking from last 1,500 characters of thinking block
-- Query daemon for new relevant memories based on current reasoning
-- Inject if thinking has drifted from original prompt direction
-- **Advantage:** Self-correcting workflows in real-time (~500ms execution)
-- **Game Changer:** Prevents Claude from going down known error paths mid-stream
-
-### PreCompact (context window fills)
-- Export transcript to disk
-- Convert JSONL to markdown
-- Dispatch sub-agents for learning extraction
-
-## Memory Injection Timing
-
-**UserPromptSubmit Only (common, but limited):**
-- Memories injected at prompt initiation
-- Become less relevant as workflow extends
-- Good for: Kickstarting with context
-
-**UserPromptSubmit + PreToolUse (recommended):**
-- Initial context + ongoing workflow corrections
-- Catches when Claude starts drifting to error paths
-- Injects relevant memories from past learnings
-- Result: Self-correcting workflows
-- Performance: All happening in <500ms (synchronous hooks)
+---
 
 ## Quick Start
 
 ### Prerequisites
-- Node.js
-- Ollama (for embeddings)
-- Python 3.8+
+
+- [Node.js](https://nodejs.org/) (for transcript conversion)
+- [Ollama](https://ollama.com/) (for local embeddings)
+- Python 3.8+ (for the memory daemon)
 - Claude Code CLI
 
-### Installation Steps
+### 1. Install Dependencies
 
-1. **Pull Embedding Model**
-   ```bash
-   ollama pull nomic-embed-text
-   ```
+```bash
+# Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
 
-2. **Clone Repository**
-   ```bash
-   git clone https://github.com/zacdcook/claude-code-semantic-memory.git
-   cd claude-code-semantic-memory
-   ```
+# Pull the embedding model
+ollama pull nomic-embed-text
 
-3. **Convert Transcripts**
-   ```bash
-   node scripts/jsonl-to-markdown.js ~/.claude/projects/ ./converted-transcripts/
-   ```
-   - Extracts user messages, assistant messages, thinking blocks
-   - Strips tool calls and results for cleaner extraction
-
-4. **Extract Learnings** (in new Claude Code session)
-   - Paste contents of `prompts/extract-learnings.md`
-   - Claude dispatches sub-agents in parallel
-   - Outputs to `~/extracted-learnings.jsonl`
-
-5. **Start Memory Daemon**
-   ```bash
-   cd daemon
-   pip install -r requirements.txt
-   python server.py
-   ```
-   - Runs on port 8741
-   - Endpoints: `/store`, `/recall`, `/health`
-
-6. **Import Learnings**
-   ```bash
-   python scripts/import-learnings.py ~/extracted-learnings.jsonl
-   ```
-
-7. **Install Hooks**
-   ```bash
-   cp hooks/session-start.sh ~/.claude/hooks/SessionStart.sh
-   cp hooks/user-prompt-submit.sh ~/.claude/hooks/UserPromptSubmit.sh
-   cp hooks/pre-tool-use.sh ~/.claude/hooks/PreToolUse.sh
-   cp hooks/pre-compact.sh ~/.claude/hooks/PreCompact.sh
-   chmod +x ~/.claude/hooks/*.sh
-   ```
-
-## Daemon API
-
-### POST /store
-Embed and store a learning
-```json
-{
-  "title": "...",
-  "content": "...",
-  "source": "..."
-}
+# Clone this repo
+git clone https://github.com/zacdcook/claude-code-semantic-memory.git
+cd claude-code-semantic-memory
 ```
 
-### POST /recall
-Query for relevant memories
-```json
-{
-  "query": "user's prompt or thinking",
-  "limit": 3,
-  "threshold": 0.45
-}
+### 2. Convert Your Transcripts
+
+Claude Code stores session transcripts as `.jsonl` files in `~/.claude/projects/`. Convert them to readable markdown:
+
+```bash
+node scripts/jsonl-to-markdown.js ~/.claude/projects/ ./converted-transcripts/
 ```
-Returns top matching memories by cosine similarity
 
-### GET /health
-Health check endpoint
+This extracts user messages, assistant messages (including thinking blocks), and system prompts. Tool calls and results are stripped for cleaner extraction.
 
-## Workflow
+### 3. Extract Learnings
 
-### Normal Session
-1. SessionStart hook fires
-   - Daemon health check
-2. User submits prompt
-   - UserPromptSubmit hook embeds query
-   - Relevant memories injected into context
-3. Claude reasons and selects tools
-   - PreToolUse hook fires
-   - Extracts Claude's thinking
-   - Queries for workflow-drift memories
-   - Injects if needed (before tool execution)
-4. Tool executes
-5. Repeat for each iteration
+Start a new Claude Code session and use the extraction prompt:
 
-### Context Compaction
-1. PreCompact hook fires
-2. Exports transcript to disk
-3. Converts to markdown
-4. Sub-agents extract learnings
-5. Learnings embedded and stored
-6. Ready for next session to access
+```bash
+claude
+```
 
-## Key Benefits
+Then paste the contents of `prompts/extract-learnings.md`. Claude will:
 
-**For Claude Code Users:**
-- Avoid repeating mistakes already learned
-- Self-correcting workflows (mid-stream memory injection)
-- Infrastructure/preference continuity across sessions
-- Decision rationale preservation
-- Pattern recognition feedback loop
+1. List all `.md` files in your converted transcripts folder
+2. Dispatch sub-agents in parallel to process batches
+3. Each sub-agent extracts structured learnings
+4. Store learnings via the daemon's `/store` endpoint
+5. Output to `~/extracted-learnings.jsonl`
 
-**Measured Improvement:**
-- Workflow efficiency increase reported as "over 9,000" (ADHD-energy claim)
-- Prevents extended error paths by injecting relevant past solutions
-- Reduces "I know this will error but let Claude figure it out" moments
+### 4. Start the Memory Daemon
 
-## Critical Implementation Detail
+```bash
+cd daemon
+pip install -r requirements.txt
+python server.py
+```
 
-**PreToolUse is the game-changer:**
-- Takes last 1,500 characters from Claude's thinking block
-- Embeds current reasoning context
-- Queries vector DB with current thinking
-- Pulls relevant past learnings
-- Injects before tool executes
-- **Result:** Claude sees "Oh, I tried this before and it failed because..."
+The daemon runs on port 8741 and provides:
+- `POST /store` - Embed and store a learning
+- `POST /recall` - Query for relevant memories
+- `GET /health` - Health check
 
-Without PreToolUse, memories become stale as workflow drifts. With it, memories stay fresh and prevent errors in real-time.
+### 5. Import Your Learnings
 
-## Technical Stack
+```bash
+python scripts/import-learnings.py ~/extracted-learnings.jsonl
+```
 
-- **Node.js:** Transcript conversion
-- **Python:** Daemon, embedding service, import scripts
-- **Ollama:** Local embedding model (nomic-embed-text)
-- **Claude Code:** Hook execution and sub-agent dispatching
-- **Vector DB:** In-memory or persistent storage (implementation dependent)
+### 6. Install the Hooks
 
-## Configuration
+Copy all hooks to your Claude Code hooks directory:
 
-Available in hooks:
-- Similarity threshold (default 0.45)
-- Memory limit per query (default 3)
-- Thinking block extraction length (default 1,500 chars)
-- Hook execution timeout (500ms or less)
+```bash
+# Session initialization
+cp hooks/session-start.sh ~/.claude/hooks/SessionStart.sh
 
-## Gotchas & Limitations
+# Memory injection on prompts
+cp hooks/user-prompt-submit.sh ~/.claude/hooks/UserPromptSubmit.sh
 
-- Requires Ollama running locally (can be resource-intensive)
-- First extraction may take time (parallel sub-agents)
-- Memory quality depends on learning extraction quality
-- Vector similarity has false positives (threshold helps)
-- Only works with Claude Code v2.0+
+# Memory injection during iteration
+cp hooks/pre-tool-use.sh ~/.claude/hooks/PreToolUse.sh
 
-## Use Cases
+# Auto-export on compaction
+cp hooks/pre-compact.sh ~/.claude/hooks/PreCompact.sh
 
-1. **Debugging patterns:** Store solutions to recurring bugs; inject when similar error appears
-2. **Infrastructure context:** Store deployment patterns, config details, secrets management approach
-3. **Architectural decisions:** Why certain choices made; prevent regressions
-4. **Gotchas:** "This library has X quirk"; prevent rediscovery
-5. **Performance optimizations:** "We found Y pattern slow; use Z instead"
-6. **API learnings:** "This endpoint behaves weird in Z scenario"
+# Make executable
+chmod +x ~/.claude/hooks/*.sh
+```
 
-## Community
+Now:
+- Every prompt automatically queries memory and injects relevant learnings
+- During iteration, Claude's thinking is analyzed for additional relevant memories
+- When context compacts, the transcript is exported and a sub-agent extracts learnings
 
-Zac (@PerceptualPeak) open-sourced this and recommends:
-- If you have semantic memory setup, implement PreToolUse immediately
-- Report issues or improvements via GitHub
-- Customization for your specific workflow patterns
+---
+
+## Architecture
+
+### Hook Lifecycle
+
+```
+SESSION START
+════════════
+┌─────────────────┐
+│  SessionStart   │ → Check daemon health
+│                 │ → Warn about orphaned transcripts
+└────────┬────────┘
+         │
+ACTIVE WORK (repeats for each user message)
+════════════
+         ▼
+┌─────────────────┐
+│UserPromptSubmit │ → Embed user's prompt
+│                 │ → Query daemon /recall
+│                 │ → Inject top 3 memories
+└────────┬────────┘
+         │
+         ▼  (fires before EACH tool)
+┌─────────────────┐
+│  PreToolUse     │ → Extract Claude's thinking
+│                 │ → Query for new relevant memories
+│                 │ → Inject if thinking has drifted
+└────────┬────────┘
+         │
+CONTEXT COMPACTION (when context window fills)
+════════════════════
+         ▼
+┌─────────────────┐
+│  PreCompact     │ → Export transcript to disk
+│                 │ → Convert JSONL to markdown
+│                 │ → Output sub-agent dispa
+...[truncated]
+
+## Links
+
+- [GitHub](https://github.com/zacdcook/claude-code-semantic-memory)
+- [Original Tweet](https://x.com/PerceptualPeak/status/2016721834935537833)

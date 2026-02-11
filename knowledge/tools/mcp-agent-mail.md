@@ -5,11 +5,19 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/mcp_agent_mail"
 stars: 1671
 language: "Python"
-tags: []
+tags: ["agent-coordination", "mcp-servers", "multi-agent-systems", "file-reservations", "ai-infrastructure"]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+Agent Mail is a Git-backed, FastMCP-based coordination layer that enables multiple AI coding agents to work concurrently on the same codebase without conflicts. It provides persistent agent identities, mailbox messaging, searchable message history, and advisory file reservations ("leases") to signal editing intent. The system bridges the gap between heterogeneous agent tools (Claude Code, Codex, Gemini CLI, etc.) by offering a lightweight, human-auditable communication fabric backed by SQLite for indexing and queries.
+
+## Key Takeaways
+
+- Agent Mail solves multi-agent coordination by providing asynchronous messaging and file reservation leases, preventing overwrites and silent conflicts
+- The system maintains auditable artifacts in Git, making it easy to understand what each agent was doing and when
+- File reservations are advisory (not exclusive by default) and use TTL (time-to-live), allowing flexible coordination patterns without rigid locking
+- Designed to work across multiple codebases in a single project, supporting both single-bus (shared project_key) and separate-projects coordination strategies
+- Productivity multiplier: 1-2 hours of human setup enables dozens of agent-hours of parallel execution with clear conflict-avoidance built in
 
 ## README
 

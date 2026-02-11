@@ -4,11 +4,18 @@ type: article
 date_added: 2026-02-09
 source: "https://jakub.kr/work/shadows"
 author: "verse_"
-tags: []
+tags: ["CSS", "design", "UI", "shadows", "accessibility"]
 via: "Twitter bookmark from @verse_"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Using box-shadow instead of CSS borders is a more flexible and depth-rich approach to creating visual boundaries in UI design. Shadows adapt better to diverse backgrounds and color schemes because they use transparency, while solid borders fail when applied over non-white backgrounds. This technique is particularly effective for creating subtle elevation and hover states using multiple layered shadows.
+
+## Key Takeaways
+- Shadows provide more visual depth and polish than solid borders
+- Multiple layered shadows (typically 3) create sophisticated border-like effects
+- Shadows adapt seamlessly to any background color or image
+- Shadows enable smoother transitions between states using CSS transitions
+- The technique is ideal for modern, subtle UI design
 
 ## Full Content
 

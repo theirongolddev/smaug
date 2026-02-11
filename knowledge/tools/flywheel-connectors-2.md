@@ -5,18 +5,11 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/flywheel_connectors/blob/main/FCP_Specification_V2.md"
 stars: 28
 language: "Rust"
-tags: [specification, security, cryptography, protocol-design]
+tags: []
 via: "Twitter bookmark from @doodlestein"
 ---
 
-Authoritative specification for the Flywheel Connector Protocol (FCP) defining interoperability contracts for mesh-native AI agent operations. Documents the formal specification for zone isolation, capability token schemes, symbol distribution, audit chains, and connector implementation requirements.
-
-## Key Takeaways
-- Official specification document for FCP interoperability
-- Defines zone models, policy objects, and COSE/CWT capability tokens
-- Covers threshold cryptography and Shamir secret sharing mechanics
-- Includes audit trail requirements and revocation semantics
-- Provides normative guidance for connector implementations
+<!-- NEEDS_ANALYSIS: description, key_features, tags -->
 
 ## README
 

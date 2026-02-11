@@ -4,22 +4,11 @@ type: x-article
 date_added: 2026-02-09
 source: "https://x.com/i/article/2020515084364042240"
 author: "hooeem"
-tags: [automation, ai, productivity, life-audit, prompts, claude]
+tags: []
 via: "Twitter bookmark from @hooeem"
 ---
 
-A comprehensive prompt for conducting a structured life audit to identify automation opportunities across all areas of life. The author provides a detailed 2-part prompt designed for Claude that systematically audits 9 life domains (work, side hustles, finances, health, productivity, relationships, home, learning, information management) and generates both an automation opportunity map and detailed implementation guides. Claims potential to save 3+ hours daily (10,000 hours over 9 years) by identifying what can be automated and exactly how to implement those automations.
-
-## Key Takeaways
-
-- Comprehensive 9-domain life audit framework covering work, side hustles, personal finance, health, productivity, relationships, home management, learning, and information consumption
-- Two-phase prompt structure: conversational questionnaire followed by automation map with impact scoring (time saved, difficulty, cost, impact level)
-- Detailed implementation guides with specific tools, step-by-step instructions, setup time estimates, and maintenance requirements
-- Emphasizes systematic approach over ad-hoc automation attempts - uses structured questioning to uncover hidden automation opportunities
-- Designed specifically for Claude (Opus/Sonnet) due to ability to handle long, structured prompts effectively
-- Includes AI tool category framework spanning LLMs, no-code platforms, scheduling, email, finance, health, knowledge management, and custom agents
-- Prioritizes "quick wins" - high-impact, low-difficulty automations to start with before tackling complex implementations
-- Automation impact scoring considers time saved, implementation difficulty, cost, and overall impact level to help prioritize effectively
+<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
 
 ## Full Content
 

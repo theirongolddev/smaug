@@ -3,13 +3,24 @@ title: "ghostty"
 type: tool
 date_added: 2026-02-09
 source: "https://github.com/ghostty-org/ghostty/discussions?discussions_q=is%3Aclosed+crash+author%3A0xBigBoss"
-stars: 43381
+stars: 43389
 language: "Zig"
-tags: []
+tags: ["terminal-emulator", "native-ui", "gpu-acceleration", "performance", "cross-platform", "zig-language", "standards-compliance"]
 via: "Twitter bookmark from @mitchellh"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+## Description
+
+Ghostty is a high-performance terminal emulator that refuses the traditional tradeoff between speed, features, and native UI. Built in Zig with GPU-accelerated rendering (Metal on macOS, OpenGL on Linux) and multi-threaded IO architecture, Ghostty provides standards-compliant terminal emulation (ECMA-48, xterm-compatible) while pushing modern capabilities: multi-window support, tabbing, panes, and an SDK for CLI developers to build richer interactive applications. The project prioritizes practical conformance testing (comprehensive xterm audit with 632+ test cases) and maintains 60fps rendering under heavy load while sustaining <4ms IO latency on large text dumps.
+
+## Key Features
+
+- **Multi-renderer architecture**: Metal on macOS (supporting ligatures), OpenGL on Linux, maintaining 60fps under heavy load
+- **Dedicated IO thread**: Low-jitter terminal IO processing, maintaining <4ms latency on massive text streams
+- **Standards-compliant behavior**: Comprehensive xterm audit coverage (632+ conformance test cases), defined by standards → xterm → other popular terminals priority
+- **Modern terminal features**: Multi-window, tabbing, split panes, native platform experiences (preference panels on macOS)
+- **Cross-platform native UI**: Not a web-based or Qt terminal; uses platform-native UI primitives for performance and responsiveness
+- **Developer SDK**: Opt-in modern features enabling CLI tool developers to build interactive applications with rich terminal capabilities
 
 ## README
 

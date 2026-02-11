@@ -3,13 +3,21 @@ title: "beads"
 type: tool
 date_added: 2026-02-09
 source: "https://github.com/steveyegge/beads"
-stars: 15716
+stars: 15730
 language: "Go"
-tags: ["agents", "claude-code", "coding"]
+tags: ["agents", "claude-code", "coding", "task-tracking", "issue-tracking", "agent-coordination", "git-workflow"]
 via: "Twitter bookmark from @nummanali"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+A distributed, git-backed issue tracking system designed specifically for AI agents. Beads (bd) provides persistent, structured memory for coding agents by replacing messy markdown plans with a dependency-aware graph that allows agents to handle long-horizon tasks without losing context. It's built with multi-agent coordination in mind, featuring hash-based IDs to prevent merge collisions, JSON output for agent compatibility, and advanced features like semantic memory decay and agent-optimized task detection.
+
+## Key Takeaways
+- Designed for AI agents to maintain structured task memory across long development sessions
+- Git as database: issues stored as JSONL in `.beads/` directory, versioned like code
+- Agent-optimized with JSON output, dependency tracking, and auto-ready task detection
+- Hash-based IDs prevent merge collisions in multi-agent and multi-branch workflows
+- Supports hierarchical task organization (epics, tasks, sub-tasks) for complex projects
+- Built-in messaging with threading, graph links (relates_to, duplicates, supersedes), and memory decay
 
 ## README
 

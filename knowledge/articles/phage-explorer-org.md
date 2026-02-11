@@ -1,0 +1,99 @@
+---
+title: "Phage Explorer - Interactive Bacteriophage Visualization Tool"
+type: article
+date_added: 2026-02-09
+source: "https://phage-explorer.org/"
+author: "doodlestein"
+tags: ["phage-explorer", "bioinformatics", "interactive-tool", "bacteriophage", "visualization", "open-source"]
+via: "Twitter bookmark from @doodlestein"
+---
+
+## Summary
+
+Landing page and web-based interface for Phage Explorer, an interactive bioinformatics platform for visualizing and analyzing bacteriophage genomes. The site describes core functionality: color-coded DNA/amino acid sequences, 3D structure visualization, 40+ analysis tools, and interactive simulations. Available as both web application (this site) and native binary (TypeScript/Wasm/Rust implementation).
+
+## Full Content
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover enables safe-area-inset-* CSS env() values for iPhone notch/Dynamic Island -->
+    <!-- maximum-scale=1 prevents accidental pinch-zoom; user-scalable=no prevents double-tap zoom -->
+    <!-- Note: This slightly reduces accessibility but provides expected mobile app behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="description" content="Visualize and analyze bacteriophage genomes with color-coded DNA/amino acid sequences, 3D structures, and 40+ analysis tools. Free, open-source, works offline." />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://phage-explorer.org/" />
+
+    <!-- OpenGraph (Facebook, LinkedIn, iMessage) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://phage-explorer.org/" />
+    <meta property="og:title" content="Phage Explorer — Bacteriophage Genome Visualization" />
+    <meta property="og:description" content="Visualize and analyze bacteriophage genomes with color-coded DNA/amino acid sequences, 3D structures, and 40+ analysis tools. Free, open-source, works offline." />
+    <meta property="og:image" content="https://phage-explorer.org/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Phage Explorer - Bioinformatics tool for visualizing bacteriophage genomes with DNA color coding" />
+    <meta property="og:site_name" content="Phage Explorer" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://phage-explorer.org/" />
+    <meta name="twitter:title" content="Phage Explorer — Bacteriophage Genome Visualization" />
+    <meta name="twitter:description" content="Visualize and analyze bacteriophage genomes with color-coded DNA/amino acid sequences, 3D structures, and 40+ analysis tools." />
+    <meta name="twitter:image" content="https://phage-explorer.org/twitter-image.png" />
+    <meta name="twitter:image:alt" content="Phage Explorer - Bioinformatics tool for visualizing bacteriophage genomes" />
+
+    <!-- Additional SEO -->
+    <meta name="author" content="Phage Explorer" />
+    <meta name="keywords" content="phage, bacteriophage, bioinformatics, genome visualization, DNA sequence, amino acid, T4, lambda phage, virology, microbiology" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- iOS Safari theme color for address bar -->
+    <meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f0f0f8" media="(prefers-color-scheme: light)" />
+    <!-- iOS PWA: enable standalone mode when added to home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Phage Explorer" />
+    <!-- Prevent telephone number detection on iOS -->
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <title>Phage Explorer — Bacteriophage Genome Visualization</title>
+    <!-- Preload primary monospace to reduce layout shift on first render -->
+    <link rel="preload" href="/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/JetBrainsMono-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/JetBrainsMono-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRK3DJV90Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZRK3DJV90Q');
+    </script>
+    <script type="module" crossorigin src="/assets/index-Dldi2lIW.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/phage-core-Cv03jO0T.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-state-C5_nX4zU.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-BZmGYEIR.js">
+    <link rel="modulepreload" crossorigin href="/assets/phage-state-D5wWVawz.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-worker-CEaNFG-C.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BGlH_363.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+
+## Links
+
+- [Article](https://phage-explorer.org/)
+- [Original Tweet](https://x.com/doodlestein/status/2017440470595436836)

@@ -5,11 +5,22 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/model_guided_research"
 stars: 93
 language: "Python"
-tags: []
+tags: ["mathematics", "deep-learning", "ai-research", "jax", "pytorch", "attention-mechanisms", "nanochat"]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: description, key_features, tags -->
+## Description
+
+Model-Guided Research is a groundbreaking exploration of exotic mathematical structures in deep learning that emerged from a unique AI-human collaboration. The project demonstrates AI systems as genuine mathematical partners, not just solvers—capable of identifying which problems are worth solving. It maintains dual implementations: JAX demonstrations for interactive exploration and property validation, and PyTorch's Nanochat for production-ready transformer experiments. The repository implements 11+ mathematical frameworks for attention mechanisms (tropical, quaternion, matrix-gauge, etc.) and provides systematic evaluation infrastructure including CMA-ES hyperparameter optimization for comprehensive benchmarking.
+
+## Key Features
+
+- **Dual implementation strategy**: JAX demos for pedagogical clarity and rapid prototyping vs PyTorch Nanochat for production-scale training and evaluation
+- **11+ mathematical attention frameworks**: Tropical geometry, quaternions, matrix gauges, and other exotic structures implemented as drop-in attention mechanisms
+- **AI-guided discovery process**: Meta-cognitive loop where frontier models (GPT-5 Pro) generate research directions, self-evaluate proposals, and guide implementation
+- **Systematic evaluation framework**: Comprehensive experimental matrix with multiple optimizers and schedulers for fair comparison across all frameworks
+- **Production readiness**: Full training infrastructure with gradient computation, distributed optimization, and reproducible evaluation protocols
+- **Research → Implementation pipeline**: Validate mathematical ideas in JAX, deploy validated approaches in PyTorch production code
 
 ## README
 

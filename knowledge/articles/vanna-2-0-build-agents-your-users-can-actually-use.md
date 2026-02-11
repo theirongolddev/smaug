@@ -4,11 +4,17 @@ type: article
 date_added: 2026-02-09
 source: "https://vanna.ai/"
 author: "Vanna AI Team"
-tags: []
+tags: ["agents", "sql", "databases", "nlp", "data-access"]
 via: "Twitter bookmark from @loicknuchel"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Vanna is an open-source SQL agent framework that enables natural language querying of databases. It works with any LLM provider and database system, allowing users regardless of SQL expertise to interact with company data using conversational language. The framework handles multi-turn conversations, access control, and works across multiple database systems.
+
+## Key Takeaways
+- Natural language interfaces democratize database access for non-technical users
+- Multi-database and multi-turn support make Vanna suitable for complex organizational data querying
+- Open-source architecture with flexible LLM and database provider selection
+- Reduces SQL writing workload while making data insights more accessible across teams
 
 ## Full Content
 

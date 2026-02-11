@@ -1,14 +1,22 @@
 ---
-title: "Untitled"
+title: "Using OpenCode to Generate Detailed Feature Plans and PRDs"
 type: article
 date_added: 2026-02-09
 source: "https://opncd.ai/share/GG4pwDti"
 author: "ccssmnn"
-tags: []
+tags: ["ai-coding", "opencode", "prd", "planning", "long-running-agents"]
 via: "Twitter bookmark from @ccssmnn"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Carl Assmann used OpenCode (an agentic coding tool) to plan and execute a major feature for Alkalye (a markdown editor). The workflow: describe the feature in natural language → OpenCode interviews you for details → feed it a reference blog post (Matt Pocock's "Ralph Wiggum" approach) → generate comprehensive PLAN and PRD files → run agents overnight to implement across 60+ commits and 5k+ LOC. This demonstrates the "Ralph Wiggum" long-running agent pattern in action—using structured PRDs as the mechanism for scoping work iteratively.
+
+## Key Takeaways
+
+- OpenCode can generate detailed PRDs and feature plans from conversational input
+- Interview-based planning (agent asking clarifying questions) produces better specifications
+- Reference materials (like blog posts on agent patterns) guide the tool toward specific approaches
+- The Ralph Wiggum pattern (bash loop, JSON PRD, stop conditions) enables overnight feature development
+- Generated PRDs enable iterative agent work with clear scope boundaries per user story
 
 ## Full Content
 

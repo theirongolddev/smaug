@@ -1,59 +1,71 @@
 ---
-title: Making Playgrounds using Claude Code
-type: article
-date_added: 2026-01-29
-source: https://x.com/i/article/2016768930174685187
-author: Thariq
-tags: [claude-code, playgrounds, visualization, plugin, interactive-design, html]
+title: "Making Playgrounds using Claude Code"
+type: x-article
+date_added: 2026-02-09
+source: "https://x.com/i/article/2016768930174685187"
+author: "trq212"
+tags: ["claude-code", "interactive-visualization", "playground-plugin", "html-design", "brainstorming", "user-interaction"]
 via: "Twitter bookmark from @trq212"
 ---
 
-# Making Playgrounds using Claude Code
+## Summary
 
-An article about the new Claude Code playground plugin for creating interactive HTML visualizations.
+Guide to Claude Code's playground plugin that enables generation of interactive HTML files for problem visualization and collaborative brainstorming. Playgrounds are standalone HTML files that let you visualize concepts, iterate on designs, and receive an output prompt to paste back into Claude Code for continued work.
 
-## Overview
+## Key Takeaways
 
-Claude Code now has a playground plugin that helps generate HTML playgrounds—standalone HTML files for visualizing problems, interacting with them, and sharing output prompts back to Claude.
+- **Use cases**: Architecture visualization, component design iteration, game balancing, writing critique with inline feedback
+- **Plugin setup**: `/plugin marketplace update claude-plugins-official` → `/plugin install playground@claude-plugins-official`
+- **Workflow**: Ask Claude to create playground → interact/iterate → get output prompt → paste back for next iteration
+- **Examples given**: Layout changes for AskUserQuestion tool, writing reviews with suggestions, Remotion video tweaks, email agent architecture commentary, game balance adjustments
+- **UX principle**: Think of a unique way to interact, then ask Claude to express it visually
 
-## Installation
+## Full Content
 
-```bash
-/plugin marketplace update claude-plugins-official
+Making Playgrounds using Claude Code
+
+We've published a new Claude Code plugin called playground that helps Claude generate HTML playgrounds. These are standalone HTML files that let you visualize a problem with Claude, interact with it and give you an output prompt to paste back into Claude Code.
+
+I've found this can be really good interacting with the model in ways that are not well suited for text, for example to:
+
+- Visualize the architecture of the codebase
+
+- Adjust the design of a component
+
+- Brainstorm layouting and design
+
+- Tweak the balance of a game
+
+To get started, install the plugin in Claude code by running the following commands:
+/plugin marketplace update claude-plugins-official 
 /plugin install playground@claude-plugins-official
-```
 
-## Use Cases
+Here are some of my favorite playgrounds I've made:
 
-The playground skill is particularly useful for:
+Changing the design of the AskUserQuestion Tool in Claude Code
+prompt: "Use the playground skill to create an playground that helps me explore new layout changes to the AskUserQuestion Tool"
 
-- **Architecture visualization**: Visualize the architecture of a codebase
-- **Component design**: Adjust the design of a component
-- **Brainstorming**: Explore layouting and design ideas
-- **Game balancing**: Tweak balance parameters in games
-- **Code review**: Get inline suggestions with approval/rejection options
-- **Video editing**: Tweak intro screens and visual elements
+Critiquing your writing and getting a response 
+prompt: "Use the playground skill to review my [SKILL.MD](https://skill.md/) and give me inline suggestions I can approve, reject or comment"
 
-## Example Prompts
+Tweaking a Remotion Video Intro
+prompt: "Use the playground skill to tweak my intro screen to be more interesting and delightful"
 
-### Visualizing Tool Design
-> "Use the playground skill to create an playground that helps me explore new layout changes to the AskUserQuestion Tool"
+---
 
-### Code Review
-> "Use the playground skill to review my SKILL.MD and give me inline suggestions I can approve, reject or comment"
+Viewing an Architecture Diagram and letting the user comment
+prompt: "Use the playground skill to show how this email agent codebase works and let me comment on particular nodes in the architecture to ask questions, make edits, etc"
 
-### Architecture Exploration
-> "Use the playground skill to show how this email agent codebase works and let me comment on particular nodes in the architecture to ask questions, make edits, etc"
+Balancing the Superhero Rogue-like game I'm making
+prompt: "Use the playground skill to help me balance the 'Inferno' hero's deck"
 
-### Game Balancing
-> "Use the playground skill to help me balance the 'Inferno' hero's deck"
+Excited to see how you all explore this! 
 
-## Pro Tips
+My tip for creating an interesting playground- think of a unique way of interacting with the model and then ask it to express that.  I think you might find it surprising. 
 
-- **Unique interaction patterns**: Think of a unique way of interacting with the model, then ask Claude to express that
-- **Iterative refinement**: The HTML output can be pasted back to adjust and refine visuals and interactions
-- **Interactive feedback**: Combine visual representation with commenting/annotation capabilities for better collaboration
+If you make something cool, please share it!
 
-## Key Insight
+## Links
 
-The playground skill works best when you ask Claude to express interaction patterns that go beyond traditional text-based workflows. The combination of visual representation and interactive feedback creates a more engaging development experience.
+- [Article](https://x.com/i/article/2016768930174685187)
+- [Original Tweet](https://x.com/trq212/status/2017024445244924382)

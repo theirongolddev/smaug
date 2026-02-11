@@ -1,14 +1,27 @@
 ---
-title: "Untitled"
+title: "Agent Flywheel - Transform a VPS into an Agentic Coding Environment"
 type: article
 date_added: 2026-02-09
 source: "https://agent-flywheel.com/"
 author: "doodlestein"
-tags: []
+tags: ["agents", "claude-code", "vps-setup", "dev-tools", "automation", "codex", "gemini", "flywheel", "agentic-coding"]
 via: "Twitter bookmark from @doodlestein"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+## Summary
+
+Agent Flywheel is a free, open-source platform that transforms a fresh cloud server into a fully-configured agentic coding environment in ~30 minutes. Created by Jeffrey Emanuel, it pre-installs and configures Claude Code, OpenAI Codex CLI, Google Gemini CLI, plus 30+ modern developer tools. The wizard guides users from "I have a laptop" to having AI agents actively coding, with an interactive tutorial, idempotent setup phases, and support for multiple cloud providers.
+
+## Key Takeaways
+
+- **One-liner install**: Single curl command handles complete VPS setup with zero manual configuration
+- **Three AI agents pre-configured**: Claude Code, Codex CLI, and Gemini CLI all optimized for coding workflows
+- **30+ developer tools**: Includes bun, rust, go, tmux, zsh + modern shell tools (powerlevel10k, fzf, atuin, lsd, zoxide)
+- **Idempotent and resumable**: Phases can be re-run safely; failed stages resume automatically
+- **Safe by design**: SHA256-verified installers, passwordless sudo for maximum velocity on throwaway VPS environments
+- **Interactive tutorials**: 'onboard' command provides guided lessons from Linux basics to full agentic workflows
+- **Cloud-agnostic**: Works with any Linux VPS provider
+- **Agentic Flywheel ecosystem**: Integrates 20+ interconnected tools (Agent Orchestration, Coordination Mail, Bug Scanning, Task Graphs, Semantic Search, Memory systems)
 
 ## Full Content
 
@@ -17,4 +30,4 @@ via: "Twitter bookmark from @doodlestein"
 ## Links
 
 - [Article](https://agent-flywheel.com/)
-- [Original Tweet](https://x.com/doodlestein/status/2007588870662107197)
+- [Original Tweet](https://x.com/doodlestein/status/2014065544710766778)

@@ -5,18 +5,11 @@ date_added: 2026-02-09
 source: "https://github.com/Dicklesworthstone/flywheel_connectors/blob/main/docs/fcp_model_connectors_rust.md"
 stars: 28
 language: "Rust"
-tags: [rust, connectors, implementation-guide, production-patterns]
+tags: []
 via: "Twitter bookmark from @doodlestein"
 ---
 
-Canonical Rust implementations for FCP connectors demonstrating production-ready patterns. Documents architectural patterns, type definitions, and implementation guidance for building secure connectors that comply with the FCP specification.
-
-## Key Takeaways
-- Production Rust patterns for implementing FCP-compliant connectors
-- Implementation examples for various service types (email, messaging, payments)
-- Demonstrates capability token validation and zone enforcement
-- Shows secretless connector patterns with egress proxy integration
-- Provides reference implementations for framework adoption
+<!-- NEEDS_ANALYSIS: description, key_features, tags -->
 
 ## README
 
