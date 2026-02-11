@@ -8,7 +8,7 @@ tags: [developer-tools, devops, process-management, mcp, tauri, automation]
 via: "Twitter bookmark from @aarondfrancis"
 ---
 
-Desktop app for managing entire local dev stack: auto-detect processes, start/stop everything together, auto-restart on crash. One window with full visibility (green/red/gray states), keyboard-first design, MCP integration for Claude Code to manage processes. Built with Tauri (~20MB), works on Mac/Windows/Linux, shared solo.yml for team consistency, Raycast integration. Free plan covers 3 projects/12 processes; Pro unlimited.
+Solo replaces the cognitive and operational burden of managing multiple local dev processes by giving you one window that auto-detects your stack (npm dev, workers, Redis, webhooks, etc.), starts everything with one click, and auto-restarts on crash. Built with Tauri for lightweight efficiency (20MB vs Electron bloat), it solves three core pain points: setup amnesia (readme hunting), silent failures (forgotten crashed processes), and context switching (juggling six tabs). Key differentiator: MCP integration lets Claude Code manage processes directly without context switching—restart a queue worker while coding. Keyboard-first design, team-friendly solo.yml for shared stack definitions, Raycast integration, and free plan (3 projects, 12 processes) make this a no-brainer for indie developers and small teams.
 
 ## Key Takeaways
 - Single window replaces juggling tabs for npm dev, workers, logs, webhooks, etc.

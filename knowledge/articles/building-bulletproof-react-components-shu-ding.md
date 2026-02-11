@@ -4,11 +4,23 @@ type: article
 date_added: 2026-02-09
 source: "https://shud.in/thoughts/build-bulletproof-react-components"
 author: "shuding"
-tags: []
+tags: [react, components, defensive-programming, server-components, hydration, patterns, best-practices, edge-cases]
 via: "Twitter bookmark from @shuding"
 ---
 
-<!-- NEEDS_ANALYSIS: summary, key_takeaways, tags -->
+Shu Ding's guide to building React components that survive real-world conditions beyond the happy path. Most components work until they hit server rendering, hydration, multiple instances, concurrent rendering, async children, portals, transitions, activity wrapping, or data leaking. The article walks through 10 defensive patterns to handle each: make it server-proof (move browser APIs to useEffect), hydration-proof (inject sync script before paint), instance-proof (useId for unique IDs), concurrent-proof (React.cache to deduplicate queries), composition-proof (context over cloneElement), portal-proof (ownerDocument.defaultView), transition-proof (startTransition for smooth animations), activity-proof (media attribute for CSS), leak-proof (taintUniqueValue/taintObjectReference), and future-proof (state over useMemo for persistence). The thesis: these aren't edge cases anymore—they're the normal conditions of modern React with Server Components, concurrent rendering, and complex component trees.
+
+## Key Takeaways
+- Move browser APIs into useEffect to prevent server rendering crashes
+- Use inline synchronous scripts before browser paint to prevent hydration flashes
+- useId() for unique identifiers when component is used multiple times
+- React.cache() deduplicates queries across concurrent renders in Server Components
+- Prefer context over React.cloneElement—works with Server Components and async children
+- ownerDocument.defaultView finds the correct window for portals and pop-outs
+- startTransition() enables smooth view transitions in React 19
+- useLayoutEffect + media='not all' prevents CSS side effects in hidden Activity components
+- experimental_taintUniqueValue/taintObjectReference prevents sensitive data from leaking to client
+- useState over useMemo for correctness—useMemo is performance hint, not guarantee
 
 ## Full Content
 
