@@ -1,5 +1,190 @@
 # Twitter Bookmarks Archive
 
+# Saturday, February 14, 2026
+
+## @DellAnnaLuca - Advanced Claude Code Tips
+
+> 5 ADVANCED CLAUDE CODE TIPS I'VE BEEN USING...
+
+- **Tweet:** https://x.com/DellAnnaLuca/status/2022698606785175958
+- **What:** Luca Dellanna shares five advanced techniques for working with Claude Code, offering tactical improvements for power users of the coding platform.
+
+---
+
+# Friday, February 13, 2026
+
+## @rauchg - Sybil Attacks and Network Reputation
+
+- **Tweet:** https://x.com/rauchg/status/2022316318964568468
+- **Link:** https://en.wikipedia.org/wiki/Sybil_attack
+- **Filed:** [Sybil attack](./knowledge/articles/sybil-attack.md)
+- **What:** In-depth explanation of Sybil attacks—where attackers create multiple pseudonymous identities to gain disproportionate control over reputation systems—with coverage of real-world attacks on Tor and Bitcoin networks and emerging defense strategies.
+
+## @jumperz - Orchestration Beyond Coordination
+
+> the deeper i dig into openclaw the more i realize orchestration isn't just about having a coordinator, its way more...
+
+- **Tweet:** https://x.com/jumperz/status/2022413963917693428
+- **What:** Reflection on how orchestration in complex systems extends well beyond simple coordinator patterns, suggesting deeper architectural considerations for multi-agent systems.
+
+## @dabit3 - Agentic Team Memory
+
+- **Tweet:** https://x.com/dabit3/status/2022459842342916559
+- **Link:** https://x.com/i/article/2022444483581992960
+- **Filed:** [Agentic Team Memory](./knowledge/articles/agentic-team-memory.md)
+- **What:** Cognition's Devin AI captures tribal knowledge as a side effect of agent corrections—engineers correct agents like teammates, and the system persists valuable conventions automatically, eliminating stale documentation while keeping team knowledge current.
+
+---
+
+# Thursday, February 12, 2026
+
+## @_can1357 - The Harness Problem in LLM Coding
+
+- **Tweet:** https://x.com/_can1357/status/2021828033640911196
+- **Link:** https://x.com/i/article/2021795056764469249
+- **Filed:** [I improved 15 LLMs at coding in one afternoon. Only the harness changed.](./knowledge/articles/i-improved-15-llms-at-coding-in-one-afternoon-only-the-harness-changed.md)
+- **What:** Can Bölük demonstrates how a novel edit format called "hashline" improved 15 different LLMs' coding ability by 5-14 percentage points without any model training changes.
+
+## @Hartdrawss - Vibe Coder Must-Learn Skills
+
+> Things every Vibe Coder MUST Learn (Extended Edition)
+>
+> 1/ Don't reinvent databases...
+
+- **Tweet:** https://x.com/Hartdrawss/status/2021909896459891081
+- **What:** Harshil Tomar outlines essential lessons for "vibe coders," starting with avoiding reinventing databases—core wisdom about prioritizing existing tools over custom solutions.
+
+## @pierceboggan - Linting Prompts Like Code
+
+> We'd never ship code without a linter. Why are we still shipping prompts without one?...
+
+- **Tweet:** https://x.com/pierceboggan/status/2022018953560678885
+- **What:** Pierce Boggan raises a critical point: prompts need the same quality standards as code, suggesting "prompt linters" should be standard practice for AI system development.
+
+## @Letta_AI - Context Repositories for Agent Memory
+
+> Introducing Context Repositories: git-tracked files for storing agent context...
+
+- **Tweet:** https://x.com/Letta_AI/status/2022082571988058536
+- **Link:** https://www.letta.com/blog/context-repositories
+- **Filed:** [Introducing Context Repositories: Git-based Memory for Coding Agents | Letta](./knowledge/articles/introducing-context-repositories-git-based-memory-for-coding-agents-letta.md)
+- **What:** Letta introduces a git-backed memory system where agents can programmatically manage context as local files, enabling progressive disclosure, concurrent learning across subagents, and automatic versioning through standard git operations.
+
+---
+
+# Wednesday, February 11, 2026
+
+## @alliekmiller - How to build an AI boardroom in Claude Code
+
+- **Tweet:** https://x.com/alliekmiller/status/2021578555034149188
+- **Link:** https://x.com/i/article/2011917192032362496
+- **Filed:** [how-to-build-an-ai-boardroom-in-claude-code.md](./knowledge/articles/how-to-build-an-ai-boardroom-in-claude-code.md)
+- **What:** A practical guide to building a /boardroom Claude Code skill that spins up 6 AI advisor agents to debate strategic decisions in two rounds, auto-generating markdown transcripts, interactive HTML with dynamic projections, and PDFs for $5-8 per session.
+
+## @karpathy - On DeepWiki and increasing malleability of software (nanochat)
+
+> On DeepWiki and increasing malleability of software...
+
+- **Tweet:** https://x.com/karpathy/status/2021633574089416993
+- **Links:**
+  - https://deepwiki.com/karpathy/nanochat
+  - https://github.com/karpathy/nanochat/commit/e569b59f92aea06bf8fc1c48489b3cc2e57189f4
+- **Filed:**
+  - [nanochat-2.md](./knowledge/articles/nanochat-2.md) (article)
+  - [nanochat-2.md](./knowledge/tools/nanochat-2.md) (tool)
+- **What:** Karpathy's nanochat is a minimal experimental framework for training and deploying LLMs on a single GPU with budgets under $1000, configured through a single --depth parameter with auto-tuned hyperparameters, achieving GPT-2 capability in ~3 hours for ~$72 versus the original $43,000 cost in 2019.
+
+## @aakashgupta - End of the Library Economy
+> Karpathy just described the end of the library economy and the market hasn't even started pricing in what replaces it...
+> *Quoting @karpathy:* On DeepWiki and increasing malleability of software...
+
+- **Tweet:** https://x.com/aakashgupta/status/2021658681344131471
+- **Link:** https://deepwiki.com/karpathy/nanochat
+- **Filed:** [nanochat.md](./knowledge/articles/nanochat.md) and [nanochat.md](./knowledge/tools/nanochat.md)
+- **What:** References Karpathy's nanochat work and its implications for the software library ecosystem. nanochat is the simplest experimental harness for training LLMs on a single GPU node.
+
+## @idosal1 - AgentCraft v1 Control Your Agents Like an RTS Game
+> AgentCraft v1 is live ⚔️
+>
+> Control your agents like it's an RTS game!
+>
+> It's early. It's rough. It's fun.
+>
+> npx @idosal/agentcraft
+
+- **Tweet:** https://x.com/idosal1/status/2021661861163544818
+- **What:** Launch announcement for AgentCraft v1, a CLI tool that provides RTS-style (real-time strategy) control over AI agents. Uses `npx @idosal/agentcraft` for quick access.
+
+## @MatthewBerman - Advanced OpenClaw with GPT5.3 and Opus 4.6
+> I'm one of the most advanced users of OpenClaw.
+>
+> OpenClaw + GPT5.3 Codex + Opus 4.6 has been the trifecta that changed everything...
+
+- **Tweet:** https://x.com/MatthewBerman/status/2021669868366598632
+- **What:** Testimonial about using OpenClaw combined with GPT5.3 Codex and Opus 4.6 as a high-performing development trifecta for advanced coding tasks.
+
+## @bcherny - Claude Code Customizability
+> Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc...
+
+- **Tweet:** https://x.com/bcherny/status/2021699851499798911
+- **What:** Analysis of Claude Code's strengths from an engineer perspective, highlighting its extensive customization capabilities including hooks, plugins, LSPs, MCPs, skills, and custom agents.
+
+## @AutismCapital - Secret Passphrases with Family and Friends
+> He's not kidding about having a secret passphrase. Everyone should have a trusted passphrase with their family and friends...
+> *Quoting @ModernDad:* My wife calls me, panicked...
+
+- **Tweet:** https://x.com/AutismCapital/status/2021704139365838919
+- **What:** Advice about establishing trusted passphrases with family members as a security measure for emergency communication verification.
+
+## @doodlestein - Revealing Insights About Image Comparison
+
+> I've mentioned this before, but I think it's so revealing and important to understand that I want to convey it again: Suppose you have two images...
+
+- **Tweet:** https://x.com/doodlestein/status/2021791255227768899
+- **What:** Jeffrey Emanuel shares insights about the significance of comparing two images in a way he finds particularly illuminating about a broader concept.
+
+## @alexhillman - Textream Teleprompter Launch
+
+> Like, this is so good.
+> *Quoting @fkadev:* 📱 Textream just broke free from your Mac...
+
+- **Tweet:** https://x.com/alexhillman/status/2021792687264014484
+- **Link:** https://textream.fka.dev/
+- **Filed:** [Textream — Live Teleprompter for macOS](./knowledge/articles/textream-live-teleprompter-for-macos.md)
+- **What:** Alex Hillman endorses Textream, a free open-source teleprompter app for macOS with real-time word tracking, auto-scroll, and voice-activated scrolling modes.
+
+---
+
+# Tuesday, February 10, 2026
+
+## @jeffclune - Can AI agents design better memory mechanisms for themselves?
+
+> Can AI agents design better memory mechanisms for themselves?
+> Introducing Learning to Continually Learn via Meta-learning Memory Designs. A meta agent automatically designs memory mechanisms, including what info to store, how to retrieve it, and how to update it, enabling agentic systems to continually learn across diverse domains. Led by @yimingxiong_ with @shengranhu 🧵👇 1/
+
+- **Tweet:** https://x.com/jeffclune/status/2021242681826095179
+- **What:** Research on meta-learning approaches where agents automatically design their own memory mechanisms rather than relying on fixed memory architectures, enabling systems to adapt memory strategies to different domains.
+
+## @mastra - Observational Memory: A Human-Inspired Memory System for AI Agents
+
+- **Tweet:** https://x.com/mastra/status/2021280193273336131
+- **Link:** https://x.com/i/article/2021152822264201218
+- **Filed:** [observational-memory-a-human-inspired-memory-system-for-ai-agents.md](./knowledge/articles/observational-memory-a-human-inspired-memory-system-for-ai-agents.md)
+- **What:** Mastra's observational memory system solves context window bloat for agentic AI by compressing conversation history into human-inspired observations using emoji-based priority levels, achieving state-of-the-art results on LongMemEval while maintaining full prompt caching compatibility.
+
+---
+
+# Sunday, January 18, 2026
+
+## @arscontexta - obsidian + claude code 101
+
+- **Tweet:** https://x.com/arscontexta/status/2013045749580259680
+- **Link:** https://x.com/i/article/2013040190512599041
+- **Filed:** [obsidian-claude-code-101.md](./knowledge/articles/obsidian-claude-code-101.md)
+- **What:** A deep exploration of building a personal knowledge operating system by integrating Obsidian vaults with Claude Code, treating markdown files as an AI-accessible knowledge base where agents help maintain a living representation of your thinking.
+
+---
+
 # Monday, February 9, 2026
 
 ## @doodlestein - FrankenTerm: forking WezTerm for agent swarm management
