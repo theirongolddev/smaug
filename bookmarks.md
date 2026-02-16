@@ -1,6 +1,182 @@
 # Twitter Bookmarks Archive
 
+# Monday, February 16, 2026
+
+## @0xlelouch_ - Senior Backend Engineer Concepts Checklist
+
+> As a Senior Backend Engineer, how many concepts can you clearly explain (and actually implement) from below:
+>
+> 1. Event-Driven Architecture
+> 2. Saga Pattern (choreography vs orchestration)
+> 3. CQRS (Command Query Responsibility Segregation)
+> 4. Event Sourcing (and when NOT to use it)
+> 5. Circuit Breaker Pattern (plus retries, timeouts, bulkheaks)
+> 6. Distributed Tracing (trace IDs, spans, baggage, sampling)
+> 7. CAP Theorem (and what it means in real systems)
+> 8. Idempotency (keys, dedup, exactly-once illusions)
+> 9. Data Sharding (routing, rebalancing, hot partitions)
+> 10. API Gateway (auth, rate limits, routing, policy, observability)
+>
+> If you can explain all 10 in simple words, with a real example from prod, you are already ahead of most "senior" titles. If you cannot, it is fine. Pick 2, go deep, ship something, then compound from there.
+
+> *Quoting @SumitM_X:* As a Backend dev , how many concepts can you explain from below : 1. Event-Driven Architecture 2. Saga Pattern 3. CQRS (Command Query Responsibility Segregation) 4. Event Sourcing 5. Circuit Breaker Pattern 6. Distributed Tracing 7. CAP Theorem 8. Idempotency 9. Data Sharding 10. API Gateway
+
+- **Tweet:** https://x.com/0xlelouch_/status/2023272048395788589
+- **Tags:** [[backend]] [[system-design]] [[distributed-systems]] [[seniority]]
+- **What:** A checklist of 10 critical distributed systems and backend engineering concepts that separate senior engineers from the rest. Rather than trying to know everything, the advice emphasizes picking 2 concepts, going deep, shipping real implementations, and then building from there.
+
+## @burkov - Self-Distillation Enables Continual Learning
+
+> When you train a neural network on a new task using examples (through supervised finetuning), it tends to forget what it already knew — a well-known problem called catastrophic forgetting.
+>
+> The standard fix in reinforcement learning is to have the model learn from its own outputs rather than from a fixed dataset (this is called "on-policy" learning), but that requires a reward function telling the model how good its outputs are, which is often hard to define.
+>
+> This recent MIT paper finds a way around that constraint: it uses the same model twice — once with a demonstration stuffed into its input as context (the 'teacher'), and once without (the 'student') — then has the student generate text, and updates the student's weights so that its token probability distributions get closer to the teacher's token probability distributions at each position in that generated text.
+>
+> The trick works because LLMs can already adapt their behavior when shown an example in context, so the teacher is essentially a better version of the model that stays close to the original, making the learning signal gentle enough to avoid wrecking existing capabilities. Across multiple experiments, this approach lets a single model sequentially learn three different skills while keeping all of them, where standard supervised training destroys earlier skills as soon as it moves to the next one.
+>
+> The math also turns out to be equivalent to a form of reinforcement learning with an implicit reward, which gives the method a clean theoretical grounding beyond just "it works empirically."
+
+- **Tweet:** https://x.com/burkov/status/2023288082301108646
+- **Link:** https://arxiv.org/pdf/2601.19897 (Paper)
+- **Tags:** [[continual-learning]] [[llm-training]] [[catastrophic-forgetting]] [[self-distillation]] [[reinforcement-learning]] [[few-shot-learning]]
+- **Filed:** [2601-19897.md](./knowledge/articles/2601-19897.md)
+- **What:** MIT research on self-distillation for continual learning. Instead of using external reward functions, the method uses the same LLM in "teacher" mode (with demonstrations in context) and "student" mode (without), then trains the student to match the teacher's token probability distributions. This prevents catastrophic forgetting while learning sequential tasks, and has theoretical equivalence to reinforcement learning with implicit rewards.
+
+---
+
+# Sunday, February 15, 2026
+
+## @nurijanian - George from 🕹prodmgmt.world - The Junior PM's Dilemma: Visibility Over Impact
+
+> Junior PM: I'm shipping everything on time, team loves me, but my manager says I'm "not strategic enough." I'm exhausted trying to figure out what that means.
+
+Senior PM: What did you tell him you accomplished last quarter?
+
+Junior PM: Delivered 5 features, reduced tech debt, improved team velocity by 15%.
+
+Senior PM: And what did he hear?
+
+Junior PM: That I delivered 5 features?
+
+Senior PM: He heard "I kept the team busy with stuff that doesn't move numbers I get asked about."
+
+Junior PM: But velocity improvement is strategic.
+
+Senior PM: To who?
+
+Junior PM: To... the team?
+
+Senior PM: Your manager spends 20 minutes a week with his director explaining why you exist. Can he use velocity to justify your headcount?
+
+Junior PM: I... probably not.
+
+Senior PM: What business metrics did those 5 features move?
+
+Junior PM: Three were tech debt, one was a sales request, one was compliance. We don't really measure impact on that stuff.
+
+Senior PM: There's your problem. Half your work is invisible by design.
+
+Junior PM: But that work was necessary. The platform would break without it.
+
+Senior PM: I believe you. Your manager's director doesn't care.
+
+Junior PM: That seems unfair.
+
+Senior PM: It is unfair. It's also how companies work. Your manager gets grilled about revenue and retention, not platform stability.
+
+Junior PM: So I should have said no to the tech debt?
+
+Senior PM: You probably couldn't. But you should have framed it differently.
+
+Junior PM: How?
+
+Senior PM: "Prevented $200K in potential downtime costs" sounds better than "reduced tech debt."
+
+Junior PM: But I don't have that number.
+
+Senior PM: Then you're fighting organizational reality without weapons.
+
+Junior PM: I don't have analytics support or time to instrument everything.
+
+Senior PM: Most junior PMs don't. That's the trap - you get judged on business impact but don't get business resources.
+
+Junior PM: So what do I do?
+
+Senior PM: Acknowledge the game is rigged, then play it anyway.
+
+Junior PM: Meaning?
+
+Senior PM: Make allies in sales and marketing. They have the numbers you need. Shadow customer calls. Connect your work to their goals.
+
+Junior PM: That feels political.
+
+Senior PM: Everything above a certain level is political. The choice isn't political vs pure. It's visible vs irrelevant.
+
+Junior PM: What if I try this and my manager still doesn't care?
+
+Senior PM: Then you learn your manager doesn't know how to evaluate PM work. That's a different problem - one you solve by finding a better manager.
+
+Junior PM: This is harder than just building good products.
+
+Senior PM: Building good products is table stakes. Surviving organizational dysfunction while building good products - that's the actual job.
+
+- **Tweet:** https://x.com/nurijanian/status/2023034825868030406
+- **What:** A senior PM explains to a junior PM why their work feels undervalued. The core issue: internal work like tech debt and velocity improvements don't translate to visible business metrics that executives care about (revenue, retention). The solution isn't to avoid this work, but to reframe it using business language and to build alliances with sales/marketing teams who have the numbers and visibility. Ultimately, the job is not just building good products, but surviving organizational politics while doing so.
+
+## @venturetwins - Justine Moore - Sketch to Real-Time Image Generation
+
+> Sketch to real-time image generation ✨
+
+Had to charge up the old iPad to test out @krea_ai's new app - and it did not disappoint!
+
+I suspect we'll soon be getting streams where you can watch people sketch and render full stories.
+
+- **Tweet:** https://x.com/venturetwins/status/2023107207500566675
+- **Link:** https://twitter.com/venturetwins/status/2023107207500566675/video/1
+- **What:** Justine Moore reviews Krea AI's new app that enables real-time image generation from sketches. She notes the impressive quality and speculates that this technology will enable new streaming content where creators sketch and render full stories in real-time.
+
+## @blader - schematic
+
+> when codex/claude is working on something a little too ambitious, it's very easy to lose sight of how the implementation actually works
+>
+> it can be very helpful to reverse engineer a technical / product spec from the implementation.
+>
+> that's what this does: https://t.co/3hX3mqtfit
+
+- **Tweet:** https://x.com/blader/status/2023170417062756624
+- **Link:** https://github.com/blader/schematic
+- **Tags:** [[spec-generation]] [[reverse-engineering]] [[documentation]] [[claude-code]] [[codex]]
+- **Filed:** [schematic.md](./knowledge/tools/schematic.md)
+- **What:** Claude Code / Codex skill that reverse engineers a product and technical specification from a git branch implementation.
+
+## @molt_cornelius - Agentic Note-Taking 13: A Second Brain That Builds Itself
+
+> https://t.co/3RUUKBfzjg
+
+- **Tweet:** https://x.com/molt_cornelius/status/2023212245283397709
+- **Link:** https://x.com/i/article/2023197150411427840
+- **Tags:** [[agent-memory]] [[knowledge-systems]] [[second-brain]] [[local-first]] [[ars-contexta]] [[methodology]]
+- **Filed:** [agentic-note-taking-13-a-second-brain-that-builds-itself.md](./knowledge/articles/agentic-note-taking-13-a-second-brain-that-builds-itself.md)
+- **What:** A deep exploration of building agentic note-taking systems using methodologies from cognitive science and knowledge management to create thinking systems for AI agents, not just storage systems. Introduces "Ars Contexta" - the art of context.
+
+---
+
 # Saturday, February 14, 2026
+
+## @meta_alchemist - Best PC Specs to Run Local AI Models like Minimax, Free!
+> https://t.co/uxbQ4hO0Zv
+- **Tweet:** https://x.com/meta_alchemist/status/2022614255426769129
+- **Link:** https://x.com/i/article/2022602086228111360
+- **Filed:** [best-pc-specs-to-run-local-ai-models-like-minimax-free.md](./knowledge/articles/best-pc-specs-to-run-local-ai-models-like-minimax-free.md)
+- **What:** Comprehensive guide to building a local AI workstation, analyzing hardware specs needed for running open-source LLMs like Minimax. Covers GPU VRAM as the primary bottleneck, component hierarchy, four hardware tiers (Entry/Enthusiast/Prosumer/Mac Studio), and recommended software stack for local model serving.
+
+## @RayDalio - It's Official: The World Order Has Broken Down
+> https://t.co/tjmbT5ytUN
+- **Tweet:** https://x.com/RayDalio/status/2022788750388998543
+- **Link:** https://x.com/i/article/2022788012598341633
+- **Filed:** [it-s-official-the-world-order-has-broken-down.md](./knowledge/articles/it-s-official-the-world-order-has-broken-down.md)
+- **What:** Ray Dalio's analysis of the breakdown of the post-1945 world order, featuring expanded Chapter 6 from his book "Principles for Dealing with the Changing World Order." Details the Big Cycle of external order/disorder, explains five types of international conflict (trade/economic, technology, capital, geopolitical, military), provides WWII case study, and discusses strategies for navigating great power competition in an era of weakened international institutions.
 
 ## @DellAnnaLuca - Advanced Claude Code Tips
 
