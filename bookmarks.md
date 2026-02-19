@@ -1,6 +1,128 @@
 # Twitter Bookmarks Archive
 
+# Wednesday, February 18, 2026
+
+## @rohit4verse - Skill Graphs > SKILL.md
+> graph is the final boss of memory.
+>
+> a skill graph is a network of skill files connected with wikilinks.
+>
+> one of the most interesting article i've read recently
+
+> *Quoting @arscontexta:* https://t.co/XmYSO3mC8f
+
+- **Tweet:** https://x.com/rohit4verse/status/2024031053103366528
+- **Link:** https://x.com/i/article/2023918991673061376
+- **Filed:** [skill-graphs-skill-md.md](./knowledge/articles/skill-graphs-skill-md.md)
+- **What:** Skill graphs are networks of skill files connected with wikilinks instead of monolithic SKILL.md files. Enables progressive disclosure (index → descriptions → links → sections → full content) and composable knowledge structures where wikilinks carry semantic meaning agents can navigate efficiently.
+
+---
+
+# Tuesday, February 17, 2026
+
+## @burkov - Prompt Repetition Improves Non-Reasoning LLMs
+> LLMs process text from left to right — each token can only look back at what came before it, never forward. This means that when you write a long prompt with context at the beginning and a question at the end, the model answers the question having "seen" the context, but the context tokens were generated without any awareness of what question was coming. This asymmetry is a basic structural property of how these models work.
+>
+> The paper asks what happens if you just send the prompt twice in a row, so that every part of the input gets a second pass where it can attend to every other part. The answer is that accuracy goes up across seven different benchmarks and seven different models (from the Gemini, ChatGPT, Claude, and DeepSeek series of LLMs), with no increase in the length of the model's output and no meaningful increase in response time — because processing the input is done in parallel by the hardware anyway.
+>
+> There are no new losses to compute, no finetuning, no clever prompt engineering beyond the repetition itself.
+>
+> The gap between this technique and doing nothing is sometimes small, sometimes large (one model went from 21% to 97% on a task involving finding a name in a list). If you are thinking about how to get better results from these models without paying for longer outputs or slower responses, that's a fairly concrete and low-effort finding.
+
+- **Tweet:** https://x.com/burkov/status/2023822767284490263
+- **Link:** https://www.chapterpal.com/s/1b15378b/prompt-repetition-improves-non-reasoning-llms (AI Tutor)
+- **Link:** https://arxiv.org/pdf/2512.14982 (PDF)
+- **Filed:** [prompt-repetition-improves-non-reasoning-llms.md](./knowledge/articles/prompt-repetition-improves-non-reasoning-llms.md)
+- **Filed:** [2512-14982.md](./knowledge/articles/2512-14982.md)
+- **What:** Research finding that sending a prompt twice in a row improves LLM accuracy across multiple models and benchmarks with no latency or cost penalty. Works because the second pass allows context tokens to attend to the complete input, fixing the fundamental left-to-right asymmetry.
+
+## @mattpocockuk - PGLite as In-Memory Postgres for Testing
+> First time using PGLite as an in-memory Postgres DB for testing purposes.
+>
+> Very, very nice, especially with @DrizzleORM as an ORM.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2023815495062090066
+- **What:** Quick tip on using PGLite as an in-memory Postgres database for testing, paired with DrizzleORM. No setup overhead, great developer experience.
+
+## @Vtrivedy10 - Improving Deep Agents with Harness Engineering
+> https://t.co/NhTTz2UbKt
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2023805578561060992
+- **Link:** https://x.com/i/article/2022906014928904192
+- **Filed:** [improving-deep-agents-with-harness-engineering.md](./knowledge/articles/improving-deep-agents-with-harness-engineering.md)
+- **What:** Demonstrates that harness engineering (system prompts, tools, middleware) is as important as model selection. LangChain's coding agent improved from Top 30 to Top 5 on Terminal Bench 2.0 by only changing the harness. Key techniques: trace-driven error analysis and self-verification.
+
+## @oliverhenry - Larry, My OpenClaw Agent Got 8M Views in One Week
+> https://t.co/8FoiiD4X67
+
+- **Tweet:** https://x.com/oliverhenry/status/2023776478446436696
+- **Link:** https://x.com/i/article/2023482547674742784
+- **Filed:** [larry-my-openclaw-agent-got-me-8m-views-in-just-one-week-so-i-m-giving-away-the-.md](./knowledge/articles/larry-my-openclaw-agent-got-me-8m-views-in-just-one-week-so-i-m-giving-away-the-.md)
+- **What:** OpenClaw agent that generates viral TikTok content autonomously with self-improving skill files. Larry achieved 8M views in a week and $670/month revenue requiring <2 minutes of manual work per post. The skill is freely available on ClawHub.
+
+## @Eli5defi - Confessions of a Vibe Coder: Vibe Coding is a Trap
+> https://t.co/CwvbQmSAkv
+
+- **Tweet:** https://x.com/Eli5defi/status/2023684821525164111
+- **Link:** https://x.com/i/article/2023644250379087872
+- **Filed:** [confessions-of-a-vibe-coder-vibe-coding-is-a-trap.md](./knowledge/articles/confessions-of-a-vibe-coder-vibe-coding-is-a-trap.md)
+- **What:** Critique of vibe coding — throwing unstructured prompts at Claude without discipline generates technical debt. Proposes the 85% completion rule, model arbitrage, prompt caching, and agent journaling to systematize AI development.
+
+## @annbordetsky - The Cost of Staying
+> Opportunity cost of not learning faster than everyone else
+>
+> @amytam01 has a great take here on the AI talent restlessness right now
+
+> *Quoting @amytam01:* https://t.co/b9f99xbcMx
+
+- **Tweet:** https://x.com/annbordetsky/status/2023630216623780305
+- **Link:** https://x.com/i/article/2023580526087696384
+- **Filed:** [the-cost-of-staying.md](./knowledge/articles/the-cost-of-staying.md)
+- **What:** Amy Tam analyzes the opportunity cost calculation driving technical talent transitions — staying at stable roles costs compounding time as frontier movers build judgment and networks, with the K-curve widening as AI capability accelerates.
+
+## @doodlestein - Storage Ballast Helper: Disk Pressure Defense for AI Agents
+> I made another tool out of my own desperation because my agents kept filling up disks (including special locations that are memory-backed) with Rust build artifacts and making the machines unresponsive.
+>
+> It's called storage_ballast_helper ("sbh")
+
+- **Tweet:** https://x.com/doodlestein/status/2023626632657805407
+- **Link:** https://github.com/Dicklesworthstone/storage_ballast_helper
+- **Filed:** [storage-ballast-helper.md](./knowledge/tools/storage-ballast-helper.md)
+- **What:** Rust daemon that prevents disk-full incidents in AI agent workloads using predictive PID control, ballast pools, deterministic artifact scoring, and zero-write emergency mode. Has observe/canary/enforce deployment modes and monitors /dev/shm and tmpfs separately.
+
+---
+
 # Monday, February 16, 2026
+
+## @mitchellh - Browse Code by Meaning & Bracketed Paste Handling
+> The default source view for forges like GitHub today should be a derived tree of categorically related subsystems/components plus an agentic search bar, not the literal filesystem layout.
+>
+> I now default to finding what I need in codebases via agents. They do a better job finding the details I usually miss by just manually reading the files. I always backstop the search with "link to how you found this" so I can open my editor and read the code myself, but it gets me to the right place so much faster.
+
+- **Tweet:** https://x.com/mitchellh/status/2023497187288907916
+- **Link:** https://haskellforall.com/2026/02/browse-code-by-meaning
+- **Link:** https://ampcode.com/threads/T-019c6781-46f6-76db-af2a-22a47ad1376b
+- **Filed:** [browse-code-by-meaning.md](./knowledge/articles/browse-code-by-meaning.md)
+- **Filed:** [bracketed-paste-handling-of-ctrl-c-and-isig.md](./knowledge/articles/bracketed-paste-handling-of-ctrl-c-and-isig.md)
+- **What:** Mitchell Hashimoto advocates for semantic code navigation via clustering-based project browsers instead of filesystem views. He routinely uses agents to find code faster in both familiar and unfamiliar codebases, always asking "link to how you found this" to bridge agent search to editor.
+
+## @ryancarson - Code Factory: Setup Your Repo for Autonomous Agent Code Review
+> Code Factory: How to setup your repo so your agent can auto write and review 100% of your code
+
+- **Tweet:** https://x.com/ryancarson/status/2023452909883609111
+- **Link:** https://x.com/i/article/2023001790258573312
+- **Filed:** [code-factory-how-to-setup-your-repo-so-your-agent-can-auto-write-and-review-100-.md](./knowledge/articles/code-factory-how-to-setup-your-repo-so-your-agent-can-auto-write-and-review-100-.md)
+- **What:** Control-plane pattern for autonomous agent workflows using machine-readable risk contracts, preflight gates, current-head SHA discipline, and deterministic remediation loops to create auditable code review and merge processes at scale.
+
+## @alexhillman - From Non-Coder to JFDI System: Building with Claude Code
+> my first time really talking about my experience going from "haven't really written code in 15 years" to building the JFDI system using Claude Code
+>
+> topics include technical decisions, ethical boundaries, and a whole lot more
+
+- **Tweet:** https://x.com/alexhillman/status/2023451191737229518
+- **Link:** https://www.youtube.com/watch?v=niSdkMl7kpI&feature=youtu.be
+- **Filed:** [alexhillman-jfdi-system-claude-code.md](./knowledge/videos/alexhillman-jfdi-system-claude-code.md)
+- **What:** Alex Hillman discusses going from 15 years without coding to building the JFDI system using Claude Code, covering technical decisions, ethical boundaries, and AI-assisted development experiences.
 
 ## @0xlelouch_ - Senior Backend Engineer Concepts Checklist
 
