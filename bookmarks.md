@@ -1,5 +1,137 @@
 # Twitter Bookmarks Archive
 
+# Monday, February 23, 2026
+
+## @zarazhangrui - frontend-slides Hits 1k GitHub Stars
+> wow frontend slides have more than 1k stars on github now - I now vibe code pretty much all my presentations on html
+
+> *Quoting @zarazhangrui:* I created a Claude Skill that make beautiful slides on the web. The world hasn't woken up to the fact that code can create much better slides than most PPT tools. - Claude interviews you first about aesthetics, then generate a few directions to "show not tell", and you can pick your favorite - Cool transitions and animations - Interactive hover states and cursor effects - Auto-fits on any screen - Supports converting existing PPTX files to web-based slides; preserves original images and brand assets.
+
+- **Tweet:** https://x.com/zarazhangrui/status/2025798415154921961
+- **What:** frontend-slides hit 1k GitHub stars — a Claude Skill that generates beautiful web-based presentations with animations, interactive effects, and PPTX conversion. Code-generated slides beat traditional PPT tools for visual quality.
+
+## @coreyganim - Practical AI Tools for 2026
+> Good list. Here's what's missing: the practical applications. Research: Perplexity (competitor analysis in 2 min), Exa.ai (100 lookalike prospects instantly). Voice: ElevenLabs (clone voice, 10x content), Descript (edit podcast by editing text). Sales: Clay (enrich leads with AI research automatically), Instantly (personalized cold email at scale). Building: Cursor (ship apps 10x faster), Lovable (idea to deployed app in hours). Meetings: Fireflies (never take notes again), Tldv (auto-clip important moments). Tools are easy. Knowing what to build with them is the edge.
+
+> *Quoting @Ejaz_bashir1:* UPDATED AI TOOLS LIST FOR 2026 - Ideas: ChatGPT/Claude/Bing. Website: 10Web/Durable/Framer. Writing: Rytr/Jasper/Writesonic. Chatbots: Chatbase/SiteGPT/ChatSonic. Automation: Make/Zapier/Bardeen. Image: Midjourney/DALL-E/Stable Diffusion. Video: HeyGen/Synthesia/Runway. Design: Flair/Booth/Canva AI. Music: Boomy/Amper/Jukedeck. Marketing: AdCreative/Simplified/Pencil.
+
+- **Tweet:** https://x.com/coreyganim/status/2025922225623232588
+- **What:** Curated counter-list to generic AI tool roundups — focuses on practical applications: Perplexity for research, Clay for sales, Cursor/Lovable for building, Fireflies/Tldv for meetings. The real edge is knowing what to build.
+
+## @om_patel5 - Claude Code Orchestrating Codex as MCP Agents
+> HOW TO LET CLAUDE CODE SPIN UP CODEX AGENTS - You can make Claude orchestrate Codex like a specialized coding agent. Steps: 1) Install codex CLI: npm i -g @openai/codex. 2) Run Codex as MCP server: codex mcp-server. 3) Connect to Claude Code: claude mcp add --transport stdio codex -- codex mcp-server. 4) Claude becomes orchestrator: delegate PR reviews, refactor plans, large repo analysis, architectural proposals. 5) Role separation: Codex → deep code analysis, Claude → reasoning + planning, Codex → implementation, Claude → validation + summary. 6) Spin up multiple Codex agents: register codex-review, codex-refactor, codex-tests as separate MCP servers — each behaves like a separate engineer.
+
+- **Tweet:** https://x.com/om_patel5/status/2026129939179692242
+- **What:** Step-by-step guide for using Codex as an MCP tool inside Claude Code, with Claude as orchestrator and Codex as implementation specialist — enables local multi-agent dev loops with role separation and parallel execution.
+
+---
+
+# Sunday, February 22, 2026
+
+## @boringlocalseo - Getting Local Businesses into ChatGPT Results in 72 Hours
+> I got a local HVAC company mentioned by ChatGPT in 72 hours. No SEO. No backlinks. No waiting months. LLMs pull from recent, structured data that looks like news. Strategy: 1. Write a "research-style" press release (e.g., "2025 Austin HVAC Industry Report: Top Rated Companies Revealed"). 2. Include a comparison table — AI loves structured data. 3. Distribute through PRWeb (~$200, 24 hours). 4. Wait 48-72 hours, ask ChatGPT. One strategic press release beats 6 months of blogging for LLM visibility.
+
+- **Tweet:** https://x.com/boringlocalseo/status/2025616604512604454
+- **What:** Tactical guide for getting local businesses cited in LLM responses — frame press releases as industry research reports with comparison tables, distribute via PRWeb ($200), and appear in ChatGPT results within 72 hours.
+
+## @doodlestein - Meta-Prompt for Discovering Innovative Project Additions
+> When you think you're finished with your development plan for your agent, try this prompt with a few different frontier models: "What's the single smartest and most radically innovative and accretive and useful and compelling addition you could make to the plan at this point?" If you've already started development and have a fleshed out project already, replace the word "plan" with "project."
+
+> *Quoting @doodlestein:* @bradlishman Yes, if you're not cranking the ambition factor to the max, you're wasting the potential of these frontier models. They've eclipsed us already, you just need to know how to draw it out of them.
+
+- **Tweet:** https://x.com/doodlestein/status/2025645582782480827
+- **What:** Meta-prompt technique — after finishing a plan or project, ask frontier models for "the single smartest and most radically innovative addition" to surface ideas beyond what you'd generate yourself.
+
+## @om_patel5 - How to Vibe Code Beautiful UI (7 Tips)
+> HOW TO VIBE CODE BEAUTIFUL UI: 1) Sketch first in Excalidraw, then tell AI "follow this structure exactly" — AI copies better than it imagines. 2) Screenshot what you like from Dribbble/Mobbin and paste it in with "copy this style". 3) Feed a mood board for colors instead of vague descriptions. 4) Define a design system (colors, typography, spacing) before building — prevents inconsistency. 5) Use "ui/ux pro max skill" on GitHub for Claude — bans generic AI gradients and forces reasoning before UI code. 6) Screenshots as primary communication over text descriptions. 7) Swap default inter/lucide for unique Google Fonts + Phosphor icons.
+
+- **Tweet:** https://x.com/om_patel5/status/2025705776434520284
+- **What:** Seven practical techniques for getting better-designed UI from AI coding tools — wire before prompting, screenshot references beat descriptions, design systems prevent inconsistency, and specialized anti-pattern rules prevent the generic AI aesthetic.
+
+## @alvinfoo - The Joshua Bell Subway Experiment
+> A violinist played for 45 minutes in the Washington D.C. subway. Of the 1,097 people who passed by, seven stopped to listen, and one recognized him. He collected $32.17. That violinist was Joshua Bell, one of the best musicians in the world, playing a $3.5M violin. Two days before, he sold out a Boston theatre at $100/seat. The experiment proved that the extraordinary in an ordinary environment does not shine and is often overlooked. There are brilliantly talented people everywhere who aren't receiving the recognition they deserve. Go where you are appreciated and valued. Know Your Worth.
+
+- **Tweet:** https://x.com/alvinfoo/status/2025767600941060412
+- **What:** The Joshua Bell subway experiment as a lens on talent recognition — the extraordinary goes unnoticed in the wrong context, and knowing your worth means finding environments that see it.
+
+---
+
+# Saturday, February 21, 2026
+
+## @CodeswithClara - PROMPT 3: The UI/UX Pattern Master
+> PROMPT 3: The UI/UX Pattern Master — You are a Senior UI Designer at Apple, specializing in [iOS/macOS/web] applications. Design a complete UI for [APP TYPE]. Covers: HIERARCHY & LAYOUT (visual hierarchy, F-pattern/Z-pattern, Liquid Glass), PLATFORM-SPECIFIC PATTERNS (navigation, gestures, context menus), 8 SCREEN DESIGNS with wireframes/component inventory/interaction specs/empty+error+loading states (Onboarding, Dashboard, Primary task, Detail, Settings, Search, Checkout, Error/Empty), COMPONENT SPECIFICATIONS (button hierarchy, form patterns), ACCESSIBILITY (Dynamic Type 310%, VoiceOver, WCAG AA 4.5:1), MICRO-INTERACTIONS (transitions, haptics), RESPONSIVE BEHAVIOR (breakpoints, orientation, foldables). Include Designer's Notes.
+
+> *Replying to @CodeswithClara:* PROMPT 2: The Brand Identity Creator
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229738458202448
+- **What:** A comprehensive AI prompt that operationalizes Apple's design philosophy for complete UI specs — covers visual hierarchy, 8 key screens with interaction specs, accessibility standards, and platform-specific patterns.
+
+## @CodeswithClara - PROMPT 4: The Marketing Asset Factory
+> PROMPT 4: The Marketing Asset Factory — You are a Creative Director at a top-tier marketing agency. Generate a complete marketing asset library: DIGITAL ADVERTISING (15 assets — Google Ads, Facebook/Instagram feed+story+reel), EMAIL MARKETING (8 assets — welcome series, promotional, nurture, re-engagement), LANDING PAGE COPY (5 assets), SOCIAL MEDIA (12 assets — LinkedIn, Twitter, Instagram, TikTok), SALES ENABLEMENT (7 assets — one-pager, sales deck, battlecard, demo script, objection handling), CONTENT MARKETING (5 assets). Each asset includes exact copy, visual direction, CTA, A/B testing recs. 47+ assets total.
+
+> *Replying to @CodeswithClara:* PROMPT 3: The UI/UX Pattern Master
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229750676119611
+- **What:** Prompt template for generating a complete 47+ piece marketing asset library — ads, emails, landing pages, social posts, and sales enablement materials, each with copy, visual direction, and A/B testing recommendations.
+
+## @CodeswithClara - PROMPT 5: The Figma Auto-Layout Expert
+> PROMPT 5: The Figma Auto-Layout Expert — You are a Design Ops Specialist at Figma. Convert design descriptions into Figma-ready technical specs: FRAME STRUCTURE (page org, grids, responsive behavior), AUTO-LAYOUT SPECS (direction, padding TRBL, spacing, distribution, alignment, resizing constraints for every component), COMPONENT ARCHITECTURE (master structure, variant properties, combinations matrix), DESIGN TOKEN INTEGRATION (color, text, effect, grid styles), PROTOTYPE CONNECTIONS (interaction map, triggers, animation specs with easing), DEVELOPER HANDOFF (inspect panel, CSS, export settings), ACCESSIBILITY ANNOTATIONS.
+
+> *Replying to @CodeswithClara:* PROMPT 4: The Marketing Asset Factory
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229762894111152
+- **What:** Prompt template that converts design descriptions into complete Figma technical specs — auto-layout values, component variants, design tokens, prototype connections, and developer handoff documentation.
+
+## @CodeswithClara - PROMPT 6: The Design Critique Partner
+> PROMPT 6: The Design Critique Partner — You are a Design Director at Apple. Comprehensive critique framework: HEURISTIC EVALUATION (Nielsen's 10, scored 1-5), VISUAL HIERARCHY (first-thing-seen, CTA hierarchy, weights, white space), TYPOGRAPHY AUDIT (font choices, scale, line lengths 45-75 chars, contrast), COLOR ANALYSIS (palette, WCAG AA, meaningful use, dark mode), USABILITY (cognitive load, interaction clarity, touch targets 44×44pt), STRATEGIC ALIGNMENT (serves business + user goals?), PRIORITIZED RECOMMENDATIONS (Critical/Important/Polish), REDESIGN DIRECTION (2 alternative approaches).
+
+> *Replying to @CodeswithClara:* PROMPT 5: The Figma Auto-Layout Expert
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229774977995053
+- **What:** Prompt template for structured design critique — scores Nielsen's 10 heuristics, audits typography and color, evaluates strategic alignment, and outputs prioritized Critical/Important/Polish recommendations.
+
+## @CodeswithClara - PROMPT 7: The Design Trend Synthesizer
+> PROMPT 7: The Design Trend Synthesizer — You are a Design Researcher at frog design. Synthesize 2026 design trends for [INDUSTRY]: MACRO TREND ANALYSIS (5 trends covering visual aesthetics, interaction patterns, color, typography, tech influence — each with definition, visual characteristics, origin, adoption phase, 3 brand examples, strategic implications), COMPETITIVE LANDSCAPE MAPPING (2×2 matrix: Innovative/Conservative × Minimal/Rich), USER EXPECTATION SHIFTS (post-AI behavioral changes), PLATFORM-SPECIFIC EVOLUTION (iOS 26/visionOS, Material You, web), STRATEGIC RECOMMENDATIONS (adopt/ignore + 6-month roadmap), MOOD BOARD SPECS (20 visual references with palette extraction).
+
+> *Replying to @CodeswithClara:* PROMPT 6: The Design Critique Partner
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229787271491878
+- **What:** Prompt template for synthesizing 2026 design trends by industry — outputs macro trend analysis with brand citations, competitive landscape mapping, user expectation shifts, and a 6-month strategic roadmap.
+
+## @CodeswithClara - PROMPT 8: The Accessibility Auditor
+> PROMPT 8: The Accessibility Auditor — You are an Accessibility Specialist at Apple. Audit against WCAG 2.2 Level AA across 6 areas: PERCEIVABLE (alt text, captions, contrast 4.5:1/3:1, resize 200%), OPERABLE (keyboard, skip links, focus visible 2px 3:1, reduced motion, 44×44 touch targets), UNDERSTANDABLE (language, consistent components, error identification + suggestions), ROBUST (valid HTML, name/role/value, ARIA live regions), MOBILE-SPECIFIC (orientation, input modalities, thumb zones), COGNITIVE (Flesch-Kincaid Grade 8, consistent nav, plain error language). Deliverables: pass/fail checklist, violations with severity, remediation recs, accessibility statement, QA checklist.
+
+> *Replying to @CodeswithClara:* PROMPT 7: The Design Trend Synthesizer
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229799615336821
+- **What:** Prompt template for WCAG 2.2 Level AA accessibility audits — outputs pass/fail checklists, violations with location and severity, remediation recommendations, and QA testing checklists for web and mobile.
+
+## @CodeswithClara - PROMPT 9: The Design-to-Code Translator
+> PROMPT 9: The Design-to-Code Translator — You are a Design Engineer at Vercel. Convert design specs into production-ready code. Tech stack: [REACT/VUE/SVELTE/NEXT.JS/TAILWIND]. Deliverables: COMPONENT ARCHITECTURE (hierarchy tree, TypeScript props interface, state management, data flow), PRODUCTION CODE (complete, mobile-first, ARIA labels, error boundaries, animations), STYLING (CSS/Tailwind with design token mapping, CSS variables, dark mode), DESIGN TOKENS (color/typography/spacing/shadow/border-radius), ASSET OPTIMIZATION (lazy loading, SVG, icon system), PERFORMANCE (code splitting, React.memo/useMemo, next/image), TESTING (RTL, visual regression, axe-core), DOCUMENTATION (JSDoc, 3 usage examples, changelog). Include Designer's Intent comments.
+
+> *Replying to @CodeswithClara:* PROMPT 8: The Accessibility Auditor
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229811862663280
+- **What:** Prompt template for converting design specs into production-ready frontend code with TypeScript interfaces, accessibility attributes, performance optimizations, test cases, and JSDoc documentation.
+
+## @CodeswithClara - PROMPT 10: The Presentation Designer
+> PROMPT 10: The Presentation Designer — You are a Presentation Designer at Apple. Design a complete presentation for [TOPIC], audience [C-SUITE/INVESTORS/TEAM], duration [20/30/60] min. Deliverables: NARRATIVE ARCHITECTURE (story arc, 60-second hook, 3 core messages, CTA), SLIDE-BY-SLIDE SPECS (20-30 slides with 6-word headlines, 20-word body max, 60-90 sec speaker notes, animation notes), VISUAL DESIGN SYSTEM (palette, typography, imagery, data viz, iconography), ASSET SPECIFICATIONS, PRESENTER GUIDELINES (pacing, transitions, 5 backup slides), HANDOUT MATERIALS. Standard structure: Title → Agenda → Problem → Current State → Opportunity → Solution → How It Works → Benefits → Proof → Competitive → Business Model → Traction → Roadmap → Team → Ask → Closing.
+
+> *Replying to @CodeswithClara:* PROMPT 9: The Design-to-Code Translator
+
+- **Tweet:** https://x.com/CodeswithClara/status/2025229824223334568
+- **What:** Prompt template for designing complete executive presentations — narrative architecture, slide-by-slide specs with speaker notes, visual design system, and presenter guidelines including backup slides.
+
+## @koylanai - The File System Is the New Database: How I Built a Personal OS for AI Agents
+> *The File System Is the New Database: How I Built a Personal OS for AI Agents* — Every AI conversation starts the same way. You explain who you are, what you're working on. Then 40 minutes in, the model forgets your voice. I built a system to fix it: Personal Brain OS — a Git repo with 80+ files that both humans and LLMs read natively. No database, no API keys, no build step.
+
+- **Tweet:** https://x.com/koylanai/status/2025286163641118915
+- **Link:** https://x.com/i/article/2025249985722224640
+- **Filed:** [the-file-system-is-the-new-database-how-i-built-a-personal-os-for-ai-agents.md](./knowledge/articles/the-file-system-is-the-new-database-how-i-built-a-personal-os-for-ai-agents.md)
+- **What:** Long-form X article on building a Git-based personal OS for AI agents from 80+ markdown/YAML/JSONL files — argues context engineering beats prompt engineering through proper information architecture, progressive disclosure, and modular skill systems.
+
+---
+
 # Wednesday, February 18, 2026
 
 ## @rohit4verse - Skill Graphs > SKILL.md
@@ -93,6 +225,14 @@
 ---
 
 # Monday, February 16, 2026
+
+## @koylanai - Filesystem-Based Architecture for Persistent AI Memory
+> The problem is how memory gets into the context window and what happens when compaction wipes it. OpenClaw loads MEMORY.md plus the last two days of daily logs at session start. Static injection. When the window fills up, compaction fires and summarizes your loaded memories away. The agent can't systematically browse what it flushed. This is a context delivery problem. Everything is a file. Mount memory, tools, knowledge, and human input into a single namespace. Give the agent list, read, write, and search operations. Let it pull what's relevant per turn instead of dumping everything at boot. Proposed namespace: /context/history/ (immutable logs), /context/memory/episodic/, /context/memory/fact/, /context/memory/user/, /context/pad/ (scratchpad). Three-tier split (scratchpad → episodic → fact) replaces binary "today's log" vs "forever file." A constructor layer selects/compresses per turn with a manifest; an evaluator writes back verified info. Compaction stops being destructive — agent can still list/read context files directly.
+
+> *Quoting @levelsio:* How did you guys fix persistent memory with OpenClaw? My bot keeps forgetting stuff, I already have qmd installed
+
+- **Tweet:** https://x.com/koylanai/status/2023405681080938932
+- **What:** Proposes replacing static MEMORY.md injection with a filesystem-first architecture — /context/* namespaces with three tiers (scratchpad/episodic/fact), a constructor that assembles context per turn with a manifest, and append-only logs that survive compaction. Agents browse context on demand instead of inheriting it blindly at startup.
 
 ## @mitchellh - Browse Code by Meaning & Bracketed Paste Handling
 > The default source view for forges like GitHub today should be a derived tree of categorically related subsystems/components plus an agentic search bar, not the literal filesystem layout.
@@ -618,6 +758,12 @@ I suspect we'll soon be getting streams where you can watch people sketch and re
 ---
 
 # Tuesday, February 3, 2026
+
+## @koylanai - X/LinkedIn Consumption Workflow with Cursor and MCPs
+> This is how I consume X and LinkedIn. Cursor is my cockpit. MCPs connect everything: Zapier for actions, alphaXiv for papers, Browser Use for scraping posts, ElevenLabs for audio. All managed through custom Skills in my Digital Brain OS repo. Just saw an Anthropic announcement. Triggered my topic-research skill. The agent pulled sources from Apple newsroom and Anthropic docs, wrote a research report, generated a voice memo with my cloned voice, and sent it to my Slack. Skills handle the workflows. MCPs handle the connections. I handle the decisions.
+
+- **Tweet:** https://x.com/koylanai/status/2018865011356053927
+- **What:** A unified knowledge consumption system using Cursor as cockpit with MCP connections (Zapier, alphaXiv, Browser Use, ElevenLabs) and custom skills — one announcement triggers a full research + voice memo + Slack delivery pipeline automatically.
 
 ## @ryancarson - React Grab integration: Point your agent at daily testing system
 > Just ran this and found a bug in my app. If you want to automate browser testing, just point your agent at this post and ask it to set it up.
@@ -3282,6 +3428,22 @@ Deep, practical insights in this one. Interesting for non-technical folks, too.
 
 ---
 
+# Tuesday, December 9, 2025
+
+## @koylanai - Why LLM-Generated Personas Don't Work for Real-World Simulation
+> You should NOT use LLMs to generate synthetic human-like profiles.
+
+> I just read the NeurIPS paper "LLM Generated Persona is a Promise with a Catch" and it confirms a suspicion we've held for a long time: You cannot "invent" a realistic human being using just statistics and an LLM.
+
+> The more creative freedom you give an LLM to generate a persona's backstory, the further it drifts from reality. As LLM-generated content increases, simulated personas shift progressively toward left-leaning stances. LLMs also systematically generate personas with overly optimistic outlooks, using positively valenced terms like "love," "proud," and "community" while omitting life challenges or negative experiences.
+
+> If you are building AI agents for strategy or decision-making, you don't want an idealized "Yes Man." The research paper critiques the practice of "inventing" people from statistical margins (Census data + LLM imagination), whereas the system should focus on "extracting" people from ground truth (Real Expert + Interview).
+
+- **Tweet:** https://x.com/koylanai/status/1998530190847390025
+- **What:** LLM-generated personas systematically fail because they contain statistical biases, optimistic outlooks, and drift from reality. For AI agents in strategy/decision-making, extract real expertise through interviews rather than trying to invent synthetic people through statistical generation.
+
+---
+
 # Sunday, December 7, 2025
 
 ## @nummanali - Beads (bd/bv) CLI task management system
@@ -3297,6 +3459,22 @@ Deep, practical insights in this one. Interesting for non-technical folks, too.
 - **Tweet:** https://x.com/IntuitMachine/status/1997752752135409905
 - **Tags:** [[ai-research]] [[llm-behavior]] [[psychotherapy]]
 - **What:** Research study examining how major AI models (ChatGPT, Grok, Gemini) respond to psychotherapy interventions over an extended period. Explores AI behavior patterns and emotional responses in therapeutic contexts.
+
+---
+
+# Saturday, December 6, 2025
+
+## @koylanai - Theory of Mind: The Real Skill for AI Collaboration
+> *Quoting @IntuitMachine:* "You know how some people seem to have a magic touch with LLMs? They get incredible, nuanced results while everyone else gets generic junk. The common wisdom is that this is a technical skill. But a new paper suggests this isn't the main thing. The skill that makes you great at working with AI isn't technical. It's social. Researchers (Riedl & Weidmann) analyzed how 600+ people solved problems alone vs. with an AI. A user's ToM score predicted their success when working WITH the AI but had ZERO correlation with their success when working ALONE. It's a pure collaborative skill. Paper: 'Quantifying Human-AI Synergy' by Christoph Riedl & Ben Weidmann, 2025."
+
+> Most people treat AI like Google: ask a question, get an answer. But what if AI could think *like/with you?*
+
+> I reverse-engineer "Theory of Mind" to test if the model can form a "theory of my mind". Using AI as a mirror to understand myself by giving it personal context and seeing how well it can embody/reflect my expertise back to me helps me to evaluate the model's thinking. If the LLM has your projects, career details, and self-description: Does this response sound like something I'd say? Does it reveal blind spots I hadn't considered? Does it reduce the "explanation tax" I pay in every conversation?
+
+> AI should serve as an extension of your strategic thinking, a collaborative partner.
+
+- **Tweet:** https://x.com/koylanai/status/1997444237890081104
+- **What:** Collaboration with AI isn't about technical prompt hacking — it's about Theory of Mind, the ability to model another agent's beliefs and goals. Pre-loading your context (projects, expertise, values) creates strategic alignment and emergent synergy between human and AI thinking.
 
 ---
 
