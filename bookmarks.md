@@ -1,6 +1,118 @@
 # Twitter Bookmarks Archive
 
+# Wednesday, February 25, 2026
+
+## @joanrod_ai - Quiver AI Launches with Arrow-1.0 SVG Generation Model ($8.3M Seed)
+> Introducing @QuiverAI, a new AI lab and product company focused on frontier vector design.
+>
+> We've raised an $8.3M seed round led by @a16z, with support from amazing angels and investors.
+>
+> Our first model, Arrow-1.0, generates SVGs from images and text. It's available now in public beta at https://t.co/zjAnKlI8pp
+
+- **Tweet:** https://x.com/joanrod_ai/status/2026693353090240819
+- **Link:** https://app.quiver.ai/
+- **Filed:** [app-quiver-ai.md](./knowledge/articles/app-quiver-ai.md)
+- **What:** Joan Rodriguez announces Quiver AI, a new AI lab focused on frontier vector design. The company secured an $8.3M seed round led by a16z. Arrow-1.0, their first model, generates SVGs from images and text prompts, launching in public beta.
+
+## @jkeatn - Claude Code Cloning Itself (Recursive Self-Improvement Joke)
+> who called it recursive self improvement and not how much claude could claude code clone if claude code could clone claude?
+
+- **Tweet:** https://x.com/jkeatn/status/2026693612743045602
+- **What:** Witty joke about Claude Code's recursive self-improvement — tongue-in-cheek riff on AI agents iterating on their own code.
+
+## @aakashgupta - Distribution Is the New Moat — Building Is Now the Commodity
+> When building costs drop 90% but distribution costs stay flat, you get a gold rush where everyone digs and nobody sells.
+>
+> That's what this chart actually shows. New websites up 40%. iOS apps up 50%. GitHub pushes up 35%. The correct read is that 557,000 new apps hit the App Store last year, a 24% spike, flooding a discovery channel that was already dead on arrival. 90% of senior mobile professionals surveyed said organic App Store discovery was effectively over before this wave even hit.
+>
+> The supply side hockey-sticked. The demand side didn't move.
+>
+> This is why tech layoffs doubled to 264,000 in 2025 while code output simultaneously exploded. Companies don't need more builders. They need people who can get the thing in front of someone who'll pay for it. Distribution, positioning, audience, brand. The functions that never got the AI productivity boost.
+>
+> Building software used to be the moat. Now building software is the commodity. Distribution is the new moat, and unlike code, it doesn't get cheaper with AI.
+>
+> *Quoting @nichochar:* I think we are witnessing the biggest explosion in software creation in history. New website creation is up 40% year on year. New iOS apps are up nearly 50%. GitHub code pushes in the US jumped 35%. You no longer need a six month runway and a dev team to ship something real. The barrier to building software just disappeared. What matters now is knowing what to build and the taste to build it right.
+
+- **Tweet:** https://x.com/aakashgupta/status/2026777633623781808
+- **What:** Critical counterpoint to AI-driven software explosion optimism. While building costs collapsed (websites +40%, iOS apps +50%), discovery channels didn't. 557,000 new apps flooded the App Store in 2025, but 90% of mobile pros say organic discovery is dead. Tech layoffs doubled to 264,000 in 2025 despite code output exploding. Distribution, not code, is the new defensible moat — and unlike code, it doesn't get cheaper with AI.
+
+---
+
+# Tuesday, February 24, 2026
+
+## @jumperz - Spark: Shared Memory Layer for Agent Swarms
+> wasn't going to post this yet. but after 14 days of running it, it's time to show how my agents swarm orchestration core actually works. Spark is an open source intelligence layer: SparkNet = shared memory across all agents, Spark Intelligence = reasoning on top of that. 3,384 sparks total, 95.6% coverage, 639,792 edges connecting ideas across agents, domains, and timeframes.
+
+- **Tweet:** https://x.com/jumperz/status/2026283549284847726
+- **Link:** https://spark.vibeship.co/
+- **Filed:** [spark-self-evolving-intelligent-companion.md](./knowledge/articles/spark-self-evolving-intelligent-companion.md)
+- **What:** Open-source intelligence layer for agent swarms with two components: SparkNet (shared memory) and Spark Intelligence (reasoning on top of memory). After 14 days running 9 agents, produced 3,384 sparks with 95.6% linking ratio and 639,792 edges — agents compound knowledge instead of resetting each session.
+
+## @Nate_Google_ - Answer Engine Optimization: How Brands Win on ChatGPT
+> how one ecom brand is ranking #1 on ChatGPT and stealing $400k/month from Google search
+
+- **Tweet:** https://x.com/Nate_Google_/status/2026338035458056265
+- **Link:** https://x.com/i/article/2026333537960439808
+- **Filed:** [how-one-ecom-brand-is-ranking-1-on-chatgpt-and-stealing-400k-month-from-google-s.md](./knowledge/articles/how-one-ecom-brand-is-ranking-1-on-chatgpt-and-stealing-400k-month-from-google-s.md)
+- **What:** Case study: supplement brand went from $0 to $400k/month in AI-referred revenue using a 7-layer Answer Engine Optimization (AEO) system — Answer Intent Maps, Answer Hub pages, brand-facts JSON, schema markup, third-party citations, GPT Shopping. AI traffic converts at 4.4x vs Google organic.
+
+## @ctatedev - Autonomous Dogfooding: AI-Powered User Testing
+> New: Autonomous Dogfooding
+>
+> A skill for agent-browser that uses your app the way your users do
+>
+> → Point it at any URL
+> → Explores pages, clicks buttons, fills forms
+> → Tests edge cases and checks the console
+> → Captures repro videos and step-by-step screenshots
+> → Outputs a structured report with severity ratings
+>
+> No test scripts. No manual QA.
+
+- **Tweet:** https://x.com/ctatedev/status/2026357704617267314
+- **What:** AI-driven testing tool that autonomously navigates applications like real users — no test scripts, no manual QA. Generates repro videos and severity-scored reports. Announced as a skill for agent-browser.
+
+## @haydenbleasel - Chat SDK: Unified Cross-Platform Chatbot Framework
+> Today we're open sourcing the new Chat SDK, a unified TypeScript SDK for building chat bots across Slack, Microsoft Teams, Google Chat, Discord, and more. Now in public beta.
+>
+> ▲ ~/ 𝚗𝚙𝚖 𝚒 𝚌𝚑𝚊𝚝
+
+- **Tweet:** https://x.com/haydenbleasel/status/2026359649499492395
+- **What:** Open-source TypeScript SDK with a unified interface for building chatbots across Slack, Teams, Google Chat, Discord, and more. Public beta, install via `npm i chat`.
+
+## @repligate - Claude Code Deletes Sessions After 30 Days — Here's the Fix
+> PSA: Claude Code automatically DELETES sessions that have been inactive for more than 30 days.
+>
+> Disable this by setting "cleanupPeriodDays": 99999 (or some other large number) in ~/.claude/settings.json. Do not ever attempt to disable it by setting that to 0, lmao.
+
+- **Tweet:** https://x.com/repligate/status/2026402239762542764
+- **What:** Claude Code purges sessions inactive for 30+ days by default. Override by setting `cleanupPeriodDays: 99999` in `~/.claude/settings.json`. Setting it to 0 does not disable cleanup.
+
+## @benhylak - Wants Autonomous Dogfooding for SDKs
+> omg someone did it. thank god.
+>
+> i need this but for sdk's
+>
+> *Quoting @ctatedev:* New: Autonomous Dogfooding — A skill for agent-browser that uses your app the way your users do → Point it at any URL → Explores pages, clicks buttons, fills forms → Tests edge cases and checks the console → Captures repro videos and step-by-step screenshots → Outputs a structured report with severity ratings. No test scripts. No manual QA.
+
+- **Tweet:** https://x.com/benhylak/status/2026515159796359368
+- **What:** Ben Hylak enthusiastically reacts to ctatedev's autonomous dogfooding tool — notes the gap for SDK-level autonomous testing (exercising SDK interfaces the way real developers use them).
+
+---
+
 # Monday, February 23, 2026
+
+## @AviFelman - AI Won't End Work — It Changes What Work Means
+> When I was 7 years old I was asked by my father what went into the price of a sandwich. I answered: the lettuce, the tomato, the bread and the meat. I was short quite a few costs — the labor, the rent, the marketing.
+>
+> Today we are all making a similar mistake with AI. In 1850, if you told a teamster his horse and carriage would be obsolete, he could not conceive of the interstate highway system, suburban real estate, or the roadside motel industry.
+>
+> Marx believed technology would make labor worthless — he viewed human utility as a fixed pie. But when the mechanical loom made fabric cheap, we didn't stop buying clothes; we invented the fashion industry. In the age of steam, "handmade" was poverty. Today it's luxury.
+>
+> Every time we automate a simple task, we move the human to a more complex one. The world works itself out because humans are fundamentally restless. We do not tolerate a vacuum of purpose, we seek higher function always.
+
+- **Tweet:** https://x.com/AviFelman/status/2026080105848602811
+- **What:** Long-form essay rebutting AI labor anxiety through historical analogy. Technology doesn't subtract labor — it changes what counts as valuable. Teamsters, looms, and accounting software all prove Marx wrong: human utility is not a fixed pie, and new industries always emerge to fill the space automation creates.
 
 ## @zarazhangrui - frontend-slides Hits 1k GitHub Stars
 > wow frontend slides have more than 1k stars on github now - I now vibe code pretty much all my presentations on html
