@@ -1,5 +1,87 @@
 # Twitter Bookmarks Archive
 
+# Saturday, February 28, 2026
+
+## @scaling_shields - Cold Email Deliverability Crisis: Infrastructure Requirements Changed in 2026
+> 90% of cold emailers are sending to spam right now and have absolutely no idea
+>
+> theyre checking their inbox wondering why NOBODY replies
+>
+> "maybe the scripts bad" "maybe the offer doesnt work" "maybe cold email is dead"
+>
+> nah bro
+>
+> your emails arent even reaching the inbox
+
+- **Tweet:** https://x.com/scaling_shields/status/2027663570708865040
+- **What:** Cold email deliverability breakdown in 2026: DMARC set to "none" gets auto-downgraded by Google, new domains (<2 years) flagged instantly, safe send limit dropped from 50 to 15-20/day per inbox, Google now detects warmup tool networks, shared tracking domains spread spam reputation. Promises a full survival guide covering exact DNS setup, warming protocol, and sending limits — classic lead gen thread gated behind "like + comment GUIDE".
+
+---
+
+# Friday, February 27, 2026
+
+## @mattpocockuk - Research as Cache: TTL Tradeoffs for AI Coding Context
+> No video today.
+>
+> But my thoughts are around the benefits of up-front research as part of PRD design.
+>
+> 'Research' in AI coding basically means doing an Explore phase with an agent and caching it - usually saving it to a markdown file in the repo.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2027319225400856992
+- **What:** Matt Pocock frames "research" in AI coding as an Explore phase cached to markdown — useful for hard-to-access docs (external APIs, internal processes) so future agents have pre-built context. Key caution: stale research actively harms agents more than it helps, and lossy summaries cause poor code. Identical tradeoffs to traditional caching (TTL, invalidation, fidelity).
+
+## @sawyerhood - I Was Tired of Juggling My Agents, So I Hired a Middle Manager
+> https://t.co/yBTu0Rho2t
+
+- **Tweet:** https://x.com/sawyerhood/status/2027409021914026093
+- **Link:** https://x.com/i/article/2027230637158219776
+- **Filed:** [i-was-tired-of-juggling-my-agents-so-i-hired-a-middle-manager.md](./knowledge/articles/i-was-tired-of-juggling-my-agents-so-i-hired-a-middle-manager.md)
+- **What:** Pattern for a persistent middle manager agent (Claude Opus) that handles dispatch and routing so engineers can just describe what needs doing. Architecture: daemon for message passing, Conductor-style UI, manager built on pi. Key components: agentic merge queue as serialization point, Obsidian for task tracking, daily branch with end-of-day manual review for production. Open source at github.com/SawyerHood/middleman.
+
+## @codyschneiderxx - B2B SaaS Marketing Playbook via Claude Code
+> if you're a b2b saas founder please read this so my neck pain goes away
+>
+> {hey claude code help me implement this via related APIs}
+>
+> paid ads google and facebook / pixel everyone who touches the site / continuous remarketing across all channels / email drip nurture with sendgrid / newsletter of weekly product update / make podcast interviewing target customers / clips podcast for social / send podcast to newsletter / write x vs y product and x alternative products blog posts
+
+- **Tweet:** https://x.com/codyschneiderxx/status/2027458717126438998
+- **What:** Opinionated B2B SaaS marketing recipe: paid ads + pixel + remarketing + SendGrid drip + weekly newsletter + customer interview podcast + social clips + comparison blog posts. Framed as all implementable via Claude Code and related APIs. Covers every channel that "basically works right now."
+
+## @trq212 - Lessons from Building Claude Code: Seeing like an Agent
+> https://t.co/nKTDfC7zMm
+
+- **Tweet:** https://x.com/trq212/status/2027463795355095314
+- **Link:** https://x.com/i/article/2027446899310313472
+- **Filed:** [lessons-from-building-claude-code-seeing-like-an-agent.md](./knowledge/articles/lessons-from-building-claude-code-seeing-like-an-agent.md)
+- **What:** Claude Code team's lessons on designing agent action spaces: tool design must fit model capabilities not human intuitions. Three case studies — AskUserQuestion (structured tool beats output-format parsing), TodoWrite → Task Tool (model capabilities outgrew the old paradigm), RAG → Grep → progressive disclosure (Claude now builds its own context through nested search). Core mantra: "see like an agent."
+
+## @alexhillman - Discord → Claude Code Infinite Session UX via Handoff Subagents
+> Long overdue addition to my Discord -> Claude Code integration.
+>
+> In my rig, a discord thread correlates with a cc session ID.
+>
+> Now I can fork or continue a thread that's hitting context limits by simply asking to continue or fork to a new thread.
+>
+> It fires off a subagent to read the current session transcript and generate a custom and contextual handoff.
+
+- **Tweet:** https://x.com/alexhillman/status/2027533647792751057
+- **What:** Discord integration for infinite Claude Code sessions: each Discord thread maps to a session ID. At context limit, asking to "continue" or "fork" triggers a subagent that reads the transcript, generates a contextual handoff summary, creates a new thread with the handoff injected, and auto-manages Discord membership (adds to new thread, removes from old). Near-seamless infinite context UX without manual handoff work.
+
+## @om_patel5 - How to Build a Profitable Startup with $0
+> HOW TO BUILD A PROFITABLE STARTUP WITH $0
+>
+> 1\ find a problem by reading complaints not brainstorming ideas
+>
+> 2\ skip the business plan. open claude code. ship something ugly by sunday night
+>
+> 3\ charge money immediately
+
+- **Tweet:** https://x.com/om_patel5/status/2027588359221022883
+- **What:** 10-step zero-budget startup playbook: find problems in Reddit/G2/Upwork/App Store reviews (customers tell you what to build), ship ugly MVP in a weekend via Claude Code, charge immediately to validate ($20/month = real problem), use your known stack, $10 VPS (not Kubernetes for 200 users), answer every support ticket yourself, automate anything done twice, build in public on Twitter, keep burn low enough that first revenue covers it, say no to advisors/VCs wanting equity.
+
+---
+
 # Wednesday, February 25, 2026
 
 ## @joanrod_ai - Quiver AI Launches with Arrow-1.0 SVG Generation Model ($8.3M Seed)
@@ -2884,6 +2966,14 @@ For the same reason we all create and maintain https://t.co/6lkRloGo1l files, I 
 ---
 
 # Friday, January 9, 2026
+
+## @dhasandev - How to Wrap the Claude CLI for Your Agentic Apps
+> https://t.co/IQi5DOZILJ
+
+- **Tweet:** https://x.com/dhasandev/status/2009529865511555506
+- **Link:** https://x.com/i/article/2009497314013138947
+- **Filed:** [how-to-wrap-the-claude-cli-for-your-agentic-apps.md](./knowledge/articles/how-to-wrap-the-claude-cli-for-your-agentic-apps.md)
+- **What:** Comprehensive guide to `claude --print` as an agent runtime primitive. Covers 5 input methods, 3 output formats (text/JSON/stream-JSON), JSON schema for structured output in a `structured_output` field, tool whitelisting/denying, `bypassPermissions` mode, session management, system prompt customization, and bidirectional streaming. Context: Claude OAuth tokens no longer work outside Claude Code itself, making CLI wrapping the correct approach for third-party integrations.
 
 ## @doodlestein - My Favorite Prompts: The Idea Wizard Workflow
 > "My Favorite Prompts," by Jeffrey Emanuel. Prompt 1: The Idea Wizard...
