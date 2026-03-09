@@ -2,6 +2,18 @@
 
 # Sunday, March 8, 2026
 
+## @omarsar0 - OPENDEV: Design Patterns for Terminal-Native Coding Agents
+> Pay attention to this one if you are building terminal-based coding agents.
+>
+> OpenDev is an 81-page paper covering scaffolding, harness design, context engineering, and hard-won lessons from building CLI coding agents.
+>
+> It introduces a compound AI system architecture with workload-specialized model routing, a dual-agent architecture separating planning from execution, lazy tool discovery, and adaptive context compaction.
+
+- **Tweet:** https://x.com/omarsar0/status/2030771811705872435
+- **Link:** https://arxiv.org/abs/2603.05344
+- **Filed:** [Building AI Coding Agents for the Terminal](./knowledge/articles/building-ai-coding-agents-for-the-terminal-scaffolding-harness-context-engineeri.md)
+- **What:** 81-page arxiv paper (arXiv:2603.05344) formalizing design patterns for CLI-first coding agents. Covers compound AI system architecture, dual-agent planning/execution split, lazy tool discovery, adaptive context compaction, event-driven instruction reminders, and cross-session automated memory. Blueprint for systems like Claude Code and Codex CLI.
+
 ## @shannholmberg - Audit Your Claude Workflow with One Prompt
 > find every inefficiency in your Claude workflow with one prompt
 >
