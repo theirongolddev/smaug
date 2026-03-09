@@ -1,5 +1,196 @@
 # Twitter Bookmarks Archive
 
+# Sunday, March 8, 2026
+
+## @shannholmberg - Audit Your Claude Workflow with One Prompt
+> find every inefficiency in your Claude workflow with one prompt
+>
+> it finds where you're wasting time, where your prompts could be sharper, what patterns are slowing you down.
+
+- **Tweet:** https://x.com/shannholmberg/status/2030605364421595468
+- **What:** Prompt that scrapes all Claude sessions on your machine and analyzes usage patterns to classify what should become skills, plugins, agents, or CLAUDE.md instructions. Framed as a 2-minute audit that surfaces hours of inefficiency in your AI workflow.
+
+## @heyrimsha - Compress a Month of Research into 3 Hours with Claude
+> I accidentally discovered how to compress a month of research into 3 hours.
+>
+> A founder at a YC company showed me his Claude setup. I thought he was just fast. Then I watched him build an entire go-to-market strategy for a market he'd never worked in before.
+
+- **Tweet:** https://x.com/heyrimsha/status/2030614728591167973
+- **What:** YC founder technique for deep market research: feed Claude raw competitor pages, earnings transcripts, reviews, and Reddit threads — then ask for the unspoken insight the market understands, the 3 foundational assumptions + what breaks each, and 5 investor kill-shot questions answered from the evidence. The tool doesn't change; the questions do. Treats Claude as a thinking partner with no ego, not a faster Google.
+
+## @doodlestein - Managing Stalled Beads in Multi-Agent Swarms
+> Not sure if I've ever shared this prompt before, but if you use beads (or my rust version, br) to build out complex development plans, you sort of need to use something like this to avoid wasting time later on in the implementation phase.
+
+- **Tweet:** https://x.com/doodlestein/status/2030767679179756009
+- **What:** Two operational prompts for beads-based multi-agent workflows: (1) find stalled in-progress beads from dead agents and reopen them, then use `bv` with robot flags to find the highest-impact next bead; (2) onboard fresh agents by having them read AGENTS.md + README thoroughly before running code investigation mode. Practical coordination hygiene for long-running agent swarms.
+
+---
+
+# Saturday, March 7, 2026
+
+## @jbobbink - GSC Wizard: AI-Powered Site Structure Auditing and Restructuring
+> I've never seen site structures as broken as they are right now.
+>
+> The cause is simple: AI made content production 100x faster, but nobody built the infrastructure to maintain what was published.
+
+- **Tweet:** https://x.com/jbobbink/status/2030226431968526412
+- **What:** Deep technical breakdown of GSC Wizard — a tool for automated SEO site structure audits and restructuring. Stack: multilingual-e5-large-instruct embeddings, BERTopic (UMAP + HDBSCAN + c-TF-IDF), FAISS with HNSW indexing, SimHash 64-bit fingerprinting. Four parallel analysis layers: cannibalization detection, content decay (z-score + root cause), duplicate detection, freshness scoring. Frontend: react-arborist with virtualization for 5K+ node drag-and-drop tree. Output: redirect maps, internal linking strategy, content briefs.
+
+## @karpathy - autoresearch: Autonomous LLM Training Research Framework
+> I packaged up the "autoresearch" project into a new self-contained minimal repo if people would like to play over the weekend.
+
+- **Tweet:** https://x.com/karpathy/status/2030371219518931079
+- **Link:** https://github.com/karpathy/autoresearch
+- **Filed:** [autoresearch.md](./knowledge/tools/autoresearch.md)
+- **What:** Minimal framework where an AI agent autonomously experiments on a single-GPU nanochat LLM training setup — modifying train.py, running 5-minute experiments, checking val_bpb, and committing results. Humans configure the research org via program.md, not Python. ~100 experiments while you sleep. Part code, part sci-fi.
+
+## @om_patel5 - ENABLE_LSP_TOOL Makes Claude Code Significantly Faster at Finding Code
+> claude code has a hidden setting that makes it 600x faster and almost nobody knows about it
+>
+> by default it uses text grep to find functions.
+
+- **Tweet:** https://x.com/om_patel5/status/2030479131222192457
+- **What:** `ENABLE_LSP_TOOL` flag connects Claude Code to language servers (same tech as VSCode's go-to-definition), replacing slow text grep with semantic code navigation. Claimed result: finds the right file in 50ms vs. 30–60 seconds, traces actual call hierarchies, catches type errors after every edit, saves tokens by not wasting context on wrong files. Supports 11 languages, 2-minute setup.
+
+---
+
+# Friday, March 6, 2026
+
+## @MahajanRevant - Mental Models Still Matter When AI Gets Stuck
+> It's also just not about code IMO. It's really the mental modal you build around how the problem is being solved.
+>
+> *Replying to @tymzap:* We never understood every single line of codebase unless you worked in one person projects all your career
+
+- **Tweet:** https://x.com/MahajanRevant/status/2029846371751338399
+- **What:** Reply in a thread about AI + code ownership. Key point: when AI hits a wall on hard problems, your mental model of the codebase is what lets you steer through it — strong test cases and pipelines don't substitute for that. AI excels at analyzing large data and surfacing novel insights from dumped code, but deep debugging still requires the human understanding the surrounding architecture.
+
+---
+
+# Thursday, March 5, 2026
+
+## @aakashgupta - Taste at Speed: The New PM Skill in the AI Era
+> The PM skill that matters in 2026 is taste at speed. Boris Cherny just showed everyone what that looks like.
+>
+> *Quoting @yenkel:* you must internalize this ASAP: less handoffs, decide fast / faster exploration / encourage to throw away code/tokens / learn by building, de risk with code / pick leads that can own design, eng and product
+
+- **Tweet:** https://x.com/aakashgupta/status/2029436537629491555
+- **What:** Analysis of the Claude Code team's workflow (Boris Cherny): no PRDs, hundreds of working prototypes, 20–30 PRs/day per engineer running 5 parallel Claude instances. Built Cowork in ~10 days. Thesis: when building costs near zero, the bottleneck shifts from "can we build it" to "should we ship it" — and PM value is evaluating 15 prototypes and killing 12 of them by noon. Everyone on the team codes: PMs, data scientists, researchers. Productivity per engineer grew 70% even as Anthropic tripled headcount.
+
+## @BigBrainBizness - Bezos on Rate-Limiting Your Own Ideas
+> Jeff Bezos on why too many ideas can destroy a company, and the discipline that built Amazon's inventive edge
+
+- **Tweet:** https://x.com/BigBrainBizness/status/2029542587368103974
+- **What:** Bezos story: senior exec Jeff Wilke told him "you have enough ideas to destroy Amazon" — every released idea created a backlog that added no value. Fix: release work at the rate the organization can absorb it, keep lists, hold ideas back. Then flip the problem: build an org capable of running multiple bets simultaneously. Unexpected upside: slowing idea release forces better prioritization and sharpens the ideas that survive the wait.
+
+## @jianxliao - Fractals: Recursive Agent Orchestrator for Coding
+> Introducing Fractals 🌀 @tinyagicompany
+>
+> A new paradigm. The recursive agent orchestrator for coding.
+
+- **Tweet:** https://x.com/jianxliao/status/2029651439040221323
+- **Link:** https://github.com/TinyAGI/fractals
+- **Filed:** [fractals.md](./knowledge/tools/fractals.md)
+- **What:** Recursive task orchestrator: give it a task, it decomposes into a self-similar tree of subtasks until each is atomic, then runs all leaves in parallel in isolated git worktrees via Claude/Codex CLI. Next.js frontend shows live decomposition tree and execution status. Runs on port 1618 (golden ratio). Early/experimental.
+
+## @dkundel - Codex Playwright Interactive Skill for Iterative Frontend Builds
+> This was built with the Playwright Interactive skill! In case you missed it, Codex now has a JavaScript REPL that it can use to iteratively build and debug front-end work.
+>
+> *Quoting @Angaisb_:* GPT-5.4, it's basically perfect (it took it around 24 minutes). Yeah, Minecraft is pretty much solved
+
+- **Tweet:** https://x.com/dkundel/status/2029679518869532990
+- **What:** Codex now ships a JavaScript REPL via the Playwright Interactive skill — lets agents iteratively build and debug frontend work in snippets without starting from scratch each time. Demonstrated by building a working Minecraft clone in 24 minutes with GPT-5.4.
+
+## @JulienBek - Services: The New Software (Sequoia Thesis)
+> https://t.co/hsKrbn1gEq
+
+- **Tweet:** https://x.com/JulienBek/status/2029680516568600933
+- **Link:** https://x.com/i/article/2029647344635969537
+- **Filed:** [services-the-new-software.md](./knowledge/articles/services-the-new-software.md)
+- **What:** Sequoia thesis: the next $1T companies will be AI autopilots that sell outcomes (close the books) not tools (QuickBooks). Labor budgets are 6x software budgets. Wedge into outsourced, intelligence-heavy tasks first (existing budget line, outcome-based buying). Maps 9 verticals with labor TAMs totaling $1T+. Copilot → autopilot creates innovator's dilemma for existing AI toolcos.
+
+## @PawelHuryn - Open-Source PM Skills Marketplace for Claude
+> 1,300+ stars on GitHub in 72 hours. 400+ in the last 4 hours. I didn't expect this.
+>
+> I built an open-source PM Skills Marketplace for Claude: 100+ skills and commands that turn AI into a product management partner.
+
+- **Tweet:** https://x.com/PawelHuryn/status/2029697412701282511
+- **What:** Open-source collection of 100+ structured Claude skills covering the full PM lifecycle: product discovery, strategy, execution (PRDs/OKRs/roadmaps/user stories), market research, data & analytics, go-to-market, marketing & growth, and a PM toolkit including resume review. Compatible with Claude Code, Cowork, Gemini CLI, Cursor, Codex CLI, and Kiro. 1,300+ GitHub stars in 72 hours.
+
+---
+
+# Wednesday, March 4, 2026
+
+## @godofprompt - Retrieval Drives AI Memory Accuracy, Not Write Strategy
+> most people building AI agents obsess over how they WRITE memories
+> turns out that's basically irrelevant
+
+- **Tweet:** https://x.com/godofprompt/status/2029298804181352911
+- **What:** Summary of research analyzing 9 memory systems across 1,540 questions: retrieval method causes 20-point accuracy swings vs. 3–8 points for write strategy. Raw conversation chunks ($0 cost) matched or beat expensive fact extraction + summarization. Hybrid retrieval (semantic + keyword + reranking) cut failures in half. Correlation between retrieval quality and accuracy: r=0.98. Takeaway: stop spending tokens on write-time compression, fix retrieval instead.
+
+## @toddsaunders - /cost-estimate: Claude Code Command for AI vs. Human Build Comparison
+> Fun command built in Claude Code: /cost-estimate
+>
+> It scans your codebase and cross-references current market rates to calculate what your project would've cost a real team to build.
+
+- **Tweet:** https://x.com/toddsaunders/status/2029301170670309740
+- **What:** Custom Claude Code skill that scans the codebase, maps all APIs and integrations, and calculates estimated traditional development cost vs. AI-assisted cost. Example output: without AI ~2.8 years / ~$650K; with AI: 30 hours. A concrete framing for the productivity multiple that AI delivers on real projects.
+
+## @pbakaus - Impeccable v1.1: Design Fluency for Every AI Harness
+> Impeccable v1.1 is out. Design fluency for every AI harness.
+>
+> New: all commands are now agent skills / support for Antigravity, VS Code / simplify -> distill / universal install
+
+- **Tweet:** https://x.com/pbakaus/status/2029334353894162720
+- **Link:** https://impeccable.style/
+- **Filed:** [impeccable-design-skills-for-ai-harnesses.md](./knowledge/articles/impeccable-design-skills-for-ai-harnesses.md)
+- **What:** Impeccable is a design skill library for AI harnesses — gives agents a shared vocabulary for typography, color, layout, and motion via 17 commands (/polish, /audit, /distill, /bolder, etc.). v1.1 adds Antigravity + VS Code Copilot + Kiro support, unifies commands as agent skills, and renames /simplify → /distill to avoid Claude Code conflict.
+
+## @mitchellh - Codex 5.3 xhigh Solves 6-Month Ghostty GTK4 Bug in 45 Minutes
+> Ahhhh, Codex 5.3 (xhigh) with a vague prompt just solved a bug that I and others have been struggling to fix for over 6 months.
+
+- **Tweet:** https://x.com/mitchellh/status/2029348087538565612
+- **Link:** https://ampcode.com/threads/T-019cbadf-cb5a-742e-b0e3-2d7164de743f
+- **Filed:** [investigate-ghostty-issue-8208-using-gh-cli.md](./knowledge/articles/investigate-ghostty-issue-8208-using-gh-cli.md)
+- **What:** Mitchell Hashimoto's Ghostty terminal had a GTK4 bug nobody could fix for 6 months. Codex 5.3 xhigh solved it in 45 minutes for $4.14. Critical factor: xhigh eventually read GTK4 source code directly — something lower reasoning levels and Opus 4.6 never did. Fix was small, single-file, understandable. Using `gh` CLI gave the agent much richer issue context than a plain prompt.
+
+## @wesbos - Google Workspace CLI with 40+ Agent Skills
+> Google just dropped an official CLI for gmail, drive, calendar sheets and more
+>
+> complete with skills and an MCP server 👌
+>
+> *Quoting @addyosmani:* Introducing the Google Workspace CLI: https://github.com/googleworkspace/cli - built for humans and agents. Google Drive, Gmail, Calendar, and every Workspace API. 40+ agent skills included.
+
+- **Tweet:** https://x.com/wesbos/status/2029373589770703148
+- **Link:** https://github.com/googleworkspace/cli
+- **Filed:** [cli.md](./knowledge/tools/cli.md)
+- **What:** `gws` — a Rust CLI for all Google Workspace APIs, dynamically built from Google's Discovery Service at runtime. Structured JSON output on all commands, 40+ bundled agent skills, AES-256-GCM credential storage, --dry-run support. Not an official Google product but published under the googleworkspace org. 16K+ stars.
+
+---
+
+# Tuesday, March 3, 2026
+
+## @systematicls - How to Be a World-Class Agentic Engineer
+> https://t.co/wBaKpAI5Vl
+
+- **Tweet:** https://x.com/systematicls/status/2028814227004395561
+- **Link:** https://x.com/i/article/2028694727600623616
+- **Filed:** [how-to-be-a-world-class-agentic-engineer.md](./knowledge/articles/how-to-be-a-world-class-agentic-engineer.md)
+- **What:** Practitioner's guide arguing that most agentic engineers over-engineer their setups. Core skill is controlling context — give agents exactly what they need and nothing more. Key techniques: separate research from implementation, use neutral/adversarial prompts to counter sycophancy, define task contracts (tests + screenshots) as completion criteria, treat CLAUDE.md as an IF-ELSE directory. One session per contract beats 24-hour marathon sessions.
+
+---
+
+# Sunday, March 1, 2026
+
+## @ideabrowser - How to Make $1M in 2026 Using Claude Memory
+> https://t.co/OV5IxVU8s9
+
+- **Tweet:** https://x.com/ideabrowser/status/2028111088449896826
+- **Link:** https://x.com/i/article/2028096369391452160
+- **Filed:** [how-to-make-1m-in-2026-using-claude-memory-step-by-step-business-plan.md](./knowledge/articles/how-to-make-1m-in-2026-using-claude-memory-step-by-step-business-plan.md)
+- **What:** Step-by-step playbook for building a $1M/yr AI consulting business using Claude's memory import feature. Pick a hyper-specific niche (e.g., BDRs at automotive dealerships), document workflows, convert to Claude skills/agents, deliver an autonomous dashboard. Revenue: workshops + documentation retainers + custom agents + maintenance. Conservative path to $1M by month 10 with 15 clients.
+
+---
+
 # Saturday, February 28, 2026
 
 ## @scaling_shields - Cold Email Deliverability Crisis: Infrastructure Requirements Changed in 2026
