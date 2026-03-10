@@ -1,5 +1,50 @@
 # Twitter Bookmarks Archive
 
+# Monday, March 9, 2026
+
+## @doodlestein - TaxGPT: Replacing $2,000/Year CPA Fees with AI
+> Since tax season is again upon us, I thought I'd share my article from last year about how I use AI to help me do my own taxes now instead of spending over two grand like I used to for error-prone tax prep from a CPA. It mentions Opus 3.7; just use 4.6:
+
+- **Tweet:** https://x.com/doodlestein/status/2030968188175806974
+- **Link:** https://www.jeffreyemanuel.com/writing/tax_gpt_using_ai_for_tax_prep
+- **Filed:** [TaxGPT: Using AI for Tax Prep](./knowledge/articles/taxgpt-using-ai-for-tax-prep.md)
+- **What:** Jeffrey Emanuel's workflow for replacing $2,000+/year CPA-prepared taxes with AI assistance. Structured document ingestion (1099s, W-2s, investment statements) fed to Claude. Originally written for Opus 3.7 but applicable to current models. Claims AI produces fewer errors than human preparers on well-structured inputs.
+
+## @bloggersarvesh - 8-Prompt Claude Cowork Stack for Local SEO Domination
+> https://t.co/qZlTynO914
+
+- **Tweet:** https://x.com/bloggersarvesh/status/2030997615823798628
+- **Link:** https://x.com/i/article/2030990122519592961
+- **Filed:** [How to Set Up Claude Cowork for SEO](./knowledge/articles/how-to-set-up-claude-cowork-for-seo-and-leave-chatgpt-for-good.md)
+- **What:** Tactical 8-prompt system for local SEO using Claude Cowork's persistent workspace. Load business context (competitors, GBP URL, keywords, service areas) once; all sessions start from real market data. Stack covers: GBP category/attributes audits, competitor review teardown, review response templates, GBP posts calendar, services optimization, description A/B testing, and photo cadence plan. Claude actually opens Google Maps and pulls competitor data rather than giving generic advice.
+
+## @simplifyinAI - geo-seo-claude: Open-Source AI Search Engine Optimization Tool
+> 🚨 BREAKING: Someone just open-sourced a tool that optimizes your website for AI search engines.
+>
+> It's called geo-seo-claude. It optimizes any website for AI search engines like ChatGPT, Perplexity, and Claude.
+>
+> → Runs full GEO audits with parallel subagents
+> → Delivers 60-second visibility snapshots
+> → Analyzes structured schema markup for LLMs
+> → Exports complete PDF reports
+>
+> 100% Open-Source.
+
+- **Tweet:** https://x.com/simplifyinAI/status/2031050007957184934
+- **What:** Open-source tool using Claude subagents to audit and optimize websites for AI search engines (GEO — Generative Engine Optimization). Runs parallel audits, generates visibility snapshots, analyzes schema markup for LLM consumption, exports PDF reports. No link to repo provided in tweet.
+
+## @trq212 - Claude Code Review: Multi-Agent PR Bug Hunting Is Indispensable
+> Code Review is so so good. One of those things I can't remember how I lived without.
+>
+> *Quoting @claudeai:* Introducing Code Review, a new feature for Claude Code.
+>
+> When a PR opens, Claude dispatches a team of agents to hunt for bugs. https://t.co/AL2J4efxPw
+
+- **Tweet:** https://x.com/trq212/status/2031092339599618364
+- **What:** Reaction to Anthropic's Claude Code Review feature launch. When a PR opens, Claude dispatches a team of agents to hunt for bugs. Thariq's take: immediately feels indispensable once you've used it.
+
+---
+
 # Sunday, March 8, 2026
 
 ## @omarsar0 - OPENDEV: Design Patterns for Terminal-Native Coding Agents
@@ -39,6 +84,58 @@
 ---
 
 # Saturday, March 7, 2026
+
+## @samhogan - Storing Codebases in Postgres for Agent-Scale Code Velocity
+> What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB?
+>
+> Code velocity has increased 3-5x. This will undoubtedly continue. PR review has already become a bottleneck for high output teams.
+>
+> Codebase checked-out on filesystem seems like a terrible primitive when you have 10-100-1000 agents writing code.
+>
+> Code is now high velocity data and should be modeled at such. Bare minimum, we need write-level atomicity and better coordination across agents, better synchronization primitives for subscribing to codebase state changes and real-time time file-level code lint/fmt/review.
+>
+> The current ~20 year old paradigm of git checkout/branch/push/pr/review/rebase ended Jan 2026. We need an entirely new foundational system for writing code if we're really going to keep pace with scale laws.
+
+- **Tweet:** https://x.com/samhogan/status/2030476849911050687
+- **What:** Argument that filesystem-based git is the wrong primitive for 10-100-1000 concurrent agents. Proposes database-backed code storage with write-level atomicity, real-time subscription to codebase state changes, and file-level lint/fmt/review as first-class primitives. Frames the end of the 20-year git paradigm as already having happened in Jan 2026.
+
+## @samhogan - Git in Postgres: gitgres Stores Git Objects in a Database
+> *Replying to @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB?
+>
+> Found an interesting related blog from 2 weeks ago https://t.co/VHiKkpHmQ0.
+
+- **Tweet:** https://x.com/samhogan/status/2030490812547793404
+- **Link:** https://nesbitt.io/2026/02/26/git-in-postgres.html
+- **Filed:** [Git in Postgres](./knowledge/articles/git-in-postgres.md)
+- **What:** Points to Andrew Nesbitt's gitgres — a working proof-of-concept implementing libgit2 backends against Postgres, enabling standard git clients to push/clone from a database-backed remote. Proposes collapsing Forgejo deployments to a single Postgres instance with NOTIFY-based push events, RLS for multi-tenancy, and pg_trgm for cross-repo search.
+
+## @levelsio - Coding in Production on the Server Is Instant High Velocity
+> This is essentially my workflow of coding in production on the server with Claude Code
+>
+> It's instant and extremely high velocity and I think that's where it's going
+>
+> AI lets us dev extremely fast and the bottleneck now is slow deployments many of us (not me) still have I think
+>
+> *Quoting @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB? [...]
+
+- **Tweet:** https://x.com/levelsio/status/2030495348972503160
+- **What:** levelsio endorses samhogan's thesis from personal practice: coding directly on production servers with Claude Code is already instant and high-velocity. Identifies slow deployment pipelines (not git itself) as the real bottleneck for most teams.
+
+## @ericedarnold - Blue/Green + Mounted Volumes as a Fast-Deploy Alternative to Ditching Git
+> *Replying to @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB?
+>
+> Not sure about getting rid of git
+>
+> You can still get the speed gains while keeping it
+>
+> I've been building something that runs my app from mounted volume(s) on the live server
+>
+> Add blue/green deployments and you can push your changes, have your servers pull, and be done deploying in seconds
+>
+> No git history lost
+
+- **Tweet:** https://x.com/ericedarnold/status/2030501720854237276
+- **What:** Counter to samhogan's "replace git" thesis: mounted volumes + blue/green deployments achieve sub-second deploys while preserving git history. Rails for the AI Era framing — get speed gains without abandoning the version control primitive.
 
 ## @jbobbink - GSC Wizard: AI-Powered Site Structure Auditing and Restructuring
 > I've never seen site structures as broken as they are right now.
