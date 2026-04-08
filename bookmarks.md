@@ -6,6 +6,200 @@ source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Thursday, April 16, 2026
+
+## @felixrieseberg - Claude Desktop Bluetooth API for Hardware Makers
+> Hi! I'm here with another launch, it just happens to be extremely niche, nerdy, and probably only for a handful of people. In the desktop app, Claude Cowork and Code now have a little Bluetooth API for makers & developers, allowing you to build hardware devices that interact with Claude. I, for instance, built a little desk pet that alerts me whenever Claude is waiting for permission.
+
+- **Tweet:** https://x.com/felixrieseberg/status/2044920611215233397
+- **What:** New Bluetooth API in Claude desktop apps enabling hardware makers to build physical devices that interact with Claude — example: a desk pet that alerts when Claude needs permission.
+
+## @neural_avb - QuiverAI Arrow 1.1 — AI Model for SVG/Vector Generation
+> Damn check this new SVG generation model. This looks really impressive!
+>
+> *Quoting @QuiverAI:* Introducing Arrow 1.1 and Arrow 1.1 Max — Our most advanced and capable models for structured vector generation
+
+- **Tweet:** https://x.com/neural_avb/status/2044875628940607542
+- **Quoted:** https://x.com/QuiverAI/status/2044864082180706721
+- **What:** QuiverAI's Arrow 1.1 model for SVG and vector graphic generation — appears to be a specialized AI model for structured vector art creation.
+
+## @rauchg - Vercel Workflows GA — Durable Execution for Agent Backends
+> The hardest thing about agents and backends is durability. @workflowsdk fixes this. That LLM you're calling will go down. That service will rate limit you. That database will unexpectedly slow down. You will get paged. I've been looking for a unicorn for a decade. I wanted the level of reliability of combining stuff like SQS / Kafka / microservices, and I absolutely did not want that at the same time. Truly reliable systems like that are notoriously difficult to reason about, to develop locally, to test, to simulate, to deploy… Workflow SDK solves that without compromises. We're doing what Next.js did for the frontend, but for one of the most important problems of the new generation of backend applications. Notably, Workflow SDK has an incredible self-hosting and multi-cloud story from day 0. Congrats to Pranay and the Workflow team on a generational ship.
+>
+> *Quoting @vercel:* Vercel Workflows is GA. Your code is the orchestrator. Ship agents, backends, or any long-running process without managing queues, retries, or workers.
+
+- **Tweet:** https://x.com/rauchg/status/2044858872842826102
+- **Quoted:** https://x.com/vercel/status/2044850971185213495
+- **Filed:** [vercel-workflows-durable-execution.md](./knowledge/articles/vercel-workflows-durable-execution.md)
+- **What:** Vercel Workflows GA announcement — a durable execution platform for agents and backends that handles LLM reliability without queue/retry complexity. Next.js-like simplification for backend durability.
+
+## @bcherny - Opus 4.7 Tip 6: Give Claude a Way to Verify Its Work
+> *Replying to @bcherny:* 5/ Configure your effort level — Opus 4.7 uses adaptive thinking instead of thinking budgets. To tune the model to think more/less, we recommend tuning effort. Use lower effort for faster responses and lower token usage. Use higher effort for the most intelligence and capability. Personally, I use xhigh effort for most tasks, and max effort for the hardest tasks. Max applies to just your current session; other effort levels are sticky and persist for your next session also. /effort to set your effort level.
+>
+> 6/ Give Claude a way to verify its work — Finally, make sure Claude has a way to verify its work. This has always been a way to 2-3x what you get out of Claude, and with 4.7 it's more important than ever. Verification looks different depending on the task. For backend work, make sure Claude knows how to start up your server/service to test it end to end; for frontend work, use the Claude Chromium extension to give Claude a way to control your browser; for desktop apps, use computer use. Personally, many of my prompts these days look like "Claude do blah blah /go". /go is a skill that has Claude: 1. Test itself end to end using bash, browser, or computer use, 2. Run the /simplify skill, 3. Put up a PR. For long running work, verification is important because that way when you come back to a task, you know the code works.
+
+- **Tweet:** https://x.com/bcherny/status/2044847858634064115
+- **Parent:** https://x.com/bcherny/status/2044847856872546639
+- **What:** Tip on giving Claude verification methods (browser control, bash testing, computer use) to multiply effectiveness and catch errors in long-running tasks.
+
+## @bcherny - Tips for Getting More Out of Claude Opus 4.7
+> Dogfooding Opus 4.7 the last few weeks, I've been feeling incredibly productive. Sharing a few tips to get more out of 4.7 🧵
+
+- **Tweet:** https://x.com/bcherny/status/2044847848035156457
+- **What:** Thread starter sharing productivity tips for using Claude Opus 4.7 effectively.
+
+## @darraghcurran - Intercom 2× (Actually 3×) — Nine Months Later Case Study
+> *Replying to @darraghcurran:* The wildest part: 1,100 of our 1,305 employees are now active Claude Code users. 600+ people outside R&D - finance, sales, legal, recruiting - are building reports, tools, and prototypes they never could have before, or doing in minutes what took them hours or days.
+>
+> This is Part 1. I share all the data, the nuance, what we paid attention to beyond PRs, and what's still messy. Part 2 (coming soon): how we actually did it, lessons learned, what's next. Full post: https://ideas.fin.ai/p/2x-nine-months-later
+
+- **Tweet:** https://x.com/darraghcurran/status/2044821459558670774
+- **Parent:** https://x.com/darraghcurran/status/2044821456991781245
+- **Link:** https://ideas.fin.ai/p/2x-nine-months-later
+- **Filed:** [2x-nine-months-later.md](./knowledge/articles/2x-nine-months-later.md)
+- **What:** Intercom's detailed case study on achieving 3× R&D productivity using Claude Code. 1,100 of 1,305 employees are active users including non-R&D teams. Comprehensive post covers data, measurement beyond PRs, and implementation details.
+
+## @darraghcurran - Intercom 3x'd R&D Productivity in 16 Months with AI
+> 9 months ago we publicly committed to 2x the productivity of our R&D org at @intercom. It was scary. It wasn't always clear we'd pull it off. We hit it with 3 months to spare. In fact, looking back 16 months - we've 3x'd. Here's what actually happened (with receipts):
+
+- **Tweet:** https://x.com/darraghcurran/status/2044821428453646632
+- **What:** Intercom publicly committed to 2× R&D productivity in 9 months and achieved it 3 months early. Over 16 months, they've actually achieved 3× productivity gains. 1,100 of 1,305 employees are now Claude Code users, including non-R&D teams.
+
+## @jpschroeder - Cloudflare Artifacts — Git-Compatible Versioned Storage for Agents
+> Git on Cloudflare? It's a big deal... easily my favorite thing announced in this crazy Cloudflare week. Why? People who know, want to build agents on durable objects right now, but it has some drawbacks — a lack of bash and a lack of a filesystem. If you have a git server — also running as cold start free durable objects — then you've effectively just solved the filesystem issue too, and better yet, its versioned. Exciting times ahead.
+>
+> *Quoting @dillon_mulroy:* announcing artifacts - a versioned file system that speaks git — certainly the coolest thing i've ever built
+
+- **Tweet:** https://x.com/jpschroeder/status/2044774146475725042
+- **Quoted:** https://x.com/dillon_mulroy/status/2044765430649168272
+- **Link:** https://blog.cloudflare.com/artifacts-git-for-agents-beta/
+- **Filed:** [cloudflare-artifacts-git-for-agents.md](./knowledge/articles/cloudflare-artifacts-git-for-agents.md)
+- **What:** Cloudflare Artifacts is a Git-compatible versioned filesystem built as Durable Objects, solving the filesystem limitation for building agents on Cloudflare. Enables tens of millions of Git repos with cold-start-free operation.
+
+---
+
+# Wednesday, April 15, 2026
+
+## @alexhillman - Claude Code Agent Teams Feature — Better Than AI-in-a-Box Platforms
+> For what I said earlier about the "AI team in a box" platforms all sucking, THIS has worked super well for me. I'm increasingly asking it to help me design a team for a specific task and this feature in mind. Claude is better at designing teams than I am, basically every time.
+>
+> *Quoting @jessmartin:* Why is no one talking about Claude Code's agent teams feature? I guess it's because people aren't using agents as much as they use skills?
+
+- **Tweet:** https://x.com/alexhillman/status/2044512623308194168
+- **Quoted:** https://x.com/jessmartin/status/2044441641994342702
+- **What:** Claude Code's agent teams feature outperforms typical "AI in a box" platforms for task-specific team design. Claude is better at designing optimal agent teams than manual design approaches.
+
+## @doodlestein - Modes of Reasoning Multi-Agent Analysis Skill — 20 Projects Later
+> I've now applied this "modes of reasoning" skill to like 20 different projects and it has surfaced so many useful insights that I would just never get out of these models in a million years otherwise. Can't recommend this highly enough for complex projects.
+>
+> *Quoting @doodlestein:* A multi-agent analysis skill that spawns a swarm of AI agents each assigned a distinct reasoning mode (abductive, adversarial, Bayesian, game-theoretic, etc.). The skill picks 10 from ~80 reasoning modes, spawns NTM agents for each, runs 7-phase analysis, and triangulates findings into Kernel/Supported/Hypothesis/Disputed categories.
+
+- **Tweet:** https://x.com/doodlestein/status/2044481303790158050
+- **Quoted:** https://x.com/doodlestein/status/2041660563005100220
+- **What:** A multi-agent analysis skill that spawns specialized reasoning modes (abductive, adversarial, Bayesian, game-theoretic) to analyze complex projects. After applying it to 20 projects, yields insights unavailable through standard LLM prompting.
+
+---
+
+# Tuesday, April 14, 2026
+
+## @felixrieseberg - Claude Code Desktop App Redesigned for Parallel Work
+> Today is a big day! We're launching a ~ new ~ version of Claude Code in the desktop app. It's been redesigned from the ground up for parallel work and is a lot faster. It's been my main way to use Claude Code for the last few weeks.
+
+- **Tweet:** https://x.com/felixrieseberg/status/2044128194647994585
+- **What:** Felix Rieseberg announces a major redesign of Claude Code in the desktop app, optimized for parallel work with improved performance, now his primary method for using Claude Code.
+
+## @thomasgauvin - Cloudflare Mesh + Workers VPC for Private Agent Networking
+> Cloudflare Mesh is here. Ready to connect your devices, servers, and agents to a single private network. And with Workers VPC, your Workers, Agents, and Durable Objects running on Cloudflare can now reach your private MCPs, APIs, and databases directly. Oh, and it's 50 nodes + 50 users free on every account
+
+- **Tweet:** https://x.com/thomasgauvin/status/2044039230595211761
+- **What:** Cloudflare's new Mesh product enables connecting devices, servers, and agents to a unified private network, with Workers VPC allowing Cloudflare-hosted agents to securely reach private infrastructure (MCPs, APIs, databases) with a generous free tier (50 nodes + 50 users).
+
+## @RodmanAi - OpenDataLoader PDF — #1 Benchmark PDF-to-Markdown Parser
+> PDFs are officially dead. Someone just built a tool that turns PDFs into clean, structured Markdown at 100 pages/sec. No GPU. No API cost. No messy parsing. Just raw, usable data. Tables → perfectly extracted, Broken layouts → auto-fixed, Nested data → structured cleanly, Scanned chaos → turned readable. This wipes out 90% of manual data cleaning overnight. The tool is OpenDataLoader. And yes… it's open-source. Repo → https://github.com/opendataloader-project/opendataloader-pdf
+
+- **Tweet:** https://x.com/RodmanAi/status/2044027190992609763
+- **Link:** https://github.com/opendataloader-project/opendataloader-pdf
+- **Filed:** [opendataloader-pdf.md](./knowledge/tools/opendataloader-pdf.md)
+- **What:** An open-source PDF-to-Markdown parser achieving #1 benchmark accuracy (90.7% overall, 92.8% on tables) that processes at 100 pages/sec locally, extracting tables, fixing broken layouts, and structuring nested data for AI-ready consumption.
+
+---
+
+# Monday, April 13, 2026
+
+## @EqFundDotcom - Personal ADHD Management: Keto, Exercise, Sleep, Environment Variety
+> *Replying to @atougoushi:* How do you control ADHD behavior?
+>
+> I didn't understand it deeply until I watched my 19 year old go through it. By FAR the 3 most important things that helped were KETO, Working out and Good sleep. Keto keeps sugar low; exercise stimulates that hunter gene differently; sleep is critical (don't drink yourself to sleep — that's not real sleep). Structure and accountability matter a lot too. Music while working in a loud environment helps. The key insight: ADHD brains are constantly scanning the environment, so working in busy places (cafes, bars) lets that scanning part of your brain stay occupied so the rest can focus.
+
+- **Tweet:** https://x.com/EqFundDotcom/status/2043710647792480552
+- **Parent:** https://x.com/atougoushi/status/2043694354116554939
+- **What:** A detailed personal account of managing ADHD symptoms through lifestyle changes (keto diet, exercise, sleep) and environmental design, emphasizing that these three factors had the most impact compared to medication alone.
+
+---
+
+# Sunday, April 12, 2026
+
+## @levie - Enterprise AI Adoption Reality Check — Tokens, Change Management, Legacy Systems
+> Another week on the road meeting with a couple dozen IT and AI leaders from large enterprises across banking, media, retail, healthcare, consulting, tech, and sports, to discuss agents in the enterprise. Moving from chat era → agents that use tools and execute real work. Change management still the biggest topic. "Tokenmaxxing" — companies hitting OpEx budget constraints for AI compute. Fragmented/legacy systems remain a huge priority to fix. Most companies NOT talking about replacing jobs — agents are handling things the company couldn't do before. "Headless software" dominated conversations: enterprises need all software to work with any agents. Engineers may not be "writing" software, but they will certainly be the ones to setup and operate the systems that actually automate most work.
+
+- **Tweet:** https://x.com/levie/status/2043426157367095397
+- **What:** Aaron Levie's insights from conversations with enterprise IT/AI leaders on the shift from chat-based AI to task-executing agents, highlighting the obstacles (legacy systems, change management, compute costs) and the reality (jobs aren't being replaced, but new capabilities are enabling previously impossible work).
+
+## @ziwenxu_ - Anthropic Leak — Full-Stack Vibe Coding Product in Development
+> Anthropic just accidentally leaked their next massive launch: a full-stack vibe coding product to compete with Lovable.
+>
+> *Quoting @hysteresis_x:* Sneak leak at something coming soon to Claude :)
+
+- **Tweet:** https://x.com/ziwenxu_/status/2043395528004624645
+- **Quoted:** https://x.com/hysteresis_x/status/2043378971962663141
+- **What:** Report of leaked information about an upcoming Anthropic full-stack web development product intended to compete with Lovable, suggesting a new vibe-coding feature coming to Claude.
+
+## @newstart_2024 - Dr. Russell Barkley — ADHD as Performance Disorder (Full Talk)
+> *Replying to @newstart_2024:* "ADHD is not a disorder of not knowing what to do. It's a disorder of not doing what you already know."
+>
+> Credit to ADHDtips for sharing this powerful and clarifying talk by Dr. Russell Barkley. His distinction between a knowledge disorder and a performance disorder, and why most skill-training approaches miss the mark, really changes how you see ADHD. Full video here: https://www.youtube.com/watch?v=YSfCdBBqNXY
+
+- **Tweet:** https://x.com/newstart_2024/status/2043319922105737392
+- **Parent:** https://x.com/newstart_2024/status/2043319128350474568
+- **Link:** https://www.youtube.com/watch?v=YSfCdBBqNXY
+- **Transcript:** Needs transcript
+- **What:** Full video of Dr. Russell Barkley's talk on ADHD as a performance disorder, with emphasis on why environment-based interventions at the point of performance are more effective than traditional skill-training approaches.
+
+## @newstart_2024 - ADHD as Performance Disorder, Not Knowledge Disorder — Dr. Barkley
+> "ADHD is not a disorder of not knowing what to do. It's a disorder of not doing what you already know." Dr. Russell Barkley just delivered one of the clearest explanations of ADHD I've ever heard. He says the brain can be split in two: the back part acquires knowledge, the front part (the executive system) uses it. ADHD acts like a meat cleaver that severs the two. You already have the skills and information other people your age have. You just can't apply them when it counts. That's why life becomes an endless series of last-minute crises. You're time-blind — you can only deal with what's right in front of you. The further away a goal or deadline is, the less real it feels. The solution isn't teaching more skills. It's changing the environment at the exact point where the problem occurs — the "point of performance." It's a game-changing way to understand why traditional approaches often fail.
+
+- **Tweet:** https://x.com/newstart_2024/status/2043319128350474568
+- **What:** Dr. Russell Barkley reframes ADHD as a performance/activation disorder rather than a knowledge or skill deficit. Explains the neurobiology and why environmental changes at the point of performance are more effective than skill training.
+
+---
+
+# Saturday, April 11, 2026
+
+## @Av1dlive - 40 MCP Servers That Turn Claude Into a Productivity Machine
+> This 15-minute talk by the creator of Pydantic on how to correctly use MCPs will teach you more about making your AI tools actually work together than everything you've scrolled past this year. Bookmark this & watch, no matter what. Then read the guide below by @eng_khairallah1
+>
+> *Quoting @eng_khairallah1:* 40 MCP Servers That Turn Claude Into a Productivity Machine
+
+- **Tweet:** https://x.com/Av1dlive/status/2042909072446624203
+- **Quoted:** https://x.com/eng_khairallah1/status/2042891054471614752
+- **What:** Curated list of 40 MCP servers covering search, file system, dev tools, productivity, databases, AI, and infra. Key insight: "Skills teach Claude HOW to do things. MCP gives Claude ACCESS to the outside world."
+
+---
+
+# Friday, April 10, 2026
+
+## @doodlestein - NTM Named Tmux Manager + Security Audit Workflow
+> *Replying to @doodlestein:* People who dismiss agent skills as "just markdown files" are really missing out on what's possible... Yesterday I made the biggest skill yet for my skills site, called security-audit-for-saas. The skill comprises 90 files that total 888 kb containing expertise about securing all aspects of a modern SaaS project...
+>
+> BTW, the best way to apply this skill (and all of my "big" skills) is like this: First read ALL of the AGENTS.md file and README.md file super carefully... apply the /security-audit-for-saas skill to the entire project... turn all the final recommendations into comprehensive beads... implement them all with a swarm of Codex instances using my ntm tool.
+
+- **Tweet:** https://x.com/doodlestein/status/2042643847432270038
+- **Parent:** https://x.com/doodlestein/status/2042640180465574399
+- **Filed:** [ntm.md](./knowledge/tools/ntm.md)
+- **What:** Demonstrates a comprehensive workflow for applying large agent skills and coordinating multiple AI coding agents (Claude, Codex, Gemini) across tmux panes using NTM for security audits and implementation swarms.
+
+---
+
 # Wednesday, April 8, 2026
 
 ## @AmericanDebunk - Trump threatening to “take out the entire country ...
