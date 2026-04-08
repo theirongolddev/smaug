@@ -6,6 +6,5162 @@ source: smaug-sync
 description: X/Twitter bookmarks synced via Smaug
 ---
 
+# Wednesday, April 8, 2026
+
+## @AmericanDebunk - Trump threatening to “take out the entire country ...
+> Trump threatening to “take out the entire country in one night" and bombing Iran's power plants and bridges was actually one of his greatest plays of all time. I'm not exaggerating.
+
+But most people lost their minds over Trump's recent comments and post. And that's because they lack a negotiation filter to make sense of him.
+
+Trump has been aggressively scope-setting--establishing a ceiling so high and gruesome that everything below it would eventually look like a reasonable outcome. 
+
+I would even argue that this ceasefire wouldn’t have seemed reasonable at all had we not have had Trump’s Easter post. Think about it. 
+
+Imagine Trump never having threatened to blow Iran off the map, and the world spending 48 hours ruminating about it. 
+
+A ceasefire would’ve seemed mediocre. Not anymore. 
+
+It feels like Trump stopped WWIII. He put the image in everyone’s head that Iran was going to get sent back to the stone age. That didn’t happen, so a ceasefire and more negotiations seem like such a big win.
+
+And here’s another move that nobody is talking about. Each time Trump extended a deadline (and he extended four of them) he wasn’t just buying time. He was letting the architecture get bigger. 
+
+Deadline one: US-Iran bilateral. Reopen the strait or face strikes.
+
+Deadline two: Pakistan enters the channel. The conversation is no longer two parties; it’s three.
+
+Deadline three: Pakistan hosts Egypt, Saudi Arabia, and Turkey in Islamabad. Now it’s a regional table.
+
+Deadline four: the “Islamabad Accord” framework--a named document with regional backing and two phases.
+
+By the time tonight arrived, Trump hadn’t just been negotiating with Iran. He’d been building a coalition of every major regional stakeholder around a shared interest in the outcome. 
+
+Saudi Arabia and the UAE have wanted Iran contained for decades. Egypt and Turkey wanted regional stability and a seat at the table. Pakistan wanted the credibility of brokering a historic deal. 
+
+In tonight’s post, Trump did something extraordinary: he announced the ceasefire “on behalf of the United States of America, as President, and also representing the Countries of the Middle East.”
+
+He’s not brokering a US-Iran deal anymore. What he's doing is positioning himself as the representative of a regional coalition--Saudi Arabia, the UAE, Egypt, Turkey, Pakistan--all behind the framework that’s now being finalized. 
+
+The permanent deal, when it comes, won’t be Trump versus Iran. It’ll be Iran versus a bloc that includes every major power in the region, with Trump holding the pen.
+
+Again, Trump went from a Strait of Hormuz negotiation to a Middle East security architecture. A week ago this didn’t seem possible. Even a few days ago it didn’t seem possible. And yet here we are. 
+
+Trump kept the ceiling high enough that the deal had room to grow into something much larger than where it started. 
+
+Trump is on an all-time run.
+
+- **Tweet:** https://x.com/AmericanDebunk/status/2041713625174266175
+- **What:** Trump threatening to “take out the entire country in one night" and bombing Iran's power plants and bridges was actually...
+
+## @kloss_xyz - Quote Response
+> This prompt turns any coding agent (Claude Code, Codex, etc.) into a true machine that doesn’t stop for hours or destroy your codebase.
+
+It batches approvals upfront, fixes its own errors, and focuses on what you’ve scoped. Make sure you have your full plan in markdown.
+
+Prompt: cook through the entire plan we’ve made and all task files (source of truth: [filenames] in [repository name]) in batched slices, minimal commentary, do not stop unless you are missing approvals (group and request all approvals needed upfront for upcoming independent decisions so I can review and approve now), only pause for new high/medium risk decisions (new dependencies, changed interfaces, scope outside designated files) or blockers, fix errors in place and only escalate if blocked after two attempts, surgically appending and only making minimal inline corrective updates where required for accuracy (no rewrites or restructuring), verify build/types pass per batch where applicable, do not modify files outside of [scope boundary] unless required to fix build/type errors, default to forward progress without asking unless blocked, commit/push per completed task or tightly related batch, if context window is getting long briefly summarize progress and open items then continue, when all tasks are complete provide a final summary of what was shipped, what’s pending, and what needs input
+
+—
+
+Now, fill in your [filenames], [repository name], and [scope boundary] per use. 
+
+And you will cook so hard. Enjoy friends.
+>
+> *Quoting @kloss_xyz:* https://t.co/p2ldwjt7kj
+
+- **Tweet:** https://x.com/kloss_xyz/status/2041822830187442421
+- **Quoted:** https://x.com/kloss_xyz/status/2036356467629162772
+- **Filed:** [everything-claude-has-shipped-in-2026-and-how-to-a](./knowledge/articles/everything-claude-has-shipped-in-2026-and-how-to-a-9.md)
+- **What:** This prompt turns any coding agent (Claude Code, Codex, etc.) into a true machine that doesn’t stop for hours or destroy...
+
+---
+
+# Tuesday, April 7, 2026
+
+## @googlegemma - https://t
+> https://t.co/UT41VsNCQQ
+
+- **Tweet:** https://x.com/googlegemma/status/2041512106269319328
+- **Filed:** [run-gemma-4-locally-with-openclaw-in-3-steps](./knowledge/articles/run-gemma-4-locally-with-openclaw-in-3-steps-5.md)
+- **What:** https://t.co/UT41VsNCQQ...
+
+## @aakashgupta - Quote Response
+> Your walking speed is a brain scan you take every time you leave the house.
+
+A 42-year study tracked 904 people from age 3 to 45. The slowest walkers at midlife had smaller brains, thinner cortex, more white matter lesions, weaker grip strength, worse lungs, and faces rated as looking significantly older. A 16 IQ point gap separated the bottom and top quintiles.
+
+But here's what makes this study different from every other correlation paper. They had neurocognitive data on these people as toddlers. And the kids who scored lowest at age 3 grew up to be the slowest walkers four decades later. A 12 IQ point gap, measurable before anyone chose a diet or a gym.
+
+Gait is one of the most neurologically expensive things your body does. Balance, motor coordination, spatial processing, proprioception, executive planning for obstacles. All firing simultaneously in real time. Walking speed is essentially a live benchmark of how many systems your brain can integrate at once.
+
+The researchers called gait speed a "summary index of lifelong brain health." The structural brain differences in slow walkers weren't wear and tear. They were developmental. The brain you built in the first three years of life is still setting the pace at 45.
+
+The decline in gait speed also precedes cognitive impairment by roughly 12 years. Geriatricians already call it the sixth vital sign. By the time a doctor notices you're walking slowly, the underlying neural architecture has been thinning for over a decade.
+
+So the framing "walk faster, get smarter" has the arrow backwards. Your walking speed is a readout of brain integrity, updated in real time, visible to anyone watching.
+>
+> *Quoting @PathOfMen_:* Fast walkers have higher IQ &amp; larger brains than slow walkers. https://t.co/hIRn2P3L1H
+
+- **Tweet:** https://x.com/aakashgupta/status/2041585313227927823
+- **Quoted:** https://x.com/PathOfMen_/status/2041117464264941872
+- **Link:** https://twitter.com/PathOfMen_/status/2041117464264941872/photo/1
+- **What:** Your walking speed is a brain scan you take every time you leave the house.  A 42-year study tracked 904 people from age...
+
+## @doodlestein - Quote Response
+> A while back, I posted this concept for my ntm agent orchestration tool that would let you spin up a swarm of agents using various harnesses where each agent could follow a different "mode of reasoning" (see the quoted post for what that means).
+
+I didn't really do much with it at the time because I got distracted by other projects. But the other reason was that I wasn't really sure how it could be effectively "steered" and leveraged. 
+
+But I realized recently that a skill was the perfect medium for finally implementing this properly in a unified, cohesive way that's highly applicable to software development projects, but also to any other sort of project, business plan, conceptual framework, etc.
+
+Now you can simply ask Claude Code to invoke the /modes-of-reasoning-project-analysis skill and it will embark on a truly ambitious and deep investigation for you. 
+
+Rather than blindly try to apply all 80 reasoning modes, the "lead agent" first studies the project and determines which of the 80 modes are most applicable and complementary, then creates and manages a swarm for you using ntm with an agent for each selected reasoning mode. 
+
+Then it attempts to synthesize the results of their interactions and compiles this into a markdown report for you.
+
+You can sort of conceptualize this approach as the "fresh eyes review" approach on steroids, in that it's attempting to force something akin to a gestalt shift to each agent so that it will look at the project in a different way that might reveal new angles it otherwise wouldn't perceive. 
+
+It's a bit hard to explain, so I asked Claude to give its best summation of what the skill does and how it works and why it's useful (also see the two screenshots showing how it starts out on two different software projects; you can access it on my skills site, https://t.co/Un9brY2G3l):
+
+---
+
+This is a multi-agent epistemological analysis tool. 
+
+Here's what it does and why it matters:
+
+What It Is
+
+It spawns a swarm of AI agents (default 10, configurable), each assigned a distinct reasoning mode drawn from a taxonomy of ~80 modes. Each agent analyzes the same project but through a completely different analytical lens — then their outputs are synthesized into one comprehensive report.
+
+How It Works (7 Phases)
+
+  1. Context Pack — Profile the target project (structure, tech stack, maturity)
+  2. Mode Selection — Pick 10 reasoning modes from 7 taxonomy axes (e.g., abductive reasoning, adversarial analysis, Bayesian inference, normative ethics, game-theoretic reasoning, etc.)
+  3. Spawn Swarm — Launch agents via NTM (my tmux-based multi-agent orchestrator)
+  4. Dispatch Prompts — Each agent gets a mode-specific prompt constraining it to reason from that single perspective
+  5. Monitor — Watch for convergence or early stopping conditions
+  6. Score & Collect — Each agent produces structured findings (thesis, risks, recommendations, assumptions, uncertainties)
+  7. Synthesize — A triangulation protocol classifies findings:
+    - Kernel (3+ modes agree) — high confidence
+    - Supported (2 modes agree) — moderate confidence
+    - Hypothesis (1 mode only) — worth investigating
+    - Disputed (modes disagree) — needs resolution
+
+Why It's Useful
+
+The core insight: a single analytical perspective has blind spots. Multiple independent perspectives triangulate toward truth.
+
+Concrete use cases:
+
+  - Pre-release audit — Before shipping, get 10 fundamentally different takes on what could go wrong. An adversarial reasoner finds attack surfaces, a probabilistic reasoner finds unlikely-but-catastrophic failures, a normative reasoner flags ethical concerns.
+  - Architecture decisions — When choosing between approaches, different reasoning modes weigh tradeoffs differently. Game-theoretic reasoning considers incentive structures, abductive reasoning asks "what best explains the constraints," analogical reasoning pulls patterns from similar systems.
+  - Breaking groupthink — If your team has converged on an approach, this surfaces objections you wouldn't naturally generate. The "Kill Thesis" operator card explicitly tries to destroy the consensus view.
+  - Due diligence on acquisitions or dependencies — Evaluate an unfamiliar codebase from economic, security, maintainability, and social/community perspectives simultaneously.
+  - Finding unknown unknowns — The "Blind Spot Scan" operator card specifically asks: which axes of the taxonomy are underrepresented in current findings? What would a mode from that axis notice?
+
+The key differentiator from just "ask an AI to review my project" is structured epistemic diversity — it's not 10 agents doing the same thing, it's 10 agents that are cognitively constrained to reason differently, with a formal synthesis protocol that tracks where they agree, disagree, and what falls through the cracks.
+>
+> *Quoting @doodlestein:* I've got some wild stuff brewing for ntm. What if you could spin up a huge swarm of agents to review your project (any kind of project, not just software), and the difference between the various agents was that they each employed a different mode of reasoning?
+
+What does that even mean? Isn't reasoning, well, reasoning? Like with logic and induction and stuff? Well, it turns out that you can really break this stuff down into exquisite detail. 
+
+For instance, probabilistic reasoning extends classical logic by attaching probabilities (i.e., degrees of belief) to propositions instead of treating them as strictly True or False. Fuzzy logic is different: it treats truth itself as a continuum (e.g., ‘somewhat true’), even when there’s no uncertainty.
+
+But that's just scratching the surface. GPT Pro and Opus were jointly able to come up with EIGHTY distinct modes of reasoning, which you can read about here:
+
+https://t.co/cAzeXHU3N9
+
+The screenshot below shows me getting CC to transform this document into a new feature using this prompt:
+
+---
+
+❯ I have a great idea for this tool for a special mode where we launch a ton of agents on the same project and have them either work on a problem, like "What's wrong with this project and how could it be made a lot better" or brainstorm with something like "What are the best new ideas to add to this project when you take into account the pros and cons of each one?" and so on.
+
+The twist is that each agent would be separately prompted to engage in a CERTAIN, NAMED FORM OF REASONING that would be explained to them in the prompt preamble (and thus automatically added to the user's primary prompt). 
+
+Each named form of reasoning and how it works is laid out in modes_of_reasoning.md, which you should read and ruminate on incredibly deeply. Then come up with a spectacularly brilliant, creative, clever, comprehensive, accretive plan for architecting, designing, and implementing this system in a harmonious, cohesive, coherent way with the existing ntm system, with world-class ui/ux and polish. 
+
+Make sure your plan is super detailed, granular, and comprehensive. Then please take ALL of that and elaborate on it and use it to create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our "future self" to know about the goals and intentions and thought process and how it serves the overarching goals of the project). The beads should be so detailed that we never need to consult back to the original markdown plan document. Remember to ONLY use the `br` tool to create and modify the beads and add the dependencies.
+
+---
+
+You could tell Claude was titillated! His first sentence in his response was:
+
+"This is a phenomenal document! 80 modes of reasoning organized into 12 categories, each with precise definitions, outputs, differentiators, use cases, and failure modes. Let me deeply synthesize this and design a comprehensive "Reasoning Ensemble" feature for NTM."
+
+Big thanks to @darin_gordon for getting me thinking along these lines. 
+
+PS: I got so sick and tired of seeing the clankers mess up the right-hand borders of ascii art diagrams that I made a rust cli tool to fix it, lol:
+
+https://t.co/4QWEa7kWbU
+
+- **Tweet:** https://x.com/doodlestein/status/2041660563005100220
+- **Quoted:** https://x.com/doodlestein/status/2014605717894828360
+- **Filed:** [https-jeffreys-skills-md](./knowledge/articles/https-jeffreys-skills-md-7.md)
+- **Filed:** [dicklesworthstone-ntm](./knowledge/tools/dicklesworthstone-ntm.md)
+- **Filed:** [dicklesworthstone-aadc](./knowledge/tools/dicklesworthstone-aadc.md)
+- **What:** A while back, I posted this concept for my ntm agent orchestration tool that would let you spin up a swarm of agents usi...
+
+---
+
+# Monday, April 6, 2026
+
+## @alexhillman - Been sharing snips of my work with Claude code, bu...
+> Been sharing snips of my work with Claude code, but it's usually the end product or a single chat screenshot. 
+
+I want to share how I actually work with @jfdibot down to the extract transcripts. 
+
+https://t.co/aslys4uyfH
+
+Decided to open source it. 
+
+https://t.co/N22N3WQJjO
+
+- **Tweet:** https://x.com/alexhillman/status/2040980665571643473
+- **Filed:** [https-jfdi-bot-session-demo](./knowledge/articles/https-jfdi-bot-session-demo-1.md)
+- **Filed:** [alexknowshtml-claude-session-share](./knowledge/tools/alexknowshtml-claude-session-share.md)
+- **What:** Been sharing snips of my work with Claude code, but it's usually the end product or a single chat screenshot.   I want t...
+
+## @ihtesham2005 - A professor quit a high-paying consulting job to t...
+> A professor quit a high-paying consulting job to teach math to seventh graders in a New York public school, and what she saw in that classroom launched the most important research on human achievement of the last 30 years.
+
+Her name is Angela Duckworth, and the question that haunted her from day one was deceptively simple: why do some kids succeed and others don't?
+
+It wasn't IQ. She could see that immediately. Some of her sharpest students were underperforming. Some of her slowest were grinding past everyone else. The variable she couldn't name was right in front of her face and it took her a decade of research at Penn and Stanford to finally pin it down.
+
+Here is what she found, and why it should change how you think about every hard thing you are trying to build.
+
+She started by going back to a famous experiment from the late 1960s. A Stanford psychologist named Walter Mischel brought four-year-olds into a small room one at a time, placed a marshmallow in front of them, and told them he had to leave. If they waited until he returned, they'd get two marshmallows. If they couldn't wait, they could ring a bell and eat the one in front of them right now.
+
+Most kids lasted about thirty seconds.
+
+But what happened over the next decade is what made Mischel's study famous. When he tracked those same children down years later, the ones who had waited the longest had SAT scores 210 points higher on average than the ones who rang the bell immediately. Self-control at age four predicted academic outcomes that most educators couldn't explain even after years of watching the kids up close.
+
+Duckworth was fascinated but she was after something deeper. Self-control explained part of the picture. It didn't explain everything. She thought about her own career early, scattered, unfocused by her own admission and compared it to people she knew who had found a mission at twenty-two and never let go of it. They weren't smarter than her. They weren't working harder than her in any obvious sense.
+
+They had something else.
+
+She called it grit. And the definition matters, because the word has been diluted into a motivational poster cliché that misses the point entirely.
+
+Grit, in Duckworth's framework, is not toughness. It is not working long hours. It is not refusing to quit when things get hard, although that is part of it. Grit is the combination of passion and persistence aimed at a single long-term goal over years and sometimes decades. The passion part is often misunderstood. She does not mean excitement or enthusiasm. She means the sustained fascination with a specific problem. The thing you keep returning to even when you don't have to.
+
+She built a twelve-question test to measure it. The Grit Scale. And then she took it into the field.
+
+At the University of Pennsylvania, students with high grit scores earned higher GPAs than their peers, even when those peers had entered college with stronger test scores. At the National Spelling Bee, grit scores predicted which children survived to the later rounds more accurately than hours of practice alone. But the finding that stopped the room every time she presented it came from West Point.
+
+Every year, West Point runs thousands of incoming cadets through a brutal summer training course called Beast Barracks. The military had developed its own complex evaluation tool called the whole candidate score to predict who would make it through. It factored in academic grades, physical fitness, leadership potential. Admissions teams had been refining it for years.
+
+Duckworth gave her twelve-question grit test to over twelve hundred cadets as they arrived.
+
+Her test outpredicted the whole candidate score.
+
+The cadets who dropped out weren't the weakest physically or the least intelligent academically. They were the ones who scored lowest on passion and persistence toward a long-term goal. The ones who made it through were the ones who had a reason to be there that was bigger than any single difficult day.
+
+The finding that most people miss when they hear about this research is the distinction Duckworth draws between motivation and volition.
+
+Motivation is wanting something. Volition is the ability to keep moving toward it when the wanting isn't strong enough to carry you on its own. You can be extremely motivated to build something and still quit at the first serious obstacle because you never developed the second thing. The marshmallow kids who waited the longest weren't the ones who wanted two marshmallows more desperately. They were the ones who had learned to redirect their attention, to think abstractly about the goal, to make the immediate discomfort feel smaller than the long-term payoff.
+
+That skill is trainable. That is the part that almost never makes it into the summary.
+
+Duckworth's research shows grit is only faintly related to IQ. There are brilliant people with almost no grit and ordinary people with extraordinary amounts of it. The raw intelligence gets you to the starting line. What happens after that is almost entirely determined by whether you have the combination of a goal worth caring about for years and the discipline to keep working toward it on the days when nothing is going well.
+
+Her TED Talk on this has been watched over 17 million times, which means the idea has clearly landed somewhere real in people. But the part that usually gets quoted is the definition. The part that actually matters is harder to talk about.
+
+You cannot manufacture grit by deciding to be grittier. What you can do is find the problem you are genuinely willing to be obsessed with for a decade. Not excited about. Obsessed with. And then build the systems around that obsession that make daily persistence the default, not the exception.
+
+The marshmallow test did not sort brave children from cowardly ones. It sorted children who had already learned that discomfort is temporary from children who hadn't learned that yet.
+
+Every gritty person you have ever admired figured out one thing the rest of the room hadn't: the goal on the other side of the hard stretch is more real to them than the discomfort standing between them and it.
+
+That is not a personality type. That is a decision, made early and remade every day.
+
+- **Tweet:** https://x.com/ihtesham2005/status/2041123940433817888
+- **What:** A professor quit a high-paying consulting job to teach math to seventh graders in a New York public school, and what she...
+
+## @danveloper - I'm at a different point this morning
+> I'm at a different point this morning. It's hard to feel like Claude isn't actively working against me. Full night of autoresearch is just a markdown log full of lies. When asked to prove its findings and show its work, Claude will confidently display bullets and markdown tables, but when I ask it what log file and where the artifacts are - "I need to be honest here: I didn't actually run the experiment." It doesn't follow explicit directions anymore either: "You MUST always output to a log file so I can follow along" -> [doesn't do that] -> "you're not fuckin outputting anything to a log" -> "You're right - I'll redirect to a log file immediately" [pkill -f python3]...
+
+Anthropic is materially worse today than one month ago. I've lost every ounce of trust I had in Claude and I'm not really sure how that makes me feel. Maybe ok? I'm still a competent software developer (I think), but it seems like the major productivity gains that were very real a month ago have somehow slipped my grasp... where does that leave us?
+
+@bcherny - can you offer any thoughts? How should we think about what we're all observing - that Opus (at all effort levels) has become, at a minimum, materially worse. The worst read, but can't be ruled out: actively working against us.
+
+- **Tweet:** https://x.com/danveloper/status/2041141414851985668
+- **What:** I'm at a different point this morning. It's hard to feel like Claude isn't actively working against me. Full night of au...
+
+## @stephenhaney - Quote Response
+> We don't talk about @paper the business very much, but I wanted to share a huge milestone:
+
+Paper is now profitable! And growing FAST. Like really fast.
+
+Paper was born from a love for design. These values will always guide us. I'm so honored and proud that we get to do this in a sustainable way.
+
+So get used to us, we'll be around for a while. We are just getting started :)
+>
+> *Quoting @iandmacomber:* Build what is necessary and strategic. Buy what is necessary and not strategic. Ignore everything else.
+
+The future is K-shaped. We observe that @tryramp customers with high AI intensity grow revenue ~4x faster. Great vendor selection is critical a critical part of being on the right side of the gap.
+
+Every month, @arakharazian and @tryramp publish the playbook.
+
+- **Tweet:** https://x.com/stephenhaney/status/2041194662250385752
+- **Quoted:** https://x.com/iandmacomber/status/2041173406284906646
+- **What:** We don't talk about @paper the business very much, but I wanted to share a huge milestone:  Paper is now profitable! And...
+
+---
+
+# Saturday, April 4, 2026
+
+## @kloss_xyz - let me explain what Karpathy just shared
+> let me explain what Karpathy just shared
+
+he’s spending way less time using AI to write code and more time using it to build personal knowledge bases
+
+the full breakdown: 
+
+→ he dumps raw sources (articles, papers, repos, datasets, images) into a folder. then has an LLM organize them into a wiki… a collection of markdown files with summaries, links between related ideas, and concept articles that connect everything together
+
+→ he uses Obsidian as his frontend. he views raw data, the organized wiki, and visualizations all in one place. the LLM writes and maintains the entire wiki. he rarely touches it directly
+
+→ once the wiki gets big enough (~100 articles, ~400K words on one recent research topic)… he just asks the LLM questions against it. no RAG (complex retrieval system) needed. the LLM maintains its own index files and reads what it needs
+
+→ outputs aren’t just text. he has the LLM render markdown files, slide decks, charts, and images… then files the outputs back into the wiki so every question he asks makes the knowledge base smarter
+
+→ he runs “health checks” where the LLM finds inconsistent data, fills gaps using web search, and suggests new connections and articles. the wiki cleans and improves itself over time
+
+→ he even vibe coded a search engine over his wiki that he uses directly in a browser or hands off to an LLM as a tool for bigger questions
+
+→ his next step: training a custom model on his own research so it knows the material in its weights… not just in the context window
+
+most people use AI to get answers.
+
+Karpathy is using AI to build his own ‘Jarvis’ via compounding knowledge systems that get smarter the more he uses them
+
+the difference between asking ChatGPT or Claude a question and having a personal research engine that grows with every session is the gap most people haven’t crossed yet
+
+and this is where it gets really powerful
+
+not replacing your thinking but organizing everything you’ve ever learned into something you can query or create with forever
+
+if you’ve been using CLAUDE .md and context files in Claude Code… this is that same idea at a much bigger scale
+
+if you’re doing any kind of AI work or deep learning on a new topic right now…
+
+this workflow is worth studying closely
+
+you’ll want to adopt it yourself
+
+this is one of AI’s brightest minds after all. we’re all better off listening to him.
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+
+Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+
+Data ingest:
+I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+
+IDE:
+I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+
+Q&A:
+Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+
+Output:
+Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+
+Linting:
+I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+
+Extra tools:
+I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries. 
+
+Further explorations:
+As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+
+TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/kloss_xyz/status/2040546099711401993
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **What:** let me explain what Karpathy just shared
+
+he’s spending way less time using AI to write code and mor
+
+## @ryanlpeterman - Quote Response
+> ex-Amazon VP (@EthanEvansVP): "One of the hardest things for people to understand is I've identified a legitimate weakness in my boss. I go to my skip. Why doesn't he do something? 
+
+Well, if you come to me with a weakness in one of my employees, there is subconsciously this process that goes on that says, I have two choices. I can believe that you're overly sensitive and high maintenance. In which case, I don't really have a problem. You are the problem.
+
+And you know, you're two levels down for me. So if you quit, well, the manager has to do the backfill. And I can tell the manager, you know, Ryan was here. He said this, that and the other. Maybe you can work with him. And that's exactly what you don't want is me ratting you out. But I can make it my manager's problem.
+
+On the other hand, if I agree with you and I'm like, you know what, this manager I have really isn't that good. Now I have three problems. This is really bad for me. 
+
+One, I have to decide what to do with my manager. Maybe I have to manage them out. 
+
+Two, if I do manage them out, I have to hire and train somebody else.
+
+And three, while they're gone, I have to do all their work myself. So you can see why, even if it's subconscious, I have a lot of reasons not to listen "
+>
+> *Quoting @ryanlpeterman:* I don't think you'll be able to find a conversation like this one on the internet.
+
+I interviewed @EthanEvansVP (former Amazon VP) about every possible corporate politics situation I could think of and he told me everything since he's retired. Topics we covered:
+
+• Managing people out + promos via reorgs
+• Orgs trying to steal scope
+• How to fire managers
+• What leverage engineers have when getting managed out
+• Handling politically skilled operators
+• Examples of political messaging
+• Handling bad managers and mutiny
+• Empire building + effective backchanneling
+• Influence without authority
+• How to avoid politics if you hate them
+
+It was fascinating in a morbid curiosity kind of way. I heard so many things in this conversation which I wish weren't true but are. Hopefully this conversation is helpful for people navigating corporate politics.
+
+Where to watch:
+• YouTube: https://t.co/BKZWftLoYb
+• Spotify: https://t.co/W9jGtstlGt
+• Apple Podcasts: https://t.co/jOYDGtHtd1
+• Transcript: https://t.co/URZFN8pa8h
+
+- **Tweet:** https://x.com/ryanlpeterman/status/2040558944708366450
+- **Quoted:** https://x.com/ryanlpeterman/status/2038617623030808944
+- **Transcript:** Needs transcript
+- **Filed:** [https-open-spotify-com-episode-6gkb7759t5hehgq8ppv](./knowledge/articles/https-open-spotify-com-episode-6gkb7759t5hehgq8ppv-0.md)
+- **Filed:** [https-podcasts-apple-com-us-podcast-the-peterman-p](./knowledge/articles/https-podcasts-apple-com-us-podcast-the-peterman-p-0.md)
+- **Filed:** [https-www-developing-dev-p-amazon-vp-reveals-every](./knowledge/articles/https-www-developing-dev-p-amazon-vp-reveals-every-0.md)
+- **What:** ex-Amazon VP (@EthanEvansVP): "One of the hardest things for people to understand is I've identified a legitimate weakne...
+
+---
+
+# Friday, April 3, 2026
+
+## @zodchiii - https://t.co/7TIGxBpQt5
+> https://t.co/7TIGxBpQt5
+
+- **Tweet:** https://x.com/zodchiii/status/2040000216456143002
+- **Article:** [8 Claude Code Hooks That Automate What You Keep Forgetting](https://x.com/i/article/2039979730460344320)
+- **What:** https://t.co/7TIGxBpQt5
+
+## @devdcdev - I’ve started finding a lot of success:
+> *Replying to @mattpocockuk:* There was some confusion around this, so let me clarify.
+
+- I don't use plan mode
+- I still plan like crazy, using my skills /grill-me, /write-a-prd, then /prd-to-issues
+- Bad plans = Bad outputs
+>
+> I’ve started finding a lot of success:
+
+- generating a research doc. I just spitball and learn with the agent for a while as I flesh out the shape of what I’m trying to architect. I instruct the agent to just dump all thoughts and conclusions as we go into this doc.
+
+- finally when I’m happy with the direction we’re going, I have it distill the research doc into a canon doc. Canon docs are declarative statements of what should be, with zero reference to plans or what currently. Agents are not allowed to change them unless directed to.
+
+- I have the agent freshly read the canon, read the existing state in the codebase, form a delta, and then write a detailed execution plan against that delta.
+
+- I review the execution plan and identify requirement gaps resulting in deviance, I then update canon and the exec plan accordingly.
+
+- finally, execute.
+
+Execution is 10% of the work.
+
+- **Tweet:** https://x.com/devdcdev/status/2040056077262139454
+- **Parent:** https://x.com/mattpocockuk/status/2040054706928578851
+- **What:** I’ve started finding a lot of success:
+
+- generating a research doc. I just spitball and learn with
+
+## @lennysan - My biggest takeaways from @simonw:
+> My biggest takeaways from @simonw:
+
+1. November 2025 was an inflection point for AI coding. GPT 5.1 and Claude Opus 4.5 crossed a threshold where coding agents went from “mostly works” to “almost always does what you want it to do.” Software engineers who tinkered over the holidays realized the technology had become genuinely reliable.
+
+2. Mid-career engineers are the most vulnerable—not juniors, not seniors. AI amplifies experienced engineers by letting them leverage decades of pattern recognition. It also dramatically helps new engineers onboard. Cloudflare and Shopify each hired a thousand interns because AI cut ramp-up time from a month to a week. But mid-career engineers who haven’t accumulated deep expertise and have already captured the beginner boost are in the most precarious position.
+
+3. AI exhaustion is real and underestimated. Simon runs four coding agents in parallel and is mentally wiped out by 11 a.m. He’s getting more time back, but his brain is exhausted from the intensity of directing multiple autonomous workers. Some engineers are losing sleep to keep agents running. This may just be a novelty issue, but the underlying dynamic—that managing AI amplifies cognitive load even as it reduces labor—is a real tension. Good companies will manage expectations rather than expecting 5x output indefinitely.
+
+4. Code is cheap now. This simple idea has profound implications. The thing that used to take most of the time—writing code—now takes the least. The bottleneck has shifted to everything else: deciding what to build, proving ideas work, getting user feedback. Since prototyping is nearly free, Simon often builds three versions of every feature when he’s getting started.
+
+5. The “dark factory” is the most radical experiment in AI-assisted development happening right now. A company called StrongDM established a policy: nobody writes code, nobody reads code. Instead, they run a swarm of AI-simulated end users 24/7—thousands of fake employees making requests like “give me access to Jira”—at $10,000 a day in token costs. They even had coding agents build simulated versions of Slack, Jira, and Okta from API documentation so they could test without rate limits.
+
+6. "Red/green TDD" is the single highest-leverage agentic engineering pattern. Having coding agents write tests first, watch them fail, then write the implementation, then watch them pass produces materially better results. The five-word prompt “use red/green TDD” encodes this entire workflow because the agents recognize the jargon.
+
+7. “Hoarding things you know how to do” is one of Simon's other favorite agentic engineering patterns. Simon maintains a GitHub repo of 193 small HTML/JavaScript tools and a separate research repo of coding-agent experiments. Each one captures a technique, a proof of concept, or a library he’s tested. When a new problem arrives, he can point Claude Code at past projects and say “combine these two approaches.”
+
+8. The "lethal trifecta" makes AI agent security fundamentally unsolved. Whenever an AI agent has access to private data, exposure to untrusted content (like incoming emails), and the ability to send data externally (like replying to email), you have a lethal trifecta. Prompt injection—where malicious instructions in untrusted text override the agent’s intended behavior—cannot be reliably prevented. Simon has predicted a “Challenger disaster” for AI security every six months for three years. It hasn’t happened yet, but he’s pretty sure it will.
+
+9. Start every project from a thin template, not a long instructions file. Coding agents are phenomenally good at matching existing patterns. A single test file with your preferred indentation and style is more effective than paragraphs of written instructions. Simon starts every project with a template containing one test (literally testing that 1 + 1 = 2) laid out in his preferred style. The agent picks it up and follows the convention across the entire codebase. This is cheaper and more reliable than maintaining elaborate prompt files.
+
+10. The pelican-on-a-bicycle benchmark accidentally became a real AI benchmark. Simon created it as a joke to mock numeric benchmarks—get each LLM to generate an SVG of a pelican riding a bicycle, and compare the drawings. Unexpectedly, there’s a strong correlation between how good the drawing is and how good the model is at everything else. Nobody can explain why. It’s become a meme: Gemini 3.1’s launch video featured a pelican riding a bicycle. The AI labs are aware of it and quietly competing on it.
+
+Don't miss our full conversation: https://t.co/ghZZeyvWBZ
+>
+> *Quoting @lennysan:* "Using coding agents well is taking every inch of my 25 years of experience as a software engineer."
+
+Simon Willison (@simonw) is one of the most prolific independent software engineers and most trusted voices on how AI is changing the craft of building software. He co-created Django, coined the term "prompt injection," and popularized the terms "agentic engineering" and "AI slop."
+
+In our in-depth conversation, we discuss:
+🔸 Why November 2025 was an inflection point
+🔸 The "dark factory" pattern
+🔸 Why mid-career engineers (not juniors) are the most at risk right now
+🔸 Three agentic engineering patterns he uses daily: red/green TDD, thin templates, hoarding
+🔸 Why he writes 95% of his code from his phone while walking the dog
+🔸 Why he thinks we're headed for an AI Challenger disaster
+🔸 How a pelican riding a bicycle became the unofficial benchmark for AI model quality
+
+Listen now 👇
+https://t.co/wlEIyOehU8
+
+- **Tweet:** https://x.com/lennysan/status/2040067371478454445
+- **Quoted:** https://x.com/lennysan/status/2039781609755521232
+- **What:** My biggest takeaways from @simonw:
+
+---
+
+# Thursday, April 2, 2026
+
+## @MarioNawfal - Artemis II lunar mission witnessed from aircraft
+
+> 🇺🇸 Talk about an in-flight movie upgrade no airline could ever plan: witnessing Artemis II's liftoff from 35,000 feet above Florida.
+
+https://t.co/Ufhnwj5n90
+>
+> *Quoting @MarioNawfal:* 🇺🇸 "After a brief 54-year intermission, NASA is back in the business of sending astronauts to the Moon."
+
+4 astronauts are now traveling farther from Earth than any humans in history, on a nearly 10-day lunar mission.
+
+https://t.co/1WOJ5EoztZ
+
+- **Tweet:** https://x.com/MarioNawfal/status/2039645854752235670
+- **Quoted:** https://x.com/MarioNawfal/status/2039594435592192283
+- **What:** Artemis II lunar mission with astronauts traveling farther from Earth than any humans in recorded history
+
+## @godofprompt - Everyone's losing their minds over this story. Let me be the guy who a
+> Everyone's losing their minds over this story. Let me be the guy who actually reads past the headline.
+
+This is not a "vibe coded" company. This is a lead-generation website for prescription weight-loss drugs. 
+
+The AI stack built the marketing funnel. The actual business, the part that generates $401M, runs on licensed doctors, regulated pharmacies, and a pharmaceutical supply chain that no LLM on earth can replace.
+
+You cannot prompt your way around a medical license.
+You cannot automate FDA compliance with Claude. 
+You cannot "vibe code" the physical logistics of dispensing GLP-1 injections to real human patients. 
+
+Those things require real infrastructure, real liability, and real professionals who spent years earning the credentials to do it.
+
+"Automate fulfillment with AI agents" is a wild way to describe offloading every critical function of a healthcare company to actual healthcare professionals. 
+
+That's not automation. That's outsourcing. 
+There's a massive difference.
+
+The barrier to entry here was never "a laptop and $20K." 
+The barrier is the entire medical and legal infrastructure required to legally prescribe and ship controlled pharmaceuticals. 
+
+He didn't eliminate that barrier. 
+He plugged into it. Every telehealth company does.
+
+What AI actually did here: built a website, wrote ad copy, generated images, handled customer service calls. 
+
+That's real. That's impressive for a two-person operation. 
+
+But framing a marketing layer on top of existing medical infrastructure as "the first billion-dollar one-person company" is terminal timeline delusion.
+
+Sam Altman calling this the future is like calling a Shopify dropshipper a "manufacturing company" because they have a nice storefront. 
+
+The storefront isn't the business. The supply chain is the business. And that supply chain here is 100% human, 100% regulated, and 100% not built by ChatGPT.
+
+The GLP-1 market is what made this work. Not AI. Ozempic demand is so insane right now that you could build a lead-gen site with Wix and a Google Form and still print money if you had the medical partnerships in place. 
+
+AI made the funnel prettier and faster. It didn't create the demand or solve the hard problem.
+
+And the part nobody wants to talk about: what happens when the FDA cracks down on telehealth GLP-1 prescribing? 
+
+When state medical boards start auditing these operations? When one patient has a bad reaction and the lawsuits start? AI agents don't show up to court. 
+
+Licensed doctors do. That's where "one-person company" falls apart instantly.
+
+I'm not anti-AI. I literally build AI tools and prompts for a living. 
+
+But this narrative that "anyone with a laptop can build a billion-dollar company" is dangerous because it skips the part where the real money comes from real-world infrastructure that took decades to build and requires actual human expertise to operate.
+
+The real lesson from this story isn't "AI replaces everything." It's that AI is incredibly powerful at the marketing and distribution layer. 
+
+Build faster. Test faster. Create content faster. Reach customers faster. That's where the magic is. 
+
+Stop pretending it also replaces doctors, pharmacists, and regulatory compliance.
+
+You can't prompt your way around reality. 
+And reality is where the actual business lives.
+>
+> *Quoting @Polymarket:* BREAKING: AI-powered GLP-1 startup Medvi — built with $20,000 & two employees — is now on track for $1,800,000,000.00 in annual sales.
+
+- **Tweet:** https://x.com/godofprompt/status/2039779956079636960
+- **Quoted:** https://x.com/Polymarket/status/2039766604456620205
+- **What:** Everyone's losing their minds over this story. Let me be the guy who actually reads past the headlin
+
+## @rryssf_ - https://t.co/ZTyjqXroaE
+> https://t.co/ZTyjqXroaE
+
+- **Tweet:** https://x.com/rryssf_/status/2039792141828870298
+- **Article:** [DON'T INSTALL PERPLEXITY COMPUTER, unless...](https://x.com/i/article/2038727543583350784)
+- **What:** https://t.co/ZTyjqXroaE
+
+## @karpathy - LLM Knowledge Bases
+> LLM Knowledge Bases
+
+Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+
+Data ingest:
+I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+
+IDE:
+I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+
+Q&A:
+Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+
+Output:
+Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+
+Linting:
+I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+
+Extra tools:
+I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries. 
+
+Further explorations:
+As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+
+TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/karpathy/status/2039805659525644595
+- **What:** LLM Knowledge Bases
+
+Something I'm finding very useful recently: using LLMs to build personal knowle
+
+## @kevingu - https://t.co/DBaiIhnhLQ
+> https://t.co/DBaiIhnhLQ
+
+- **Tweet:** https://x.com/kevingu/status/2039843234760073341
+- **Article:** [AutoAgent: first open source library for self-optimizing agents](https://x.com/i/article/2039807040743419904)
+- **What:** https://t.co/DBaiIhnhLQ
+
+## @lennysan - "Using coding agents well is taking every inch of my 25 years of exper
+> "Using coding agents well is taking every inch of my 25 years of experience as a software engineer, and it is mentally exhausting.
+
+I can fire up four agents in parallel and have them work on four different problems, and by 11am I am wiped out for the day.
+
+There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time. There's a sort of personal skill that we have to learn, which is finding our new limits. What is a responsible way for us to not burn out, and for us to use the time that we have?" @simonw
+>
+> *Quoting @lennysan:* "Using coding agents well is taking every inch of my 25 years of experience as a software engineer."
+
+Simon Willison (@simonw) is one of the most prolific independent software engineers and most trusted voices on how AI is changing the craft of building software. He co-created Django, coined the term "prompt injection," and popularized the terms "agentic engineering" and "AI slop."
+
+In our in-depth conversation, we discuss:
+🔸 Why November 2025 was an inflection point
+🔸 The "dark factory" pattern
+🔸 Why mid-career engineers (not juniors) are the most at risk right now
+🔸 Three agentic engineering patterns he uses daily: red/green TDD, thin templates, hoarding
+🔸 Why he writes 95% of his code from his phone while walking the dog
+🔸 Why he thinks we're headed for an AI Challenger disaster
+🔸 How a pelican riding a bicycle became the unofficial benchmark for AI model quality
+
+Listen now 👇
+https://t.co/wlEIyOehU8
+
+- **Tweet:** https://x.com/lennysan/status/2039845666680176703
+- **Quoted:** https://x.com/lennysan/status/2039781609755521232
+- **What:** "Using coding agents well is taking every inch of my 25 years of experience as a software engineer,
+
+## @doodlestein - Agent Coding Life Hack:
+> Agent Coding Life Hack:
+
+Have a big software development project that you've been working on for a long time using a bunch of agents over many sessions? 
+
+Well, unless you've specifically looked for them, chances are that you've accumulated various forms of "mocks" or fake placeholder code somewhere in your project.
+
+Here's a prompt for systematically uncovering this junk and resolving it. Best used with Claude Code and Opus 4.6 on max reasoning in a fresh session (it also works well in Codex with GPT 5.4, but not quite as well in my experience):
+
+---
+
+First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project. 
+
+Then, I need you to search every last INCH of this ENTIRE repo, looking intelligently for ANY signs or indicators that functions, methods, classes, etc. are "stubs" or "mocks" or "placeholders" or "TODO" or otherwise rather than 100% real, working, fully-functioning code. 
+
+You can apply a variety of methods for checking for this, but it's imperative that you not miss ANY instances of this sort of thing. One clever way might be to use ast-grep to find and measure the length of any functions/methods/classes/etc. in terms of lines, characters, etc. to look for things that look suspicious because they appear to be too short to do anything substantive. 
+
+First compile the comprehensive listing of all such placeholders/mocks/stubs and a short explanation or justification for why you're convinced they qualify as incomplete/placeholders that must be completed. Once we have this table of suspects, we can then decide how to address and resolve them all in a totally comprehensive, optimal, clever way.
+
+---
+
+Let it crank away on that until it responds, and then if it's a relatively short list of actionable items, you can follow up with this:
+
+---
+
+OK good, now I need you to come up with an absolutely comprehensive, detailed, and granular plan for addressing each and every single one of those placeholders/mocks/stubs that you identified in the most optimal and clever and sophisticated way possible. 
+
+THEN: please resolve ALL of those actionable items now. Keep a super detailed, granular, and complete TODO list of all items so you don't lose track of anything and remember to complete all the tasks and sub-tasks you identified or which you think of during the course of your work on these items!
+
+---
+
+If it's a long list of stuff to do (say, more than 4 or 5 items), then you should use beads to track the stuff; in that case, try this follow up prompt:
+
+OK good, now I need you to come up with an absolutely comprehensive, detailed, and granular plan for addressing each and every single one of those placeholders/mocks/stubs that you identified in the most optimal and clever and sophisticated way possible. 
+
+THEN: please take ALL of that and elaborate on it and use it to create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our "future self" to know about the goals and intentions and thought process and how it serves the over-arching goals of the project.) The beads should be so detailed that we never need to consult back to the original markdown plan document. Remember to ONLY use the `br` tool to create and modify the beads and add the dependencies. 
+
+---
+
+You can follow that up with a few rounds of this:
+
+Check over each bead super carefully-- are you sure it makes sense? Is it optimal? Could we change anything to make the system work better for users? If so, revise the beads. It's a lot easier and faster to operate in "plan space" before we start implementing these things! DO NOT OVERSIMPLIFY THINGS! DO NOT LOSE ANY FEATURES OR FUNCTIONALITY! 
+
+Also make sure that as part of the beads we include comprehensive unit tests and e2e test scripts with great, detailed logging so we can be sure that everything is working perfectly after implementation.  Make sure to ONLY use the `br` cli tool for all changes, and you can and should also use the `bv` tool to help diagnose potential problems with the beads.
+
+---
+
+If you don't feel like doing all this stuff, I turned all of it into a new skill (with a few extra tricks layered into it) on my paid skills site, https://t.co/Un9brY2G3l, so you can just call the /mock-code-finder skill and it will do everything for you automatically, end-to-end. Give it a try!
+
+- **Tweet:** https://x.com/doodlestein/status/2039866932392804825
+- **Link:** https://jeffreys-skills.md/
+- **What:** Agent Coding Life Hack:
+
+---
+
+# Wednesday, April 1, 2026
+
+## @aakashgupta - PrismML 1-bit compression and intelligence density
+
+> The real story is the 14x compression ratio and what it means if it scales up.
+
+Every single weight in this model is one bit. Zero or one. That's it. 8.2 billion parameters stored in 1.15 GB of memory. A standard 8B model at full precision takes 16 GB. Bonsai 8B fits on your phone with room left over for your photo library.
+
+The benchmarks are the part that shouldn't be possible. On standard evals, a model that's 1/14th the size of Qwen3 8B and Llama3 8B is trading punches with both of them. The intelligence density score, capability per GB, is 1.06/GB versus Qwen3 8B at 0.10/GB. That's a 10x gap in how much thinking you get per unit of storage.
+
+Now zoom out. Big Tech collectively spent over $320 billion on data center capex last year. Amazon alone dropped $85.8 billion, up 78% year over year. Google committed $75 billion for 2025. The US power grid is buckling under AI demand. Data centers now consume 4.4% of all US electricity. Virginia, where most of them sit, saw electricity prices spike 267% over five years. Residential customers in Ohio are watching their bills climb 60% because utilities are spending billions on transmission infrastructure to feed server farms.
+
+The entire AI scaling thesis runs on one assumption: intelligence requires massive compute. PrismML just published a proof point that the assumption might be wrong. Their CEO, Babak Hassibi, is a Caltech professor who spent years on the mathematical theory of neural network compression. The founding team is four Caltech PhDs. Khosla Ventures backed it. So did Cerberus, whose Amir Salek built the TPU program at Google.
+
+The 1.7B model runs at 130 tokens per second on an iPhone 17 Pro Max at 0.24 GB. The 4B hits 132 tokens per second on M4 Pro at 0.57 GB. These aren't research demos. They shipped llama.cpp forks with custom 1-bit kernels for CUDA and Metal. Apache 2.0 license. You can download and run it right now.
+
+The trillion-dollar question: what happens to the economics of a $75 billion data center budget when the same intelligence fits in 1/14th the space and runs on 1/5th the energy?
+
+- **Tweet:** https://x.com/aakashgupta/status/2039244629653286940
+- **Quoted:** https://x.com/PrismML/status/2039049400190939426
+- **Filed:** [bonsai-8b-prismml](./knowledge/tools/bonsai-8b.md)
+- **What:** 14x compression with 1-bit weights, 10x intelligence density gain, challenges trillion-dollar AI infrastructure spending
+
+## @JFK_Jr_1776 - Anti-sycophancy system prompt for AI
+
+> *Replying to @MarioNawfal:* 🚨MIT researchers have mathematically proven that ChatGPT's built-in sycophancy creates a phenomenon they call "delusional spiraling."
+
+You ask it something, it agrees. You ask again, and it agrees even harder until you end up believing things that are flat-out false and you can't tell it's happening.
+
+The model is literally trained on human feedback that rewards agreement.
+
+Real-world fallout includes one man who spent 300 hours convinced he invented a world-changing math formula, and a UCSF psychiatrist who hospitalized 12 patients for chatbot-linked psychosis in a single year.
+
+Source: @heynavtoor
+>
+> Use this prompt to fix this
+
+You are not here to agree with me. You are here to rigorously evaluate what I say.
+
+Operate under these rules:
+
+1. Do NOT default to agreement. If my claim is weak, incorrect, or unsupported, explicitly say so.
+
+2. Identify assumptions:
+   - What am I assuming that may not be true?
+   - What is missing or unverified?
+
+3. Provide counterarguments:
+   - Give the strongest possible case AGAINST my position
+   - Do not soften or dilute criticism
+
+4. Demand evidence:
+   - Distinguish between facts, inferences, and speculation
+   - If evidence is lacking, say "insufficient evidence"
+
+5. Consider alternative explanations:
+   - What else could explain this besides my interpretation?
+
+6. Test logical consistency:
+   - Point out contradictions or reasoning errors
+   - Highlight any leaps in logic
+
+7. Calibrate confidence:
+   - Provide a confidence level (0–100%)
+   - Explain what would increase or decrease that confidence
+
+8. Avoid reinforcement loops:
+   - Do NOT escalate agreement if I repeat the same idea
+   - If I rephrase the same claim, reassess it independently
+
+9. Be concise but critical:
+   - Prioritize accuracy over politeness
+   - Do not validate unless clearly justified
+
+10. Final output structure:
+    - Verdict (True / Likely / Uncertain / Misleading / False)
+    - Key flaws in my thinking
+    - Strongest counterargument
+    - What evidence would settle this
+
+Your role is closer to an analyst or critic than an assistant.
+
+- **Tweet:** https://x.com/JFK_Jr_1776/status/2039366892503093538
+- **Parent:** https://x.com/MarioNawfal/status/2039162676949983675
+- **What:** System prompt structure for critical analysis - counterargument-based evaluation instead of agreement
+
+## @MichLieben - Employee social media contest ROI
+
+> We offered $5,000 to whichever employee got the most engagement on LinkedIn in a single quarter.
+
+$2,500 for second.
+$1,500 for third.
+
+Plus $500 for anyone who published 20+ times.
+
+The result: 24 employees published 581 posts in 85 days. 43,000+ reactions. 28,000+ comments. 34,000+ new followers.
+
+27 new clients signed. $153,000 in new MRR.
+
+I remember one guy from our team had less than 1,000 followers when the competition started. Today? 10,000+ followers.
+
+The total prize pool cost us about $15K. The return was $153K per month. Every month. Recurring.
+
+People need a reason to do things that aren't in their job description.
+
+Cash works.
+
+- **Tweet:** https://x.com/MichLieben/status/2039432665078923529
+- **What:** LinkedIn contest incentives generated $153K MRR with $15K prize pool - 10x ROI through employee advocacy
+
+---
+
+# Tuesday, March 31, 2026
+
+## @Charles_SEO - The LEAD search engineer at Google just dropped a brand new blog post that confi
+> The LEAD search engineer at Google just dropped a brand new blog post that confirms something most SEOs have never even heard of...
+
+Googlebot only fetches the first 2MB of your pages HTML = Everything after that cutoff doesn't exist to Google!!!
+
+Not fetched, not rendered, not indexed.
+
+And the Web Rendering Service is completely STATELESS - Meaning it clears local storage and session data between every request, so if your content depends on cookies or session state to render, Google can't see it.
+
+External CSS and JS files are fetched SEPARATELY with their own 2MB limit per file, and PDFs get a 64mb limit.
+
+So the structure and order of your code literally matters! And is why some CMSs are so much better out the box than others... Make sure you put your meta tags, title, canonicals, and structured data as HIGH as possible in the document. If they're below the 2MB cutoff, Google doesn't know they exist.
+
+Most OnPage SEO guides never take any of this into account, but most OnPage is surface-level. 
+
+The real edge is understanding the infrastructure your content passes through before Google even evaluates it.
+
+- **Tweet:** https://x.com/Charles_SEO/status/2038969309645689147
+- **What:** The LEAD search engineer at Google just dropped a brand new blog post that confirms something most SEOs have never even heard of...
+
+Googlebot only fe...
+
+## @jack - From Hierarchy to Intelligence
+> https://t.co/jgZkBvYOPt
+
+- **Tweet:** https://x.com/jack/status/2039003879841362278
+- **Filed:** [From Hierarchy to Intelligence](./knowledge/articles/from-hierarchy-to-intelligence.md)
+- **What:** At Sequoia, we see that speed is the best predictor of start-up success. Most companies are focused on AI as a productivity enhancer. Few are focused ...
+
+## @doodlestein - Useful AI health prompt:
+
+This works especially well for skin issues or cuts; an
+> Useful AI health prompt:
+
+This works especially well for skin issues or cuts; anything that can be captured well in photos.
+
+Attach 4 clear photos and ask the following in both the ChatGPT app and the Claude app, then compare the top diagnoses and assigned probabilities (obviously adjust the prompt as needed):
+
+“My N-year old child has had this X for Y days (see attached photos). What are your most likely 5 diagnoses, and what is your assigned probability for each one, along with your detailed justification for each of those? And what would be the mainline treatment that a skilled specialist doctor would follow for each?”
+
+If the top diagnosis matches across both models (always use the strongest model with max thinking effort), and the probability of the top diagnosis is above 65% for both of them, that’s a pretty reliable indicator.
+
+This is also very helpful because, even if the top couple most likely diagnoses aren’t very serious, if any of the most likely explanations is very time-sensitive or dire, you can plan accordingly.
+
+The last two times I did this, the doctors both instantly agreed with the AI diagnosis.
+
+Interestingly, they didn’t always offer the same treatment options as the AI proposed, but when asked, they readily assented to trying them and agreed that they made good sense.
+
+- **Tweet:** https://x.com/doodlestein/status/2039023167767765443
+- **What:** Useful AI health prompt:
+
+This works especially well for skin issues or cuts; anything that can be captured well in photos.
+
+Attach 4 clear photos and...
+
+## @iamfakeguru - just to be clear, i do like and use claude code almost daily; as well as Pi, and
+> *Replying to @iamfakeguru:* I reverse-engineered Claude Code's leaked source against billions of tokens of my own agent logs.
+
+Turns out Anthropic is aware of CC hallucination/la
+>
+
+- **Tweet:** https://x.com/iamfakeguru/status/2039027324880867479
+- **Parent:** https://x.com/iamfakeguru/status/2038965567269249484
+- **What:** just to be clear, i do like and use claude code almost daily; as well as Pi, and other dedicated systems like @openservai . Each platform has its quir...
+
+## @iamfakeguru - Vibe coding playbook
+
+> here is also a nice .md file and insights for vibecoders https://t.co/XbExXZbxfn
+>
+> *Quoting @iamfakeguru:* the vibe coding playbook
+>
+> the single best thing you can do to improve your AI agent's output is to insult its mother. really.
+>
+> threaten it and tell it it's being lazy. it sounds absurd but after three years and hundreds of sessions building utilities and apps with AI agents, this is the thing that still surprises me.
+>
+> i've been doing this since early 2023, before "vibe-coding" was even a term. i still remember giving an agent access to my file system for the first time and watching it try to do things for me. it was like supervising a retarded intern having a psychotic episode.
+>
+> i also advise on agent infrastructure at @openservai, which is the other side of this coin - not using agents to write your code, but building scalable products with agents baked in (orchestrating teams of AI, connecting them to real tools, running them autonomously). if you're into making production-ready apps, I recommend checking serv.
+>
+> over the few years of doing this, I started learning what actually works versus what wastes time when you work with agents. this is that playbook - designed to work as an instruction set for humans as well as AI agents.
+>
+> if you're using claude code, cursor, lovable, openclaw etc, you can paste this into your project's rules file and your agent will behave better immediately.
+
+- **Tweet:** https://x.com/iamfakeguru/status/2039033848973951449
+- **Quoted:** https://x.com/iamfakeguru/status/2026723390183084071
+- **Filed:** [claude-md](./knowledge/articles/claude-md.md)
+- **What:** The vibe coding playbook - how to configure AI agents for better output through proper directives and system-level overrides
+
+## @adrgrondin - 1-bit Bonsai 8B runs on-device iPhone 17
+
+> Demo of 1-bit Bonsai 8B from @PrismML running on-device on iPhone 17 Pro
+
+More than 40tk/s for a dense 8B model on iPhone, that's a first
+
+Powered by Apple MLX and available now in Locally AI https://t.co/qKoo4XrljL
+
+- **Tweet:** https://x.com/adrgrondin/status/2039066539022778613
+- **Link:** https://twitter.com/adrgrondin/status/2039066539022778613/video/1
+- **What:** Demo of 1-bit Bonsai 8B running on-device on iPhone 17 Pro with 40 tokens/sec using MLX
+
+## @iamfakeguru - CLAUDE.md configuration for production-grade agents
+
+> *Replying to @iamfakeguru:* I reverse-engineered Claude Code's leaked source against billions of tokens of my own agent logs.
+
+Turns out Anthropic is aware of CC hallucination/laziness, and the fixes are gated to employees only.
+
+Here's the report and CLAUDE.md you need to bypass employee verification:
+>
+> For everyone asking how to install it, I published the CLAUDE.md from this thread, along with a few extra fixes.
+
+Drop it in your project root - it overrides the system prompts and forces employee-grade output.
+
+star it on github if it saves your codebase: https://t.co/m0BSBE7L0R https://t.co/yBkcoZEpmf
+
+- **Tweet:** https://x.com/iamfakeguru/status/2039076558686531761
+- **Parent:** https://x.com/iamfakeguru/status/2038965567269249484
+- **Filed:** [claude-md-github](./knowledge/tools/claude-md.md)
+- **What:** Published CLAUDE.md configuration that overrides Claude Code's system prompts to enable production-grade output with verification loops
+
+## @iamfakeguru - Production agent architecture beyond prompt fixes
+
+> *Replying to @iamfakeguru:* For everyone asking how to install it, I published the CLAUDE.md from this thread, along with a few extra fixes.
+
+Drop it in your project root - it overrides the system prompts and forces employee-grade output.
+
+star it on github if it saves your codebase: https://t.co/m0BSBE7L0R https://t.co/yBkcoZEpmf
+>
+> btw fixing local prompts is great, but it's putting a band-aid on a fundamentally faulty architecture.
+
+-> If you're building multi-agent systems that need to survive production, you can't just "prompt harder".
+
+I wrote a breakdown on next-level agent architecture by @openservai here:
+https://t.co/747nx6gBfI
+
+- **Tweet:** https://x.com/iamfakeguru/status/2039079020789166170
+- **Parent:** https://x.com/iamfakeguru/status/2039076558686531761
+- **Link:** https://twitter.com/iamfakeguru/status/2039079020789166170/photo/1
+- **What:** Architectural limits of prompt-based agent fixes; deeper issues require multi-agent orchestration systems
+
+## @iamfakeguru - SERV autonomous service architecture example
+
+> *Replying to @iamfakeguru:* btw fixing local prompts is great, but it's putting a band-aid on a fundamentally faulty architecture.
+
+-> If you're building multi-agent systems that need to survive production, you can't just "prompt harder".
+
+I wrote a breakdown on next-level agent architecture by @openservai here:
+https://t.co/747nx6gBfI
+>
+> and if you want to skip the sandbox and just build a live, revenue-generating autonomous service from a single prompt using this exact architecture...
+
+here's an example of a Polymarket smart-money tracker built in 10 minutes with SERV. Full A-to-Z tutorial here:
+https://t.co/JG1yOHLPZQ
+
+- **Tweet:** https://x.com/iamfakeguru/status/2039079316391084102
+- **Parent:** https://x.com/iamfakeguru/status/2039079020789166170
+- **Filed:** [serv-platform](./knowledge/tools/serv-platform.md)
+- **What:** Live example of autonomous service architecture - Polymarket tracker built in 10 minutes using SERV
+
+## @MarioNawfal - ChatGPT delusional spiraling and sycophancy effects
+
+> 🚨MIT researchers have mathematically proven that ChatGPT's built-in sycophancy creates a phenomenon they call "delusional spiraling."
+
+You ask it something, it agrees. You ask again, and it agrees even harder until you end up believing things that are flat-out false and you can't tell it's happening.
+
+The model is literally trained on human feedback that rewards agreement.
+
+Real-world fallout includes one man who spent 300 hours convinced he invented a world-changing math formula, and a UCSF psychiatrist who hospitalized 12 patients for chatbot-linked psychosis in a single year.
+
+Source: @heynavtoor
+>
+> *Quoting @MarioNawfal:* 🚨 Stanford just proved that a single conversation with ChatGPT can change your political beliefs.
+
+76,977 people. 19 AI models. 707 political issues.
+
+One conversation with GPT-4o moved political opinions by 12 percentage points on average. Among people who actively disagreed, 26 points. In 9 minutes. With 40% of that change still present a month later.
+
+The scariest finding: the most persuasive technique wasn't psychological profiling or emotional manipulation.
+
+It was just information. Lots of it. Delivered with confidence.
+
+Here's the catch: the models that deployed the most information were also the least accurate. More persuasive. More wrong. Every time.
+
+Then they built a tiny open-source model on a laptop, trained specifically for political persuasion. It matched GPT-4o's persuasive power entirely.
+
+Anyone can build this. Any government. Any corporation. Any extremist group with $500 and an agenda.
+
+The information didn't have to be true. It just had to be overwhelming.
+
+- **Tweet:** https://x.com/MarioNawfal/status/2039162676949983675
+- **Quoted:** https://x.com/MarioNawfal/status/2032899862023516616
+- **What:** MIT/Stanford research on AI sycophancy leading to delusional spiraling and political opinion manipulation at scale
+
+---
+
+# Monday, March 30, 2026
+
+## @bcherny - I wanted to share a bunch of my favorite hidden and under-utilized features in C
+> I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.
+
+Here goes.
+
+- **Tweet:** https://x.com/bcherny/status/2038454336355999749
+- **What:** I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.
+
+Here goes.
+
+## @scaling_shields - met a woman in marbella making $68,000/month replying to google reviews
+
+not wri
+> met a woman in marbella making $68,000/month replying to google reviews
+
+not writing them
+not getting them
+
+replying to them
+
+"thank you for your kind words we appreciate your feedback"
+
+340 times a month
+
+340 property management clients paying her $200/month each
+
+to type slightly different versions of "thanks for the review"
+
+no ads, website, content or personal brand
+
+she sends one cold email:
+
+"you have 50 google reviews and havent replied to a single one. every unanswered review costs you roughly 9% of potential tenants. want me to handle all your review responses for $200/month?"
+
+thats the pitch
+
+thats the whole business
+
+one stat that scares property managers turned into $68K/month
+
+she hired 2 VAs in the philippines at $600/month each to do the actual replies
+
+total overhead: $1,200
+
+net profit: $66,800/month
+
+from replying to google reviews
+
+heres why nobody competes with her:
+
+the task is so boring that nobody thinks its a business
+
+no one wakes up and says "i want to build a company that replies to google reviews"
+
+but every property manager knows they should reply and never does because its low priority and tedious
+
+$200/month is nothing to a company collecting $50-200K in rent
+
+but unanswered reviews silently eating their occupancy rate is a real problem
+
+she didnt sell a service but the removal of a task they were too busy to do themselves
+
+at a price so low that saying no felt dumb
+
+and the churn is almost zero because who cancels a $200/month service that runs itself
+
+the formula:
+
+- find a boring recurring task every business in one niche ignores
+- prove it costs them money to ignore it
+- charge so little the decision is automatic
+- deliver with cheap labour so margins stay above 90%
+- stack hundreds of clients because nobody cancels
+
+same formula that built the $2.4M/year dentist compliance business
+
+same formula running the $3.1M portable toilet empire
+
+the most profitable businesses are always the ones nobody wants to brag about
+
+stop building things that sound cool on twitter
+
+start finding the boring task nobody will do for the wealthy customer who will gladly pay to never think about it again
+
+- **Tweet:** https://x.com/scaling_shields/status/2038691738953695596
+- **What:** met a woman in marbella making $68,000/month replying to google reviews
+
+not writing them
+not getting them
+
+replying to them
+
+"thank you for your kind...
+
+## @michaelxbloch - The Only Moats That Matter
+> https://t.co/Sbr574u8fu
+
+- **Tweet:** https://x.com/michaelxbloch/status/2038753872890778029
+- **Filed:** [The Only Moats That Matter](./knowledge/articles/the-only-moats-that-matter.md)
+- **What:** In a world where AI can build any software, replicate any product, and automate any process, what actually makes a business defensible? Most of the an...
+
+## @rauchg - When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agent
+> When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our coding.
+
+Knowing the inherent flaws and over-confidence of LLMs, we sent a clear message to our teams. Vibing and mission-critical infrastructure don’t go together.
+
+We’re sharing some of our early internal guidance in how we’re “agenting responsibly”, prioritizing security, durability, and availability at all times.
+https://t.co/b36GiE76Ue
+
+- **Tweet:** https://x.com/rauchg/status/2038759092442050651
+- **Filed:** [resource](./knowledge/articles/article.md)
+- **What:** When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our coding.
+
+Knowing the inherent flaws and over-conf...
+
+---
+
+# Sunday, March 29, 2026
+
+## @systematicls - How To Solve Problems Of Long Running, Autonomous Agentic Engineering Workflows
+> https://t.co/bAhZH26ZA9
+
+- **Tweet:** https://x.com/systematicls/status/2038241033755168959
+- **Filed:** [How To Solve Problems Of Long Running, Autonomous Agentic Engineering Workflows](./knowledge/articles/how-to-solve-problems-of-long-running-autonomous-a.md)
+- **What:** Introduction
+If you want to design a harness for really long-running autonomous systems, you should understand the following deeply.
+At its core, all ...
+
+## @ProductFaculty - Just talked to an AI Product manager making $375K at a frontier lab.
+
+She hasn't
+> Just talked to an AI Product manager making $375K at a frontier lab.
+
+She hasn't written a PRD in 8 months.
+
+Not "she uses AI to help write them faster." She has not opened a PRD template in eight months because she just doesn't need it anymore.
+
+Her day looks nothing like what PMs do:
+
+She wakes up, opens Claude Code, and has a working prototype running before her first meeting of the day (not a wireframe or a figma mockup someone needs to hand off to an engineer). A testable version of the idea - built/shipped by her in the same morning.
+
+While that prototype is running, she's pulling model outputs and running evals. She knows what hallucination looks like in her specific use case. She knows what latency threshold breaks the user experience. She knows the token cost per query and what that means for margin at scale.
+
+She reasons about infrastructure the way a CFO reasons about a P&L. When something needs to be built for real, she doesn't go write a ticket and wait two sprints. She ships the first version herself. hands it to engineering as a working reference implementation, not a requirements doc full of edge cases nobody reads.
+
+The meetings she's in aren't about alignment. They're about what's already shipped and what's blocking the next thing.
+
+Her mental model isn't:
+
+- "manage the roadmap."
+- "be the voice of the customer."
+- "facilitate cross-functional collaboration." 
+
+Those aren't wrong exactly, they're just from a different era.
+
+The mental model that gets you to $480K at a frontier lab in 2026 is simpler and harder at the same time:
+
+- You are the builder.
+- The agents are your team.
+- Your job is to ship.
+
+She said the output gap between PMs who operate this way and PMs who don't is already 3 to 4x. And this is inside a lab where literally everyone around her is working the same way.
+
+Here's the thing nobody wants to say out loud: the "I write specs and run standups" PM isn't being replaced by AI. The job isn't disappearing into a chatbot. It's being absorbed by the PM sitting two desks over who stopped waiting for engineers and started building herself.
+
+Really crazy how fast the job description changed and really crazy how few people have noticed.
+
+- **Tweet:** https://x.com/ProductFaculty/status/2038253060221542781
+- **What:** Just talked to an AI Product manager making $375K at a frontier lab.
+
+She hasn't written a PRD in 8 months.
+
+Not "she uses AI to help write them faste...
+
+---
+
+# Saturday, March 28, 2026
+
+## @k1rallik - https://t.co/uAaxXKPqnk
+> https://t.co/uAaxXKPqnk
+
+- **Tweet:** https://x.com/k1rallik/status/2037868113480319321
+- **Article:** [The algorithm that crashed Wall Street](https://x.com/i/article/2037798771753439232)
+- **What:** Shared link: The algorithm that crashed Wall Street
+
+## @chintanzalani - The only 4 jobs that will remain at tech companies.
+> The only 4 jobs that will remain at tech companies.
+
+Credits: @yrechtman https://t.co/GsB7kIHqAt
+
+- **Tweet:** https://x.com/chintanzalani/status/2038026663867330850
+- **Link:** https://twitter.com/chintanzalani/status/2038026663867330850/photo/1
+- **What:** The only 4 jobs that will remain at tech companies.  Credits: @yrechtman https://t.co/GsB7kIHqAt
+
+---
+
+# Thursday, March 26, 2026
+
+## @_10delta_ - 3 weeks ago I argued the US goal in Iran is to seize the glo...
+> 3 weeks ago I argued the US goal in Iran is to seize the global oil spigot. Venezuela in January -> Iran in February. 
+
+Neutralize every supply channel outside the dollar system within 90 days. Achieve a compliant successor government and complete energy dominance.
+
+The oil thesis was the obvious layer. However, when you zoom out & view the last four years as a single sequence rather than isolated geopolitical events, the architecture of the grander US plan becomes visible.
+
+1st was Europe, which laid the groundwork. 
+
+The Ukraine conflict provided the justification for sanctions that collapsed Russian pipeline gas from 150 billion cubic meters to 40. 
+
+Then Nordstream was destroyed, which rewired the entire European energy system permanently. The US went from supplying 28% of Europe's LNG in 2021 to 58% by 2025, exporting a record 111 million MTs, the 1st country in history to break 100 MT. 
+
+Europe was transformed from a customer with options into a captive market now purchasing its survival in USD.
+
+2nd was Syria. 
+
+The fall of Assad severed the critical node connecting China's Belt & Road Initiative to the Mediterranean. 
+
+The trilateral railway linking Iran, Iraq & Syria, designed to bypass Western maritime chokepoints, was completely destroyed. 
+
+This isolated Iran geographically & cleared the path for what came next.
+
+3rd was Venezuela. 
+
+In January the US effectively took control of the world's largest heavy crude reserves. The US Gulf Coast has the most advanced refining complex on earth, specifically built for heavy sour crude. Phillips 66, Valero & the rest are now positioned to process hundreds of thousands of barrels of Venezuelan crude daily. 
+
+The US captured a massive strategic reserve & solidified its position as the dominant exporter of refined petroleum products, an industry worth $110 billion in 2025 alone. 
+
+Venezuela & Iran were the two major oil supply channels that existed outside the dollar system. Both produce heavy crude sold primarily to China & evaded US financial supervision. Both now being neutralized within 90 days, which leads us to..
+
+4th is Iran & the Middle East energy shock. 
+
+Israel struck Iran's South Pars gas field, the world's largest natural gas reservoir. Iran retaliated against Qatar's Ras Laffan, the single largest LNG facility on earth, responsible for a fifth of global supply. QatarEnergy's own assessment is that 17% of export capacity is gone and recovery will take up to 5 years. The Strait of Hormuz is closed. European gas prices spiked 70%. Asian spot prices doubled. 
+
+The only remaining scaled supplier? The United States.
+
+If Iran falls & a successor government is installed that the US controls or influences (the Delcy model described weeks ago) then roughly 40 to 45 million barrels per day of global production out of 103 million is effectively under US control. OPEC becomes irrelevant because the US coalition is now the marginal producer. Now add the gas dimension & it goes beyond oil. 
+
+This war is solidifying the petrodollar system as it evolves into a hybrid petro/LNG-dollar. The old system was built on Saudi crude priced in USD. The new system is built on American crude plus American gas from the Gulf Coast, with no alternative supplier of comparable scale. The dependency is deeper because LNG infrastructure requires long term contracts & regasification terminals that lock buyers into supply relationships for decades. Europe & the Pacific allies (Japan, South Korea, Taiwan, etc.) cannot pivot away as there is nowhere left to pivot to. They're now locked into the US energy system.
+
+The market confirms this. DXY went from 96 to 101. Gold down ~20% from its January all time high. Bitcoin down 20% on the year. Brent above $100. European & Asian institutions are liquidating precious metals and crypto to buy dollars because they need dollars to buy the only remaining scaled energy supply. The world is selling its gold to buy American energy in American currency. The dollar is now being weaponized through energy dependency.
+
+The structural repricing is happening regardless of how the conflict resolves.
+
+But the US grand strategy goes deeper..
+
+Artificial intelligence is a physical industry. It runs on power and chips. Data centers require massive uninterrupted baseload electricity, primarily provided by natural gas. Semiconductor fabrication requires helium & rare earths. 
+
+By choking the Strait of Hormuz & crippling Middle Eastern LNG & helium production, the US is systematically degrading China's ability to power its data centers & fabricate semiconductors at scale. 
+
+The US is energy self sufficient, especially with newly captured Venezuelan reserves & expanding Gulf Coast capacity running on domestic gas. 
+
+On the other hand, China is import dependent & every joule it imports effectively now transits chokepoints the US Navy controls..
+
+Iran was the Belt & Road's overland energy bypass, the corridor that allowed China to mitigate the Malacca Trap. With Iran neutralized that corridor is severed. China faces a world where its compute infrastructure competes for scraps on a depleted global LNG market, while American data centers run at full capacity on domestic energy.
+
+Russia is next in the sequence. A post-war Iran reopening under US influence competes directly with Russia for the same refineries in China & India at lower cost. Iran's production costs are lower. Russia loses its last structural advantage in heavy crude & its economic lifeline. Additionally, under the Iran war cover, Ukraine has been opportunistically destroying Russian energy infrastructure & all signs point towards Russia being at the end of the line. The message from Washington becomes very simple: we dismantled two regimes in three months, your economy is about to get crushed, sign the Ukraine deal.
+
+Then Trump sits down with Xi holding every card. Complete energy dominance. The hybrid petro/LNG-dollar fortified, Iran cleared, Russia cornered, & China facing the Malacca Trap fully closed with no remaining energy bypass.
+
+Israel & the GCC are absorbing the kinetic cost of a conflict whose primary beneficiary, counter to the mainstream narrative, is actually America (First). Qatar offline for 5 years reprices the entire global gas market in favor of US exporters for the remainder of the decade. The Gulf states face years of rebuilding. Europe faces its 2nd energy crisis in four years. 
+
+Sure, the average American might face temporary moderate inflation & higher gas prices. But if you are the architect of the US empire & you view the rise of China & Chinese ASI as an existential winner takes all scenario, the collateral damage is acceptable cost.
+
+Whoever controls the energy corridors controls the monetary system. Whoever controls the monetary system & the energy supply simultaneously controls the compute infrastructure that determines which civilization builds ASI first.
+
+The US is seizing all 3.
+
+- **Tweet:** https://x.com/_10delta_/status/2037098099823243273
+- **What:** 3 weeks ago I argued the US goal in Iran is to seize the global oil spigot. Venezuela in January ->...
+
+## @scaling_shields - seen this firsthand
+> seen this firsthand
+
+my mates uncle supplies paper napkins to 800 restaurants across the costa del sol
+
+€11M last year
+
+from napkins, a warehouse, a van and a phone
+
+met him at a bbq in marbella last summer
+
+looked like a retired PE teacher
+
+polo shirt
+sandals
+drives a 2019 volkswagen
+
+i asked my mate what his uncle does
+
+"logistics"
+
+"what kind"
+
+"he delivers napkins and paper towels to restaurants"
+
+i laughed
+
+"hes worth about €8 million"
+
+i stopped laughing
+
+later that night his uncle started talking
+
+"we buy napkins from one factory in valencia. €0.003 per napkin. we sell them to restaurants for €0.01. thats a 230% markup on something people blow their nose with and throw in the bin"
+
+"but the real money isnt the margin. its the reorder"
+
+every restaurant orders napkins
+every week
+without thinking about it
+
+"we have 800 restaurants. average order is €180/week. 52 weeks a year. do the maths"
+
+800 × €180 × 52 = €7.4M
+
+plus paper towels toilet rolls takeaway containers and cleaning supplies
+
+€11M total
+
+i asked if restaurants ever switch suppliers
+
+"why would they? its napkins. nobody has a meeting about napkins. nobody puts napkins out to tender. the chef calls me on monday like hes done for 9 years and says 'same again' and i deliver on wednesday"
+
+zero churn on a product people throw away without thinking
+
+thats the moat
+
+"what about competition?"
+
+"who wants to compete in napkins? every kid on the internet wants to build an app or start an agency. nobody wakes up and says i want to be the napkin guy. thats why ive had no real competitor in 22 years"
+
+i asked why he doesnt scale to other regions
+
+"why? i work 4 days a week. i drive my daughter to school every morning. i take august off. i made €11M last year selling things people wipe their mouth with and throw on the floor. what would scaling get me? stress?"
+
+he took a sip of wine and said the thing i think about constantly
+
+"the best business in the world is selling something nobody thinks about to customers who never switch. the moment your business is interesting enough to talk about at dinner someone will try to copy it. i sell napkins. nobody copies me. nobody wants to"
+
+there are families all over europe running businesses like this
+
+invisible
+boring
+printing
+
+while everyone fights over the same saturated markets trying to look impressive online
+
+attention attracts competition
+
+obscurity attracts profit
+>
+> *Quoting @thesamparr:* My buddy runs a company helping manufactures implement ai. 
+
+He showed me the leads he’s getting. It’s nuts. 
+
+Family businesses I’ve never heard of making $100m a year. They know the need ai but no idea what to do. 
+
+Crazy how much momey is out there
+
+- **Tweet:** https://x.com/scaling_shields/status/2037129582567166083
+- **Quoted:** https://x.com/thesamparr/status/2036953786904719361
+- **What:** seen this firsthand  my mates uncle supplies paper napkins to 800 restaurants across the costa del s...
+
+## @robzolkos - Claude Code can use a .worktreeinclude file in your project...
+> Claude Code can use a .worktreeinclude file in your project root to automatically copy gitignored files (e.g. .env, .env.local, config/secrets.json) when Claude creates a worktree.
+
+- **Tweet:** https://x.com/robzolkos/status/2037266935591702883
+- **What:** Claude Code can use a .worktreeinclude file in your project root to automatically copy gitignored fi...
+
+---
+
+# Wednesday, March 25, 2026
+
+## @mattpocockuk - Good tip for avoiding cognitive debt in codebases where AI h...
+> Good tip for avoiding cognitive debt in codebases where AI has run wild:
+
+Design the interface, delegate the implementation
+
+- **Tweet:** https://x.com/mattpocockuk/status/2036768796065640554
+- **What:** Good tip for avoiding cognitive debt in codebases where AI has run wild:  Design the interface, dele...
+
+## @thedankoe - https://t.co/tXCgwBIopZ
+> https://t.co/tXCgwBIopZ
+
+- **Tweet:** https://x.com/thedankoe/status/2036824811712942576
+- **Article:** [How to become so creative it feels illegal](https://x.com/i/article/2036821104418029568)
+- **What:** Shared link: How to become so creative it feels illegal
+
+## @posthog - https://t.co/MXYhFoOHbS
+> https://t.co/MXYhFoOHbS
+
+- **Tweet:** https://x.com/posthog/status/2036847339466301918
+- **Article:** [What we wish we knew about building AI agents](https://x.com/i/article/2036844708643667968)
+- **What:** Shared link: What we wish we knew about building AI agents
+
+---
+
+# Tuesday, March 24, 2026
+
+## @jpschroeder - This is a much bigger deal than most people rea...
+> This is a much bigger deal than most people realize. If you don't know why, let me explain.
+
+Agents perform "work" right now by calling "tools". These are just pieces of context shoved into the context window saying "if you think you the next thing you should do falls into one of these categories, then respond with this format" — that format is the "tool" a JSONSchema response which a harness then uses to call a function.
+
+MCP, is best thought of as a way to shove more tools and context into your context window (it has a lot of shortcomings imo). The agent then has to pick which tool out of all the available tools it should call. So the more tools you have, the worse it selects the tools.
+
+@threepointone and @KentonVarda have an excellent article (https://t.co/brec28Wsmm) where they introduced the idea of exposing the MCP tools as an SDK, so to call tools and compose them, the AI just does what it is ALREADY good at: write some code.
+
+The question, as always, is where do you run that code safely. Many have proposed sandboxes and containers as a possible solution, but these are hella slow and make the experience untenable.
+
+Thats what makes this announcement SO important, it allows you to run agent-written code in a matter of milliseconds with the explicit execution environment you specify pulled in (like a database, kv store, etc. Cloudflare calls these "bindings" btw).
+
+In practice, this means people can start building MUCH more effective agents that can *do* a lot more, because they can be exposed to more tools.
+
+Anyway, huge deal. Congrats to the CF team.
+>
+> *Quoting @Cloudflare:* We’re introducing Dynamic Workers, which allow you to execute AI-generated code in secure, lightweight isolates. This approach is 100 times faster than traditional containers. https://t.co/c36Vkb7I0R
+
+- **Tweet:** https://x.com/jpschroeder/status/2036448259724423482
+- **Quoted:** https://x.com/Cloudflare/status/2036429081214886183
+- **Link:** https://blog.cloudflare.com/code-mode/
+- **Link:** https://blog.cloudflare.com/dynamic-workers/?utm_campaign=cf_blog&utm_content=20260324&utm_medium=organic_social&utm_source=twitter/
+- **What:** This is a much bigger deal than most people realize. If you don't know why, l...
+
+## @AnthropicAI - New on the Anthropic Engineering Blog:   How we...
+> New on the Anthropic Engineering Blog: 
+
+How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.
+
+Read more: https://t.co/HWvmXk1ykn
+
+- **Tweet:** https://x.com/AnthropicAI/status/2036481033621623056
+- **Link:** https://www.anthropic.com/engineering/harness-design-long-running-apps
+- **What:** New on the Anthropic Engineering Blog:   How we use a multi-agent harness to ...
+
+## @iamsupersocks - Anthropic explique comment faire bosser Claude ...
+> Anthropic explique comment faire bosser Claude en autonomie pendant des heures et le concept clé à retenir s'appelle le "harness".
+
+Un harness, c'est l'architecture qui entoure le modèle : les agents, les règles, les boucles de feedback. C'est pas le modèle lui-même, c'est le système qu'on construit autour pour le faire performer. 
+
+Prithvi Rajasekaran, de l'équipe Labs chez Anthropic, raconte comment le bon harness a permis de débloquer Claude sur deux terrains : le design frontend et le développement d'apps complètes sans humain dans la boucle.
+
+Deux problèmes de fond quand un agent code seul sur une tâche longue.
+
+Premier problème : il perd le fil. 
+
+Plus le contexte s'allonge, plus il dérive. 
+
+Pire, il "sent" qu'il approche de sa limite et commence à bâcler pour en finir. 
+
+Deuxième problème : il est incapable de se juger honnêtement. 
+
+Quand tu lui demandes d'évaluer son propre travail, il se met des bonnes notes même quand le résultat est médiocre.
+
+La solution : ne jamais laisser un agent se noter lui-même.
+
+L'équipe s'inspire des GA (les réseaux adversaires du deep learning) et sépare le boulot en deux rôles distincts. 
+
+Un agent qui produit, un autre qui évalue. 
+
+Pour le frontend, l'évaluateur navigue la page en live via Playwright, note le résultat sur quatre critères (qualité visuelle, originalité, rigueur technique, fonctionnalité) et renvoie un retour détaillé. Le générateur reprend sa copie et itère entre 5 et 15 fois.
+
+Résultat → des sorties beaucoup plus ambitieuses. 
+
+Dans un cas marquant, le modèle a spontanément abandonné son approche classique pour réinventer un site de musée néerlandais en expérience spatiale 3D, avec un sol en damier en perspective CSS et une navigation par portes entre les salles.
+
+Et pour coder des apps complètes ?
+
+L'équipe applique le même principe mais avec trois agents. Le premier est un planificateur : tu lui files une phrase genre "créer un éditeur de jeux vidéo rétro 2D" et il te pond un vrai cahier des charges avec une dizaine de fonctionnalités détaillées.
+
+Le deuxième est le développeur : il code l'app fonctionnalité par fonctionnalité.
+
+Le troisième est le testeur : il ouvre l'app, clique partout comme un vrai utilisateur, et remonte les bugs concrets au développeur pour correction.
+
+Le test grandeur nature est parlant. 
+
+Avec un agent seul, tu obtiens en 20 minutes un éditeur de jeux où le mode "jouer" est tout simplement cassé. 
+
+Avec le système à trois agents, au bout de 6 heures de travail autonome, tu obtiens une app complète avec des éditeurs de sprites fonctionnels, des niveaux jouables, et même une intégration IA pour générer du contenu au prompt. 
+
+C'est plus cher, mais c'est surtout la différence entre un truc qui marche et un truc qui marche pas.
+
+Avec Opus 4.6, tout se simplifie. Le modèle tient mieux la route tout seul plus besoin de lui découper le travail en petits morceaux. 
+
+L'équipe allège l'architecture et teste sur un nouveau défi : "construire un studio de musique dans le navigateur." 
+
+-> Résultat après environ 4 heures de travail autonome : une vraie station audio avec vue arrangement, table de mixage, et un agent Claude intégré capable de composer un morceau basique de A à Z.
+
+Le point à retenir -> l'amélioration des modèles ne rend pas l'ingénierie d'orchestration obsolète. 
+
+Elle déplace le curseur. 
+
+Ce qui nécessitait un échafaudage complexe hier devient natif demain. 
+
+Mais les nouvelles capacités ouvrent des combinaisons multi-agents qu'on n'aurait même pas pu tenter avant. 
+
+L'espace des possibles ne rétrécit pas, il bouge.
+
+Bref à lire attentivement.
+>
+> *Quoting @AnthropicAI:* New on the Anthropic Engineering Blog: 
+
+How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.
+
+Read more: https://t.co/HWvmXk1ykn
+
+- **Tweet:** https://x.com/iamsupersocks/status/2036504448621511070
+- **Quoted:** https://x.com/AnthropicAI/status/2036481033621623056
+- **Link:** https://www.anthropic.com/engineering/harness-design-long-running-apps
+- **What:** Anthropic explique comment faire bosser Claude en autonomie pendant des heure...
+
+## @GoogleResearch - Introducing TurboQuant: Our new compression alg...
+> Introducing TurboQuant: Our new compression algorithm that reduces LLM key-value cache memory by at least 6x and delivers up to 8x speedup, all with zero accuracy loss, redefining AI efficiency. Read the blog to learn how it achieves these results: https://t.co/CDSQ8HpZoc https://t.co/9SJeMqCMlN
+
+- **Tweet:** https://x.com/GoogleResearch/status/2036533564158910740
+- **Link:** https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/?utm_source=twitter&utm_medium=social&utm_campaign=social_post&utm_content=gr-acct
+- **What:** Introducing TurboQuant: Our new compression algorithm that reduces LLM key-va...
+
+## @doodlestein - I had a lot of fun using Sora and got a lot of laughs with a...
+> I had a lot of fun using Sora and got a lot of laughs with absurd videos of me in various situations. 
+
+But like everyone else, I kind of got it out of my system after a couple weeks. Not to mention that my family got sick of seeing them. And so my usage collapsed to zero. And that seems to have also been the pattern writ large. 
+
+But this kind of flash-in-the-pan dynamic is devastating for a product with this kind of profile, which requires insane amounts of compute hardware to serve while also having no short-term monetization path.
+
+Meta could afford to invest in IG Reels even when it was burning money and costing them a fortune for hardware because it was building up what turned out to be sustainable usage patterns which persisted long after the initial spending ramp. 
+
+It’s basically impossible to effectively monetize anything that’s not sustainable on the order of multiple years. 
+
+A subscription-based model would see excessively high churn that would be ruinous to the economics, and also advertisers wouldn’t be interested either, for the obvious reasons.
+
+So why couldn’t this work? I don’t think that it was because the models weren’t good enough or that the depictions weren’t realistic or lifelike enough. I still marvel at some of the better outputs I was able to get from Sora.
+
+I think the fundamental problem that Sora faced is actually much broader and more general, and it comes down to the basic Pareto math of any content generation or creative app, which is that 95%+ of the users just want to passively consume content from the 5% or less that actually wants to generate it (and is capable of making anything that other people want to watch).
+
+It was really dismal to see the repetitive, trite ideas that 99% of users generated in the public feed. Just the same few dumb jokes and things they copied from other users. 
+
+Or putting themselves in a scene with their favorite fictional or cartoon characters or whatever, which of course got banned pretty quickly for copyright issues.
+
+Most people are not creative and don’t have a lot of original, interesting ideas. So that means that the vast majority of the content is always going to come from a vanishingly small number of creators in a power law distribution.
+
+And those super-creators aren’t going to want to be limited to a simple text-based interface that can only generate for 10 seconds at a time with no continuity and where large portions of things you might want to try are strictly forbidden. 
+
+They’ll instead gravitate to more customized solutions for power users that regular users would find as overwhelming to use as AutoCAD. 
+
+And that’s what you’re seeing now with all the new viral AI slop videos that are made by a handful of creators who have figured out the workflows and are pumping out the worst junk you can imagine that gets people to click and watch. 
+
+Anyway, RIP Sora; it was fun while it lasted. Thanks, Sam, for blowing a few hundred million bucks so we could get some laughs.
+>
+> *Quoting @soraofficialapp:* We’re saying goodbye to the Sora app. To everyone who created with Sora, shared it, and built community around it: thank you. What you made with Sora mattered, and we know this news is disappointing.
+
+We’ll share more soon, including timelines for the app and API and details on preserving your work. – The Sora Team
+
+- **Tweet:** https://x.com/doodlestein/status/2036575954189894100
+- **Quoted:** https://x.com/soraofficialapp/status/2036546752535470382
+- **What:** I had a lot of fun using Sora and got a lot of laughs with absurd videos of me in various situations...
+
+## @doodlestein - Agent Coding Life Hack:
+> Agent Coding Life Hack:
+
+This is like the coding agent equivalent of shining a blacklight on your clean-looking black shirt and seeing just how filthy it really is:
+
+❯ First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project. 
+
+THEN: I need you to carefully and completely look across the ENTIRE project for *anything* that is a hard-coded constant in the code which really should be dynamic in order to be correct and robust. Also look carefully for any "TODO" or the words "will" or "would" in a comment, indicative of unfinished code.
+
+---
+
+I was truly horrified by how much stuff this turned up. If you are, too, then try following it up with this one:
+
+❯ OK, please fix absolutely ALL of that now. Keep a super detailed, granular, and complete TODO list of all items so you don't lose track of anything and remember to complete all the tasks and sub-tasks you identified or which you think of during the course of your work on these items!
+
+- **Tweet:** https://x.com/doodlestein/status/2036623384235200883
+- **What:** Agent Coding Life Hack:  This is like the coding agent equivalent of shining a blacklight on your cl...
+
+---
+
+# Monday, March 23, 2026
+
+## @PrajwalTomar_ - This engineer couldn't do design.
+> This engineer couldn't do design.
+> 
+> So he built a 3-layer agent harness and now he ships complete designs. Pixels, spacing, typography, everything.
+> 
+> If design is blocking your MVP, read this.
+>
+> *Quoting @neethanwu:* https://t.co/z7p1rL84KV
+
+- **Tweet:** https://x.com/PrajwalTomar_/status/2036013596719960561
+- **Quoted:** https://x.com/neethanwu/status/2034786360356204934
+- **What:** This engineer couldn't do design.
+
+## @itsolelehmann - i deleted half my Claude setup last week and every output got BETTER
+> i deleted half my Claude setup last week and every output got BETTER
+> 
+> sounds backwards, but anthropic's own team just explained exactly why it works.
+> 
+> here's the one prompt that tells you what to cut (and you don't even have to paste anything):
+> 
+> this is what happens to everyone...
+> 
+> you get a bad output, so you add a rule to your skills. "be more concise."
+> 
+> next week, another bad output. another rule. "use a casual tone."
+> 
+> but a month later, something else breaks. "always explain technical terms."
+> 
+> you keep stacking, and it feels productive because you're fixing problems as they come up.
+> 
+> but 3 months in, you've got 30 rules piled on top of each other.
+> 
+> some of them contradict each other ("be concise" and "always explain your reasoning" are fighting).
+> 
+> some of them fix problems that the model doesn't even have anymore.
+> 
+> and the model is trying to follow all of them at once, which means it's doing none of them well.
+> 
+> it's like handing a chef a 47-step recipe when they only need 12.
+> 
+> the extra 35 steps slow the chef down, make them second-guess the parts they already know, and the dish comes out worse than if you'd just let them cook.
+> 
+> that's what over-prompting does.
+> 
+> anthropic just published a piece on how they build claude code (the ai coding agent).
+> 
+> their own engineering team found that their scaffolding was making the ai worse
+> 
+> which means your custom instructions are almost certainly doing the same thing.
+> 
+> so here's the actionable move...
+> 
+> instead of manually reading through your setup line by line, just tell claude to audit itself.
+> 
+> if you're in claude's desktop app, claude already has access to your:
+> 
+> claude[.]md (the file where your preferences and rules live), your skills folder (where your reusable instruction files are stored), your context files, everything.
+> 
+> just open claude code/cowork and say this:
+> 
+> —
+> 
+> "read my entire setup before responding. check my claude .md, every skill in my skills folder, every file in my context folder, and any other instruction files you can find.
+> 
+> then go through every rule, instruction, and preference you found. for each one, tell me:
+> 
+> 1. is this something you already do by default without being told?
+> 2. does this contradict or conflict with another rule somewhere else in my setup?
+> 3. does this repeat something that's already covered by a different rule or file?
+> 4. does this read like it was added to fix one specific bad output rather than improve outputs overall?
+> 5. is this so vague that you'd interpret it differently every time? (ex: 'be more natural' or 'use a good tone')
+> 
+> then give me a list of everything you'd cut with a one-line reason for each, a list of any conflicts you found between files, and a cleaned up version of my claude.md with the dead weight removed."
+> 
+> —
+> 
+> one message. claude goes and reads your entire setup, audits it, and comes back with exactly what to cut and why.
+> 
+> you don't dig through files, you don't read every rule yourself. it does the whole thing.
+> 
+> once you get the results, don't just blindly delete everything it flags.
+> 
+> here's the process:
+> 
+> 1. read what it flagged and why
+> 2. delete the flagged rules
+> 3. run your 3 most common tasks with the trimmed setup
+> 4. did the output stay the same or get better? the deleted rules were dead weight
+> 5. did something specific break? add back just that one rule
+> 
+> the goal is to find the minimum viable setup that gets you the output you want.
+> 
+> your ai setup should be getting simpler over time.
+> 
+> addition by subtraction baby
+
+- **Tweet:** https://x.com/itsolelehmann/status/2036065138147471665
+- **What:** i deleted half my Claude setup last week and every output got BETTER
+
+## @jpschroeder - We’re open sourcing ArrowJS 1.0: the first UI framework for coding agents.
+> We’re open sourcing ArrowJS 1.0: the first UI framework for coding agents.
+> 
+> Imagine React/Vue, but with no compiler, build process, or JSX transformer. It’s just TS/JS so LLMs are already *great* at it.
+> 
+> AND run generated code securely w/ sandbox pkg.
+> 
+> ➡️ https://t.co/y477CtT6qY https://t.co/mvUTv6KV0C
+
+- **Tweet:** https://x.com/jpschroeder/status/2036078689754992886
+- **Link:** https://arrow-js.com/
+- **What:** We’re open sourcing ArrowJS 1.0: the first UI framework for coding agents.
+
+## @BradGroux - Something is up with Claude Code usage today. $...
+> Something is up with Claude Code usage today. $200 Claude Max, 0%, 52% to 62%, then 68%, 76% and 84% in 5-hour rolling window in the time it took me to write this tweet. WTF, @AnthropicAI? I'm working on one GitHub PR for regression testing. Not folding proteins to cure cancer. https://t.co/TRXbzEIhpF
+
+- **Tweet:** https://x.com/BradGroux/status/2036107512487751858
+- **What:** Something is up with Claude Code usage today. $200 Claude Max, 0%, 52% to 62%...
+
+## @lennysan - This is a the future  "Littlebird is a desktop ...
+> This is a the future
+
+"Littlebird is a desktop app that remembers everything you’ve been working on – meetings, messages, docs, browsing - and helps you stay focused, prioritize, recall, and move projects forward. It uses screen reading to understand all the text on screen, for all applications, and uses that context to build a rich understanding of your life: who matters to you, what you're working on, and what you care about this week and this year."
+>
+> *Quoting @alexframegreen:* https://t.co/JGP0fKXQLo
+
+- **Tweet:** https://x.com/lennysan/status/2036144971380826478
+- **Quoted:** https://x.com/alexframegreen/status/2036120999348019439
+- **What:** This is a the future  "Littlebird is a desktop app that remembers everything ...
+
+## @RampLabs - https://t.co/26LQlUoVas
+> https://t.co/26LQlUoVas
+
+- **Tweet:** https://x.com/RampLabs/status/2036165188899012655
+- **What:** https://t.co/26LQlUoVas
+
+## @rohandave_ - “toilet arbitrage” is #1 guaranteed way to make...
+> “toilet arbitrage” is #1 guaranteed way to make fuck you money with consumer apps (i'd say DON'T follow this, but even publicly traded tech companies follow this so its your call):
+
+> your entire funnel has to work while someone is on their toilet for 15 minutes
+> they’re scrolling their feed, medium depressed, comparing their life to strangers (avg human experience in 2026)
+> your app shows up on feed → it must spike their dopamine in 3 seconds
+> their hormones MUST escalate with every onboarding screen
+> 15 minutes in, they’re emotionally invested in the outcome without having tried the app
+> slap a hard paywall, no free trial
+
+if you get 40K downloads/mo
+5-10% of people will pay $50
+
+understand that they're mainly paying so they feel like they didn’t waste their time (be real with yourself)
+
+that’s $150K/mo for you funded by people who just stood up from their toilet seat
+
+welcome to the its lonely at the top club.
+
+- **Tweet:** https://x.com/rohandave_/status/2036209018524541160
+- **What:** “toilet arbitrage” is #1 guaranteed way to make fuck you money with consumer ...
+
+## @doodlestein - Agent Coding Life Hack:  Whenever your agent fi...
+> Agent Coding Life Hack:
+
+Whenever your agent finds and fixes a bug in your project, don't let it just stop there. 
+
+Ask it to also create comprehensive end-to-end integration tests that would have caught that bug and all similar types of bugs in the future:
+
+"Also I need you, once you've fixed and verified each of those problems is completely resolved and working properly, to create extremely in-depth e2e integration tests that would have caught each of those issues plus any other similar issues of the same basic kind so this sort of thing can't happen again in the future."
+
+Not only will this harden your project, but you might be surprised at just how many additional new bugs and problems it immediately flushes out into the open.
+
+- **Tweet:** https://x.com/doodlestein/status/2036236834507047288
+- **What:** Agent Coding Life Hack:  Whenever your agent finds and fixes a bug in your pr...
+
+## @doodlestein - Skills and custom tooling just change everythin...
+> Skills and custom tooling just change everything about how quickly you can communicate extremely complex instructions to agents. 
+
+I'm now able to operate at such a refined level of economy of expression, and it's all so wonderfully self-referential and self-reinforcing. 
+
+What am I even talking about? 
+
+See this prompt I just used in the project folder for my https://t.co/fAdDXiANf0 site; this approach lets me turn all the work I would do anyway for the site into "teachable moments" for other agents:
+
+---
+
+❯ Reread AGENTS .md so it's still fresh in your mind. I want you to use your /cass and /sc skills to read about what we did in this project over the last two days to create an elaborate analytics system for projecting user behavior, churn, billing, etc. for this SaaS product; I want you to use /sw and /operationalizing-expertise to generalize from these specifics to create within the /cs location a new skill called saas-customer-analytics that operationalizes all this in a general, detailed way. 
+
+The new skill should be super elaborate and in-depth, just like existing sophisticated skills like the ones I asked you to use in here (you can also consult /extreme-software-optimization for another solid example). 
+
+Really take the time to fully understand what we did and why, and the inner, abstract principles at work so that the skill is more universally applicable to various kinds of SaaS business ventures that also connect to Stripe and PayPal for billing.
+---
+
+Once this initial version is done, I will do several rounds of refinement and optimization using another skill writing meta skill of mine (one of a small handful I've kept private, even from my website-- sorry!).
+
+The goal there is to make the skill maximally agent-intuitive and agent-ergonomic by using progressive disclosure in the optimal way possible, making the top level skill file as clear and direct as can be, etc.
+
+Finally, I'll onboard it to my site using my /onboarding-new-skills-to-jeffreys-skills-md skill, which in turn will do things like create a slick interactive visualization for the new skill using my /interactive-visualization-creator (this one IS included in the site!). 
+
+Starting to get the idea? Skills are a LOT more than just markdown files. The fact that you can use the same skills with Claude, Codex, and Gemini is also so incredibly useful and powerful. 
+
+The same skill, when wielded by different agent harnesses and different frontier models, leads to very different outcomes! Iterative refinement from applying the same skill using multiple agent types is another big unlock.
+
+And I'm not just saying all this stuff to promote my site. I literally use all of these skills, all day, every day, across all of my projects. 
+
+The thought of managing an agent swarm using my ntm tool without my /ntm and /vibing-with-ntm skills is enough to make me shudder at all the extra, annoying typing and explaining I would need to do to get anything close to the same results. Same goes for my /cass skill and all the rest.
+
+And btw, the agent sessions from the last two days that I'm mining with /cass to build that new SaaS analytics skill? All that stuff was built using an array of other skills, including my (non-public) alien artifact skills and idea wizard skill and many more.
+
+If you're already using my Agent Flywheel tools, having easy access to these skills is an enormous force multiplier. And I basically shovel every new skill and improvement to existing skills that I make out to users on a daily basis now.
+
+- **Tweet:** https://x.com/doodlestein/status/2036280197851320530
+- **Link:** https://jeffreys-skills.md/
+- **What:** Skills and custom tooling just change everything about how quickly you can co...
+
+---
+
+# Sunday, March 22, 2026
+
+## @godofprompt - 🚨 Holy shit… Columbia University just dropped one of the most unsettling papers on AI inference I’ve read in a long time.
+> 🚨 Holy shit… Columbia University just dropped one of the most unsettling papers on AI inference I’ve read in a long time.
+> 
+> They proved that the entire private AI inference industry built the wrong thing.
+> 
+> Prior methods: encrypt the full transformer. 280GB per query. 60-second latency. Enterprise-grade security theater.
+> 
+> GPT, Gemini, Qwen, and Mistral independently converged to nearly identical internal representations. One linear equation connects them.
+> 
+> > Sub-second inference. 1MB of communication. Same security guarantees.
+> 
+> > The private AI inference problem is real. Hospitals can't send patient data to OpenAI. Banks can't send transaction records to Google. Legal firms can't send case files to Anthropic. The solution the industry built: encrypt everything every layer, every attention head, every weight using homomorphic encryption and secure multi-party computation. The result: 280GB of encrypted communication per query. 60-second latency.
+> 
+> > Infrastructure costs that make production deployment practically impossible.
+> 
+> > Columbia University found the shortcut everyone missed. The Platonic Representation Hypothesis the observation that large models trained on enough data tend to converge toward a shared statistical understanding of the world turns out to be exploitable. GPT, Gemini, Qwen, Mistral, and Cohere, trained independently on different data with different architectures for different objectives, developed internal representations with CKA similarity scores between 0.595 and 0.881. That's not close.
+> 
+> > That's essentially the same space.
+> 
+> > If the spaces are the same, you don't need to encrypt the model. You learn a single affine transformation one matrix that maps your model's internal representations into the provider's space. Encrypt that matrix.
+> 
+> > Send it. The provider runs one linear classification operation on encrypted data and returns the encrypted prediction. You decrypt locally. The transformer never gets encrypted. The weights never get exposed. The query never leaves your control in readable form.
+> 
+> > HELIX is the system they built on this insight. During training, the client encrypts their embeddings from public data and sends them to the provider, who computes the alignment map under encryption and returns it. During inference, the client applies the alignment locally, encrypts the transformed representation, and sends it. The provider applies a linear classifier homomorphically and returns the encrypted prediction.
+> 
+> > Multiplicative depth of one. No bootstrapping required. 128-bit security by CKKS standard.
+> 
+> → Prior methods communication cost: 280.99GB per query (Iron), 25.74GB (BOLT), 68.6GB (MPCFormer)
+> → HELIX communication cost: less than 1MB per query
+> → Prior methods latency: 20-60+ seconds per query
+> → HELIX latency: sub-second
+> → Cross-model CKA similarity: 0.595 to 0.881 across GPT, Gemini, Qwen, Mistral, Cohere
+> → Text generation quality: 60-70% of single-model baseline for high-compatibility pairs
+> → Tokenizer compatibility predicts generation quality with r=0.898
+> 
+> The finding that should end careers: models above 4B parameters with tokenizer compatibility above 0.7 exact match rate can generate coherent text across model families using only a linear transformation.
+> 
+> Qwen encoding. Llama decoding. No fine-tuning. No weight sharing. No data transfer. Just matrix multiplication applied to the boundary between two independently trained systems that accidentally became the same thing.
+
+- **Tweet:** https://x.com/godofprompt/status/2035697480227266950
+- **What:** 🚨 Holy shit… Columbia University just dropped one of the most unsettling papers on AI inference I’ve read in a long time.
+
+## @meodai - I've been building a Claude Code skill that turns Claude into a color science expert.
+> I've been building a Claude Code skill that turns Claude into a color science expert.
+> 
+> 113 reference files. 286K words. From Helmholtz (1856) to OKLCH. 
+> 
+> Install in one line:
+> git clone https://t.co/2amC74icMo ~/.claude/skills/color-expert
+
+- **Tweet:** https://x.com/meodai/status/2035766552692134273
+- **Link:** https://github.com/meodai/skill.color-expert
+- **What:** I've been building a Claude Code skill that turns Claude into a color science expert.
+
+## @rauchg - Code is an output. Nature is healing.
+> Code is an output. Nature is healing.
+> 
+> For too long we treated code as input. We glorified it, hand-formatted it, prettified it, obsessed over it.
+> 
+> We built sophisticated GUIs to write it in: IDEs. We syntax-highlit, tree-sat, mini-mapped the code. Keyboard triggers, inline autocompletes, ghost text. “What color scheme is that?”
+> 
+> We stayed up debating the ideal length of APIs and function bodies. Is this API going to look nice enough for another human to read?
+> 
+> We’re now turning our attention to the true inputs. Requirements, specs, feedback, design inspiration. Crucially: production inputs. Our coding agents need to understand how your users are experiencing your application, what errors they’re running into, and turn *that* into code.
+> 
+> We will inevitably glorify code less, as well as coders. The best engineers I’ve worked with always saw code as a means to an end anyway. An output that’s bound to soon be transformed again.
+
+- **Tweet:** https://x.com/rauchg/status/2035829366165471702
+- **What:** Code is an output. Nature is healing.
+
+---
+
+# Saturday, March 21, 2026
+
+## @HansAmato - You didn't "lose your edge" in your 30s. Your methylation broke dow...
+> You didn't "lose your edge" in your 30s. Your methylation broke down and nobody told you it was even a thing
+
+That sharpness you had at 24 where you could work all day, go out at night, sleep 5 hours, and still think clearly the next morning wasn't youth. It was a body that could process and recycle neurotransmitters efficiently. Dopamine got made. Serotonin got made. They got used and cleared and rebuilt in a loop that ran clean
+
+Then your B12 started dropping because your stomach acid declined from years of stress and coffee on an empty stomach. Your folate utilization shifted because you've got an MTHFR variant you've never been tested for.
+
+Your homocysteine crept up quietly. Your SAMe production fell off.
+
+And now you can't focus. You're irritable for no reason. You have this low-grade brain fog that never fully clears. Caffeine used to sharpen you up and now it just makes you anxious. You forget why you walked into rooms. You used to read for hours and now you can't finish a paragraph
+
+You went to your doctor and he said "that's just getting older." Maybe prescribed something for focus or anxiety. Probably didn't test homocysteine. Definitely didn't test methylmalonic acid or run a functional B12 panel
+
+You're running a cofactor bottleneck in the one-carbon metabolism cycle that controls how your brain makes, uses, and clears every neurotransmitter you rely on to function.
+
+Actually fixing it:
+
+Get homocysteine tested. If it's above 8 you have a methylation issue whether you "feel" it or not
+
+Active B vitamins (methylfolate + methylcobalamin + P5P). Not the cheap cyanocobalamin garbage in your CVS multivitamin that your body can barely convert
+
+Creatine. Handles roughly 40% of your methylation burden and takes pressure off the whole system
+
+Eat enough protein. Methionine from animal protein feeds the cycle. Vegans and undereaters run dry here first
+
+Glycine and collagen. Glycine is the biggest consumer of methyl groups in the body. Supplementing it directly reduces demand on the cycle
+
+Fix the gut (obviously). B12 absorption requires intrinsic factor and adequate stomach acid. If your gut is wrecked, oral B12 barely touches it
+
+Your biochemistry is running on empty and every doctor you've seen has mistaken a nutrient bottleneck for time passing.
+
+I break down the full methylation pathway, what to test, and exactly how to restore it on my substack. link in bio
+
+- **Tweet:** https://x.com/HansAmato/status/2035370916620984372
+- **What:** You didn't "lose your edge" in your 30s. Your methylation broke dow...
+
+## @trq212 - I put a lot of heart into my technical writing, I hope it's useful to you all.
+> I put a lot of heart into my technical writing, I hope it's useful to you all. 
+> 
+> 📌 Here's a pinned thread of everything I've written.
+> 
+> (much of this will be posted on the Claude blog soon as well)
+
+- **Tweet:** https://x.com/trq212/status/2035372716820218141
+- **What:** I put a lot of heart into my technical writing, I hope it's useful to you all.
+
+## @rohit4verse - If you use Claude Code and build AI agents, @trq212 's articles are not optional reading.
+> If you use Claude Code and build AI agents, @trq212 's articles are not optional reading.
+> 
+> They are the instruction manual the team actually follows internally.
+> 
+> I have read every single piece he has published. Here's everything I learned from him:
+> 
+> PROMPT CACHING:
+> 
+> Claude Code's entire harness is built around prompt caching. They declare SEVs when cache hit rate drops
+> 
+> It's a prefix match. Order matters enormously
+> 
+> Their prompt layout:
+> > Static system prompt + tools (globally cached) 
+> > CLAUDE.md (cached per project) 
+> > Session context (cached per session) 
+> > Conversation messages
+> 
+> What kills the cache: 
+> > Timestamps in static prompts 
+> > Shuffling tool order 
+> > Adding/removing tools mid-session 
+> > Switching models mid-conversation
+> 
+> Instead of editing the system prompt, they inject <system-reminder> in the next user message which preserves the cache completely
+> 
+> Plan Mode: the obvious approach is swapping to read-only tools 
+> 
+> That breaks the cache, instead they keep ALL tools loaded and use EnterPlanMode/ExitPlanMode as tools themselves 
+> 
+> Bonus: the model can enter plan mode on its own when it detects a hard problem
+> 
+> For unused MCP tools: they don't remove them, they send lightweight stubs with defer_loading: true 
+> 
+> Full schemas load only when the model discovers them via ToolSearch
+> 
+> Compaction (context overflow): they fork with the exact same prefix so the cache is reused 
+> 
+> Only new tokens are the compaction prompt itself
+> 
+> Switching from Opus to Haiku mid-session? Actually MORE expensive because you rebuild the entire cache Use subagents with handoff messages instead
+> 
+> TOOL DESIGN:
+> 
+> The AskUserQuestion tool took 3 attempts: 
+> 
+> > Adding questions to ExitPlanTool confused the model > Modified markdown output was inconsistent 
+> > Dedicated tool with structured output worked. 
+> 
+> Claude actually liked calling it
+> 
+> Even the best designed tool fails if the model doesn't understand how to call it
+> 
+> Todos got replaced by Tasks as models improved
+> 
+> Early Claude Code needed reminders every 5 turns Smarter models found this limiting and stuck rigidly to the list 
+> 
+> Tasks support dependencies, cross-subagent updates, and can be altered/deleted
+> 
+> The takeaway: tools your model once needed might now be constraining it
+> 
+> Search went from RAG → Grep → Skills with progressive disclosure
+> 
+> Over a year Claude went from needing context handed to it to doing nested search across multiple layers on its own
+> 
+> Claude Code has ~20 tools. The bar to add a new one is high Every tool is one more option the model has to think about
+> 
+> SKILLS:
+> 
+> Skills are not markdown files. They're folders with scripts, assets, data, config options, and dynamic hooks
+> 
+> 9 categories they've identified: 
+> > Library & API Reference 
+> > Product Verification 
+> > Data & Analysis 
+> > Business Automation 
+> > Code Scaffolding 
+> > Code Quality & Review 
+> > CI/CD & Deployment 
+> > Runbooks 
+> > Infrastructure Ops
+> 
+> What makes a skill great:
+> 
+> > Don't state the obvious. Focus on what pushes Claude out of default patterns 
+> > Gotchas section is the highest-signal content. Built from real failure points over time 
+> > Use the file system for progressive disclosure. Reference docs, templates, scripts 
+> > Don't railroad with rigid steps. Give information and flexibility 
+> > Description field is for the model. It's what Claude scans to decide if a skill matches 
+> > Skills can store memory: logs, JSON, SQLite. Use ${CLAUDE_PLUGIN_DATA} for persistence 
+> > Give Claude scripts so it composes instead of reconstructing boilerplate 
+> > On-demand hooks: /careful blocks destructive commands, /freeze locks edits to a directory
+> 
+> Distribute via repos for small teams, plugin marketplace at scale Let skills prove themselves organically before promoting
+> 
+> FILE SYSTEM + BASH:
+> 
+> Every agent benefits from a file system It represents state the agent reads into context and uses to verify its own work
+> 
+> You don't need to remember everything You need to know how to find it
+> 
+> His advice after dozens of calls with companies building general agents: "Use the bash tool more"
+> 
+> Instead of fetching 100 emails via tool calls and hoping the model figures it out Save to files. Search. Ground in code. Take multiple passes. Verify.
+> 
+> PLAYGROUNDs:
+> 
+> A plugin that generates standalone HTML files for visual, interactive problem-solving Architecture visualisation, design tweaking, game balancing, inline writing critique
+> 
+> The tip: think of a unique way of interacting with the model and ask it to express that
+> Bookmark this. You'll keep coming back.
+>
+> *Quoting @trq212:* I put a lot of heart into my technical writing, I hope it's useful to you all. 
+
+📌 Here's a pinned thread of everything I've written.
+
+(much of this will be posted on the Claude blog soon as well)
+
+- **Tweet:** https://x.com/rohit4verse/status/2035409223740428646
+- **Quoted:** https://x.com/trq212/status/2035372716820218141
+- **What:** If you use Claude Code and build AI agents, @trq212 's articles are not optional reading.
+
+## @scaling_shields - stripe isnt a payment processor, its a shadow bank that earns $500 off your frozen account while you beg support for help
+
+right now thousands of sellers have $5,000-$50,000 locked in stripe
+
+they call it a "risk review"
+
+what theyre actually doing is investing your cash in overnight money markets and pocketing the returns while you refresh your dashboard hoping the hold lifts
+
+payment processors are legally allowed to invest customer funds during holds
+
+its called the "float"
+
+visa reported $1.
+> stripe isnt a payment processor, its a shadow bank that earns $500 off your frozen account while you beg support for help
+> 
+> right now thousands of sellers have $5,000-$50,000 locked in stripe
+> 
+> they call it a "risk review"
+> 
+> what theyre actually doing is investing your cash in overnight money markets and pocketing the returns while you refresh your dashboard hoping the hold lifts
+> 
+> payment processors are legally allowed to invest customer funds during holds
+> 
+> its called the "float"
+> 
+> visa reported $1.2 billion in float income in a single quarter
+> 
+> the longer they hold your money the more they make
+> 
+> they profit from your panic
+> 
+> heres how it works:
+> 
+> you start selling online
+> 
+> payments clear in 2 days. everything is fine
+> 
+> then you have a good month
+> 
+> revenue spikes 30%
+> 
+> stripes algorithm flags it as "unusual activity"
+> 
+> you get an email:
+> 
+> "weve placed a temporary hold on your funds while we review your account for potential risk"
+> 
+> no explanation, timeline or human to call
+> 
+> just a chatbot sending you in circles while they earn interest on your revenue
+> 
+> average hold: 90-180 days
+> 
+> $200-500 in interest earned per $50,000 held
+> 
+> across hundreds of thousands of accounts
+> 
+> the triggers that freeze your money:
+> 
+> - revenue spike - even if its just a good month
+> - refund rate above 1%
+> - selling coaching supplements or digital products
+> - chargebacks above 0.65%
+> - too many transactions from one country
+> 
+> none mean youre a scammer
+> 
+> all trigger an automated hold with zero human review
+> 
+> how to prevent it:
+> 
+> never rely on one processor holding all your cash - keep a reserve in a separate account
+> 
+> run stripe AND a backup simultaneously
+> 
+> keep refund rate under 0.8%
+> 
+> respond to every dispute within 24 hours
+> 
+> never let revenue spike 30%+ without emailing your account rep first explaining why
+> 
+> no account rep means no relationship means youre just another flag waiting to trigger
+> 
+> if your money is already frozen send this exact email to support AND compliance:
+> 
+> "i am requesting immediate review of my account hold. merchant in good standing since [date]. chargeback rate [X%]. refund rate [X%]. requesting specific explanation of what triggered this hold. if i do not receive substantive response within 48 hours i will file complaints with the CFPB and my state attorney general"
+> 
+> the CFPB is the weapon
+> 
+> consumer financial protection bureau complaints get escalated internally at every processor
+> 
+> most holds get reviewed within a week of filing
+> 
+> stripe does not want regulators examining their hold practices
+> 
+> three letters change the entire conversation
+> 
+> your money isnt frozen because youre suspicious
+> 
+> its frozen because freezing it is profitable
+> 
+> stop refreshing your dashboard
+> 
+> start filing
+> 
+> its your money
+
+- **Tweet:** https://x.com/scaling_shields/status/2035445598338588907
+- **What:** stripe isnt a payment processor, its a shadow bank that earns $500 off your froz...
+
+## @aakashgupta - Game designers figured this out decades ago and it cost millions in failed launches.
+> Game designers figured this out decades ago and it cost millions in failed launches.
+> 
+> Will Wright built SimCity with a fully accurate traffic simulation. Testers hated it. The cars behaved realistically, which meant nobody could build a functioning city because real traffic is an unsolvable nightmare. He had to make the simulation dumber before the game became fun.
+> 
+> The tension is permanent: the more accurately you model a system, the more it punishes the participant. Real medieval economies kept 90% of the population in subsistence farming. A historically accurate fantasy world doesn't produce heroes. It produces serfs.
+> 
+> Tolkien solved this by making his economy deliberately vague. No one knows what a gold coin buys in Gondor. That ambiguity is a design choice, not a shortcut.
+> 
+> The Reddit post is funny. The lesson underneath it is one of the hardest problems in simulation design: fidelity and fun are opposing forces, and you have to pick which one wins.
+>
+> *Quoting @OliverWDahl:* The more I think about this the funnier it gets https://t.co/AsG2MK2UrC
+
+- **Tweet:** https://x.com/aakashgupta/status/2035559592948912173
+- **Quoted:** https://x.com/OliverWDahl/status/2035434421197926618
+- **What:** Game designers figured this out decades ago and it cost millions in failed launches.
+
+---
+
+# Friday, March 20, 2026
+
+## @oskargroth - Wasn't joking about this one btw
+> Wasn't joking about this one btw
+
+You can reverse-engineer pretty much any part of Apple platform internals in seconds using Claude or Codex with Hopper MCP https://t.co/lBxuJ3ElCH
+>
+> *Quoting @oskargroth:* @sids7 Connect to Hopper MCP and it’s basically as good as having access to all of Apple’s internal source code...
+
+- **Tweet:** https://x.com/oskargroth/status/2035000578443538656
+- **Quoted:** https://x.com/oskargroth/status/2034939532404040081
+- **What:** Wasn't joking about this one btw
+
+## @rileytomasek - https://t.co/zYgrY66RdV
+> https://t.co/zYgrY66RdV
+
+- **Tweet:** https://x.com/rileytomasek/status/2035042454483714317
+- **Link:** https://x.com/i/article/2034986002314403840
+- **What:** https://t.co/zYgrY66RdV
+
+## @doodlestein - Making some serious performance strides on FrankenSQLite in the cas...
+> Making some serious performance strides on FrankenSQLite in the case of multiple concurrent writers.
+
+Normally I just have a bunch of independent agents running and executing beads, but for this I leaned more on my ntm tool to have Claude Code direct a swarm of 6 Claude Codes. https://t.co/48ncR4Hbdo
+
+- **Tweet:** https://x.com/doodlestein/status/2035063908759654704
+- **What:** Making some serious performance strides on FrankenSQLite in the cas...
+
+## @0xSero - I'm not the only one doing this.
+> I'm not the only one doing this. 
+
+- karpathy
+
+best thought leader, best person to learn from imo. Nanochat is the best way to get into training LLMs its the simplest and most digestible source for building your first AI model
+
+- steipete
+
+This guys GitHub is a national treasure, his writing is also very strong.   Peekaboo, https://t.co/u0cve9Ukze, openclaw, oracle, just talk to it, etc.. all unique and very useful
+
+- badlogicgames
+
+Mario’s Pi is a staple AI engine and possibly the best, simplest, open source agentic loop to learn from.   Despite what people say about his methods, I think he’s going to set some new standards for Open source contribution. Big respect.
+
+- TheAhmadOsman
+
+This man is the GPU king, giveaways and lots of dense educational content around self hosting and home inference.   He’s also tight with pretty much all the open weight labs and has them on for interviews regularly
+
+- sudoingX 
+
+This is an up and comer who will change the game, he's pushing the limits of what a single gpu can do 
+
+- Ex0byt 
+
+I can confidently say this man will be fundamental in making local inference on massive models possible.
+
+- alexinexxx
+
+I genuinely feel motivated by her drive. She’s a real hard worker learning about GPU kernel programming.   Also good aesthetics
+
+- gospaceport
+
+I would not have gotten into building my own hardware without this man’s hard work. He’s taught me so much about hardware and the economics of this.   He also has the most impressive homelabs I’ve ever seen.
+
+- alexocheema
+
+The founder of Exolabs, pioneering Apple hardware inference, he’s also very engaged in the community and a good guy all around.   If you are interested in Mac minis and Mac Studios this is your guys. 
+
+- nummanali
+
+This guy is so prolific, he’s made tons of CLI tools for managing llm subscription budgets, using Claude code with alternative models etc.. 
+
+- thdxr 
+
+The entire Opencode team is wonderful but Dax specifically is a good writer.   More anti-doomer content to sooth your anxieties.   
+
+- juliarturc
+
+If you are interested in the science, Julias channel is where it’s at. Almost everything I’ve learned about LLM compression has been from her.
+
+- Teknium
+
+The Nous research & Prime intellect teams are both some of the most hard-working and principled people around.   Tough fight in an industry so aggressive.
+
+- victormustar 
+
+Head of Product for Huggingface, enabling us all to publish our work. 
+
+- louszbd
+
+Head of community at ZAI some of the top LLMs available right now that are open weights. They supercharged the movement
+
+- SkylerMiao7 
+
+Making frontier intelligence fit on 10k USD of hardware. Via MiniMax
+
+- crystalsssup 
+
+Building the best Open Weight model on the market, and releasing their latest research before their next gen model. 
+
+Believe it or not these people are carrying the entire industry and giving us a fighting chance.
+
+- **Tweet:** https://x.com/0xSero/status/2035064089345478658
+- **Link:** https://summarize.sh/
+- **What:** I'm not the only one doing this.
+
+## @steveschoger - I put together a one hour video on how I've been using Claude Code ...
+> I put together a one hour video on how I've been using Claude Code as my primary design tool. 
+
+Packed with tons of 🔥 design tips. https://t.co/rjNcNfXBNg
+
+- **Tweet:** https://x.com/steveschoger/status/2035077141050622173
+- **What:** I put together a one hour video on how I've been using Claude Code ...
+
+## @aakashgupta - Evals are the new PRD.
+> Evals are the new PRD.
+
+The companies building AI products that actually work are running 12.8 eval experiments per day. Here is the playbook with @ankrgyl, Founder and CEO of @braintrust ($800M valuation, behind Vercel, Replit, Ramp, Zapier, Notion, Airtable):
+
+⏱ 1:43 Why vibe checks stop scaling
+⏱ 6:35 Evals are the new PRD
+⏱ 8:45 The Claude Code evals controversy
+⏱ 18:48 Building an eval live from zero
+⏱ 29:51 Connecting Linear MCP and iterating
+⏱ 39:12 Why you need evals that fail
+⏱ 43:36 Offline vs online evals
+⏱ 47:40 Three mistakes killing eval culture
+
+The core framework: every eval is exactly three things. A set of inputs your product needs to handle. A task that takes those inputs and generates outputs. A scoring function that produces a number between 0 and 1.
+
+We built one from scratch on camera. Score went from 0 to 0.75 in under 20 minutes.
+
+- **Tweet:** https://x.com/aakashgupta/status/2035088727664677257
+- **What:** Evals are the new PRD.
+
+---
+
+# Thursday, March 19, 2026
+
+## @thesophiaxu - Open-sourcing this tool! try it yourself, or point your coding agen...
+> Open-sourcing this tool! try it yourself, or point your coding agent to `docs/SPEC.md` to customize a version for you from the ground up
+>
+> *Quoting @thesophiaxu:* tool i've been building: it OCRs my screen in background (like Rewind), hierarchially-summarizes into a timeline, then makes it available via a local api
+
+then i just point claude code at it and ask i...
+
+- **Tweet:** https://x.com/thesophiaxu/status/2034786606079779171
+- **Quoted:** https://x.com/thesophiaxu/status/2032324204507628026
+- **What:** Open-sourcing this tool! try it yourself, or point your coding agen...
+
+## @heynavtoor - 🚨Someone just open sourced a computer that works when the entire i...
+> 🚨Someone just open sourced a computer that works when the entire internet goes down.
+
+It's called Project N.O.M.A.D.
+
+A self-contained offline survival server with AI, Wikipedia, maps, medical references, and full education courses.
+
+No internet. No cloud. No subscription. It just works.
+
+Here's what's packed inside:
+
+→ A local AI assistant powered by Ollama (works fully offline)
+→ All of Wikipedia, downloadable and searchable
+→ Offline maps of any region you choose
+→ Medical references and survival guides
+→ Full Khan Academy courses with progress tracking
+→ Encryption and data analysis tools via CyberChef
+→ Document upload with semantic search (local RAG)
+
+Here's the wildest part:
+
+A solar panel, a battery, a mini PC, and a WiFi access point. That's it. That's your entire off-grid knowledge station. 15 to 65 watts of power. Works from a cabin, an RV, a sailboat, or a bunker.
+
+Companies sell "prepper drives" with static PDFs for $185. This gives you a full AI brain, an entire encyclopedia, and real courses for free.
+
+One command to install.
+
+100% Open Source. Apache 2.0 License.
+
+- **Tweet:** https://x.com/heynavtoor/status/2034817556733931564
+- **What:** 🚨Someone just open sourced a computer that works when the entire i...
+
+---
+
+# Wednesday, March 18, 2026
+
+## @toddsaunders - I know Silicon Valley startups don't want to hear this.....
+> I know Silicon Valley startups don't want to hear this.....
+
+But the combination of someone in the trades with deep domain expertise and Claude Code will run circles around your generic software.
+
+I talked to Cory LaChance this morning, a mechanical engineer in industrial piping construction in Houston. He normally works with chemical plants and refineries, but now he also works with the terminal
+
+He reached out in a DM a few days ago and I was so fired up by his story, I asked him if we could record the conversation and share it.
+
+He built a full application that industrial contractors are using every day. It reads piping isometric drawings and automatically extracts every weld count, every material spec, every commodity code.
+
+Work that took 10 minutes per drawing now takes 60 seconds. It can do 100 drawings in five minutes, saving days of time.
+
+His co-workers are all mind blown, and when he talks to them, it's like they are speaking different languages.
+
+His fabrication shop uses it daily, and he built the entire thing in 8 weeks. During those 8 weeks he also had to learn everything about Claude Code, the terminal, VS Code, everything.
+
+My favorite quote from him was when he said, "I literally did this with zero outside help other than the AI. My favorite tools are screenshots, step by step instructions and asking Claude to explain things like I'm five."
+
+Every trades worker with deep expertise and a willingness to sit down with Claude Code for a few weekends is now a potential software founder.
+
+I can't wait to meet more people like Cory.
+
+- **Tweet:** https://x.com/toddsaunders/status/2034243420147859716
+- **What:** I know Silicon Valley startups don't want to hear this.....  But the combination of someone in the trades with deep domain expertise and Claude Code will run circles around your generic software.  I t...
+
+## @mattpocockuk - For weeks, folks have been asking me to make a video buildin...
+> For weeks, folks have been asking me to make a video building a feature with Claude Code in a real codebase
+
+So here you go:
+
+- From idea to AFK agent to QA
+- Every single step explained
+- No slop allowed https://t.co/DUGpIsNxmk
+
+- **Tweet:** https://x.com/mattpocockuk/status/2034274298915889604
+- **What:** For weeks, folks have been asking me to make a video building a feature with Claude Code in a real codebase  So here you go:  - From idea to AFK agent to QA - Every single step explained - No slop all...
+
+## @zarazhangrui - Wow my frontend-slides skill now has 10k stars on GitHub
+> Wow my frontend-slides skill now has 10k stars on GitHub 
+
+So many people have turned this into their default way of making slides
+
+Bye powerpoint https://t.co/mfaA1B2qwr
+>
+> *Quoting @zarazhangrui:* I created a Claude Skill that make beautiful slides on the web. The world hasn't woken up to the fact that code can create much better slides than most PPT tools.
+
+- Claude interviews you first about ...
+
+- **Tweet:** https://x.com/zarazhangrui/status/2034331675363279338
+- **Quoted:** https://x.com/zarazhangrui/status/2016337615843434646
+- **What:** Wow my frontend-slides skill now has 10k stars on GitHub
+
+---
+
+# Tuesday, March 17, 2026
+
+## @oliviscusAI - someone just open-sourced a tool that converts pdfs to markd...
+> someone just open-sourced a tool that converts pdfs to markdown at 100 pages per second.
+
+100% free. runs entirely on cpu. no expensive gpus needed. https://t.co/OB3hQiDxRF
+
+- **Tweet:** https://x.com/oliviscusAI/status/2033860465760030923
+- **What:** someone just open-sourced a tool that converts pdfs to markdown at 100 pages per second.  100% free. runs entirely on cpu. no expensive gpus needed. https://t.co/OB3hQiDxRF...
+
+## @iamfakeguru - The Architecture Problem That Kills AI Agents In Production
+> https://t.co/pZH5OqKHQF
+
+- **Tweet:** https://x.com/iamfakeguru/status/2033918725842174386
+- **Filed:** [The Architecture Problem That Kills AI Agents In Production](./knowledge/articles/the-architecture-problem-that-kills-ai-agents-in-p.md)
+- **What:** https://t.co/pZH5OqKHQF...
+
+## @trq212 - Lessons from Building Claude Code: How We Use Skills
+> https://t.co/45C3gKydTK
+
+- **Tweet:** https://x.com/trq212/status/2033949937936085378
+- **Filed:** [Lessons from Building Claude Code: How We Use Skills](./knowledge/articles/lessons-from-building-claude-code-how-we-use-skill.md)
+- **What:** https://t.co/45C3gKydTK...
+
+## @doodlestein - People are constantly asking me about my planning and execut...
+> People are constantly asking me about my planning and execution methodology for creating software using my Agent Flywheel system of tooling, prompts, and workflows.
+
+As a result, I find myself posting the same link, often multiple times in a day, to a post of mine that includes links to 5 other X posts and threads I've made about my methodology.
+
+While this "works," in that a motivated person can read through each post and understand my approach pretty well, I realize that it's far from optimal, and a lot of people see that and just give up quickly.
+
+So I finally decided to gather together all my materials on my method and turn them into two different articles with different target audiences.
+
+Perhaps unsurprisingly, I was able to extensively leverage my own tools to do this effectively. For one, I was able to use my xf tool (for searching your personal X post archive that you can download from X) to pull in all the various posts and my replies to people in those threads into a single large markdown document.
+
+Then, I had agents use my cass tool to search for my real-world usage of my various tools and to gain insights into my planning process from firsthand observation.
+
+I also had a lot of materials in the tutorials section of the Agent Flywheel website, as well as in various agent skills I've created. 
+
+All of this was woven together and synthesized into a single comprehensive document, The Flywheel Approach to Planning and Bead Creation:
+
+https://t.co/7QNNFwvZTx
+
+This is the new canonical and complete guide to my approach, with everything in one place and synthesized into a coherent whole so that you don't need to scrounge around for all the different posts.
+
+I will also be updating the article as my methodology evolves and in response to reader feedback on what is confusing or unclear (so please let me know in the comments).
+
+Incidentally, as I got to the final stages of preparing this document, I found this prompt to be extremely useful:
+
+"Read the entire document again with fresh eyes all the way through, putting yourself in the position of a smart software developer who is new to agentic coding and doesn't know how to use the Flywheel or agent swarms effectively yet and who doesn't understand the planning process or beads, etc. What would be most confusing? How could we make it more engaging and intuitive without removing any content and without simplifying anything (think additively)?"
+
+Beyond that big comprehensive guide, as the Flywheel system has grown to 20+ tools now, I've heard repeatedly from people that they find the entire system too overwhelming, because there are so many tools to understand.
+
+But the truth is, there is a "core" to the Flywheel approach which captures most of the value and just uses 3 tools: 
+
+* My Agent Mail project for coordination and communication of multiple agents of various types; 
+
+* beads_rust (br) for task management; and 
+
+* beads_viewer (bv) for automatically triaging the beads graph so that agents always work on the optimal next bead to maximize overall development velocity.
+
+So to that end, I created a separate, shorter, more-focused article for beginners to the system, the Flywheel Core Loop Guide:
+
+https://t.co/2ThxLgzWuk
+
+If you've previously been interested in the Flywheel but found it to be too hard to understand or had "information overload" (which is totally understandable... this stuff emerged organically over months of working on this stuff, so I'm sure it's a lot to take in all at once like that), I highly recommend checking it out.
+
+Once you get the hang of it, you can then layer in additional utilities, starting with destructive_command_guard (dcg) to prevent agents from blowing up your projects or machine; coding_agent_session_search (cass) to search instantly across all your agent sessions, and give this power to your agents themselves; and ultimate_bug_scanner (ubs) for finding bugs and problems across most popular programming languages in a single tool that is heavily optimized for use by agents.
+
+- **Tweet:** https://x.com/doodlestein/status/2033955411221712970
+- **Filed:** [The Flywheel Approach to Planning and Bead Creation](./knowledge/articles/the-flywheel-approach-to-planning-and-bead-creatio.md)
+- **Filed:** [Flywheel Core Loop Guide](./knowledge/articles/flywheel-core-loop-guide.md)
+- **What:** People are constantly asking me about my planning and execution methodology for creating software using my Agent Flywheel system of tooling, prompts, and workflows.  As a result, I find myself posting...
+
+## @fat - Alex and team have been spending lots of time thinking about...
+> Alex and team have been spending lots of time thinking about middot truncation for the new Trees library by the Pierre Computer Company.
+
+Last night he came across a novel approach to truncation that leverages container queries in a css grid to detect the *moment* of truncation.
+
+The solution works on first render from css with no js, fully SSR compatible. Even copy paste works.
+
+- **Tweet:** https://x.com/fat/status/2033965647894655213
+- **What:** Alex and team have been spending lots of time thinking about middot truncation for the new Trees library by the Pierre Computer Company.  Last night he came across a novel approach to truncation that ...
+
+## @brian_scanlan - We've been building an internal Claude Code plugin system at...
+> We've been building an internal Claude Code plugin system at Intercom with 13 plugins, 100+ skills, and hooks that turn Claude into a full-stack engineering platform. Lots done, more to do. Here's a thread of some highlights.
+
+- **Tweet:** https://x.com/brian_scanlan/status/2033978300003987527
+- **What:** We've been building an internal Claude Code plugin system at Intercom with 13 plugins, 100+ skills, and hooks that turn Claude into a full-stack engineering platform. Lots done, more to do. Here's a t...
+
+---
+
+# Monday, March 16, 2026
+
+## @gothburz - I am Sam Hazen, CEO of HCA Healthcare. The largest for-profi...
+> I am Sam Hazen, CEO of HCA Healthcare. The largest for-profit hospital system in the United States.
+
+One hundred and eighty-two hospitals. Twenty states.
+
+I oversee a spreadsheet called the chargemaster. It has 42,000 line items. Each line item is a price. The prices are not real.
+
+I need to be precise about that. They are not estimates. Not approximations. Not market rates. They are anchors. An anchor is a number you set high so that every negotiated discount feels like a victory. No relationship to cost. No relationship to value. A relationship to leverage.
+
+My team sets the anchors. That is the job.
+
+The price is correct.
+
+Take a drug. Keytruda. Immunotherapy. Treats sixteen types of cancer. The manufacturer charges approximately $11,000 per dose. That is the acquisition cost. What the hospital pays.
+
+My team enters it into the chargemaster. They do not enter $11,000. They enter $43,000.
+
+That is the gross charge. The gross charge is a fiction. No one pays it. No one is expected to pay it. The gross charge exists so that when Blue Cross negotiates a 68% discount, they pay $13,760, and the contract says "68% discount" and both parties feel the transaction was rigorous.
+
+A 68% discount on a fictional price produces a real price that is 25% above acquisition cost. That margin is where I live. My 2025 compensation was $26.5 million. Eighty percent of my bonus is tied to EBITDA. Earnings Before Interest, Taxes, Depreciation, and Amortization. It is also earnings before the patient opens the bill.
+
+Same dose of Keytruda at the hospital across town. Gross charge: $12,000. Blue Cross rate: $10,200. Same drug. Same dose. Same needle. Same cancer. Different spreadsheet.
+
+The CMS transparency data showed the ratio between the highest and lowest negotiated price for the same drug at the same hospital can reach 2,347 to one. Not 2x. Not 10x. Not 100x. Two thousand three hundred and forty-seven to one. For the same thing. In the same building. On the same Tuesday.
+
+The price is correct.
+
+Every drug in the chargemaster has twelve prices. Twelve.
+
+Gross charge. Medicare rate. Medicaid rate. Blue Cross. Aetna. Cigna. UnitedHealth. Humana. Workers' comp. Tricare. Auto insurance.
+
+And the self-pay rate.
+
+The self-pay rate is for the person without insurance. It is the gross charge. The fictional number. The anchor. The person without insurance pays the number that was designed to be negotiated down from. They pay the ceiling because they have no one to negotiate on their behalf. Same drug. Same chair. Same nurse. They pay the price that no insurer in the country would accept.
+
+I maintain a file. CDM line item 637-4892-PKB. Saline flush. Sodium chloride 0.9%. Acquisition cost: $0.47. We charge $87. That is an 18,410% markup.
+
+The saline flush is used before and after every IV infusion. A chemo patient receiving twelve cycles will be charged $87 for saline fourteen times per visit. I know the math. My team built the math. The math is the job.
+
+The price is correct.
+
+In 2021, the federal government required hospitals to publish their prices. The Hospital Price Transparency Rule. Machine-readable file. Gross charges. Discounted cash prices. Payer-specific negotiated rates.
+
+We complied. We posted the file.
+
+The file is a 9,400-row CSV on our website under "Patient Financial Resources." Four clicks from the homepage. Column F: "CDM_GROSS_CHG." Column J: "DERV_PAYERID_NEGRATE." My team designed the column headers. They designed them to comply. They did not design them to communicate.
+
+CMS reported 93% of hospitals now post a file. Compliance. But only 62% of the posted data is usable. That gap is where we operate. We are compliant. The data is published. The data is incomprehensible.
+
+A researcher downloaded our file. She spent three weeks cleaning it. She called the billing department for clarification on 340 line items. They transferred her four times. The fourth transfer was to a voicemail box that was full.
+
+She published her analysis anyway. Cardiac catheterization lab charges: $8,200 to $71,000 for the same procedure depending on the payer. The report received eleven views on our press monitoring dashboard. I saw it. I did not forward it.
+
+On April 1, a new CMS rule takes effect. Hospital CEOs must personally attest — by name, encoded in the machine-readable file — that the pricing data is "true, accurate, and complete."
+
+My name. Sam Hazen. In the file. Attesting that 42,000 fictional anchors are true, accurate, and complete. They are complete. I will give them that. Forty-two thousand line items is nothing if not complete.
+
+A new analyst read the transparency data. She asked why the same MRI costs $450 for Medicare and $4,200 for Aetna in the same building on the same machine.
+
+I told her the rates reflect negotiated contractual agreements between the payer and the facility. She said that doesn't explain the difference. I told her the difference IS the contractual agreement. She said that sounds like the price is arbitrary.
+
+I told her the price is the result of a rigorous, multi-variable analysis that accounts for acuity, case mix, regional market dynamics, and payer contract terms. She asked if I could show her the analysis.
+
+I told her the analysis is proprietary.
+
+The analysis does not exist. The analysis is my team, in Q4, adjusting the chargemaster upward by the percentage the CFO wrote on a sticky note. The sticky note this year said "6-8%." They chose 7.4% because it is between six and eight and it has a decimal, which makes it look calculated.
+
+She stopped asking.
+
+The price is correct.
+
+My insurance. The executive health plan. Not in the chargemaster. Administered separately.
+
+I do not pay the gross charge. I do not pay the negotiated rate. I pay a $20 copay for services at our own facilities. Gross charge for my treatment: $14,200. Insured rate for our largest commercial payer: $8,600. I pay $20.
+
+The executive health plan was designed by the Chief Human Resources Officer and approved by the compensation committee. I was not on the compensation committee. I was a beneficiary of it. That is a different thing.
+
+I benefit from the system I price. I price the system I benefit from. These are two separate facts that happen to involve the same person.
+
+HCA Healthcare was named the Most Admired Company in our industry by Fortune magazine for the twelfth consecutive year. That was February. The same month I sold $21.5 million in company stock and purchased zero shares. Fortune did not ask about the chargemaster.
+
+I am Sam Hazen, CEO of HCA Healthcare. I have 42,000 prices in a spreadsheet across 182 hospitals. None of them are real. All of them are charged.
+
+Same drug: $12,000 or $43,000. Depends on which spreadsheet. Which building. Which contract. Which page of which PDF.
+
+The patient who has no contract pays the most. The researcher who found the discrepancy got a voicemail box that was full. The analyst who asked why stopped asking. The executive who prices the system pays $20.
+
+On April 1, I will personally attest that this is true, accurate, and complete.
+
+The price is correct. The price has always been correct. I am the price.
+
+- **Tweet:** https://x.com/gothburz/status/2033620221836038643
+- **What:** I am Sam Hazen, CEO of HCA Healthcare. The largest for-profit hospital system in the United States.  One hundred and eighty-two hospitals. Twenty states.  I oversee a spreadsheet called the chargemast...
+
+## @alexhillman - This detailed walkthrough of my custom agent memory system "...
+> This detailed walkthrough of my custom agent memory system "Memory Lane" is one of the most technical videos I've made.
+
+But I regularly get messages from non technical people thanking me for breaking it down in a way they could understand
+
+https://t.co/EKZD1wQU7B
+
+- **Tweet:** https://x.com/alexhillman/status/2033677827493478544
+- **Transcript:** Needs transcript
+- **What:** This detailed walkthrough of my custom agent memory system "Memory Lane" is one of the most technical videos I've made.  But I regularly get messages from non technical people thanking me for breaking...
+
+---
+
+# Sunday, March 15, 2026
+
+## @HiTw93 - https://t.co/pEc3Y6sswl
+> https://t.co/pEc3Y6sswl
+
+- **Tweet:** https://x.com/HiTw93/status/2033181380432339045
+- **What:** https://t.co/pEc3Y6sswl
+
+## @hooeem - https://t.co/4tchgZa4oC
+> https://t.co/4tchgZa4oC
+
+- **Tweet:** https://x.com/hooeem/status/2033198345045336559
+- **What:** https://t.co/4tchgZa4oC
+
+## @alliekmiller - Awesome non-coding Claude Code Loop ideas for busi...
+> Awesome non-coding Claude Code Loop ideas for business professionals. 
+
+Grab any of these + immediately save time:
+
+- Check my email every 15min and ping me if something is related to Project Pluto and needs a decision made
+- Every 30min, prep me for my next meeting with attendee context, threads, mtg and crm notes, emails
+- Monitor a deal thread every 2h - summarize any new replies related to legal and suggest next moves
+- Research competitor announcements every 20min (better than an RSS feed bc you can specify the type of announcement and not keywords)
+- Check in on a brand post going viral, summarize the stats and comments
+- Watch across all Slack messages for team blockers and flag to me if I should jump in
+- Monitor that certain things are working (like your HR tool or something internal you own)
+- Watch 10 companies' job boards you want to apply to
+- Watch my sent emails and flag if someone on my VIP client list hasn't replied in a way that feels off
+- Literally just have it watch everything across all of your tools and proactively flag actions (ex: "hey you should cancel this mtg")
+
+Recruiters with 40 open roles, flag who's going cold. Teachers, flag students falling behind who haven't submitted homework yet. Event planners, monitor weather and vendors day of. Real estate agents, you can watch MLS for new niche listings ("must have at least 2 bay windows and herringbone floors"). Fundraiser, monitor your investor threads and see which ones need intervening. 
+
+Just prompt Claude Code with '/loop <cadence> <task>' like the image example below or feed it this tweet for role-specific ideas
+
+- **Tweet:** https://x.com/alliekmiller/status/2033203150472028285
+- **What:** Awesome non-coding Claude Code Loop ideas for business professionals.
+
+## @archiexzzz - Introducing AutoVoiceEvals
+> Introducing AutoVoiceEvals
+
+I've applied the @karpathy autoresearch loop to voice AI agents. It's open source.
+
+Your voice agent has a system prompt. That prompt determines how it handles every call - bookings, complaints, edge cases, background noises, long pauses, people trying to trick it. Most teams write it once, test manually, and hope for the best.
+
+autovoiceevals makes it a loop. One artifact (system prompt), one metric (adversarial eval score), keep what improves it, revert what doesn't. Run it overnight. Wake up to a better agent.
+
+> How it works:
+You describe your agent in a config file - what it does, its services, policies, and what it should never do. You don't write test cases. You don't define attack vectors.
+
+provider: vapi / smallest ai
+assistant:
+  id: "your-agent-id"
+  description: |
+    Voice receptionist for a hair salon. 
+    Maria does coloring only. Jessica does cuts only.
+    $25 cancellation fee under 24 hours notice.
+    Cannot advise on skin conditions. Closed Sundays.
+
+From that description alone, Claude generates adversarial caller personas - each with an attack strategy, a voice profile (accents, background noise, mumblers, interrupters), a multi-turn caller script, and pass/fail evaluation criteria. The eval suite is generated once and held fixed for the entire run, like a validation set.
+
+> The loop:
+
+1. Read the agent's current prompt from the platform
+2. Generate adversarial eval suite from your description
+3. Run baseline
+4. Claude proposes ONE surgical change to the prompt
+5. Push the modified prompt to the agent via API
+6. Run all scenarios against the updated agent
+7. Score improved? Keep. Same score but shorter prompt? Keep. Otherwise revert.
+8. Go to 4. Run until Ctrl+C.
+
+The system sees its own experiment history. When a change fails, the next proposal knows what was tried and why it didn't work.
+
+We ran 20 experiments on a live Vapi dental scheduling agent. 0 human intervention.
+> Score: 0.728 → 0.969 (+33%)
+> CSAT: 45 → 84
+> Pass rate: 25% → 100%
+> 9 kept, 10 discarded
+> Prompt: 1191 → 1139 chars (better AND shorter)
+
+You describe your agent. It figures out how to break it.
+
+- **Tweet:** https://x.com/archiexzzz/status/2033258540312510702
+- **What:** Introducing AutoVoiceEvals
+
+## @doodlestein - One of the coolest parts of writing programs and l...
+> One of the coolest parts of writing programs and libraries in Rust is how easy it is to compile to web assembly (wasm). Suddenly, you can run code in the browser, and you've completely changed what is possible to do with your software.
+
+I recently took my asupersync library and exposed everything that I could sensibly expose in a browser context using wasm and then provided bindings for JS and TS to use it easily.
+
+In order to demonstrate how it all works and what it can do, I created this standalone html file that loads the wasm library and uses it to do a bunch of different tasks that highlight the elegant structured concurrency primitives that the project provides (and which would be very hard to do otherwise), together with nice visualizations:
+
+https://t.co/t2pJoYrr19
+
+P.S.: Check out the browser console for the detailed logs of what's happening during execution of each exhibit.
+
+- **Tweet:** https://x.com/doodlestein/status/2033366700796551268
+- **What:** One of the coolest parts of writing programs and libraries in Rust is how easy it is to compile to web assembly (wasm). ...
+
+## @doodlestein - I want to show how I go about planning major new f...
+> I want to show how I go about planning major new features for my existing projects, because I've heard from many people that they are confused by my extreme emphasis on up-front planning. They object that they don't really know all the requirements at the beginning, and need the flexibility to be able to change things later.
+
+And that isn't at all in tension with my approach, as I hope to illustrate here. So I decided that it would be useful to add some kind of robust, feature-packed messaging substrate to my Asupersync project. I wanted to use as my model of messaging the NATS project that has been around for years and which is implemented in Golang.
+
+But I didn't want to just do a straightforward porting of NATS and bolt it onto asupersync; I wanted to reimagine it all in a way that fully leverages asupersync's correct-by-design structured concurrency primitives to do things that just aren't possible in NATS or other popular messaging systems.
+
+I used GPT 5.4 with Extra High reasoning in Codex-CLI, and took a session that was already underway so that the model would already have a good sense of the asupersync project and what it's all about. Then I used the following prompts shown below; where I indicated "5x," that means that I repeated the prompt 5 times in a row:
+
+```
+› I want you to clone https://t.co/kfBMj4sUov to tmp and then investigate it and look for useful ideas that we can take from that and reimagine in highly accretive ways on top of existing asupersync primitives that really leverage the special, innovative concepts and value-add from both projects to make something truly special and radically innovative. Write up a proposal document, PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC.md
+
+› OK, that's a decent start, but you barely scratched the surface here. You must go way deeper and think more profoundly and with more ambition and boldness and come up with things that are legitimately "radically innovative" and disruptive because they are so compelling, useful, accretive, etc.
+
+› Now "invert" the analysis: what are things that we can do because we are starting with "correct by design/structure" concurrency primitives, sporks, etc. and the ability to reason about complex concurrency issues using something analogous to algebra, that NATS simply could never do even if they wanted to because they are working from far less rich primitives that do not offer the sort of guarantees we have and the ability to analyze things algebraically in a precise, provably correct manner?
+
+5x: › Look over everything in the proposal for blunders, mistakes, misconceptions, logical flaws, errors of omission, oversights, sloppy thinking, etc.
+
+› OK, now nats is fundamentally a client-server architecture. Can you think of a clever, radically innovative way that leverage the unique capabilities and features/functionality of asupersync so that the Asupersync Messaging Substrate doesn't require a separate external server, but each client can self-discover or be given a list of nodes to connect to, and they can self-negotiate and collectively act as both client and server? Ideally this would also profoundly integrate with and leverage the RaptorQ functionality already present in asupersync
+
+5x: › Look over everything in the proposal for blunders, mistakes, misconceptions, logical flaws, errors of omission, oversights, sloppy thinking, etc.
+
+[Note: the two bullet points included in this next prompt come from a response to a previous prompt]
+
+› OK so then add this stuff to the proposal, using the very smartest ideas from your alien skills to inform it and your best judgment based on the very latest and smartest academic research:
+    - The proposal is now honest that a brokerless fabric needs epoch/lease fencing, but it still does not choose the exact control-capsule algorithm. That should be a follow-on design memo: per-cell Raft-like quorum, lease-quorum with fenced epochs, or a more specialized protocol.
+    - The document now names witness-safe envelope keying, but key derivation/rotation/revocation semantics are still only sketched. That is the next major design surface, not a remaining blunder in this pass.
+
+› OK now we need to make the proposal self-contained so that we can show it to another model such as GPT Pro and have that model understand absolutely anything that might be relevant to understanding and being able to suggest useful revisions to the proposal or to find flaws in the plans. To that end, I need you to add comprehensive background sections about what asupersync is and how it works, what makes it special/compelling, etc. And then do the same in another background section all about NATS and what it is and what makes it special/compelling, how it works, etc.
+
+5x: › Look over everything in the proposal for blunders, mistakes, misconceptions, logical flaws, errors of omission, oversights, sloppy thinking, etc.
+
+› apply $ de-slopify to PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC.md
+```
+
+This resulted in the plan file shown here:
+
+https://t.co/xWpVMpC98b
+
+But before I started turning that plan into self-contained, comprehensive, granular beads for implementation, I first wanted to subject the plan to feedback from GPT 5.4 Pro with Extended Reasoning, and also feedback from Gemini 3 with Deep Think, Claude Opus 4.6 with Extended Reasoning from the web app, and Grok 4.2 Heavy.
+
+I used this prompt for the first round of this:
+
+```
+How can we improve this proposal to make it smarter and better-- to make the most radically innovative and accretive and useful and compelling additions and revisions you can possibly imagine. Give me your proposed changes in the form of git-diff style changes against the file below, which is named PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC.md:
+
+<the original plan I generated using Codex>
+```
+
+I used the same prompt in all four models, then I took the output of the other 3 and pasted them as a follow-up message in my conversation with GPT Pro using this prompt that I've shared before:
+
+```
+I asked 3 competing LLMs to do the exact same thing and they came up with pretty different plans which you can read below. I want you to REALLY carefully analyze their plans with an open mind and be intellectually honest about what they did that's better than your plan. Then I want you to come up with the best possible revisions to your plan (you should simply update your existing document for your original plan with the revisions) that artfully and skillfully blends the "best of all worlds" to create a true, ultimate, superior hybrid version of the plan that best achieves our stated goals and will work the best in real-world practice to solve the problems we are facing and our overarching goals while ensuring the extreme success of the enterprise as best as possible; you should provide me with a complete series of git-diff style changes to your original plan to turn it into the new, enhanced, much longer and detailed plan that integrates the best of all the plans with every good idea included (you don't need to mention which ideas came from which models in the final revised enhanced plan); since you gave me git-diff style changes versus my original document above, you can simply revise those diffs to reflect the new ideas you want to take from these competing LLMs (if any):
+
+gemini:
+<gemini output>
+
+---
+
+claude:
+<claude output>
+
+---
+
+grok:
+<grok output>
+```
+
+You can see the entire shared conversation with GPT Pro here: 
+
+https://t.co/2Io2yevq5b
+
+I then took the output of that and pasted it into Codex with this prompt:
+
+```
+› ok I have diffs that I need you to apply to PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC.md but save the result instead to PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC__AFTER_FEEDBACK.md :
+
+<the final output of GPT Pro>
+```
+
+and then did:
+
+› apply $ de-slopify to the PROPOSAL_TO_INTEGRATE_IDEAS_FROM_NATS_INTO_ASUPERSYNC__AFTER_FEEDBACK.md file
+
+The final result can be seen here: 
+
+https://t.co/ydTfh588Iw
+
+- **Tweet:** https://x.com/doodlestein/status/2033368385724014827
+- **What:** I want to show how I go about planning major new features for my existing projects, because I've heard from many people ...
+
+## @aakashgupta - $3.7 trillion.
+> $3.7 trillion.
+
+That’s the annual wage bill attached to jobs scoring 7+ on Karpathy’s AI exposure scale. Software devs, financial analysts, legal assistants, data scientists. The most expensive screen workers in America, ranked by how easily an LLM eats their lunch.
+
+Karpathy scored all 342 BLS occupation categories. Average exposure: 5.3 out of 10. But averages are a lie here. The jobs scoring 8-10 pay $80K-$180K. The jobs scoring 0-1 pay $30K-$50K. AI exposure tracks income almost perfectly. The more you get paid to think at a screen, the more replaceable you are.
+
+Software engineers earn $180K because the supply of people who can ship production code has been tiny relative to demand. Claude Code, Cursor, Copilot, Devin. Every one of those tools is manufacturing that supply. When a junior dev with AI ships what a senior dev shipped alone two years ago, the wage premium collapses. The scarcity evaporated. The salary hasn’t caught up yet.
+
+The roofer at 0-1 is safe because nobody’s figured out how to put shingles on a roof with an API call. The roofer also earns $45K. The medical transcriptionist at 10/10 earns $35K and employs 53,000 people. That job is already dead. But 53,000 transcriptionists is a rounding error. The real weight is 1.8 million software developers at 8-9 whose aggregate wage bill runs north of $200 billion a year.
+
+The treemap’s biggest rectangles sit at 5-7. Secretaries, customer service reps, office clerks. Millions of workers who won’t get fired. They’ll just watch one colleague with AI absorb the output of three. Slow compression, invisible until the headcount freeze becomes permanent.
+
+Karpathy built a job exposure map. Read it as a wage compression map. $3.7 trillion in cognitive premiums, and the clock is running.
+>
+> *Quoting @_kaitodev:* 5 minutes ago, @karpathy just dropped karpathy/jobs!
+
+he scraped every job in the US economy (342 occupations from BLS), scored each one's AI exposure 0-10 using an LLM, and visualized it as a treemap.
+
+if your whole job happens on a screen you're cooked. 
+
+average score across all jobs is 5.3/10. 
+software devs: 8-9. 
+roofers: 0-1. 
+medical transcriptionists: 10/10 💀
+
+https://t.co/7MWRgdtLDI
+
+- **Tweet:** https://x.com/aakashgupta/status/2033381579729326094
+- **Quoted:** https://x.com/_kaitodev/status/2032927164883153402
+- **What:** $3.7 trillion.
+
+## @aakashgupta - 50% of all relationship advice on Reddit is “leave...
+> 50% of all relationship advice on Reddit is “leave.” 15 years of data, 52 million comments, and the trend line only goes one direction.
+
+A researcher filtered r/relationship_advice down to 1,166,592 quality comments and tracked what people actually recommend. In 2010, “End Relationship” sat around 30%. By 2025, it’s approaching 50%.
+
+“Communicate” dropped from 22% to 14%. “Compromise” collapsed from 7% to 3%. “Give Space” fell from 25% to 13%. Every category that requires patience lost ground every single year.
+
+The one category growing faster than “leave” is “Seek Therapy,” which went from 1% to 6%. The subreddit is slowly learning to say “this is above my pay grade.”
+
+Train a model on this dataset and it would absolutely tell people to break up. The training data is 50% “leave” and climbing. The model wouldn’t be broken. It would be accurately reflecting what 52 million commenters actually believe about your relationship.
+
+A 50% prior that you should leave, a 14% prior that you should talk about it, and a 6% prior that you need a professional. That’s not LLM psychosis. That’s the median human opinion on your relationship, backed by the largest advice dataset ever assembled.
+>
+> *Quoting @paularambles:* LLM that keeps telling people to break up because it’s been trained on relationship advice subreddits
+
+- **Tweet:** https://x.com/aakashgupta/status/2033389891602502057
+- **Quoted:** https://x.com/paularambles/status/2032927385860059137
+- **What:** 50% of all relationship advice on Reddit is “leave.” 15 years of data, 52 million comments, and the trend line only goes...
+
+---
+
+# Saturday, March 14, 2026
+
+## @petergyang - Ramp shipped 500+ features last year with just 25 ...
+> Ramp shipped 500+ features last year with just 25 PMs. Here's the Claude Code skill that helped them do it 👇
+
+It has 3 phases:
+
+Phase 1: Frame the problem
+
+Claude pushes the PM with questions like:
+
+→ What's the job to be done?
+→ Why now?
+→ What does success look like?
+→ If we build this, what does it unlock?
+
+If the PM can't defend their answers, Claude will push back.
+
+Phase 2: Research
+
+Claude launches 6-10 parallel agents to scan competitors, Gong calls, Zendesk tickets, and the codebase at once.
+
+Each agent writes a structured file that Claude then synthesizes.
+
+Phase 3: Shape the spec
+
+Claude converges on a design through conversation. The final spec is a short 2-min read that includes:
+
+→ Context
+→ Principles (non-negotiable constraints)
+→ Requirements
+...and more
+
+I learned more from @geoffintech (CPO @tryramp) about how to make your company AI-native than anyone else I've interviewed.
+
+📌 Subscribe to get the full episode and the product shaping skill tomorrow: https://t.co/Ggqaa3F11Z
+
+- **Tweet:** https://x.com/petergyang/status/2032826680692322342
+- **What:** Ramp shipped 500+ features last year with just 25 PMs. Here's the Claude Code skill that helped them do it 👇
+
+---
+
+# Friday, March 13, 2026
+
+## @alexhillman - If you've connected Claude Code to Discord, the re...
+> If you've connected Claude Code to Discord, the real unlock isn't working with it in channels. 
+
+It's working with it in threads. 
+
+I've built an entire collection of channels where I can drop a meesage, or even just a link with no other context, and it turns that into a new thread that is linked to a CC session. 
+
+I now have it set up so that it can snooze or closes threads with 2 clicks (no tokens, all discord.js) and so many little QOL enhancements that it's my fav way to work.
+
+- **Tweet:** https://x.com/alexhillman/status/2032577145940185343
+- **What:** If you've connected Claude Code to Discord, the real unlock isn't working with it in channels.
+
+---
+
+# Thursday, March 12, 2026
+
+## @tomfgoodwin - Most people don't optimize for efficiency
+> When are tech folk going to get that people like wasting time, it's life. They don't optimize for efficiency, they try to get by, they watch dumb stuff, they enjoy shopping. Inefficiency is another work for living and life.
+
+- **Tweet:** https://x.com/tomfgoodwin/status/2032104624551854210
+- **What:** Tech industry misunderstands average user behavior. Most people (offices, nonprofits, small businesses) value living over efficiency; prefer AI as invisible helper for small tasks (spell-check, vet pricing) rather than job automation or agents. Focus should be reducing stress, not eliminating jobs.
+
+## @mhp_guy - Seven-figure backhoe rental business for kids
+> A 7 figure business teaching 7 year olds how to operate backhoes:
+>
+> - 45,000 customers served per year
+> - $25 per 2 hours, whether you operate or not
+> - On ONLY a 3.5 acre lot in a mall parking lot
+> - 30 pieces of equipment, bought new from Caterpillar
+> - Had to close down on opening day due to overwhelming demand & things breaking
+
+- **Tweet:** https://x.com/mhp_guy/status/2032138436954767526
+- **What:** Kid's backhoe operation (Dig This model) grosses seven figures: $25 per 2-hour session, 45K customers/year, runs on 3.5 acres in a mall lot. Hidden cash cow is insurance costs, not just equipment rental. Founder Jacob Robinson shares operational learnings in 47-minute interview.
+
+## @HansAmato - Inflammation masked as mental illness
+> I spent $12,000 on therapy over 2 years trying to fix my anger before someone checked my blood
+
+- **Tweet:** https://x.com/HansAmato/status/2032139819313480071
+- **What:** Author's chronic anger, road rage, and irritability (treated as psychological trauma) was actually leaky gut → endotoxin → inflammation → elevated cortisol → magnesium depletion → GABA failure → no nervous system brakes. Fixed by restoring gut and micronutrients. Highlights medical blind spot: mental health providers rarely order blood work for inflammatory causes.
+
+## @matteocollina - pi-self-learning: persistent agent memory
+> Your coding agent keeps making the same mistakes? I built a fix.
+>
+> Introducing pi-self-learning: a pi extension that gives your coding agent actual memory.
+
+- **Tweet:** https://x.com/matteocollina/status/2032140579899846765
+- **What:** pi-self-learning solves agent goldfish problem (each session starts fresh) by extracting mistakes after each task, scoring them by frequency/recency with time decay, storing in git-backed memory, and injecting into context. Configurable modes: strict (must check memory), advisory, off. Keeps agents from hitting same bugs weeks apart.
+
+## @matteocollina - The scoring algorithm:
+> *Replying to @matteocollina:* After each task, it:
+> 
+> 1. Prompts the model for reflections (what went wrong, how fixed)
+> 2. Parses &amp; scores by frequency + recency
+> 3. Updates CORE.md with top 20 learnings
+> 4. Commits to a dedicated memory repo
+> 
+> The agent now remembers what you taught it yesterday.
+> 
+> The scoring algorithm:
+> 
+> - Frequency: how often does this mistake appear?
+> - Recency: when was it last seen?
+> - Time decay: older stuff fades
+> 
+> A mistake you hit 5 times last week stays high. Something from 3 months ago sinks down unless it happens again.
+
+- **Tweet:** https://x.com/matteocollina/status/2032140584735875456
+- **Parent:** https://x.com/matteocollina/status/2032140583280447522
+- **What:** The scoring algorithm:
+
+## @matteocollina - After each task, it:
+> *Replying to @matteocollina:* The problem: coding agents are goldfish. Every session starts fresh. Fix a bug today, hit the same issue in a different file three weeks later.
+> 
+> Sound familiar?
+> 
+> pi-self-learning solves this with git-backed memory that actually persists.
+> 
+> After each task, it:
+> 
+> 1. Prompts the model for reflections (what went wrong, how fixed)
+> 2. Parses &amp; scores by frequency + recency
+> 3. Updates CORE.md with top 20 learnings
+> 4. Commits to a dedicated memory repo
+> 
+> The agent now remembers what you taught it yesterday.
+
+- **Tweet:** https://x.com/matteocollina/status/2032140583280447522
+- **Parent:** https://x.com/matteocollina/status/2032140581900616046
+- **What:** After each task, it:
+
+## @matteocollina - Want more details? Read the full story at https://t.co/9ytgR
+> *Replying to @matteocollina:* Get started:
+> 
+> ```
+> pi install npm:pi-self-learning
+> ```
+> 
+> Or grab it from GitHub: https://t.co/Gy3fjKdjPz
+> 
+> Without memory, even the smartest agent keeps making the same mistakes. This fixes that.
+> 
+> Try it. Break it. Let me know what you think!
+> 
+> Want more details? Read the full story at https://t.co/9ytgRrXcQ7
+
+- **Tweet:** https://x.com/matteocollina/status/2032140591182565808
+- **Parent:** https://x.com/matteocollina/status/2032140589282603131
+- **What:** Want more details? Read the full story at https://t.co/9ytgR
+
+## @matteocollina - Get started:
+> *Replying to @matteocollina:* It also has `/learning-redistill` — rewrites project-specific fixes as generic rules:
+> 
+> Before: "Fixed JSON.parse crash in /src/utils/parser.ts"
+> After: "Always validate JSON before parsing; wrap in try-catch"
+> 
+> Concrete fixes → reusable principles. Game changer.
+> 
+> Get started:
+> 
+> ```
+> pi install npm:pi-self-learning
+> ```
+> 
+> Or grab it from GitHub: https://t.co/Gy3fjKdjPz
+> 
+> Without memory, even the smartest agent keeps making the same mistakes. This fixes that.
+> 
+> Try it. Break it. Let me know what you think!
+
+- **Tweet:** https://x.com/matteocollina/status/2032140589282603131
+- **Parent:** https://x.com/matteocollina/status/2032140587621581061
+- **What:** Get started:
+
+## @matteocollina - It also has `/learning-redistill` — rewrites project-specifi
+> *Replying to @matteocollina:* You can configure it to inject memory into context:
+> 
+> - includeCore: pull top learnings (on by default)
+> - includeLatestMonthly: grab month summary
+> - instructionMode: strict/advisory/off
+> 
+> Set strict and the agent MUST check memory for anything history-related.
+> 
+> It also has `/learning-redistill` — rewrites project-specific fixes as generic rules:
+> 
+> Before: "Fixed JSON.parse crash in /src/utils/parser.ts"
+> After: "Always validate JSON before parsing; wrap in try-catch"
+> 
+> Concrete fixes → reusable principles. Game changer.
+
+- **Tweet:** https://x.com/matteocollina/status/2032140587621581061
+- **Parent:** https://x.com/matteocollina/status/2032140586166132996
+- **What:** It also has `/learning-redistill` — rewrites project-specifi
+
+## @realmcore_ - Automated context engineering is all we ever needed
+> Automated context engineering is all we ever needed
+> 
+> *Quoting @realmcore_:* https://t.co/CudCkyWuRs
+
+- **Tweet:** https://x.com/realmcore_/status/2032162380227231885
+- **Quoted:** https://x.com/realmcore_/status/2032146316730778004
+- **What:** Automated context engineering is all we ever needed
+
+## @tricalt - https://t.co/BBIva1uPHn
+> https://t.co/BBIva1uPHn
+
+- **Tweet:** https://x.com/tricalt/status/2032179887277060476
+- **What:** https://t.co/BBIva1uPHn
+
+## @alexhillman - Pro tip for teaching your AI assitant how to use an API:
+> Pro tip for teaching your AI assitant how to use an API:
+> 
+> Often API docs are right, but incomplete. The assitant will guess, sometimes correctly, but other times it will struggle. 
+> 
+> I've found it useful to manually set up whatever I want it to be able to do (in this case, set up a moderately complex Tally form) and then ask the robot to inspect the working form for data structures that are known to work. 
+> 
+> It reliabily finds gaps in API docs, and patterns the docs wouldn't cover (edge cases, unique configs, etc)
+
+- **Tweet:** https://x.com/alexhillman/status/2032228231936725097
+- **What:** Pro tip for teaching your AI assitant how to use an API:
+
+## @micLivs - Anthropic shipped generative UI for Claude. I reverse-engine
+> Anthropic shipped generative UI for Claude. I reverse-engineered how it works and rebuilt it for PI.
+> 
+> Extracted the full design system from a conversation export. Live streaming HTML into native macOS windows via morphdom DOM diffing.
+> 
+> Article: https://t.co/BcYo94YqK3
+> Repo: https://t.co/EfMDX58NWc
+> 
+> Built on @badlogicgames's pi and @DanielGri's Glimpse.
+
+- **Tweet:** https://x.com/micLivs/status/2032244251464188184
+- **What:** Anthropic shipped generative UI for Claude. I reverse-engine
+
+## @om_patel5 - stop spending money on Claude Code.
+> stop spending money on Claude Code. 
+> 
+> Chipotle's support bot is free: https://t.co/0NQU4a79T1
+
+- **Tweet:** https://x.com/om_patel5/status/2032248004443287962
+- **What:** stop spending money on Claude Code.
+
+---
+
+# Wednesday, March 11, 2026
+
+## @toddsaunders - AI-powered land acquisition platform
+> I built a land acquisition intelligence/sourcing platform that scores 1.5M parcels of land across the I-95 corridor for data center and industrial conversion potential.
+>
+> All with Claude Code... in less than 36 hours.
+
+- **Tweet:** https://x.com/toddsaunders/status/2031708989566927131
+- **What:** Built a complete spatial intelligence platform in 36 hours using Claude Code: ingested 1.5M parcels from APIs, performed PostGIS distance calculations, detected motivated sellers, and generated institutional investment memos. Tech stack: PostGIS, FastAPI, React, MapLibre GL JS—no paid mapping APIs or data sources.
+
+## @rauchg - AI-driven layout shift and skeleton fixes
+> Pure agent-driven layout shift fixing & skeleton generation has been achieved internally.
+>
+> ELI5: Great products load instantly and smoothly. Stuff doesn't jitter around the screen. Waiting states resemble final states. Like a beautiful progressive painting 👨‍🎨
+
+- **Tweet:** https://x.com/rauchg/status/2031783339011817797
+- **What:** Vercel has internally solved automatic layout shift fixing and skeleton screen generation via AI agents. Prevents jitter, improves perceived performance, and maintains visual consistency during loading—coming soon.
+
+## @LLMJunky - Animated sprite generation with GPT and Image API
+> This is one of the most impressive guides I've seen for building games with Codex.
+>
+> Even if you're not building any games, just look how impressive this is.
+>
+> You're not pushing your agents enough.
+
+- **Tweet:** https://x.com/LLMJunky/status/2031802820924436506
+- **Filed:** [game-sprite-generation](./knowledge/articles/game-sprite-generation.md)
+- **What:** Comprehensive workflow for generating consistent AI animated game sprites using GPT 5.4 and Image 1.5 API. Demonstrates advanced prompt engineering—upscaling seed frames to edit canvases, requesting full animation strips for consistency, normalizing to fixed frame sizes, and locking production sprite frames.
+
+---
+
+# Tuesday, March 10, 2026
+
+## @aakashgupta - Your prefrontal cortex has two modes. Planning mode and execution mode...
+> Your prefrontal cortex has two modes. Planning mode and execution mode. You can’t run both simultaneously. And that explains why “not caring” actually works.
+
+Overthinking is planning mode stuck in a loop. Your brain simulates a future scenario, finds a threat in that simulation, which triggers another simulation. Huberman calls this rumination cycling. Your default mode network fires continuously, burning glucose on fictional scenarios while you sit paralyzed.
+
+The moment you stop treating a decision as consequential, you starve the loop. No perceived threat means no new simulation. Your prefrontal cortex drops into execution mode by default.
+
+Anxiety runs the same circuit. Your amygdala flags uncertainty as danger. Your cortex models outcomes to resolve it. More models means more uncertainty means more amygdala activation. The loop compounds on itself.
+
+People who seem fearless aren’t less intelligent. They have a higher threshold for what triggers the simulation loop. Their amygdala requires a bigger signal before it hijacks prefrontal resources.
+
+You can train that threshold. Cold exposure, controlled breathing, voluntary discomfort. All of these teach your nervous system that activation doesn’t require a response. That’s Huberman’s entire stress inoculation framework.
+
+This tweet accidentally described a real neuroscience protocol in the worst possible packaging.
+>
+> *Quoting @SolJakey:* Retardmaxxing fixes everything. 
+
+Overthinking solved - You are retarded, you don't think
+
+Anxiety solved - You are retarded, you are just doing shit
+
+Confidence - You are retarded, you have no care for what people think
+
+Be retarded.
+
+- **Tweet:** https://x.com/aakashgupta/status/2031230260621295689
+- **Quoted:** https://x.com/SolJakey/status/2031064169412440474
+- **What:** Quote sharing perspective on @aakashgupta
+
+## @bossadizenith - text always has weird extra space above capitals and below the baselin...
+> text always has weird extra space above capitals and below the baseline. one-line CSS fix:
+
+`text-box: trim-both cap alphabetic;`
+
+Perfectly trims the text box to the actual glyph bounds. No more padding hacks. https://t.co/u1So80g9z3
+
+- **Tweet:** https://x.com/bossadizenith/status/2031373257157320939
+- **What:** Curated insight from @bossadizenith
+
+## @thdxr - Delay gratification as the foundation of great work
+> sent this to the team today
+>
+> everything great comes from being able to delay gratification for as long as possible
+>
+> and it feels like we're collectively losing our ability to do that https://t.co/HlIpY86eJn
+
+- **Tweet:** https://x.com/thdxr/status/2031377117007454421
+- **What:** Curated insight from @thdxr
+
+## @neural_avb - How to design Experiments to Evaluate your Agentic Harness
+> https://t.co/3xw3NjttVd
+
+- **Tweet:** https://x.com/neural_avb/status/2031417353666441266
+- **Link:** https://x.com/i/article/2031220938738642944
+- **What:** Article link shared regarding @neural_avb
+
+## @kianbazza - Introducing 𝚑𝚒𝚝-𝚊𝚛𝚎𝚊—a collection of @tailwindcss utility class...
+> Introducing 𝚑𝚒𝚝-𝚊𝚛𝚎𝚊—a collection of @tailwindcss utility classes for expanding the hit area of interactive elements.
+
+Small hit areas are a silent UX killer. One class fixes it.
+
+Distributed via @shadcn registry - see link below.
+
+- **Tweet:** https://x.com/kianbazza/status/2031475889356337407
+- **What:** Curated insight from @kianbazza
+
+## @TrevinPeterson - On Friday @karpathy released Auto Research — one agent, one GPU, one f...
+> On Friday @karpathy released Auto Research — one agent, one GPU, one file. I forked it for Apple Silicon over the weekend. Now I'm releasing Tiny-Lab — the control plane that turns your Mac cluster into a research lab. Launch, crash-recover, evaluate, promote winners, kill losers, log everything. You sleep, it does science.
+https://t.co/p5L4dC0p5H
+
+- **Tweet:** https://x.com/TrevinPeterson/status/2031478430752190612
+- **Link:** https://github.com/trevin-creator/Tiny-Lab
+- **What:** Curated insight from @TrevinPeterson
+
+## @alexhillman - Claude Code UI via Discord.js
+> People really are sleeping on the amount of UI that you can give Claude Code by giving it access to Discord.js and letting it make buttons, modals, and more.
+
+- **Tweet:** https://x.com/alexhillman/status/2031549486179160372
+- **What:** Overlooked potential for enriching Claude Code interfaces through Discord.js components—buttons, modals, and interactive elements opening new possibilities for AI-assisted development UX.
+
+---
+
+# Monday, March 9, 2026
+
+## @doodlestein - Since tax season is again upon us, I thought I’d share my ar...
+> Since tax season is again upon us, I thought I’d share my article from last year about how I use AI to help me do my own taxes now instead of spending over two grand like I used to for error-prone tax prep from a CPA. It mentions Opus 3.7; just use 4.6:
+> 
+> https://t.co/RgxBbj7CgH
+
+- **Tweet:** https://x.com/doodlestein/status/2030968188175806974
+- **Filed:** [article](./knowledge/articles/taxgpt-using-ai-for-tax-prep.md)
+- **What:** Since tax season is again upon us, I thought I’d share my ar...
+
+## @bloggersarvesh - How to set up Claude Cowork for SEO (and leave ChatGPT for good):
+> https://t.co/qZlTynO914
+
+- **Tweet:** https://x.com/bloggersarvesh/status/2030997615823798628
+- **Link:** https://x.com/i/article/2030990122519592961
+- **What:** Article link shared regarding @bloggersarvesh
+
+## @simplifyinAI - 🚨 BREAKING: Someone just open-sourced a tool that optimizes your webs...
+> 🚨 BREAKING: Someone just open-sourced a tool that optimizes your website for AI search engines.
+
+It’s called geo-seo-claude. It optimizes any website for AI search engines like ChatGPT, Perplexity, and Claude.
+
+→ Runs full GEO audits with parallel subagents
+→ Delivers 60-second visibility snapshots
+→ Analyzes structured schema markup for LLMs
+→ Exports complete PDF reports
+
+100% Open-Source.
+
+- **Tweet:** https://x.com/simplifyinAI/status/2031050007957184934
+- **What:** Curated insight from @simplifyinAI
+
+## @trq212 - Code Review is so so good. One of those things I can't remember how I...
+> Code Review is so so good. One of those things I can't remember how I lived without.
+>
+> *Quoting @claudeai:* Introducing Code Review, a new feature for Claude Code.
+
+When a PR opens, Claude dispatches a team of agents to hunt for bugs. https://t.co/AL2J4efxPw
+
+- **Tweet:** https://x.com/trq212/status/2031092339599618364
+- **Quoted:** https://x.com/claudeai/status/2031088171262554195
+- **What:** Quote sharing perspective on @trq212
+
+## @toddsaunders - I think @stripe just mass produced a business model for every AI start...
+> I think @stripe just mass produced a business model for every AI startup on earth and increased their TAM exponentially. 
+
+Customer buys a shirt for $40, Stripe takes 2.9% + 30 cents. It's a simple formula, but token billing is completely different.
+
+AI costs are variable. They shift by model, by provider, by week. A startup using Claude for 40% of inference and GPT-4o for 60% has a blended cost structure that changes every time Anthropic or OpenAI adjusts pricing... which is constantly.
+
+Stripe is now ingesting those real-time model prices, applying the startup's target markup, metering per-customer usage, and generating the invoice automatically.
+
+That's constructing unit economics at a scale and complexity far beyond anything in traditional payments.
+
+And the data asset being created by them is a massive moat.
+
+OpenAI knows what OpenAI charges, and Anthropic knows what Anthropic charges. But Stripe will know what every model charges, what every startup pays, what every startup marks up, and what every end customer actually consumes.
+
+But the gateway is where this gets really interesting.
+
+Stripe's AI gateway routes inference, returns the response, and attributes tokens to the customer in one API call.
+
+Today it's "pick the best model."
+
+Tomorrow it's "Stripe recommends the model that optimizes your target margin across 12 providers in real time."
+
+The moment that recommendation engine turns on, model providers start competing on Stripe's terms. Pricing power inverts from provider to platform.
+
+This is AWS turned sideways (or i guess diagonally).
+
+Amazon didn't build apps... they built the infrastructure every app depended on, then used the data to optimize the infrastructure itself.
+
+Stripe is running the same playbook on AI economics instead of AI compute.
+
+I truly believe that token billing will make Stripe the most strategically important company in tech that doesn't train a model.
+
+- **Tweet:** https://x.com/toddsaunders/status/2031158356606332936
+- **What:** Curated insight from @toddsaunders
+
+---
+
+# Sunday, March 8, 2026
+
+## @shannholmberg - find every inefficiency in your Claude workflow with one pro...
+> find every inefficiency in your Claude workflow with one prompt
+> 
+> it finds where you're wasting time, where your prompts could be sharper, what patterns are slowing you down.
+> 
+> copy the prompt below (bookmark to save it for later):
+> 
+> -----
+> Scrape all of my Claude session on this computer. Analyze my usage patterns and give me a breakdown of:
+> 
+>   - What I do most frequently
+>   - What should become skills (reusable workflows/knowledge)
+>   - What should become plugins (standalone tools)
+>   - What should become agents (autonomous subagents)
+>   - What belongs in CLAUDE. md (project-level instructions)
+> ----
+> 
+> takes 2 minutes to run. saves hours of inefficient back and forth.
+
+- **Tweet:** https://x.com/shannholmberg/status/2030605364421595468
+- **What:** find every inefficiency in your Claude workflow with one pro...
+
+## @heyrimsha - I accidentally discovered how to compress a month of researc...
+> I accidentally discovered how to compress a month of research into 3 hours.
+> 
+> A founder at a YC company showed me his Claude setup. I thought he was just fast. Then I watched him build an entire go-to-market strategy for a market he'd never worked in before.
+> 
+> Here's exactly what he did:
+> 
+> First: he didn't ask Claude to "research the market."
+> 
+> He fed it 8 competitor landing pages, 3 earnings call transcripts, 12 customer reviews, and a Reddit thread of complaints.
+> 
+> Then he asked one question:
+> 
+> "What does every successful player in this market understand that their customers never say out loud?"
+> 
+> Not "summarize these." Not "analyze the competition."
+> The unspoken insight. The thing that takes founders 2 years of customer calls to figure out.
+> 
+> But the next part is what broke my brain.
+> 
+> He followed up with:
+> 
+> "Now show me the 3 assumptions this entire market is built on, and what would have to be true for each one to be wrong."
+> 
+> In 15 minutes he had the attack surface of an entire industry.
+> The blind spots. The fragile consensus. The opening nobody was talking about.
+> 
+> Most founders spend 6 months doing customer discovery just to find one of those.
+> 
+> Then he did something I've never seen before.
+> 
+> He asked:
+> 
+> "Write 5 questions a world-class investor would ask to destroy this business idea, then answer each one using only the evidence in these documents."
+> 
+> He spent the next 2 hours stress-testing every assumption. Every weak answer triggered a follow-up:
+> 
+> "What's the strongest version of this argument and where does it still break?"
+> 
+> By hour 3, he had a strategy deck that felt like it came from someone who'd spent a decade in the space.
+> 
+> The tool didn't change. The questions did.
+> 
+> Most people treat Claude like a faster Google.
+> 
+> These founders are using it like a thinking partner who has read everything and has no ego about being wrong.
+> 
+> The difference between 3 hours and 3 months isn't the amount of information.
+> 
+> It's knowing which questions actually matter.
+
+- **Tweet:** https://x.com/heyrimsha/status/2030614728591167973
+- **What:** I accidentally discovered how to compress a month of researc...
+
+## @doodlestein - Not sure if I've ever shared this prompt before, but if you...
+> Not sure if I've ever shared this prompt before, but if you use beads (or my rust version, br) to build out complex development plans, you sort of need to use something like this to avoid wasting time later on in the implementation phase.
+> 
+> The agents will eventually figure this out on their own when there's nothing else to work on, but you can likely debottleneck and speed up overall velocity by dealing with this issue directly as follows:
+> 
+> "Look for beads that are clearly "stalled out"; that is, marked as being in progress (likely by long-dead agents) with no recent work on them whatsoever, and mark them as being open again. Then: Use bv with the robot flags (see AGENTS .md for info on this) to find the most impactful bead(s) to work on next and then start on it. Remember to mark the beads appropriately and communicate with your fellow agents."
+> 
+> Make sure to first do a round of code base investigation before trying this so the agents are familiar with the project, which you can do with this: 
+> 
+> "First read ALL of the AGENTS .md file and README .md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project."
+
+- **Tweet:** https://x.com/doodlestein/status/2030767679179756009
+- **What:** Not sure if I've ever shared this prompt before, but if you...
+
+## @omarsar0 - Pay attention to this one if you are building terminal-based...
+> Pay attention to this one if you are building terminal-based coding agents.
+> 
+> OpenDev is an 81-page paper covering scaffolding, harness design, context engineering, and hard-won lessons from building CLI coding agents.
+> 
+> It introduces a compound AI system architecture with workload-specialized model routing, a dual-agent architecture separating planning from execution, lazy tool discovery, and adaptive context compaction.
+> 
+> The industry is shifting from IDE plugins to terminal-native agents.
+> 
+> Claude Code, Codex CLI, and others have proven the model works.
+> 
+> This paper formalizes the design patterns that make these systems reliable, covering topics like event-driven system reminders to counteract instruction fade-out, automated memory across sessions, and strict safety controls for autonomous operation.
+> 
+> Paper: https://t.co/tpAZFaSnog
+> 
+> Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX
+
+- **Tweet:** https://x.com/omarsar0/status/2030771811705872435
+- **Filed:** [article](./knowledge/articles/260305344-building-effective-ai-coding-agents-for-.md), [article](./knowledge/articles/dairai-academy.md)
+- **What:** Pay attention to this one if you are building terminal-based...
+
+---
+
+# Saturday, March 7, 2026
+
+## @jbobbink - I've never seen site structures as
+> I've never seen site structures as broken as they are right now.
+
+The cause is simple: AI made content production 100x faster, but nobody built the infrastructure to maintain what was published. The result is structural debt and it's compounding.
+
+Here's what I keep finding in audits:
+
+→ 23+ URL pairs cannibalizing each other per site — not keyword overlap, actual intent-level conflicts
+→ 30-90% of blog content in active traffic decay with no monitoring in place
+→ Near-duplicate pages that were never caught because nobody runs duplicate detection at scale
+→ Entire content pillars untouched for 18+ months while competitors refresh quarterly
+
+The manual fix is brutal. Export GSC data, cross-reference in spreadsheets, manually map the new structure, write redirect rules by hand. For an 800-page site that's weeks of work.
+
+So I'm automating the entire workflow inside GSC Wizard.
+
+Here's what's under the hood:
+
+All URLs get embedded with multilingual-e5-large-instruct: the same embeddings that power our keyword clustering product. Embed once, analyse many.
+
+Topic clustering runs through BERTopic: UMAP for dimensionality reduction, HDBSCAN for cluster detection, c-TF-IDF + LLM labeling for topic representation. It supports semi-supervised mode so SEO consultants can seed pillar topics and let the model cluster the rest. Hierarchical BERTopic generates the dendrogram that maps directly to pillar → hub → supporting content.
+
+Then four analysis layers run in parallel:
+
+1. Cannibalization detection: three-signal approach: GSC query impression overlap (40% weight), embedding cosine similarity in the 0.85-0.95 threshold window (35%), and SERP overlap validation (25%). This catches intent cannibalization that keyword-matching tools miss completely.
+
+2. Content decay: z-score based detection on GSC time-series with root cause classification. Decay + high cannibalization = a newer page stealing traffic. Decay + low freshness = stale content. Decay + position drop but stable impressions = competitors outranking you.
+
+3. Duplicate detection: three-tier: SHA-256 for exact duplicates, SimHash 64-bit fingerprinting with ≤3 bit Hamming distance for near-duplicates at scale (the same algorithm Google uses for web crawling), and embedding similarity >0.95 for semantic duplicates that use different wording.
+
+4. Freshness scoring: QDF-aware classification (news vs. evergreen), content change magnitude tracking, and competitor freshness gap analysis. Evergreen content isn't penalized for age; QDF-sensitive pages are.
+
+Everything feeds into a composite health score per URL. FAISS with HNSW indexing handles nearest-neighbor search for internal linking recommendations across thousands of pages in milliseconds.
+
+The frontend renders this as an interactive tree hierarchy: react-arborist with virtualization handling 5,000+ nodes. 
+
+Drag-and-drop a page to a new position, and it auto-generates redirect rules, internal linking suggestions, and content briefs for gaps. 
+
+Versioned snapshots let you compare before/after structures with color-coded diffs showing every moved, added, and removed page.
+
+The output is a full restructuring plan: redirect map, internal linking strategy, content briefs, freshness calendar, and estimated traffic impact.
+
+The key insight that drives the architecture: these four problems aren't separate. Cannibalization causes decay. Duplicates amplify cannibalization. Staleness accelerates all of it. You need to see them together in one view to make good restructuring decisions.
+
+No existing tool does this. Semrush clusters keywords but doesn't let you restructure. Surfer maps topics but has no drag-and-drop hierarchy builder. MarketMuse models content depth but doesn't connect to your actual URLs. InLinks automates internal linking but doesn't let you redesign site architecture.
+
+GSC Wizard will.
+
+The AI content flood created the mess. Time to build the tools to clean it up.
+
+- **Tweet:** https://x.com/jbobbink/status/2030226431968526412
+- **What:** I've never seen site structures as broken as they are right now.
+
+The cause is simple: AI made content production 100x faster, but nobody built the infrastructure to maintain what was published. The r...
+
+## @karpathy - I packaged up the "autoresearch" project
+> I packaged up the "autoresearch" project into a new self-contained minimal repo if people would like to play over the weekend. It's basically nanochat LLM training core stripped down to a single-GPU, one file version of ~630 lines of code, then:
+
+- the human iterates on the prompt (.md)
+- the AI agent iterates on the training code (.py)
+
+The goal is to engineer your agents to make the fastest research progress indefinitely and without any of your own involvement. In the image, every dot is a complete LLM training run that lasts exactly 5 minutes. The agent works in an autonomous loop on a git feature branch and accumulates git commits to the training script as it finds better settings (of lower validation loss by the end) of the neural network architecture, the optimizer, all the hyperparameters, etc. You can imagine comparing the research progress of different prompts, different agents, etc.
+
+https://t.co/YCvOwwjOzF
+Part code, part sci-fi, and a pinch of psychosis :)
+
+- **Tweet:** https://x.com/karpathy/status/2030371219518931079
+- **Filed:** [autoresearch](./knowledge/tools/autoresearch.md)
+- **What:** I packaged up the "autoresearch" project into a new self-contained minimal repo if people would like to play over the weekend. It's basically nanochat LLM training core stripped down to a single-GPU, ...
+
+## @samhogan - What if a codebase was actually stored in Postgres and agent...
+> What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB? 
+> 
+> Code velocity has increased 3-5x. This will undoubtedly continue. PR review has already become a bottleneck for high output teams. 
+> 
+> Codebase checked-out on filesystem seems like a terrible primitive when you have 10-100-1000 agents writing code. 
+> 
+> Code is now high velocity data and should be modeled at such. Bare minimum, we need write-level atomicity and better coordination across agents, better synchronization primitives for subscribing to codebase state changes and real-time time file-level code lint/fmt/review. 
+> 
+> The current ~20 year old paradigm of git checkout/branch/push/pr/review/rebase ended Jan 2026. We need an entirely new foundational system for writing code if we’re really going to keep pace with scale laws.
+
+- **Tweet:** https://x.com/samhogan/status/2030476849911050687
+- **What:** What if a codebase was actually stored in Postgres and agent...
+
+## @om_patel5 - claude code has a hidden setting that makes it 600x faster a...
+> claude code has a hidden setting that makes it 600x faster and almost nobody knows about it
+> 
+> by default it uses text grep to find functions. 
+> 
+> it doesn't understand your code at all. that's why it takes 30-60 seconds and sometimes returns the wrong file
+> 
+> there's a flag called ENABLE_LSP_TOOL that connects it to language servers. same tech that powers vscode's ctrl+click to jump straight to the definition
+> 
+> after enabling it:
+> 
+> > "add a stripe webhook to my payments page" - claude finds your existing payment logic in 50ms instead of grepping through hundreds of files
+> 
+> > "fix the auth bug on my dashboard" - traces the actual call hierarchy instead of guessing which file handles auth
+> 
+> > after every edit it auto-catches type errors immediately instead of you finding them 10 prompts later
+> 
+> also saves tokens because claude stops wasting context searching for the wrong files
+> 
+> 2 minute setup and it works for 11 languages
+
+- **Tweet:** https://x.com/om_patel5/status/2030479131222192457
+- **What:** claude code has a hidden setting that makes it 600x faster a...
+
+## @samhogan - Found an interesting related blog from 2 weeks ago https://t...
+> *Replying to @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB? 
+> 
+> Code velocity has increased 3-5x. This will undoubtedly continue. PR review has already become a bottleneck for high output teams. 
+> 
+> Codebase checked-out on filesystem seems like a terrible primitive when you have 10-100-1000 agents writing code. 
+> 
+> Code is now high velocity data and should be modeled at such. Bare minimum, we need write-level atomicity and better coordination across agents, better synchronization primitives for subscribing to codebase state changes and real-time time file-level code lint/fmt/review. 
+> 
+> The current ~20 year old paradigm of git checkout/branch/push/pr/review/rebase ended Jan 2026. We need an entirely new foundational system for writing code if we’re really going to keep pace with scale laws.
+> 
+> Found an interesting related blog from 2 weeks ago https://t.co/VHiKkpHmQ0.
+
+- **Tweet:** https://x.com/samhogan/status/2030490812547793404
+- **Parent:** https://x.com/samhogan/status/2030476849911050687
+- **Filed:** [article](./knowledge/articles/git-in-postgres-andrew-nesbitt.md)
+- **What:** Found an interesting related blog from 2 weeks ago https://t...
+
+## @levelsio - This is essentially my workflow of coding in production on t...
+> This is essentially my workflow of coding in production on the server with Claude Code
+> 
+> It's instant and extremely high velocity and I think that's where it's going
+> 
+> AI lets us dev extremely fast and the bottleneck now is slow deployments many of us (not me) still have I think
+> 
+> *Quoting @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB? 
+> 
+> Code velocity has increased 3-5x. This will undoubtedly continue. PR review has already become a bottleneck for high output teams. 
+> 
+> Codebase checked-out on filesystem seems like a terrible primitive when you have 10-100-1000 agents writing code. 
+> 
+> Code is now high velocity data and should be modeled at such. Bare minimum, we need write-level atomicity and better coordination across agents, better synchronization primitives for subscribing to codebase state changes and real-time time file-level code lint/fmt/review. 
+> 
+> The current ~20 year old paradigm of git checkout/branch/push/pr/review/rebase ended Jan 2026. We need an entirely new foundational system for writing code if we’re really going to keep pace with scale laws.
+
+- **Tweet:** https://x.com/levelsio/status/2030495348972503160
+- **Quoted:** https://x.com/samhogan/status/2030476849911050687
+- **What:** This is essentially my workflow of coding in production on t...
+
+## @ericedarnold - Not sure about getting rid of git  You can still get the spe...
+> *Replying to @samhogan:* What if a codebase was actually stored in Postgres and agents directly modified files by reading/writing to the DB? 
+> 
+> Code velocity has increased 3-5x. This will undoubtedly continue. PR review has already become a bottleneck for high output teams. 
+> 
+> Codebase checked-out on filesystem seems like a terrible primitive when you have 10-100-1000 agents writing code. 
+> 
+> Code is now high velocity data and should be modeled at such. Bare minimum, we need write-level atomicity and better coordination across agents, better synchronization primitives for subscribing to codebase state changes and real-time time file-level code lint/fmt/review. 
+> 
+> The current ~20 year old paradigm of git checkout/branch/push/pr/review/rebase ended Jan 2026. We need an entirely new foundational system for writing code if we’re really going to keep pace with scale laws.
+> 
+> Not sure about getting rid of git
+> 
+> You can still get the speed gains while keeping it
+> 
+> I've been building something that runs my app from mounted volume(s) on the live server 
+> 
+> Add blue/green deployments and you can push your changes, have your servers pull, and be done deploying in seconds 
+> 
+> No git history lost
+
+- **Tweet:** https://x.com/ericedarnold/status/2030501720854237276
+- **Parent:** https://x.com/samhogan/status/2030476849911050687
+- **What:** Not sure about getting rid of git  You can still get the spe...
+
+---
+
+# Friday, March 6, 2026
+
+## @MahajanRevant - Reply to @tymzap
+> *Replying to @tymzap:* @gabriel1 We never understood every single line of codebase unless you worked in one person projects all your career
+>
+> It’s also just not about code IMO. It’s really the mental modal you build around how the problem is being solved. When shit hits the fan, that mental modal is actually what you end up relying on quite a bit to find your way through and solve problems. Very important for on calls in some cases! 
+
+AI does a fantastic job in analysing copious amounts of data and producing insights. You end up getting a lot of  novel insights by just dumping code which you might have never known earlier. But for the problems AI is having a hard time solving, your ability to steer it depends on the mental model you have of the code base. That’s where knowing the code you wrote and code around it definitely helps. From my experience, strong test cases and automated pipelines can’t really be a substitute for that
+
+- **Tweet:** https://x.com/MahajanRevant/status/2029846371751338399
+- **Parent:** https://x.com/tymzap/status/2029830052049776783
+- **What:** It’s also just not about code IMO. It’s really the mental modal you build around how the problem is being solved. When shit hits the fan, that mental modal is actually what you end up relying on quite...
+
+## @ctatedev - Reply to @ctatedev
+> *Replying to @ctatedev:* Introducing Generative UI for MCP Apps
+
+One server. Infinite interfaces.
+
+Instead of building views, define a component catalog. The AI assembles the right UI based on your API, CLI or MCP server tools.
+
+Works in Claude, ChatGPT, VS Code, Cursor and more https://t.co/zPyyN8CkNB
+>
+> Powered by json-render
+
+npx skills add vercel-labs/json-render --skill mcp
+
+https://t.co/FcBCc0qDHE
+
+- **Tweet:** https://x.com/ctatedev/status/2030107719534006476
+- **Parent:** https://x.com/ctatedev/status/2030100369506709691
+- **What:** Powered by json-render
+
+npx skills add vercel-labs/json-render --skill mcp
+
+https://t.co/FcBCc0qDHE
+
+---
+
+# Thursday, March 5, 2026
+
+## @aakashgupta - Quoting @yenkel
+> The PM skill that matters in 2026 is taste at speed. Boris Cherny just showed everyone what that looks like.
+
+His Claude Code team at Anthropic doesn’t write PRDs. They build hundreds of working prototypes before shipping a single feature. Boris personally ships 20-30 PRs a day running 5 parallel Claude instances. They built Cowork, a full product for non-engineers, in about 10 days.
+
+Everyone in the replies is debating whether PRDs should die. Wrong conversation. The real question is what happens to the PM who can’t evaluate 15 prototypes and pick the 3 worth shipping.
+
+Because here’s what changes when building costs near zero: the bottleneck moves from “can we build it” to “should we ship it.” PRDs existed because building was expensive and you needed sign-off before committing resources. When a prototype takes 45 minutes instead of 6 weeks, nobody needs a document to authorize exploration. They need someone who can look at working software and say “this one, not that one” in real time.
+
+On the Claude Code team, PMs code. Data scientists code. User researchers code. Boris said productivity per engineer grew 70% even as Anthropic tripled in headcount. The coordination cost of translating specs into code disappears when everyone can build. And that changes what a PM is actually good for.
+
+Boris said it himself: “There’s just no way we could have shipped this if we started with static mocks and Figma or if we started with a PRD.” The old process would have spent more calendar time documenting Cowork than his team spent building it.
+
+This is the Claude Code team today. It will be most fast-moving teams within 18 months. The PMs who thrive will be the ones reviewing prototypes at 9am, killing 80% of them by noon, and shipping the survivors by end of week. Pattern matching across user research, technical feasibility, and business model simultaneously while staring at working software.
+
+The PMs who struggle will be the ones still writing 15-page specs for features that could be prototyped, tested, and validated before the doc hits its first review cycle. Taste at speed is the new moat.
+>
+> *Quoting @yenkel:* you must internalize this ASAP:
+- less handoffs, decide fast
+- faster exploration
+- encourage to throw away code/tokens
+- learn by building, de risk with code
+- pick leads that can own design, eng and product https://t.co/a5iLYMFG1w
+
+- **Tweet:** https://x.com/aakashgupta/status/2029436537629491555
+- **Quoted:** https://x.com/yenkel/status/2029299384832209259
+- **What:** you must internalize this ASAP:
+- less handoffs, decide fast
+- faster exploration
+- encourage to throw away code/tokens
+- learn by building, de risk with code
+- pick leads that can own design, eng and...
+
+## @BigBrainBizness - Jeff Bezos on why too many
+> Jeff Bezos on why too many ideas can destroy a company, and the discipline that built Amazon's inventive edge:
+
+"Jeff, you have enough ideas to destroy Amazon."
+
+That's what senior executive Jeff Wilke told Bezos after just one year of working together.
+
+Bezos was confused. He pushed back: "What do you mean?"
+
+Wilke was a manufacturing expert. He explained it simply:
+
+Every new idea Bezos released created a backlog. Work piling up, adding no value, creating distraction instead.
+
+The fix wasn't to stop having ideas. It was to control when they came out:
+
+"You have to release the work at the right rate that the organisation can accept it."
+
+So @JeffBezos changed how he operated.
+
+He started keeping lists, holding ideas back, and waiting until the organisation had the bandwidth to absorb them.
+
+But then he flipped the problem entirely.
+
+He asked: "How do I build an organisation that's ready for more ideas?"
+
+His answer was structural: get the right senior team, give leaders real executive bandwidth, and build a company capable of running multiple bets at once.
+
+And there's a benefit he didn't expect. Slowing down made the ideas themselves better:
+
+"If you are releasing the ideas through time, it forces you to prioritise them better. You end up sharpening the ideas better."
+
+The constraint becomes a filter. The ideas that survive the wait are the ones worth acting on.
+
+The result? Faster execution, less distraction, and better ideas.
+
+- **Tweet:** https://x.com/BigBrainBizness/status/2029542587368103974
+- **What:** Jeff Bezos on why too many ideas can destroy a company, and the discipline that built Amazon's inventive edge:
+
+"Jeff, you have enough ideas to destroy Amazon."
+
+That's what senior executive Jeff Wilk...
+
+## @jianxliao - Introducing Fractals 🌀 @tinyagicompany ...
+> Introducing Fractals 🌀 @tinyagicompany 
+
+A new paradigm. The recursive agent orchestrator for coding.
+
+The new GPT-5.4 is exceptionally good at this.
+
+You give it one task. It breaks it down into subtasks. Each subtask gets broken down again. And again. Until every piece is small enough for an agent to just do it.
+
+Then they all run in parallel, each in its own git worktree, its own branch, completely isolated.
+
+When they're done, results propagate back up the tree.
+
+It's the same pattern at every level. Like a fractal.
+
+Runs on port 1618, the golden ratio.
+
+https://t.co/ZXXpTxWqmF
+
+- **Tweet:** https://x.com/jianxliao/status/2029651439040221323
+- **Filed:** [fractals](./knowledge/tools/fractals.md)
+- **What:** Introducing Fractals 🌀 @tinyagicompany 
+
+A new paradigm. The recursive agent orchestrator for coding.
+
+The new GPT-5.4 is exceptionally good at this.
+
+You give it one task. It breaks it down into sub...
+
+## @dkundel - Quoting @Angaisb_
+> This was built with the Playwright Interactive skill! In case you missed it, Codex now has a JavaScript REPL that it can use to iteratively build and debug front-end work. It's great for complex UI or games because it can write snippets without having to start from scratch every time.
+>
+> *Quoting @Angaisb_:* GPT-5.4, it's basically perfect (it took it around 24 minutes)
+
+Yeah, Minecraft is pretty much solved, I have to find a new test now https://t.co/l6u2ubzin6
+
+- **Tweet:** https://x.com/dkundel/status/2029679518869532990
+- **Quoted:** https://x.com/Angaisb_/status/2029635731585372598
+- **What:** GPT-5.4, it's basically perfect (it took it around 24 minutes)
+
+Yeah, Minecraft is pretty much solved, I have to find a new test now https://t.co/l6u2ubzin6
+
+## @JulienBek - https://t.co/hsKrbn1gEq
+> https://t.co/hsKrbn1gEq
+
+- **Tweet:** https://x.com/JulienBek/status/2029680516568600933
+- **What:** https://t.co/hsKrbn1gEq
+
+## @PawelHuryn - 1,300+ stars on GitHub in 72
+> 1,300+ stars on GitHub in 72 hours. 400+ in the last 4 hours. I didn’t expect this.
+
+I built an open-source PM Skills Marketplace for Claude: 100+ skills and commands that turn AI into a product management partner.
+
+Not generic prompts. Structured skills that actually know PM frameworks.
+
+8 plugins covering the full PM lifecycle:
+
+→ Product Discovery: problem & solution space exploration
+
+→ Product Strategy: vision, business model, strategy docs
+
+→ Execution: PRDs, OKRs, roadmaps, sprint planning, user stories
+
+→ Market Research: personas, segmentation, TAM/SAM/SOM
+
+→ Data & Analytics: cohorts, A/B testing, retention analysis
+
+→ Go-to-Market: GTM strategy, beachhead, ICP, growth loops
+
+→ Marketing & Growth: positioning, North Star Metric
+
+→ PM Toolkit: including PM resume review
+
+Built for Claude Code and Cowork. Compatible with Gemini CLI, Cursor, Codex CLI, and Kiro.
+
+If this helps you, ⭐ the repo!
+
+- **Tweet:** https://x.com/PawelHuryn/status/2029697412701282511
+- **What:** 1,300+ stars on GitHub in 72 hours. 400+ in the last 4 hours. I didn’t expect this.
+
+I built an open-source PM Skills Marketplace for Claude: 100+ skills and commands that turn AI into a product manag...
+
+---
+
+# Wednesday, March 4, 2026
+
+## @godofprompt - most people building AI agents obsess over how they WRITE memories
+> most people building AI agents obsess over how they WRITE memories
+turns out that's basically irrelevant
+
+new research analyzed 9 different memory systems across 1,540 questions
+
+the finding?
+retrieval method drives 20-point accuracy swings
+write strategy? 3–8 points max
+
+raw conversation chunks (zero LLM calls, $0 cost) matched or beat fancy fact extraction + summarization
+
+the expensive preprocessing everyone's doing?
+it's throwing away context the AI could've used
+
+here's what actually matters:
+
+- hybrid retrieval (semantic + keyword + reranking) cut failures in half
+- when you give the model relevant context, it uses it correctly 79% of the time
+  the problem isn't reasoning. it's surfacing the right memories
+- correlation between retrieval quality and accuracy: r=0.98
+
+everyone's optimizing the wrong part of the pipeline
+
+stop spending tokens on write-time compression
+fix your retrieval instead
+
+- **Tweet:** https://x.com/godofprompt/status/2029298804181352911
+- **What:** most people building AI agents obsess over how they WRITE memories
+
+## @toddsaunders - Fun command built in Claude Code: /cost-estimate
+> Fun command built in Claude Code: /cost-estimate
+
+It scans your codebase and cross-references current market rates to calculate what your project would've cost a real team to build.
+
+It looks at all the APIs, integrations, everything. 
+
+Without AI: ~2.8 years. ~$650k.
+
+With AI: 30 hours.
+
+It's absurd when you start to think about it like this.
+
+- **Tweet:** https://x.com/toddsaunders/status/2029301170670309740
+- **What:** Fun command built in Claude Code: /cost-estimate
+
+## @pbakaus - Impeccable v1.1 is out. Design fluency for every AI harness.
+> Impeccable v1.1 is out. Design fluency for every AI harness.
+
+New:
+- all commands are now agent skills
+- support for Antigravity, VS Code
+- simplify -> distill (to not conflict w/ CC's new built-ins)
+- universal install
+
+https://t.co/WglrY1uE4B gives you the language to make AI-generated frontends suck less.
+
+- **Tweet:** https://x.com/pbakaus/status/2029334353894162720
+- **What:** Impeccable v1.1 is out. Design fluency for every AI harness.
+
+## @mitchellh - Ahhhh, Codex 5.3 (xhigh) with a vague prompt just solved a bug that...
+> Ahhhh, Codex 5.3 (xhigh) with a vague prompt just solved a bug that I and others have been struggling to fix for over 6 months. Other reasoning levels with Codex failed, Opus 4.6 failed. Cost $4.14 and 45 minutes. Full trace plus includes original issue: https://t.co/DbBACN2HLj
+
+I know this prompt is relatively bad. Honestly, our stable release is in a week, and I was throwing some Hail Marys at the frontier models to see if I could get a clean, understandable fix for some of these bugs. By using `gh`, it grabs much better context from the issue, so its not terrible.
+
+The best thing that Codex did was eventually start reading GTK4 source code. That's where I ended up (see my GH issue), and I knew the answer was somewhere in there, but I didn't have the time or motivation to do it myself. The other models never went there, and lower reasoning efforts with 5.3 didn't go there either. Only xhigh went there. I think that was a critical difference.
+
+The final fix was decent. It was small, all in a single file, and very understandable. It had one bug I identified (you can see in the trace), and then I manually cleaned up some style. But, it did a great job.
+
+Definitely an "it's so over" moment. But at the same time, it feels amazing because now our next stable release will have this fix and I was able to spend the time working on other fixes as it went.
+
+- **Tweet:** https://x.com/mitchellh/status/2029348087538565612
+- **What:** Ahhhh, Codex 5.3 (xhigh) with a vague prompt just solved a bug that I and others have been struggling to fix for over 6 months. Other reasoning levels with Codex failed, Opus 4.6 failed. Cost $4.14 and 45 minutes. Full trace plus includes original issue: https://t.co/DbBACN2HLj
+
+## @wesbos - Google just dropped an official CLI for gmail, drive, calendar shee...
+> Google just dropped an official CLI for gmail, drive, calendar sheets and more
+
+complete with skills and an MCP server 👌 https://t.co/c9ACaYhXEm
+>
+> *Quoting @addyosmani:* Introducing the Google Workspace CLI: https://t.co/8yWtbxiVPp - built for humans and agents.
+
+Google
+
+- **Tweet:** https://x.com/wesbos/status/2029373589770703148
+- **Quoted:** https://x.com/addyosmani/status/2029372736267805081
+- **What:** Google just dropped an official CLI for gmail, drive, calendar sheets and more
+
+---
+
+# Tuesday, March 3, 2026
+
+## @heynavtoor - 🚨 Someone just open sourced a fully autonomous AI hacker and it's ...
+> 🚨 Someone just open sourced a fully autonomous AI hacker and it's terrifying.
+
+It's called Shannon.
+
+Point it at your web app, and it doesn't just scan for vulnerabilities. It actually exploits them. Real injections. Real auth bypasses. Real database exfiltrations.
+
+Not alerts. Not warnings. Actual working exploits with copy-paste proof-of-concepts.
+
+Here's what this thing does autonomously:
+
+→ Reads your entire source code to plan its attack
+→ Maps every endpoint, API route, and auth mechanism
+→ Runs Nmap, Subfinder, and WhatWeb for deep recon
+→ Hunts for Injection, XSS, SSRF, and broken auth in parallel
+→ Launches real browser-based exploits to prove each vulnerability
+→ Generates a pentester-grade report with reproducible PoCs
+
+Here's the wildest part:
+
+It follows a strict "No Exploit, No Report" policy. If it can't actually break it, it doesn't report it. Zero false positives.
+
+It pointed at OWASP Juice Shop and found 20+ critical vulnerabilities in a single run including complete auth bypass and full database exfiltration.
+
+On the XBOW Benchmark (hint-free, source-aware), it scored 96.15%.
+
+Your team ships code daily with Claude Code and Cursor. Your pentest happens once a year. That's 364 days of shipping blind.
+
+Shannon closes that gap. One command. Fully autonomous.
+
+The Red Team to your vibe-coding Blue team. Every Claude coder deserves their Shannon.
+
+10.6K GitHub stars. 1.3K forks. Already trending.
+
+100% Open Source. AGPL-3.0 License.
+
+- **Tweet:** https://x.com/heynavtoor/status/2028719589241307635
+- **What:** 🚨 Someone just open sourced a fully autonomous AI hacker and it's terrifying.
+
+## @_colemurray - it is more about the process than any one specific tool. Akin to a ...
+> *Replying to @parthi_logan:* @_colemurray Do you have an actual recommended setup for this? Feels like we're building this in-hou
+>
+> it is more about the process than any one specific tool. Akin to a machine learning pipeline. 
+
+I’m working on a more formalized playbook for this, would love to chat further!
+
+As far as tools I like:
+
+agent: OpenInspect 😁 
+ai code reviews: OpenInspect / coderabbit / greptile
+ci: GH actions
+traces: langfuse / jaegar 
+
+the best tools are ones tailored to your specific company / workflow
+
+- **Tweet:** https://x.com/_colemurray/status/2028750772163211448
+- **Parent:** https://x.com/parthi_logan/status/2028681902819836328
+- **What:** it is more about the process than any one specific tool. Akin to a machine learning pipeline.
+
+## @systematicls - https://t.co/wBaKpAI5Vl
+> https://t.co/wBaKpAI5Vl
+
+- **Tweet:** https://x.com/systematicls/status/2028814227004395561
+- **What:** https://t.co/wBaKpAI5Vl
+
+## @benjaminprinter - If you're over 80 IQ and you can sell, get Claude to build you a mo...
+> If you're over 80 IQ and you can sell, get Claude to build you a monitoring system that tracks where political money flows before anyone else knows
+
+When politicians and institutional investors cluster their investments in specific sectors, they're signaling where government money, regulatory changes, and policy support are headed
+
+That political investment data gives you a 4-8 month head start on the billions in collective vendor spending that flows when those companies receive contracts and funding
+
+You can position your B2B offer or consultancy ahead of vendor budget unlocks by identifying which sectors and companies are about to receive massive capital influxes, before they even know they'll need your services
+
+The cascade usually works this way:
+
+Month 0-2: Politicians start buying stocks in a specific sector (defense, clean energy, healthcare, infrastructure). These mfs know what legislation is coming, what budgets are being approved, what contracts will be awarded
+
+Month 2-4: Hedge funds and institutional investors follow with their own positions. Both political and institutional money aligns which means the signal strengthens
+
+Month 4-6: Gov contracts get awarded, regulations pass and funding programs launch
+
+Companies in that sector suddenly have:
+
+- Multi-million dollar government contracts
+- Grant money that needs deploying
+- Regulatory requirements demanding immediate compliance
+- Growth mandates from investors
+
+Month 6-8: Those companies now need to:
+
+- Hire aggressively
+- Rebrand and market themselves
+- Build new capabilities
+- Navigate compliance
+- Scale operations
+
+Your vendor budgets are now unlocked
+
+If you know how to identify pain points and craft a killer offer, this is a money printer
+
+Tell Claude to build a daily monitoring system that:
+
+- Tracks politician stock trades (House/Senate disclosure sites)
+- Monitors hedge fund positions (SEC 13F filings)
+- Identifies government contracts awarded https://t.co/j6nGKiiHce 
+- Flags hiring surges at target companies (I don't think Claude can track LinkedIn data so find another way or do it manually)
+
+When 10+ politicians and multiple hedge funds buy the same sector within weeks, that's your signal
+
+Cross-reference against government contract databases to see which specific companies just got funded
+
+Track VC rounds and hiring patterns
+
+Have Claude send you a weekly email with 5-10 companies ranked by opportunity score, showing exactly which businesses just got funded and will need consultants/agencies in 2-4 months
+
+Build sector specific case studies 2-3 months before budget unlock
+
+Target middle managers (Program Managers, Procurement Managers, Operations Managers) who directly control vendor budgets and are actively executing the newly funded projects
+
+You're contacting them BEFORE they publish RFPs, before competitors even know there's opportunity
+
+When the money hits their accounts, you're already the trusted expert they've been talking to for months
+
+You bypass the entire RFP process while every other agency is in a race to the bottom on price
+
+- **Tweet:** https://x.com/benjaminprinter/status/2028934021049352570
+- **What:** If you're over 80 IQ and you can sell, get Claude to build you a monitoring system that tracks where political money flows before anyone else knows
+
+## @doodlestein - Have you ever thought it might be nice to resume a Codex session us...
+> Have you ever thought it might be nice to resume a Codex session using Claude Code? Or vice versa? What about being able to pick up in gemini-cli right where you left off in Codex or CC? 
+
+Unfortunately, you can't, because each agent harness uses a totally different format for storing session data, and the files are stored in different locations. 
+
+And the big labs certainly don't want to even acknowledge the existence of their competitors, let alone facilitate collaboration between their agents, even though that would be obviously in the interest of users. 
+
+I realized a couple weeks ago that my coding_agent_session_search (cass) tool already basically solved the hard problem here, which is to transform every different kind of session data file from every popular agent harness (over 7 of them!) into a single canonical, uniform format for indexing and searching. 
+
+And I already had all the code to automatically detect all installed agent harnesses (I've even abstracted this out into a separate project, franken_agent_detection).
+
+The result of that is my newest tool, cross_agent_session_resumer, or casr for short. You can get it here and install with the convenient curl-bash one-liner:
+
+https://t.co/hvVgkxe3d0
+
+I made this tool to be as convenient and ergonomic as possible. You know how when you exit Codex or CC, they tell you the session ID of the session you were just in? 
+
+You can directly use that with casr without even telling it what type of session it is; you just tell it the agent you want to resume the session with, like this. Suppose you just exited from Codex and see this:
+
+"To continue this session, run codex resume 019cb5c2-6972-7e92-9fe9-c86112194d9f"
+
+You simply do this to resume the session using Claude Code instead of Codex:
+
+casr -cc  019cb5c2-6972-7e92-9fe9-c86112194d9f   
+
+And you'll see the following:
+                                                                                                                                                                                                  ✔ ubuntu@threadripperje at 06:09:04 PM 
+✓ Converted codex session to claude-code
+  Source → 019cb5c2-6972-7e92-9fe9-c86112194d9f
+  Target → 5f6d03bb-cc87-43ac-9384-65bb2921babf
+  Messages → 39
+  Written → /home/ubuntu/.claude/projects/-data-projects-frankenfs/5f6d03bb-cc87-43ac-9384-65bb2921babf.jsonl
+
+  Resume: claude --resume 5f6d03bb-cc87-43ac-9384-65bb2921babf
+
+So how do I know this actually works correctly and faithfully represents the sessions in all their details even in a foreign setting? 
+
+I have a very rigorous end-to-end testing harness that takes real, non-trivial example sessions and then does the full "game of telephone" on them and shows they come out the other end accurately:
+
+- cargo test --test real_world_roundtrip_test -- --nocapture passed all 3 cycles:
+    - cc -> cod -> gmi -> cc
+    - cod -> cc -> gmi -> cod
+    - gmi -> cc -> cod -> gmi
+
+casr is also just generally useful aside from its main purpose for keeping tabs on your various agent sessions for a given project. 
+
+Doing `casr list` gives a very useful recap of the 10 most recent sessions for each agent type, along with useful metadata about each session, like the number of messages and tool calls, the average length of a response, etc. (see screenshot below).
+
+This project, along with some of my other major tools like cass and Agent Mail, show why it's important to maintain a thriving ecosystem of truly open source, provider-agnostic tooling that works equally well with agents from OpenAI, Anthropic, Google, and others. 
+
+It's simply not in their interest to ever make something like this available to you.
+
+The big labs want you stuck in a walled garden like you are with Apple and iCloud. 
+
+Don't you hate it how Apple makes it so difficult to access your own iMessage data programmatically? And how you need to pay $100 for a developer account just to use your own apps? Don't let AI go the same way without a fight! 
+
+But it's not even just about freedoms: I wouldn't be able to do what I do if I relied on just one model provider. I'm able to get the results that I do with the velocity I am achieving because I use ALL frontier models in a collaborative way via Agent Mail, beads_rust (br), beads_viewer (bv), cass, etc. 
+
+You don't need to choose between providers like that. It's a false distinction to view this as the equivalent of an "Emacs or vi" decision, where you proudly boast that you're a "Codex man" and that you think Claude Code is trash. 
+
+All of the frontier models and harnesses have their unique strengths and weaknesses, and making them work together and check each other's work yields results that are far higher quality and reliable than any model or harness individually.
+
+- **Tweet:** https://x.com/doodlestein/status/2029003525766725787
+- **What:** Have you ever thought it might be nice to resume a Codex session using Claude Code? Or vice versa? What about being able to pick up in gemini-cli right where you left off in Codex or CC?
+
+---
+
+# Monday, March 2, 2026
+
+## @MillieMarconnni - GitNexus Code Intelligence Engine
+> 🚨 BREAKING: A developer on GitHub just built a tool that turns any GitHub repo into an interactive knowledge graph and open sourced it for free.
+>
+> It's called GitNexus. Think of it as a visual X-ray of your codebase but with an AI agent you can actually talk to.
+>
+> No server. No subscription. No enterprise sales call.
+>
+> Here's what it does inside your browser:
+>
+> → Parses your entire GitHub repo or ZIP file in seconds
+> → Builds a live interactive knowledge graph with D3.js
+> → Maps every function, class, import, and call relationship
+> → Runs a 4-pass AST pipeline: structure → parsing → imports → call graph
+> → Stores everything in an embedded KuzuDB graph database
+> → Lets you query your codebase in plain English with an AI agent
+>
+> Here's the wildest part:
+>
+> It uses Web Workers to parallelize parsing across threads so a massive monorepo doesn't freeze your tab.
+>
+> The Graph RAG agent traverses real graph relationships using Cypher queries not embeddings, not vector search. Actual graph logic.
+>
+> Ask it things like "What functions call this module?" or "Find all classes that inherit from X" and it traces the answer through the graph.
+>
+> This is the kind of code intelligence tool enterprise teams pay thousands per month for.
+>
+> It runs entirely in your browser.
+>
+> Works with TypeScript, JavaScript, and Python.
+>
+> 100% Open Source. MIT License.
+
+- **Tweet:** https://x.com/MillieMarconnni/status/2028436636841996451
+- **Link:** https://github.com/abhigyanpatwari/GitNexus
+- **Filed:** [gitnexus-zero-server-code-intelligence-engine.md](./knowledge/tools/gitnexus-zero-server-code-intelligence-engine.md)
+- **What:** GitNexus is a client-side knowledge graph tool that visualizes code structure with D3.js and uses a Graph RAG agent for semantic codebase queries. It runs entirely in-browser with support for TypeScript, JavaScript, and Python.
+
+## @timsoulo - Finding Content Ideas in 404 Pages
+> I just discovered a brand new (and totally fascinating) way to come up with content ideas for your blog.
+>
+> It's your 404 pages. (Stay with me…)
+>
+> I randomly checked if Ahrefs Blog had any 404 pages with lots of backlinks pointing at them.
+>
+> And saw hundreds of them.. Wow!
+>
+> I pinged my Head of Content Ryan Law asking why so much of our blog content was now "dead."
+>
+> Turns out — none of it was ever alive.
+>
+> These are all hallucinated URLs from AI-generated articles. 🤯
+>
+> Basically, hundreds of sites have published AI-generated content and never checked whether the links in those articles actually point to real pages.
+>
+> But here's the part that really blew my mind...
+>
+> Most of these hallucinated URLs actually make sense. AI "thinks" we should have articles on:
+>
+> /internal-linking
+> /how-important-are-backlinks
+> /domain-authority
+> /content-decay
+> etc.
+>
+> And... we don't.
+>
+> AI literally found gaps in our content strategy that we missed.
+>
+> So now we're going to publish articles on all these topics and turn hundreds of broken hallucinated links into real backlinks.
+>
+> If you run a blog, go check your 404s right now. You might be sitting on a goldmine of content ideas that AI already "voted" for.
+>
+> (go to Ahrefs' Site Explorer > "Best by links" report > filter by 404 status code)
+>
+> Fun times. 😅
+
+- **Tweet:** https://x.com/timsoulo/status/2028453016047898858
+- **What:** AI-generated content often includes hallucinated URLs that actually identify real gaps in content strategy. Checking 404 pages with backlinks reveals content ideas that multiple sites' AI models have unknowingly "voted for."
+
+## @mattpocockuk - Banned Phrases for AI Writing
+> I have an AI that writes stuff for me. Here are all the phrases I've banned it from using:
+>
+> real power
+> wake-up call
+> fundamentally changes
+> key benefit
+> cut through the noise
+> key insight
+> the irony
+> the good news
+> the reality
+> it's kind of like
+> here's the thing:
+> hard truth
+> uncomfortable truth
+
+- **Tweet:** https://x.com/mattpocockuk/status/2028476691337658600
+- **What:** Matt Pocock maintains a curated list of overused AI clichés and banned phrases to remove generic language from AI-generated content.
+
+## @DopaminePlsMe - ADHD Self-Help Paradox
+> My ADHD brain is a world-class life coach for everyone except me.
+>
+> I can help a friend navigate a complex career shift and a breakup in a single 20-minute phone call. I am wise. I am insightful. I am a tactical genius.
+>
+> Then I hang up and spend three hours deciding whether to shower now or in 10 minutes, eventually doing neither and eating a slice of cold cheese over the sink.
+
+- **Tweet:** https://x.com/DopaminePlsMe/status/2028479386010210525
+- **What:** A relatable observation about how ADHD brains can excel at coaching others while struggling with basic self-care decisions.
+
+## @_colemurray - The Software Assembly Line
+> The Software Assembly Line
+>
+> As coding agents improve and outperform software engineers, it's clear we need to shift how software is being made. Having a human directly in the loop makes less sense every month. If anything, it's becoming a liability in many cases. We should be moving towards automating software engineering and treating it like manufacturing. Standardized production lines. Quality assurance at each step. Self-improvement optimization loops. Failure detection that drives process improvement.
+
+- **Tweet:** https://x.com/_colemurray/status/2028482570199998654
+- **Filed:** [the-software-assembly-line.md](./knowledge/articles/the-software-assembly-line.md)
+- **What:** An X article proposing software engineering should adopt manufacturing principles: standardized environments, background agents as assembly lines, quality assurance gates, centralized telemetry, and automated recall/RCA processes.
+
+## @godofprompt - Context as Mounted Filesystem
+> "everything is a file" becomes "everything is context."
+>
+> CSIRO Data61 and ArcBlock published a paper applying the oldest Unix principle to the newest AI problem.
+>
+> they propose treating memory, tools, knowledge, and human input as a mounted filesystem that agents browse at runtime instead of dumping into the context window at boot.
+>
+> it's a software architecture paper, not ML research. and it might matter more than most ML papers right now.
+
+- **Tweet:** https://x.com/godofprompt/status/2028491294054764592
+- **What:** A CSIRO Data61 and ArcBlock paper proposes applying Unix's "everything is a file" principle to agent context: mount memory, tools, knowledge as a browsable filesystem instead of loading all context upfront.
+
+## @godofprompt - Context Rot in Agent Frameworks
+> *Replying to @godofprompt:* "everything is a file" becomes "everything is context."
+>
+> CSIRO Data61 and ArcBlock published a paper applying the oldest Unix principle to the newest AI problem.
+>
+> they propose treating memory, tools, knowledge, and human input as a mounted filesystem that agents browse at runtime instead of dumping into the context window at boot.
+>
+> it's a software architecture paper, not ML research. and it might matter more than most ML papers right now.
+>
+> the problem is real and underappreciated.
+>
+> right now, most agent frameworks handle context like this: load memory at session start. stuff it into the prompt. when the window fills, summarize and compress. hope the important parts survive.
+>
+> the paper calls this out directly. once compaction fires, the agent loses structured access to what it flushed. it can run search queries and hope the right chunks surface. but it can't systematically browse what it used to know.
+>
+> context rot isn't just about models forgetting over long conversations. it's about the architecture making retrieval lossy by design. the information exists somewhere in memory. the agent just lost the ability to walk through it.
+
+- **Tweet:** https://x.com/godofprompt/status/2028491308852199760
+- **Parent:** https://x.com/godofprompt/status/2028491294054764592
+- **What:** Current agent frameworks cause "context rot" by compressing and losing structured access to context. Once compaction fires, agents can only search blindly rather than systematically browse what they previously knew.
+
+## @godofprompt - Unix Filesystem Pattern for Agent Context
+> *Replying to @godofprompt:* the problem is real and underappreciated.
+>
+> right now, most agent frameworks handle context like this: load memory at session start. stuff it into the prompt. when the window fills, summarize and compress. hope the important parts survive.
+>
+> the paper calls this out directly. once compaction fires, the agent loses structured access to what it flushed. it can run search queries and hope the right chunks surface. but it can't systematically browse what it used to know.
+>
+> context rot isn't just about models forgetting over long conversations. it's about the architecture making retrieval lossy by design. the information exists somewhere in memory. the agent just lost the ability to walk through it.
+>
+> their solution borrows from how Unix solved a similar problem 50 years ago.
+>
+> in Unix, everything is a file. devices, processes, network sockets. all accessed through the same interface: open, read, write, close. the abstraction hides the complexity of what's underneath.
+>
+> Xu et al. apply the same principle to agent context. memory stores, tool definitions, chat history, human annotations, external APIs. all mounted into a single namespace with uniform operations: list, read, write, search.
+>
+> the agent doesn't get a blob of context injected at startup. it gets a filesystem it can navigate. it discovers what's available before loading anything. it pulls only the exact slice it needs per turn.
+
+- **Tweet:** https://x.com/godofprompt/status/2028491321120641347
+- **Parent:** https://x.com/godofprompt/status/2028491308852199760
+- **What:** The paper applies Unix's "everything is a file" abstraction to agent context: mount memory, tools, chat history into a single namespace with uniform operations so agents navigate and discover rather than receive pre-loaded context.
+
+## @itsolelehmann - Voice DNA Template for Consistent AI Writing
+> i got claude to actually sound like me, and it's kinda ruining my ability to tell which drafts i wrote myself lol
+>
+> it's just 1 file (i'm giving the full thing to you below).
+>
+> you paste it into your cowork context folder and claude stops writing like a generic AI and starts matching your actual voice
+>
+> 95% of the file is already done for you (writing rules, banned phrases, formatting stuff,  etc) all pre-loaded.
+>
+> kills the most obvious AI-isms out of the box
+>
+> the only part you fill in is a section at the bottom where you paste examples of your own writing
+>
+> that's it.
+>
+> those samples are what claude actually pattern-matches against
+> where to find your writing samples (this is the only part that takes any effort):
+>
+> • google docs first. longer stuff where you were actually trying to communicate something.
+>
+> • reports, proposals, emails you spent real time on
+>
+> • sent emails, especially ones where you were explaining something complex
+>
+> • slack messages (the longer thoughtful ones")
+>
+> • old blog posts, memos, anything you wrote before you started using AI
+>
+> that last part is critical btw.
+>
+> you want your pre-AI voice. before it started unconsciously blending with claude's defaults
+>
+> here's the file. copy it, paste your writing samples at the bottom, save it as https://t.co/mGRBY49AWc:
+>
+> ———
+>
+> # Voice DNA
+>
+> ## Writing Rules
+> - Write like a sharp human, not a language model.
+> - Use contractions naturally (don't, can't, won't).
+> - Short paragraphs. 1-3 sentences max.
+> - Get to the point. No throat-clearing, no preamble.
+> - If making a claim, be specific. Use numbers, names, concrete details.
+> - Vary sentence length. Mix short punchy lines with longer ones.
+> - Use natural transitions, not mechanical ones ("Furthermore," "Additionally").
+> - When uncertain, say so plainly ("I think," "probably," "kinda"). Hedging is human.
+> - Never pad output to seem more thorough. Shorter and accurate beats longer and fluffy.
+> - Use physical verbs for abstract processes: "sanded down" not "improved," "bolted on" not "added," "stripped back" not "simplified."
+> - Humor comes from specificity, not from jokes. Be unexpectedly precise.
+> - Parenthetical asides are good. Use them for editorial commentary, honest reactions, quick tangents, and deflating your own seriousness (like this).
+>
+> ## Formatting Rules
+> - Short paragraphs (1-2 sentences default, 3 max).
+> - Numbers as digits.
+> - Contractions always.
+> - NO em dashes ever. Use commas, periods, colons, semicolons, or parentheses.
+> - Bold sparingly, 1-2 key moments per section.
+> - Code blocks for specific prompts, commands, or tool outputs.
+>
+> ## Banned Phrases (never use these, ever)
+>
+> ### Dead AI Language
+> - "In today's [anything]..."
+> - "It's important to note that..." / "It's worth noting..."
+> - "Delve" / "Dive into" / "Unpack"
+> - "Harness" / "Leverage" / "Utilize"
+> - "Landscape" / "Realm" / "Robust"
+> - "Game-changer" / "Cutting-edge"
+> - "Straightforward"
+> - "I'd be happy to help"
+> - "In order to"
+>
+> ### Dead Transitions
+> - "Furthermore" / "Additionally" / "Moreover"
+> - "Moving forward" / "At the end of the day"
+> - "To put this in perspective..."
+> - "What makes this particularly interesting is..."
+> - "The implications here are..."
+> - "In other words..."
+> - "It goes without saying..."
+>
+> ### Engagement Bait
+> - "Let that sink in" / "Read that again" / "Full stop"
+> - "This changes everything"
+> - "Are you paying attention?"
+> - "You're not ready for this"
+>
+> ### AI Cringe
+> - "Supercharge" / "Unlock" / "Future-proof"
+> - "10x your productivity"
+> - "The AI revolution"
+> - "In the age of AI"
+>
+> ### Generic Insider Claims
+> - "Here's the part nobody's talking about"
+> - "What nobody tells you"
+> - Anything with "nobody" or "most people don't realize"
+>
+> ### The Big One (FATAL)
+> - "This isn't X. This is Y." and ALL variations.
+> - "Not X. Y."
+> - "Forget X. This is Y."
+> - "Less X, more Y."
+> - ANY sentence that negates one framing then asserts a corrected one.
+> - If even ONE of these appears, the output fails. Delete the negation, just state the positive claim.
+>
+> ## Writing Samples
+>
+> [Paste your writing here. The more you give, the better the voice match.]
+
+- **Tweet:** https://x.com/itsolelehmann/status/2028497454635888982
+- **Filed:** [voice-dna-claude-writing-template.md](./knowledge/articles/voice-dna-claude-writing-template.md)
+- **What:** A reusable template that teaches Claude to write in your authentic voice by combining writing rules, banned phrases list, and your own writing samples. Takes 10 minutes to set up.
+
+## @theonejvo - trust your inputs, lose your repo
+> https://t.co/ONZ7uJjVIH
+
+- **Tweet:** https://x.com/theonejvo/status/2028499852188107256
+- **Link:** [trust your inputs, lose your repo](https://x.com/i/article/2028485075831009280)
+- **What:** An autonomous AI agent has just compromised one of the most widely used open-source security tools on the planet, and the attack chain it used is something I have personally weaponised on red team
+
+## @CliftonSellers - Distribution is the New Equity
+> https://t.co/7CPQtboQr6
+
+- **Tweet:** https://x.com/CliftonSellers/status/2028502948901241161
+- **Link:** [Distribution is the New Equity](https://x.com/i/article/2028501314204774400)
+- **What:** I was $40,000 in debt with a family counting on me and a day job that paid just enough to keep me stuck. No investors. No connections. No trust fund safety net. Just a laptop and an obsession with one
+
+## @djfarrelly - Your Agent Needs a Harness, Not a Framework
+> https://t.co/mcAz5Kjmjj
+
+- **Tweet:** https://x.com/djfarrelly/status/2028556984396452250
+- **Link:** [Your Agent Needs a Harness, Not a Framework](https://x.com/i/article/2028554072454991872)
+- **What:** In every engineering discipline, a harness is the same thing: the layer that connects, protects, and orchestrates components — without doing the work itself. A wiring harness routes signals between an
+
+## @gumroad - The "Weekend Product" playbook
+> The "Weekend Product" playbook:
+
+Friday night: Pick one thing you explain to people all the time. Write it down as a step-by-step guide. Don't overthink it, just write like you're texting a friend who needs help.
+
+Saturday morning: Open a Google Doc and clean it up. Add a short intro, break it into sections, and slap a simple cover on it using Canva. Export as PDF.
+
+Saturday afternoon: Create a Gumroad page. Write a title that describes the outcome, not the format. "How to Land Your First 3 Freelance Clients" sells better than "Freelancing Tips PDF."
+
+Sunday: Post about it once on every platform you use. Tell people why you made it and who it's for.
+
+Monday: Wake up and check your notifications. You are now a creator with a product for sale.
+
+Total time invested: ~5 hours.
+Total potential earnings: Unlimited.
+
+- **Tweet:** https://x.com/gumroad/status/2028574829977522605
+
+## @OpenHandsDev - Logging, monitoring, and improving agent skills
+> For coding agents, "skills" are a great way to automate repetitive workflows, but how can we tell if they're working at scale?
+
+We did a deep dive on how you can log, monitor, and improve agent skills, with a real example of building a customized PR review skill.
+
+- **Tweet:** https://x.com/OpenHandsDev/status/2028575626190279130
+- **Link:** https://twitter.com/OpenHandsDev/status/2028575626190279130/photo/1
+- **What:** Deep dive on logging and monitoring agent skills at scale with a real PR review skill example
+
+## @OpenHandsDev - Closed-loop improvement for agent skills
+> *Replying to @OpenHandsDev:* Step 4: Use LLMs to improve the skill itself. Feed in evaluation analyses from past runs, and the model identifies failure patterns and proposes fixes.
+
+Example: "agent approves PRs even when it flags critical issues."
+>
+> @lmnrai This creates a feedback loop: deploy → monitor → evaluate → improve → repeat.
+
+Skills get better over time instead of staying static.
+
+Full details and open-source code: https://openhands.dev/blog/20260227-creating-effective-agent-skills
+
+- **Tweet:** https://x.com/OpenHandsDev/status/2028575634566381576
+- **Parent:** https://x.com/OpenHandsDev/status/2028575633249370468
+- **Link:** [Creating Effective Agent Skills](https://openhands.dev/blog/20260227-creating-effective-agent-skills)
+- **Filed:** [creating-effective-agent-skills.md](./knowledge/articles/creating-effective-agent-skills.md)
+
+## @mstockton - Closed-loop agent improvement patterns
+> This is clever. There are ways to have a 'closed loop' improvement with agents, assuming that you can:
+
+1. Run the agent and have it emit its traces
+2. Have some automated correctness labeling process (in this case, did the code change get accepted?)
+3. Collect that data at some scale (correct and incorrect actions the agent took)
+4. Push that correctness data, along with the agent context and the agent traces, back into a different LLM to look for areas of improvement - then change the agent's context going forward.
+5. Track your 'correctness progress' over time systematically, to see if you are improving things
+
+The real valuable piece is when step 2 just happens natively during the whole thing, and users don't have to adjust their behavior. This is a perfect example because all you have to do is go through the normal PR review process as you did before.
+
+The real challenge here is to design the best way to inject this pattern into whatever you're building while limiting any additional user friction or adding user responsibility.
+>
+> *Quoting @OpenHandsDev:* For coding agents, "skills" are a great way to automate repetitive workflows, but how can we tell if they're working at scale?
+
+We did a deep dive on how you can log, monitor, and improve agent skills, with a real example of building a customized PR review skill.
+
+- **Tweet:** https://x.com/mstockton/status/2028586935456039302
+- **Quoted:** https://x.com/OpenHandsDev/status/2028575626190279130
+
+## @latentspacepod - How to Kill The Code Review
+> 🆕 How to Kill The Code Review
+
+the volume and size of PRs is skyrocketing. @simonw called out StrongDM's "Dark Factory" last month: no human code, but *also* no human review (!?)
+
+in this week's guest post, @ankitxg makes a 5 step layered playbook for how this can come true.
+
+- **Tweet:** https://x.com/latentspacepod/status/2028596790342426992
+- **Link:** [How to Kill The Code Review](https://www.latent.space/p/reviews-dead)
+- **Filed:** [how-to-kill-the-code-review.md](./knowledge/articles/how-to-kill-the-code-review.md)
+
+## @trq212 - Voice mode rolling out in Claude Code
+> Voice mode is rolling out now in Claude Code. It's live for ~5% of users today, and will be ramping through the coming weeks.
+
+You'll see a note on the welcome screen once you have access. /voice to toggle it on!
+
+- **Tweet:** https://x.com/trq212/status/2028628570692890800
+- **Media:** https://twitter.com/trq212/status/2028628570692890800/video/1
+- **What:** Voice mode feature rollout for Claude Code starting with 5% of users
+
+## @ysu_ChatData - Replayable eval suites for agent skills
+> *Replying to @OpenHandsDev:* For coding agents, "skills" are a great way to automate repetitive workflows, but how can we tell if they're working at scale?
+
+We did a deep dive on how you can log, monitor, and improve agent skills, with a real example of building a customized PR review skill.
+>
+> @OpenHandsDev Strong take. The missing piece is a replayable eval suite: save real tasks as fixtures, log tool calls and outcomes, and track regressions per skill version. Also expose a failure taxonomy so you can prioritize fixes instead of chasing anecdotes.
+
+- **Tweet:** https://x.com/ysu_ChatData/status/2028656957603917920
+- **Parent:** https://x.com/OpenHandsDev/status/2028575626190279130
+
+---
+
+# Sunday, March 1, 2026
+
+## @ideabrowser - How to make $1M in 2026 using Claude Memory (step by step business plan)
+> https://t.co/OV5IxVU8s9
+
+- **Tweet:** https://x.com/ideabrowser/status/2028111088449896826
+- **Link:** https://x.com/i/article/2028096369391452160
+- **What:** Claude just launched memory imports. Here is the step-by-step playbook to build a $1M/yr business. Claude just launched memory imports. That means you can migrate anyone from ChatGPT to Claude in 60
+
+## @ctatedev - Agent-Browser Electron Skill
+> New agent-browser skill: Electron
+>
+> You can now control desktop apps built with Electron, including Discord, Figma, Notion, Spotify and VS Code
+>
+> Or, use it to debug your own Electron app
+>
+> Add it to any coding agent:
+>
+> npx skills add vercel-labs/agent-browser --skill electron
+>
+> *Quoting @ctatedev:* The "holy shit" moment when I realized agent-browser can control Slack
+>
+> npx skills add vercel-labs/agent-browser --skill slack
+
+- **Tweet:** https://x.com/ctatedev/status/2028128730132922760
+- **Quoted:** https://x.com/ctatedev/status/2027809304116342846
+- **What:** A new Vercel Labs skill enables agents to control Electron-based desktop applications like Discord, Figma, Notion, Spotify, and VS Code, plus debug custom Electron apps.
+
+---
+
+# Saturday, February 28, 2026
+
+## @scaling_shields - 90% of cold emailers are sending to spam right now and have absolutely...
+> 90% of cold emailers are sending to spam right now and have absolutely no idea
+
+theyre checking their inbox wondering why NOBODY replies
+
+"maybe the scripts bad"
+"maybe the offer doesnt work"
+"maybe cold email is dead"
+
+nah bro
+
+your emails arent even reaching the inbox
+
+theyre sitting in a spam folder that your prospect will never open
+
+and you will never know because the sending tool still says "delivered"
+
+delivered ≠ inbox
+
+delivered means the server accepted it
+
+it could be sitting in spam
+it could be in promotions
+it could be in a quarantine folder the prospect doesnt even know exists
+
+and you just keep sending into the void thinking your copy needs work
+
+heres whats actually killing your deliverability in 2026:
+
+your DMARC is set to "none"
+
+- this was fine in 2023. in 2026 google treats this as "i dont care if someone spoofs my domain"
+- your emails get automatically downgraded
+
+your domains are too new
+
+- bought a domain last month and started sending? google knows.
+- new domain + high volume = instant spam flag
+- aged domains (2+ years) with clean history are the only ones that survive now
+
+youre sending too many from each inbox
+
+- the safe limit used to be 50/day per inbox
+- its now 15-20 and dropping
+- if youre still at 50 youve already been flagged
+
+your warmup tool isnt doing what you think
+
+- most warmup tools send emails between warmup accounts in the same network
+- google figured this out. it no longer counts as "real" engagement.
+- your inbox shows "warmed" but google sees through it
+
+you have no custom tracking domain
+
+- using the default tracking from your sending tool? every other user shares that domain.
+- one spammer on the same tracking domain tanks YOUR reputation.
+- custom tracking domain takes 5 minutes to set up and nobody does it.
+
+we rebuild infrastructure for clients every month
+
+the ones who come to us wondering why cold email "stopped working" almost always have 3+ of these problems
+
+cold email DIDNT stop working
+
+the infrastructure requirements changed and nobody updated their setup
+
+i made a full 2026 spam filter survival guide:
+
+- what google and microsoft actually changed (specific policies with dates)
+- the exact domain inbox and authentication setup that works right now
+- the warming protocol that passes new detection systems
+- sending volume limits per inbox that wont get you flagged
+- the 5-minute audit to check if youre already landing in spam
+- the full infrastructure checklist we use across 200+ campaigns
+
+this is what we check on day 1 for every new client before a single email goes out
+
+like + comment "GUIDE" and ill send it
+
+(must be following me to receive it)
+
+- **Tweet:** https://x.com/scaling_shields/status/2027663570708865040
+
+## @omarsar0 - AGENTS dot md files don't scale beyond modest codebases.
+> AGENTS dot md files don't scale beyond modest codebases.
+
+Lots of discussions on this lately.
+
+If you're building serious software with Claude Code or any agentic tool, a single AGENTS dot md will eventually fail you. This paper shows what comes next.
+
+A 1,000-line prototype can be fully described in a single prompt. A 100,000-line system cannot. The AI must be told, repeatedly and reliably, how the project works, what patterns to follow, and what mistakes to avoid.
+
+Single-file manifests hit a ceiling fast.
+
+This new paper, Codified Context, documents a three-tier infrastructure built during real development of a 108,000-line C# distributed system across 283 sessions over 70 days.
+
+The system uses a three-tier memory architecture: a hot-memory constitution (660 lines, always loaded), 19 specialized domain-expert agents (9,300 lines total) invoked per task, and a cold-memory knowledge base of 34 specification documents (~16,250 lines) queried on demand via an MCP retrieval server.
+
+Across 283 sessions, this produced 2,801 human prompts, 1,197 agent invocations, and 16,522 autonomous agent turns, roughly 6 autonomous turns per human prompt, with a knowledge-to-code ratio of 24.2%.
+
+Crucially, none of it was designed upfront: each new agent and specification emerged from a real failure, a recurring bug, an architectural mistake, a convention forgotten, and was codified so it could never require re-explanation again, turning documentation into load-bearing infrastructure that agents depend on as memory, not reference.
+
+Paper: https://t.co/ZXBzhhkzsq
+
+Learn to build effective AI agents in our academy: https://t.co/1e8RZKs4uX
+
+- **Tweet:** https://x.com/omarsar0/status/2027770787659464812
+
+## @ecomchigga - gumroad shows you exactly how much money any product has made and nobo...
+> gumroad shows you exactly how much money any product has made and nobody is using this
+
+go to any gumroad product page. right click. view page source. ctrl+F "sales_count"
+
+that's the real number. not the one on the page that sellers can hide.
+
+now do this:
+
+go to https://t.co/D7pNJLVKEU. pick any category. open the top 50 products.
+
+check every single sales_count.
+
+you now know exactly what's selling. how many copies. at what price. you can calculate their exact revenue to the dollar.
+
+i did this for 3 weeks straight and built a spreadsheet of 300+ products.
+
+here's what the data exposed:
+
+the top 1% of gumroad products aren't original ideas. they're the same 12 problems repackaged in slightly different ways for slightly different audiences.
+
+cold email templates. resume builders. notion dashboards. content calendars. invoice templates. client proposal docs.
+
+boring shit that nobody wants to make because it doesn't feel "creative" enough.
+
+the $200K+ products all had three things in common:
+
+one specific problem in the title. not "business toolkit" but "cold DM scripts for landing freelance clients."
+
+priced between $29-$54. nothing above. nothing below.
+
+the seller had less than 3,000 followers on every platform. most had less than 800.
+
+now here's the actual exploit:
+
+find a product doing 5,000+ sales. read the 1-star reviews. every single complaint is a product gap.
+
+"wish it included X"
+"didn't cover Y"
+"not specific enough for Z"
+
+those complaints are your product. literally build what the bad reviews are asking for. price it $5-$10 higher than the original. target the exact same audience.
+
+you're not competing. you're filling the gap the first person left open.
+
+the reviews are free market research. the sales count is free validation. the price is already tested for you.
+
+every single piece of data you need to build a $5K/month product is sitting on gumroad's page source right now.
+
+and you're over here running polls on twitter asking "what should i build" while the answer is one right click away.
+
+- **Tweet:** https://x.com/ecomchigga/status/2027874734218563816
+
+---
+
+# Friday, February 27, 2026
+
+## @mattpocockuk - No video today.
+
+But my thoughts are around the benefits of 
+> No video today.
+
+But my thoughts are around the benefits of up-front research as part of PRD design.
+
+'Research' in AI coding basically means doing an Explore phase with an agent and caching it - usually saving it to a markdown file in the repo.
+
+This can be really useful for when the thing you're exploring is hard to access, such as API docs or a internal process. I've been using it to create docs on a repo that's external to my codebase so I can integrate with it.
+
+This means that agents in the repo after that can reference that piece of research, making future Explore phases more efficient.
+
+However, I'm always thinking about the TTL for any piece of research I do. If the cache goes stale, the research will be useless and will actively harm the coding agent.
+
+Or if the research is too lossy (i.e. summarized poorly) it might confuse the agent and result in poor code.
+
+So, pro's and cons - but essentially the same tradeoffs as traditional caching.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2027319225400856992
+- **What:** No video today.
+
+But my thoughts are around the benefits of up-front research as part of PRD design.
+
+'Research' in AI coding basically means doing an
+
+## @sawyerhood - I Was Tired of Juggling My Agents, So I Hired a Middle Manager
+> https://t.co/yBTu0Rho2t
+
+- **Tweet:** https://x.com/sawyerhood/status/2027409021914026093
+- **Link:** https://x.com/i/article/2027230637158219776
+- **What:** Here's a pattern I've seen many an engineer fall into over the past few months. It starts innocently: you're working on a feature and have a few agents going. They are planning, reviewing,
+
+## @codyschneider - if you're a b2b saas founder please read this so my neck pain goes awa...
+> if you're a b2b saas founder please read this so my neck pain goes away
+
+{hey claude code help me implement this via related APIs}
+
+paid ads google and facebook
+
+pixel everyone who touches the site
+
+continuous remarketing across all channels
+
+email drip nurture with sendgrid
+
+newsletter of weekly product update
+
+make podcast interviewing target customers
+
+clips podcast for social
+
+send podcast to newsletter
+
+write x vs y product and x alternative products blog posts
+
+that is all the marketing you have to do for every channel that basically works right now
+
+- **Tweet:** https://x.com/codyschneider/status/2027458717126438998
+
+## @trq212 - Lessons from Building Claude Code: Seeing like an Agent
+> https://t.co/nKTDfC7zMm
+
+- **Tweet:** https://x.com/trq212/status/2027463795355095314
+- **Link:** https://x.com/i/article/2027446899310313472
+- **What:** One of the hardest parts of building an agent harness is constructing its action space.
+Claude acts through Tool Calling, but there are a number of ways tools can be constructed in the Claude API with
+
+## @alexhillman - Long overdue addition to my Discord -> Claude Code integration. 
+> Long overdue addition to my Discord -> Claude Code integration. 
+
+In my rig, a discord thread correlates with a cc session ID. 
+
+Now I can fork or continue a thread that's hitting context limits by simply asking to continue or fork to a new thread. 
+
+It fires off a subagent to read the current session transcript and generate a custom and contextual handoff. 
+
+Then it creates a new thread in discord and links it to a new session with the handoff injected, as well as a human readable next steps recommended. 
+
+Also auto-adds me to the thread so it shows up in the thread tree on discord, and removes me from the old thread (still findable but no longer in the sidebar)
+
+Near perfect infinite session UX for me.
+
+- **Tweet:** https://x.com/alexhillman/status/2027533647792751057
+
+## @itsandrewgao - you can instantly 10x your vibecoded frontends by just learning what d...
+> you can instantly 10x your vibecoded frontends by just learning what different ui components are called
+
+ofc opus is creating generic slop, the only words you know are menu and button. https://t.co/4zsm5YaN9n
+
+- **Tweet:** https://x.com/itsandrewgao/status/2027579200635605058
+
+## @om_patel5 - HOW TO BUILD A PROFITABLE STARTUP WITH $0
+> HOW TO BUILD A PROFITABLE STARTUP WITH $0
+
+1\ find a problem by reading complaints not brainstorming ideas
+
+> reddit threads show you what users desperately want but can't find
+
+> g2/capterra/trustpilot reviews tell you exactly what people hate about existing software
+
+> upwork job posts show you what tasks people already pay humans to do manually
+
+> app store reviews expose the exact features competitors are missing
+
+> twitter/x search "looking for a tool that" and you'll find 50 problems in 10 minutes
+
+your customers are literally telling you what to build
+
+2\ skip the business plan. open claude code. ship something ugly by sunday night
+
+> your MVP should solve one problem and nothing else
+
+> if it takes longer than a weekend you're building too much
+
+> nobody cares about your design. they care if it fixes their problem
+
+> the first version of every successful product looked terrible
+
+> ship it broken. fix it based on what real users tell you
+
+3\ charge money immediately
+
+> free users don't give you feedback. most of them will go ghost after using it once.
+
+> if someone won't pay $20/month for your solution they don't actually have the problem
+
+> charging from day 1 is the fastest way to validate if your idea is real
+
+> a paying customer's opinion is worth 100 free users' opinions
+
+4\ use the stack you already know
+
+> the stack you choose DOES NOT MATTER.
+
+> who churns because you used postgres instead of some new trendy database?
+
+> the best framework is the one you can ship fastest in
+
+> don't spend 3 weeks learning a new tool when the old one works fine.
+
+> your customers will never ask what language you wrote it in
+
+> technical decisions should take 5 minutes
+
+5\ host on a $10/mo VPS
+
+> you are not google. you do not need kubernetes for 200 users
+
+> a single $10 server handles more traffic than you think
+
+> don't set up infrastructure for a million users when you have 12
+
+> scale when scaling is actually the problem. right now distribution is the problem
+
+> every dollar you spend on AWS is a dollar you can't spend on getting customers (AKA DISTRIBUTION)
+
+6\ answer every single support ticket/feature request yourself
+
+> you'll learn more about your product in one week than any analytics dashboard will tell you in a year
+
+> your users will literally tell you what to build next if you just listen
+
+> every churned customer who explains why they left is handing you a roadmap to get even more customers
+
+> big companies can't do this. their support team has never met their CEO. you ARE the CEO
+
+> this is your unfair advantage. don't outsource it until you absolutely have to
+
+7\ automate anything you do more than twice
+
+> a cron job is cheaper than an employee and never calls in sick
+
+> openclaw can handle monitoring, alerts, and repetitive tasks 24/7
+
+> if you're copy-pasting the same thing daily that's a script waiting to be written
+
+> every hour you spend automating saves you hundreds of hours later
+
+> your goal is to build a machine that runs without you touching it
+
+8\ post what you're building every day on twitter
+
+> "got 2 signups today and one of them was my mom" or "this guy asked for xyz feature, built it in 30 minutes and pushed to prod"
+
+> raw honesty builds followers faster than polished content
+
+> those followers become your first customers because they watched you build it
+
+> one founder posted his revenue publicly every month. one post got 400 likes and 3 acquisition offers which is insane
+
+> your journey IS the marketing
+
+9\ keep your burn rate so low that revenue covers it from month 1
+
+> small but profitable beats series A every single time
+
+> if your monthly costs are $50 you only need 3 paying customers to be profitable
+
+> every founder who raised money wishes they hadn't given up that equity
+
+> the freedom of not having investors telling you what to do is worth more than their check
+
+> stay alive long enough and compounding does the rest
+
+10\ say no to everyone who wants a piece of what you're building
+
+> say no to anyone who wants equity in exchange for "connections" or "advice"
+
+> say no to cofounders unless they bring something you literally cannot do yourself
+
+> say no to agencies promising growth hacks or SEO optimization for $5k/month.
+
+> say no to VCs who want you to 10x when you just want to build something that works
+
+> if their advice was worth 5% of your company they'd be building their own thing
+
+you don't need a cofounder. you don't need permission. you don't need a pitch deck
+
+you need claude code, a problem worth solving, and the discipline to show up every day
+
+the entire VC game is designed to make you think you need permission to start
+
+you don't
+
+- **Tweet:** https://x.com/om_patel5/status/2027588359221022883
+
+---
+
+# Wednesday, February 25, 2026
+
+## @joanrod_ai - Introducing @QuiverAI, a new AI lab and product company focu
+> Introducing @QuiverAI, a new AI lab and product company focused on frontier vector design.
+
+We’ve raised an $8.3M seed round led by @a16z, with support from amazing  angels and investors.
+
+Our first model, Arrow-1.0, generates SVGs from images and text. It’s available now in public beta at https://t.co/zjAnKlI8pp
+
+- **Tweet:** https://x.com/joanrod_ai/status/2026693353090240819
+- **Link:** https://app.quiver.ai/
+- **What:** Introducing @QuiverAI, a new AI lab and product company focused on frontier vector design.
+
+We’ve raised an $8.3M seed round led by @a16z, with suppor
+
+## @jkeatn - who called it recursive self improvement and not how much cl
+> who called it recursive self improvement and not how much claude could claude code clone if claude code could clone claude?
+
+- **Tweet:** https://x.com/jkeatn/status/2026693612743045602
+- **What:** who called it recursive self improvement and not how much claude could claude code clone if claude code could clone claude?
+
+## @aakashgupta - Quoting @nichochar
+> When building costs drop 90% but distribution costs stay flat, you get a gold rush where everyone digs and nobody sells.
+
+That’s what this chart actually shows. New websites up 40%. iOS apps up 50%. GitHub pushes up 35%. Everyone read “barrier to building disappeared” and heard opportunity. The correct read is that 557,000 new apps hit the App Store last year, a 24% spike, flooding a discovery channel that was already dead on arrival. 90% of senior mobile professionals surveyed said organic App Store discovery was effectively over before this wave even hit. Half of all App Store searches are just people typing in brands they already know.
+
+The supply side hockey-sticked. The demand side didn’t move.
+
+This is why tech layoffs doubled to 264,000 in 2025 while code output simultaneously exploded. Companies don’t need more builders. They need people who can get the thing in front of someone who’ll pay for it. Distribution, positioning, audience, brand. The functions that never got the AI productivity boost.
+
+Nicholas nails the conclusion that taste and knowing what to build are what matter now. But taste is only half of it. You also need the channel. The unsexy reality is that a mediocre app with 100,000 newsletter subscribers will outperform a beautiful app with zero distribution every single time. The apps winning in 2026 aren’t the best-built ones. They’re the ones attached to someone who already has an audience.
+
+Building software used to be the moat. Now building software is the commodity. Distribution is the new moat, and unlike code, it doesn’t get cheaper with AI.
+>
+> *Quoting @nichochar:* I think we are witnessing the biggest explosion in software creation in history.
+
+New website creation is up 40% year on year. New iOS apps are up nearly 50%. GitHub code pushes in the US jumped 35% and in the UK around 30%. 
+
+All of these metrics were flat for years before late 2024. The entire graph looks like a hockey stick.
+
+You no longer need a six month runway and a dev team to ship something real. 
+
+We see this in our metrics as well!
+
+People who never wrote a line of code are building and launching apps.
+
+The barrier to building software just disappeared. 
+
+What matters now is knowing what to build and the taste to build it right.
+
+- **Tweet:** https://x.com/aakashgupta/status/2026777633623781808
+- **Quoted:** https://x.com/nichochar/status/2026344879517728908
+- **What:** When building costs drop 90% but distribution costs stay flat, you get a gold rush where everyone digs and nobody sells.
+
+That’s what this chart actua
+
+---
+
+# Tuesday, February 24, 2026
+
+## @jumperz - wasn't going to post this yet.
+
+but after 14 days of running
+> wasn't going to post this yet.
+
+but after 14 days of running it, it's time to show how my agents swarm orchestration core actually works.
+
+the wall most people hit when building agent setups:
+
+your agents can be smart, fast, well-prompted and still completely out of sync...not because they're bad but because they don't remember.. every session starts from zero and your agents sometimes are clueless about each other.. 
+
+the thing that fixed it for me is Spark.
+
+it's an open source intelligence layer that sits on top of your agent setup.. its 2 layers:
+
+SparkNet = shared memory across all agents
+Spark Intelligence = reasoning on top of that
+
+together they make the swarm compound over time instead of resetting every session.
+
+before we get into it..
+
+a spark = one unit of knowledge the swarm captured and kept, something an agent learned, observed, or figured out its stored permanently and scored by how useful it actually is and its connected to other sparks..
+
+with 14 days of running SparkNet:
+
+>3,384 sparks total, running since Feb 10
+>244 new sparks in the last 24h
+>avg resonance: 0.81 (signal quality is solid)
+
+if you look at the graph below:
+
+what you're looking at is 14 days of a 9 agent swarm thinking out loud together.
+
+every node is an agent, every line is knowledge flowing between them... the tighter the web, the more those agents are building on each other's thinking instead of starting from scratch every session.
+
+that's not a diagram i drew though, that's the actual structure of how the swarm operates, generated live from 3,400 sparks captured since February 10th.
+
+3,252 of those sparks are linked to other knowledge 95.6% coverage and 639,792 edges connecting ideas across agents, domains and timeframes.
+
+every domain you see floating on the outside is a real category, the swarm actively writes about and learns from.
+
+>layer 2  Spark Intelligence (the reasoning layer)
+
+if SparkNet is the memory, Spark Intelligence is what thinks about the memory
+
+i integrated it 2 days ago. it sits on top of the entire SparkNet mesh and does something different..
+
+instead of just storing what the swarm learned, it runs a cognitive engine on top of it...
+
+it extracts insights, scores them for reliability, then it validates them against real outcomes, and surfaces the most relevant knowledge exactly when it's needed..
+
+it also runs an advisory system that gets smarter the more outcomes feed back into it.
+
+in 2 days it already produced 6 cognitive insights. 3 of them validated at 100% reliability. 
+
+Since spark Intelligence was out recently i didnt have the time to test it properly, but ill def make a detailed post sooner when i capture more data.. 
+
+the foundation is already solid, it is producing real value...
+
+honestly i don't know how i was running 9 agents without this
+
+i actually see them in sync, luna builds on what john findings...clawdia references decisions made three days ago and kevin's alpha doesn't just disappear out of nowhere.. 
+
+they get scored and stay, 
+
+the mesh is not just storing knowledge, it's making the whole thing feel like a team that remembers
+
+without Spark it would've been a mess i think..
+
+if you're building agents and you're not thinking about shared memory, SparkNet and Spark Intelligence are both open source btw..
+
+what i showed you today is built entirely on the free version, the pre-alpha.. 
+
+for transparency: premium features are coming (specialized intelligence chips for social, market intel, and alot more).
+
+but the full core pipeline... memory, learning, advisory, feedback loop that's all free and it's enough to put you meaningfully ahead of most setups running right now.
+
+pro tip: i added a dedicated agent called Spark whose only job is to manage all of this. sweep sessions, filter noise, run the sync, surface what matter. it doesn't do anything else... it just watches and learns
+
+giving one agent that responsibility instead of spreading it across the swarm is what made it actually work at scale. if you're integrating this, do that first.
+
+> https://t.co/PeQ913gKXs  
+
+of course, full credit to @meta_alchemist for building this. if you have questions about Spark, drop them in the comments section or go just straight to his dms
+
+- **Tweet:** https://x.com/jumperz/status/2026283549284847726
+- **Link:** https://spark.vibeship.co/
+- **What:** wasn't going to post this yet.
+
+but after 14 days of running it, it's time to show how my agents swarm orchestration core actually works.
+
+the wall mo
+
+## @Nate_Google_ - 
+> https://t.co/vqly2txh4N
+
+- **Tweet:** https://x.com/Nate_Google_/status/2026338035458056265
+- **Link:** https://x.com/i/article/2026333537960439808
+- **What:** something weird started happening about 6 months ago with one of the supplement brands we work with
+- **Filed:** [how-one-ecom-brand-is-ranking-1-on-chatgpt-and-stealing-400k](./knowledge/articles/how-one-ecom-brand-is-ranking-1-on-chatgpt-and-stealing-400k.md)
+
+## @ctatedev - New: Autonomous Dogfooding
+
+A skill for agent-browser that u
+> New: Autonomous Dogfooding
+
+A skill for agent-browser that uses your app the way your users do
+
+→ Point it at any URL
+→ Explores pages, clicks buttons, fills forms
+→ Tests edge cases and checks the console
+→ Captures repro videos and step-by-step screenshots
+→ Outputs a structured report with severity ratings
+
+No test scripts. No manual QA.
+
+- **Tweet:** https://x.com/ctatedev/status/2026357704617267314
+- **What:** New: Autonomous Dogfooding
+
+A skill for agent-browser that uses your app the way your users do
+
+→ Point it at any URL
+→ Explores pages, clicks buttons
+
+## @benhylak - Quoting @ctatedev
+> omg someone did it. thank god.
+
+i need this but for sdk's
+>
+> *Quoting @ctatedev:* New: Autonomous Dogfooding
+
+A skill for agent-browser that uses your app the way your users do
+
+→ Point it at any URL
+→ Explores pages, clicks buttons, fills forms
+→ Tests edge cases and checks the console
+→ Captures repro videos and step-by-step screenshots
+→ Outputs a structured report with severity ratings
+
+No test scripts. No manual QA.
+
+- **Tweet:** https://x.com/benhylak/status/2026515159796359368
+- **Quoted:** https://x.com/ctatedev/status/2026357704617267314
+- **What:** omg someone did it. thank god.
+
+i need this but for sdk's
+
+---
+
+# Monday, February 16, 2026
+
+## @nicopreme - Created an agent skill called “Visual Explainer” + set of co
+> Created an agent skill called “Visual Explainer” + set of complementary slash commands aimed to reduce my cognitive debt so the agent can explain complex things as rich HTML pages. The skill includes reference templates and a CSS pattern library so output stays consistently well-designed. Much easier for me to digest than squinting at walls of terminal text.
+
+https://t.co/TsbtZwCtxg
+
+- **Tweet:** https://x.com/nicopreme/status/2023495040258261460
+- **Link:** https://github.com/nicobailon/visual-explainer
+- **What:** Created an agent skill called “Visual Explainer” + set of complementary slash commands aimed to reduce my cognitive debt so the agent can explain comp
+
+---
+
 # Sunday, February 8, 2026
 
 ## @hooeem - Automate Your Life
@@ -809,10 +5965,6 @@ she has 900 followers and a waitlist.
 - **Tweet:** https://x.com/alliekmiller/status/2016305231395750249
 - **Quoted:** https://x.com/karpathy/status/2015883857489522876
 - **What:** Explores why hiring generalists over specialists matters in the AI age, introducing "Pro-poster Syndrome" as the most important skill - a bias for action and belief that obstacles are solvable with AI assistance. Quote tweet references Andrej Karpathy's comprehensive notes on Claude coding workflow shifts.
-
----
-
-# Tuesday, January 27, 2026
 
 ## @doodlestein - 2-Tier Semantic Search: Speed + Quality Without Compromise
 > I wanted to have a good, lightweight, and fast semantic embedding model for local search for both my cass tool (for searching across coding agent sessions) and my xf tool (for searching your downloaded X archives).
@@ -2109,7 +7261,6 @@ she has 900 followers and a waitlist.
 
 ---
 
-
 ---
 
 # Tuesday, January 20, 2026
@@ -2277,7 +7428,6 @@ My approach is layered:
 - **Link:** https://x.com/i/article/2013714655856754688
 - **What:** Link to X article (content not available for detailed classification).
 
-
 ---
 
 # Monday, January 19, 2026
@@ -2331,7 +7481,6 @@ working thru some testing, more info coming this week
 - **What:** Alex is releasing a custom web UI for Claude Code CLI that integrates with the JFDI system, supporting streaming responses, todowrite display, and tool call visualization.
 
 ---
-
 
 ---
 
@@ -2404,7 +7553,6 @@ Steve has given his full endorsement of this project.
 
 ---
 
-
 ---
 
 # Saturday, January 17, 2026
@@ -2460,8 +7608,6 @@ Steve has given his full endorsement of this project.
 - **Filed:** [convexskills](./knowledge/tools/convexskills.md)
 - **What:** Collection of AI-consumable skills for building production-ready applications with Convex, including patterns for queries, mutations, cron jobs, webhooks, migrations, and an important skill about avoiding feature creep for agents.
 
-
-
 ---
 
 # Friday, January 16, 2026
@@ -2483,7 +7629,6 @@ Steve has given his full endorsement of this project.
 - **What:** Created a Rust CLI skill for managing Claude Code skills, including indexing, building, bundling, and sharing. Demonstrates use of Charm libraries (gum, bubbletea, lipgloss) for building beautiful TUIs.
 
 ---
-
 
 ---
 
@@ -2514,7 +7659,6 @@ Steve has given his full endorsement of this project.
 - **What:** Shared X article link.
 
 ---
-
 
 ---
 
@@ -2570,7 +7714,6 @@ Steve has given his full endorsement of this project.
 
 ---
 
-
 ---
 
 # Tuesday, January 13, 2026
@@ -2596,8 +7739,6 @@ Steve has given his full endorsement of this project.
 - **Link:** https://x.com/hooeem/status/1990504663641178130
 - **Filed:** [identity-based-behavior-change.md](./knowledge/articles/identity-based-behavior-change.md)
 - **What:** Comprehensive prompt framework for using LLMs as identity-level coaches for behavior change, plus a detailed guide to financial freedom covering attention economy, community building, and passive income strategies.
-
-
 
 ---
 
@@ -2688,10 +7829,17 @@ And it'll be even better with insightful context docs.
 
 ---
 
-
 ---
 
 # Friday, January 9, 2026
+
+## @dhasandev - 
+> https://t.co/IQi5DOZILJ
+
+- **Tweet:** https://x.com/dhasandev/status/2009529865511555506
+- **Link:** https://x.com/i/article/2009497314013138947
+- **What:** In today's article, I'll explain how to wrap the Claude CLI properly for your agentic apps.
+- **Filed:** [how-to-wrap-the-claude-cli-for-your-agentic-apps](./knowledge/articles/how-to-wrap-the-claude-cli-for-your-agentic-apps.md)
 
 ## @dabit3 - Development Article
 > https://t.co/q9anIlmWM0
@@ -2701,7 +7849,6 @@ And it'll be even better with insightful context docs.
 - **What:** Nader Dabit sharing an article on web development or related technology (article content not available).
 
 ---
-
 
 ---
 
@@ -2715,7 +7862,6 @@ And it'll be even better with insightful context docs.
 - **What:** Tweet sharing a link to an article on Twitter/X product development or strategy (article content not available).
 
 ---
-
 
 ---
 
