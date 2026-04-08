@@ -304,8 +304,9 @@ export function fetchBookmarks(config, count = 10, options = {}) {
     // but plain arrays for non-paginated. Handle both formats.
     let bookmarks = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
 
-    // Truncate to requested count, but not when --all was explicitly requested
-    if (!useAll && bookmarks.length > count) {
+    // Respect the count parameter - truncate if we fetched more than requested
+    // (paginated mode may return more bookmarks than asked for)
+    if (bookmarks.length > count) {
       console.log(`  Fetched ${bookmarks.length} bookmarks, limiting to requested ${count}`);
       bookmarks = bookmarks.slice(0, count);
     }
@@ -584,11 +585,12 @@ export async function fetchAndPrepareBookmarks(options = {}) {
   const source = options.source || config.source || 'bookmarks';
   const includeMedia = options.includeMedia ?? config.includeMedia ?? false;
   const configWithOptions = { ...config, source, includeMedia };
-  const count = options.count || 20;
+  const fetchAll = options.all;
+  const count = fetchAll ? Infinity : (options.count || 20);
 
   // Build fetch options for pagination
   const fetchOptions = {
-    all: options.all || count > 50,
+    all: fetchAll || count > 50,
     maxPages: options.maxPages
   };
 
