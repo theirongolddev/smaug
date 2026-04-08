@@ -304,9 +304,8 @@ export function fetchBookmarks(config, count = 10, options = {}) {
     // but plain arrays for non-paginated. Handle both formats.
     let bookmarks = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
 
-    // Respect the count parameter - truncate if we fetched more than requested
-    // (paginated mode may return more bookmarks than asked for)
-    if (bookmarks.length > count) {
+    // Truncate to requested count, but not when --all was explicitly requested
+    if (!useAll && bookmarks.length > count) {
       console.log(`  Fetched ${bookmarks.length} bookmarks, limiting to requested ${count}`);
       bookmarks = bookmarks.slice(0, count);
     }
